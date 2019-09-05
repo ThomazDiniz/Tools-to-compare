@@ -1,0 +1,30 @@
+/*
+ * This is an example claret specification
+ */
+systemName "tcom_app"
+
+usecase "Identificacao" {
+	version "1.0" type "creation" user "thomaz" date "28/11/2018"
+	actor operador "operador"
+	
+	preCondition "Usuario esta logado no sistema."
+	
+	basic {
+		step 1 operador "Insere o texto de identificacao da ordem de servico na caixa de texto e pressiona o botao proximo."
+		step 2 system "Redireciona para a tela de identificacao do terminal" ef[1]  
+		step 3 operador "Pressiona a imagem de codigo de barras para fazer a identificacao da maquina." af[1]
+		step 4 system "Redireciona para a tela de leitura de product number e serial number e pede para o usuario alinhar o codigo de barras com a linha vermelha do leitor"
+		step 5 operador "Posiciona a camera para ler o codigo de barras da maquina"
+		step 6 system "Redireciona para a tela de selecao de sintoma"
+	}
+	
+	alternative 1 "Identificacao manual" {
+		step 1 operador "Insere o numero do produto e do serial e pressione em iniciar" bs 6 
+	}
+	
+	exception 1 "Campo de ordem de servico vazio" {
+		step 1 system "Exibe icone ao usuario indicando que o campo de ordem de servico deve ser preenchido." bs 1
+	}
+	
+	postCondition ""
+}

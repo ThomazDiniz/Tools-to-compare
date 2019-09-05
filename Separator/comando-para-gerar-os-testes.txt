@@ -1,0 +1,7 @@
+Para gerar os testes deve 
+
+inserir o arquivo lts-btv2.jar na pasta que contém o arquivo tgf annotated 
+
+e no terminal inserir o comando
+
+java -jar lts-btv2.jar reduce_annotated B parameterizedDFS 1 <NOME_DO_TGF-annotated.tgf> <reduced.xml>

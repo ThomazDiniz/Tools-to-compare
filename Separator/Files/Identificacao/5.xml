@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<testsuite name="TS">
+  <node_order />
+  <details />
+  <testcase internalid="" name="TC1">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;operador Insere o texto de identificacao da ordem de servico na caixa de texto e pressiona o botao proximo.&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;system Redireciona para a tela de identificacao do terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;operador Pressiona a imagem de codigo de barras para fazer a identificacao da maquina.&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;system Redireciona para a tela de leitura de product number e serial number e pede para o usuario alinhar o codigo de barras com a linha vermelha do leitor&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;operador Posiciona a camera para ler o codigo de barras da maquina&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;system Redireciona para a tela de selecao de sintoma&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC2">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;operador Insere o texto de identificacao da ordem de servico na caixa de texto e pressiona o botao proximo.&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;system Redireciona para a tela de identificacao do terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;operador Insere o numero do produto e do serial e pressione em iniciar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;system Redireciona para a tela de selecao de sintoma&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC3">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;operador Insere o texto de identificacao da ordem de servico na caixa de texto e pressiona o botao proximo.&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;system Exibe icone ao usuario indicando que o campo de ordem de servico deve ser preenchido.&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;operador Insere o texto de identificacao da ordem de servico na caixa de texto e pressiona o botao proximo.&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;system Redireciona para a tela de identificacao do terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;operador Pressiona a imagem de codigo de barras para fazer a identificacao da maquina.&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;system Redireciona para a tela de leitura de product number e serial number e pede para o usuario alinhar o codigo de barras com a linha vermelha do leitor&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;operador Posiciona a camera para ler o codigo de barras da maquina&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;system Redireciona para a tela de selecao de sintoma&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC4">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;operador Insere o texto de identificacao da ordem de servico na caixa de texto e pressiona o botao proximo.&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;system Exibe icone ao usuario indicando que o campo de ordem de servico deve ser preenchido.&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;operador Insere o texto de identificacao da ordem de servico na caixa de texto e pressiona o botao proximo.&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;system Redireciona para a tela de identificacao do terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;operador Insere o numero do produto e do serial e pressione em iniciar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;system Redireciona para a tela de selecao de sintoma&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC5">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;operador Insere o texto de identificacao da ordem de servico na caixa de texto e pressiona o botao proximo.&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;system Exibe icone ao usuario indicando que o campo de ordem de servico deve ser preenchido.&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;operador Insere o texto de identificacao da ordem de servico na caixa de texto e pressiona o botao proximo.&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;system Exibe icone ao usuario indicando que o campo de ordem de servico deve ser preenchido.&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+</testsuite>
