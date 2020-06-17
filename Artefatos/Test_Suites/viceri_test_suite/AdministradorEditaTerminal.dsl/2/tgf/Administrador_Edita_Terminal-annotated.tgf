@@ -1,0 +1,95 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+17 17
+18 18
+19 19
+20 20
+21 21
+22 22
+23 23
+24 24
+25 25
+26 26
+27 27
+28 28
+29 29
+30 30
+31 31
+32 32
+33 33
+34 34
+35 35
+36 36
+37 37
+38 38
+39 39
+40 40
+41 41
+42 42
+43 43
+44 44
+#
+1 20 conditions
+20 2  Usuario Administrador esta logado no sistema.
+2 21 steps
+21 3   Usuario Administrador Entra na tela de Listagem de Terminais
+3 22 expected_results
+22 4   Sistema exibe uma lista com os Terminais cadastrados
+4 23 steps
+23 5   Usuario Administrador clica em um dos terminais listados
+3 24 expected_results
+24 8   Sistema exibe uma lista com os Terminais cadastrados
+3 25 expected_results
+25 13   Sistema exibe uma lista com os Terminais cadastrados
+3 26 expected_results
+26 14   Sistema exibe uma lista com os Terminais cadastrados
+3 27 expected_results
+27 15   Sistema exibe uma lista com os Terminais cadastrados
+5 28 expected_results
+28 6   Sistema exibe tela de edicao de Terminal
+6 29 steps
+29 7   Usuario Administrador altera dados do terminal e clica no botao de 'Atualizar'
+5 30 expected_results
+30 9   Sistema exibe tela de edicao de Terminal
+5 31 expected_results
+31 12   Sistema exibe tela de edicao de Terminal
+7 32 expected_results
+32 18   Sistema notifica usuario de que Terminal foi atualizado com sucesso
+6 33 steps
+33 16   Usuario Administrador altera dados do terminal e clica no botao de 'Atualizar'
+8 34 steps
+34 3  (Ordena lista de Terminais) Usuario Administrador ordena lista dos Terminais por alguma coluna
+9 35 steps
+35 10  (Adiciona Beneficio associado a Terminal) Usuario Administrador preenche os dados do novo beneficio e clica no botao 'Adicionar Benficio'
+10 36 expected_results
+36 11   Sistema incrementa o a lista de beneficio do Terminal
+11 37 steps
+37 7   Usuario Administrador clica em Atualizar
+12 38 steps
+38 3  (Cancela edicao) Usuario Administrador clica no botao de 'Cancelar'
+13 39 steps
+39 3 3  (Navega por paginas de tabela) Usuario Administrador clica em botao de navegacao de paginas de tabela
+14 40 steps
+40 3  (Filtra lista de Terminais) Usuario Administrador preenche campos de filtragem
+15 41 steps
+41 3  (Volta para tela inicial de sistema) Usuario Administrador clica no botao Voltar
+16 42 expected_results
+42 17  (Usuario nao preenche algum campo obrigatorio) Sistema informa que o campo e obrigatorio
+17 43 steps
+43 7 7   Usuario Administrador preenche o campo obrigatorio e clica no botao de 'Atualizar'
+18 44 conditions
+44 19  O Terminal foi atualizado com sucesso.

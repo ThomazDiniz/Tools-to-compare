@@ -1,0 +1,29 @@
+3c4
+---
+>         version "1.1", type:"Modification", user:"Kallynny", date:"24/02/2016"
+10c11
+<             step 1, administrador, "pressiona opcao “Extract from dicrtory”"
+---
+>             step 1, administrador, "pressiona opcao “Extract from directory”"
+12,14c13,15
+<             step 3, administrador, "seleciona pasta “EXTRACT_FILE_IPP320_AKIRA”, que contem 705 extrações para diversas familias, e pressiona o botao “Extract”"
+<             step 4, system, "exibe na parte inferior da tela uma mensagem indicando que 705 extrações foram realizadas"
+<             step 5, administrador, "acessa pagina “Extractions”", af:[7]
+---
+>             step 3, administrador, "seleciona pasta “EXTRACT_FILE_IPP320_AKIRA”, que contem 703 extrações para diversas familias, e pressiona o botao “Extract”"
+>             step 4, system, "exibe na parte inferior da tela uma mensagem indicando que 703 extrações foram realizadas"
+>             step 5, administrador, "acessa pagina “Extractions” e seleciona opção para mostrar 50 entradas por página", af:[7]
+26c27
+<             step 2, system, "atualiza a pagina mostrando todas 705 extrações"
+---
+>             step 2, system, "atualiza a pagina mostrando todas 703 extrações"
+57c58
+<         	step 1, administrador, "pressiona opcao “Extract from dicrtory”"
+---
+>         	step 1, administrador, "pressiona opcao “Extract from directory”"
+59,60c60,61
+<             step 3, administrador, "seleciona pasta “EXTRACT_FILE_IPP320_AKIRA”, que contém 705 extrações para diversas família, e pressiona o botão “Extract”"
+<             step 4, system, "exibe na parte inferior da tela uma mensagem indicando que 705 extrações foram realizadas"
+---
+>             step 3, administrador, "seleciona pasta “EXTRACT_FILE_IPP320_AKIRA”, que contém 703 extrações para diversas família, e pressiona o botão “Extract”"
+>             step 4, system, "exibe na parte inferior da tela uma mensagem indicando que 703 extrações foram realizadas"

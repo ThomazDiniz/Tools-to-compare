@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<testsuite name="TS">
+  <node_order />
+  <details />
+  <testcase internalid="" name="TC1">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Estar logado como super administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opcao 'Sections' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de Secoes&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Super administrador clica no nome de uma secao&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dados da secao&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Super administrador clica no botao 'Cancel'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema retorna a lista de secoes&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC3">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Estar logado como super administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opcao 'Sections' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de Secoes&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Super administrador clica no nome de uma secao&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dados da secao&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Edita dados) Super administrador clica no botão 'Edit'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema lista as opcoes possíveis de serem incluidas na secao&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Super administrador escolhe as opcoes e pressiona o botão 'Update&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem informando que a secao foi atualizada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opcao 'Sections' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de Secoes&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Super administrador clica no nome de uma secao&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dados da secao&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;(Edita dados) Super administrador clica no botão 'Edit'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema lista as opcoes possíveis de serem incluidas na secao&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Super administrador escolhe as opcoes e pressiona o botão 'Update&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem informando que a secao foi atualizada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC2">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Estar logado como super administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opcao 'Sections' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de Secoes&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Super administrador clica no nome de uma secao&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dados da secao&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Edita dados) Super administrador clica no botão 'Edit'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema lista as opcoes possíveis de serem incluidas na secao&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Super administrador escolhe as opcoes e pressiona o botão 'Update&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem informando que a secao foi atualizada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opcao 'Sections' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de Secoes&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Super administrador clica no nome de uma secao&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dados da secao&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Super administrador clica no botao 'Cancel'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema retorna a lista de secoes&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+</testsuite>

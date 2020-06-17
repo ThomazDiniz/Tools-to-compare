@@ -1,0 +1,39 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+17 17
+18 18
+#
+1 2 [c] Deve existir um usuario cadastrado com perfil administrador.
+2 3 [s]  Administrador do sistema acessa o sistema
+3 4 [e]  Sistema exibe pagina de login
+4 5 [s]  Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login
+3 6 [e]  Sistema exibe pagina de login
+3 8 [e]  Sistema exibe pagina de login
+3 10 [e]  Sistema exibe pagina de login
+5 15 [e]  Sistema exibe pagina “Search extraction”
+4 13 [s]  Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login
+4 14 [s]  Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login
+6 7 [s] (User invalido) Administrador do sistema digita o user de um usuário invalido, digita uma password e pressiona o botao Login
+7 4 [e]  Sistema exibe mensagem “Invalid user or password” na pagina de login
+8 9 [s] (Password invalida) Administrador do sistema digita o user de um usuario administrador corretamente, digita uma password inválida e pressiona o botão Login
+9 4 [e]  Sistema exibe mensagem “User or Password incorrect. Attempts remaining until the account lockout: #tentativas restantes#” na página de login
+10 11 [s] (Número de tentativas invalidas e 5) Administrador do sistema digita o user de um usuario administrador corretamente, digita uma password inválida pela sexta vez e pressiona o botao Login
+11 12 [e]  Sistema bloqueia o usuario
+12 16 [e]  Sistema exibe a mensagem “This user has been blocked.”
+13 3 [e] (Usuario inativo por 30 minutos) Sistema finaliza sessão do usuario e retorna a pagina de login ao receber alguma requisicao do usuario
+14 17 [e] (Usuario inativo por 90 dias) Sistema exibe a mensagem “This user has been blocked.”
+15 18 [c] O usuario deve estar logado.

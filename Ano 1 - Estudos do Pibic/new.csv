@@ -1,0 +1,5 @@
+original,new,classification
+Insere usuário e senha e pressiona o botão de login.,Insere usuario e senha e pressiona o botao de login.,syntactic
+Redireciona para a tela de Identificação de OS.,Redireciona para a tela de Identificacao de OS.,syntactic
+ ,Pressiona o botao para habilitar/desabilitar exibicao de senha,semantic
+ ,Habilita/Desabilita exibicao de senha,semantic

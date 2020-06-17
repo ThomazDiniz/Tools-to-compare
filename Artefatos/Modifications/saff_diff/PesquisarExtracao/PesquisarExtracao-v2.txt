@@ -1,0 +1,4 @@
+10c10
+<             step 1, administrador, "digita no campo “Product Number” o numero de produto e o numero serial correspondente e pressiona o botao 'Search'", af:[1] 
+---
+>             step 1, administrador, "digita no campo “Product Number” o numero de produto e no campo “Serial Number”  o numero serial correspondente e pressiona o botao 'Search'", af:[1] 

@@ -1,0 +1,2 @@
+PIBIC TOOL é a ferramenta que desenvolvemos no início dos nossos estudos.
+Separator é a ferramenta que estávamos desenvolvendo para apresnetar nossa proposta de separador de casos de teste reutilizáveis e não reutilizáveis.

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<testsuite name="TS">
+  <node_order />
+  <details />
+  <testcase internalid="" name="TC16">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Deve existir um usuario cadastrado com perfil administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema acessa o sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Numero de tentativas invalidas e 5) Administrador do sistema digita o user correte e o password invalido pela sexta vez e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema bloqueia o usuario e exibe uma mensagem informando que o usuario foi bloqueado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Administrador do sistema tenta mais uma vez logar na conta do usuário, agora com dados validos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem informando usuario esta bloqueado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC12">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Deve existir um usuario cadastrado com perfil administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema acessa o sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Password invalida) Administrador do sistema digita o user de um usuario administrador corretamente, digita uma password inválida e pressiona o botão Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem de usuario ou senha incorretos na pagina de login; informa o numero de tentativas restantes ate que o usuario seja bloqueado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;4  (Usuario inativo por 30 minutos) Sistema finaliza sessão do usuario e retorna a pagina de login ao receber alguma requisicao do usuario&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina 'Search extraction'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC10">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Deve existir um usuario cadastrado com perfil administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema acessa o sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(User invalido) Administrador do sistema digita o user de um usuário invalido, digita uma password e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe na pagina de login uma mensagem de usuario ou senha incorretos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Usuario inativo por 90 dias) Sistema exibe mensagem indicando que usuario foi bloqueado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC5">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Deve existir um usuario cadastrado com perfil administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema acessa o sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Usuario inativo por 90 dias) Sistema exibe mensagem indicando que usuario foi bloqueado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+</testsuite>

@@ -1,0 +1,57 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+17 17
+18 18
+19 19
+20 20
+21 21
+22 22
+23 23
+24 24
+25 25
+26 26
+27 27
+#
+1 2 [c] Deve existir um usuario cadastrado com perfil administrador.
+2 3 [s]  Super Administrador abre modulo de extracao
+3 4 [e]  Sistema exibe tela de login
+4 5 [s]  Super Administrador digita o user e a password de um usuario administrador e pressiona o botao Login
+3 6 [e]  Sistema exibe tela de login
+3 8 [e]  Sistema exibe tela de login
+3 12 [e]  Sistema exibe tela de login
+5 23 [e]  Sistema exibe tela de extracao por dispositivo
+4 16 [s]  Super Administrador digita o user e a password de um usuario administrador e pressiona o botao Login
+4 19 [s]  Super Administrador digita o user e a password de um usuario administrador e pressiona o botao Login
+4 22 [s]  Super Administrador digita o user e a password de um usuario administrador e pressiona o botao Login
+6 7 [s] (User invalido) Super Administrador digita o user de um usuário invalido, digita uma password e pressiona o botao Login
+7 4 [e]  Sistema exibe na pagina de login uma mensagem de usuario ou senha incorretos
+8 9 [s] (Password invalida) Super Administrador digita o user de um usuário administrador corretamente, digita uma password invalida e pressiona o botao Login
+9 10 [e]  Sistema abre um pop-up e exibe a mensagem de usuario ou senha incorretos; informa o numero de tentativas restantes ate que o usuario seja bloqueado
+10 11 [s]  Super Administrador pressiona o botao Ok
+11 4 [e]  Sistema fecha a janela pop-up
+12 13 [s] (Numero de tentativas invalidas e 5) Super Administrador digita o user correte e o password invalido pela sexta vez e pressiona o botao Login
+13 14 [e]  Sistema bloqueia o usuario e exibe uma mensagem informando que o usuario foi bloqueado
+14 15 [s]  Super Administrador tenta mais uma vez logar na conta do usuário, agora com dados validos
+15 24 [e]  Sistema exibe mensagem informando usuario esta bloqueado
+16 17 [e] (Sem conexao com o servidor e usuario deseja fazer extracao offline) Sistema exibe pop-up questionando se o usuqrio deseja fazer extracoes offline
+17 18 [s]  Super Administrador pressiona o botao Yes
+18 25 [e]  Sistema fecha a janela pop-up e exibe tela de extracao por dispositivo em modo offline
+19 20 [e] (Sem conexao com o servidor e usuario nao deseja fazer extração offline) Sistema exibe pop-up questionando se o usuário deveja fazer extracoes offline
+20 21 [s]  Super Administrador pressiona o botao No
+21 4 [e]  Sistema fecha a janela pop-up
+22 26 [e] (Usuario inativo por 90 dias) Sistema exibe mensagem indicando que usuario foi bloqueado
+23 27 [c]  .

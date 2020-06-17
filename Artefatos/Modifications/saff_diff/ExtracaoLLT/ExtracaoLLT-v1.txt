@@ -1,0 +1,22 @@
+13c13
+<             step 4, system, "exibe página que requisita dados do terminal", ef:[2]
+---
+>             step 4, system, "exibe página que requisita dados do terminal"
+24,27c23
+<         exception 2, "Login ou senha incorretos", {
+<             step 1, system, "exibe mensagem informando que login ou senha estão incorretos", bfs:3
+<         }
+< 
+---
+31c27,31
+<             step 3, system, "realiza extração em modo offline"
+---
+>             step 3, system, "exibe página que requisita dados do terminal"
+>             step 4, administrador, "digita o product number e serial number válidos e pressiona tecla Tab"
+>             step 5, system, "muda foco para campo referente ao tipo de teste"
+>             step 6, administrador, "escolhe opção Test1 para tipo de teste e pressiona botão 'Extract'"
+>             step 7, system, "salva extração em pasta local"
+42c42
+<     
+---
+> 

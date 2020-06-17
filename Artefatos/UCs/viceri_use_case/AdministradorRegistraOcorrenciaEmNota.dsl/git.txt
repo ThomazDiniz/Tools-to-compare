@@ -1,0 +1,11 @@
+commit 519bf8f0488c9846b79b64dd255d6855a72d6163
+Author: Guilherme Gadelha <guilhermemgadelha@outlook.com>
+Date:   Wed Mar 8 17:52:52 2017 -0300
+
+    novos casos de uso para Administrador e Operador de Ecommerce
+
+commit 16763bd309b6954574b841c93049573349c30c97
+Author: Guilherme Gadelha <guilhermemgadelha@outlook.com>
+Date:   Mon Mar 6 16:22:40 2017 -0300
+
+    novos casos de uso para Administrador

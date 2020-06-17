@@ -1,0 +1,4 @@
+28c28
+<         alternative 1, "Seleciona pasta vazia", {
+---
+>         alternative 1, "Altera a pasta C\:\\Collect para uma pasta vazia", {

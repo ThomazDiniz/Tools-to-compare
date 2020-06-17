@@ -1,0 +1,129 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+17 17
+18 18
+19 19
+20 20
+21 21
+22 22
+23 23
+24 24
+25 25
+26 26
+27 27
+28 28
+29 29
+30 30
+31 31
+32 32
+33 33
+34 34
+35 35
+36 36
+37 37
+38 38
+39 39
+40 40
+41 41
+42 42
+43 43
+44 44
+45 45
+46 46
+47 47
+48 48
+49 49
+50 50
+51 51
+52 52
+53 53
+54 54
+55 55
+56 56
+57 57
+58 58
+59 59
+60 60
+61 61
+62 62
+63 63
+64 64
+#
+1 33 conditions
+33 2   .
+2 34 steps
+34 3   operador do sistema inicia o SAFF Extractor e se autentica
+3 35 expected_results
+35 4   Sistema exibe pagina que requisita dados do terminal
+4 36 steps
+36 5   operador do sistema abre extrator
+5 37 expected_results
+37 6   Sistema exibe tela de login
+6 38 steps
+38 7   operador do sistema loga no extrator
+5 39 expected_results
+39 24   Sistema exibe tela de login
+7 40 expected_results
+40 28   Sistema exibe tela inicial 'SAFF extraction'
+6 41 steps
+41 8   operador do sistema loga no extrator
+6 42 steps
+42 17   operador do sistema loga no extrator
+8 43 expected_results
+43 9  (Sem conexao e usuario deseja entrar em modo offline ) Sistema exibe mensagem solicitando confirmacao se usuario quer entrar em modo offline
+9 44 steps
+44 10   operador do sistema confirma que quer entrar em modo offline
+10 45 expected_results
+45 11   Sistema exibe pagina que requisita dados do terminal
+11 46 steps
+46 12   operador do sistema realiza uma serie de extracoes sequenciais
+12 47 expected_results
+47 13   Sistema salva as extracoes na pasta local 'OfflineExtraction'
+13 48 steps
+48 14   operador do sistema reastabelece conexao
+14 49 expected_results
+49 15   Sistema envia extracoes locais para o servidor e as apaga da pasta local 'OfflineExtraction'
+13 50 steps
+50 19   operador do sistema reastabelece conexao
+15 51 steps
+51 16   operador do sistema loga no servidor e vai ate a pagina de extracoes
+16 52 expected_results
+52 29   Sistema exibe lista com extracoes realizadas no modo offline
+17 53 expected_results
+53 18  (Sem conexao e usuario nao deseja entrar em modo offline ) Sistema exibe mensagem solicitando confirmação se usuario quer entrar em modo offline
+18 54 steps
+54 3   operador do sistema nao deseja entrar em modo offline
+19 55 expected_results
+55 20  (Cai conexao novamente) Sistema mantem informacao das extracoes nao enviadas a tempo na pasta local
+20 56 steps
+56 21   operador do sistema reastabelece conexao
+21 57 expected_results
+57 22   Sistema envia extracoes restantes da pasta local para o servidor e as apaga da pasta 'OfflineExtraction'
+22 58 steps
+58 23   operador do sistema loga no servidor e vai ate a pagina de extracoes
+23 59 expected_results
+59 30   Sistema exibe lista que contem as extracoes realizadas no modo offline
+24 60 steps
+60 25  (Offline sempre) operador do sistema define que o sistema sempre fara extracoes offline
+25 61 expected_results
+61 26   Sistema exibe pagina que requisita dados do terminal
+26 62 steps
+62 27   operador do sistema realiza uma serie de extracoes
+27 63 expected_results
+63 31   Sistema salva as extracoes na pasta local 'OfflineExtraction'
+28 64 conditions
+64 32  extracoes foram realizadas (tempo de cada extracao deve ser o momento que esta foi feita em modo offline).

@@ -1,0 +1,115 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+17 17
+18 18
+19 19
+20 20
+21 21
+22 22
+23 23
+24 24
+25 25
+26 26
+27 27
+28 28
+29 29
+30 30
+31 31
+32 32
+33 33
+34 34
+35 35
+36 36
+37 37
+38 38
+39 39
+40 40
+41 41
+42 42
+43 43
+44 44
+45 45
+46 46
+47 47
+48 48
+49 49
+50 50
+51 51
+52 52
+53 53
+54 54
+#
+1 25 conditions
+25 2  Usuario Administrador esta logado no sistema.
+2 26 steps
+26 3   Usuario Administrador abre tela inicial do sistema
+3 27 expected_results
+27 4   Sistema exibe tela inicial do sistema
+4 28 steps
+28 5   Usuario Administrador clica na opcao 'Administrador' no menu da tela principal
+5 29 expected_results
+29 6   Sistema apresenta uma listagem dos Administradores cadastrados no sistema
+6 30 steps
+30 7   Usuario Administrador clica em algum dos Administradores listados
+5 31 expected_results
+31 12   Sistema apresenta uma listagem dos Administradores cadastrados no sistema
+7 32 expected_results
+32 8   Sistema abre a tela de edicao de Administrador
+8 33 steps
+33 9   Usuario Administrador clica no botao de 'Excluir'
+7 34 expected_results
+34 13   Sistema abre a tela de edicao de Administrador
+9 35 expected_results
+35 10   Sistema exibe popup pedindo Confirmacao de delecao
+10 36 steps
+36 11   Usuario Administrador confirma delecao
+9 37 expected_results
+37 14   Sistema exibe popup pedindo Confirmacao de delecao
+11 38 expected_results
+38 23   Sistema notifica que o Administrador foi adicionado com sucesso
+10 39 steps
+39 15   Usuario Administrador confirma delecao
+10 40 steps
+40 17   Usuario Administrador confirma delecao
+10 41 steps
+41 19   Usuario Administrador confirma delecao
+10 42 steps
+42 21   Usuario Administrador confirma delecao
+12 43 steps
+43 3  (Volta para tela inicial de sistema) Usuario Administrador clica no botao Voltar
+13 44 steps
+44 5  (Cancela delecao de Administrador) Usuario Administrador clica no botao Cancelar
+14 45 steps
+45 7  (Fecha popup de confirmacao de delecao) Usuario Administrador clica no botao 'Cancelar' do popup
+15 46 expected_results
+46 16  (Dados obrigatorios') Sistema informa que os dados obrigatorios devem ser preenchidos
+16 47 steps
+47 9   Usuario Administrador preenche os dados orbigatorios e clica no botao 'Registrar'
+17 48 expected_results
+48 18  (Email invalido) Sistema alerta usuario de que Email e invalido
+18 49 steps
+49 9   Usuario Administrador insere um Email valido e clica no botao 'Registrar'
+19 50 expected_results
+50 20  (Senha e Confirmacao diferentes) Sistema alerta usuario de que senhas estao diferentes
+20 51 steps
+51 9   Usuario Administrador insere Senhas iguais e clica no botao 'Registrar'
+21 52 expected_results
+52 22  (Sem Permissao) Sistema alerta usuario que Administrador nao esta com nenhuma Permissao
+22 53 steps
+53 9   Usuario Administrador insere uma permissao e clica no botao 'Registrar'
+23 54 conditions
+54 24  O Administrador foi adicionado com sucesso.

@@ -1,0 +1,49 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+17 17
+18 18
+19 19
+20 20
+21 21
+22 22
+23 23
+24 24
+#
+1 2 [c] Usuário está logado no servidor.
+2 3 [s]  Administrador do sistema abre extrator
+3 4 [e]  Sistema exibe tela de login
+4 5 [s]  Administrador do sistema loga no extrator
+3 17 [e]  Sistema exibe tela de login
+5 21 [e]  Sistema exibe tela inicial 'SAFF extraction'
+4 6 [s]  Administrador do sistema loga no extrator
+4 15 [s]  Administrador do sistema loga no extrator
+6 7 [e] (Cai conexão e usuario quer entrar em modo offline ) Sistema exibe mensagem solicitando confirmação se usuario quer entrar em modo offline
+7 8 [s]  Administrador do sistema confirma que quer entrar em modo offline
+8 9 [e]  Sistema exibe tela inicial 'SAFF extraction'
+9 10 [s]  Administrador do sistema realiza cinco extrações
+10 11 [e]  Sistema adiciona novas extrações a pasta local'
+11 12 [s]  Administrador do sistema reastabelece conexão
+12 13 [e]  Sistema envia extrações locais para o servidor e as apaga da pasta local
+13 14 [s]  Administrador do sistema loga no servidor e vai até a página de extrações
+14 22 [e]  Sistema exibe lista com extrações realizada no modo offline no topo
+15 16 [e] (Cai conexão e usuario nao quer entrar em modo offline ) Sistema exibe mensagem solicitando confirmação se usuario quer entrar em modo offline
+16 3 [s]  Administrador do sistema não deseja entrar em modo offline
+17 18 [s] (Offline sempre) Administrador do sistema define que o sistema sempre fará extrações offline
+18 19 [e]  Sistema exibe tela inicial 'SAFF extraction'
+19 20 [s]  Administrador do sistema realiza cinco extrações
+20 23 [e]  Sistema adiciona novas extrações a pasta local'
+21 24 [c]  .

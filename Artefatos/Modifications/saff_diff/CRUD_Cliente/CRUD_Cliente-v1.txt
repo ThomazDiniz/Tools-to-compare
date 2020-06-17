@@ -1,0 +1,4 @@
+12c12
+<             step 3, superAdmin, "seleciona o botão 'Create Customer', situado no lado direito inferior da tela"
+---
+>             step 3, superAdmin, "seleciona o botão 'Create Customer'"

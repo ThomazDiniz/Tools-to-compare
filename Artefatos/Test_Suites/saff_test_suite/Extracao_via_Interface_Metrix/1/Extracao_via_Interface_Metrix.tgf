@@ -1,0 +1,42 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+17 17
+18 18
+19 19
+#
+1 2 [c]  .
+2 3 [s]  administrador do sistema inicia o SAFF Extractor e se autentica
+1 14 [c]  .
+3 4 [e]  Sistema exibe tela de coleta automatica
+4 5 [s]  administrador do sistema seleciona uma pasta contendo varias extrações, fornece as informacoes solicitadas na tela inicial e pressiona o botao 'Start'
+3 10 [e]  Sistema exibe tela de coleta automatica
+5 6 [e]  Sistema bloqueia todos os botoes, com excecao do botao 'Stop'
+6 7 [s]  temporizador a cada 10 segundos
+7 8 [e]  Sistema verifica se existem diretórios de serial number no formato correto e que foram criados a X ou mais tempo definido na propriedade AUTO_COLLECT_WAIT_TIME no arquivo conf.properties e então: envia as extracoes com essas restricoes para o servidor, transfere essas extrações(somente a pasta de serial number) para a pasta 'AUTO_COLLECT_READ_DIR/PRODUCTNUMBER'(onde o PRODUCTNUMBER é referente a cada SERIALNUMBER), atualiza o contador de extrações realizadas/enviadas e fica em espera por novas extracoes com essas mesmas restricoes na pasta indicada, verifica se existe conexão com o servidor para enviar as extrações offline
+6 15 [s]  temporizador a cada 10 segundos
+6 16 [s]  temporizador a cada 10 segundos
+8 9 [s]  administrador do sistema pressiona botao 'Stop'
+7 13 [e]  Sistema verifica se existem diretórios de serial number no formato correto e que foram criados a X ou mais tempo definido na propriedade AUTO_COLLECT_WAIT_TIME no arquivo conf.properties e então: envia as extracoes com essas restricoes para o servidor, transfere essas extrações(somente a pasta de serial number) para a pasta 'AUTO_COLLECT_READ_DIR/PRODUCTNUMBER'(onde o PRODUCTNUMBER é referente a cada SERIALNUMBER), atualiza o contador de extrações realizadas/enviadas e fica em espera por novas extracoes com essas mesmas restricoes na pasta indicada, verifica se existe conexão com o servidor para enviar as extrações offline
+9 17 [e]  Sistema desbloqueia todos os botoes e para de escutar a pasta indicada
+10 11 [s] (Altera a pasta C:\Collect para uma pasta vazia) administrador do sistema seleciona pasta vazia, e pressiona botao 'Start'
+11 12 [e]  Sistema fica em espera ate que alguma extracao seja adicionada na pasta indicada
+12 5 [s]  administrador do sistema adiciona extracao a pasta indicada
+13 5 [s] (Insere novas extracoes na pasta) administrador do sistema adiciona novas extracoes na pasta indicada
+14 5 [s] (Modifica o intervalo do temporizador) administrador do sistema modifica o valor da propriedade AUTO_COLLECT_WAIT_TIME para 60 (o valor é em segundos)
+15 6 [e] (Falha no envio ao servidor) Sistema mantem a informacao de quais extracoes foram enviadas para o servidor; salva a extração no modo offline
+16 18 [e] (Extração não se encontra em formato adequado ou o diretório do SERIALNUMBER está vazio) Sistema move a extração para a pasta broken
+17 19 [c] As extracoes da pasta indicada foram enviadas para o servidor e transferidas para a pasta 'read'.

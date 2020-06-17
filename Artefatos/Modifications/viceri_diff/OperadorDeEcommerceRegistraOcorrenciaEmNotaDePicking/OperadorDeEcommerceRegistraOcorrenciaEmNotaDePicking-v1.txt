@@ -1,0 +1,12 @@
+17c17
+< 			step 5, Operador, 	"clica no botao 'Registrar Ocorrencia'" 
+---
+> 			step 5, Operador, 	"clica no botao 'Registrar Ocorrencia' para uma determinada nota" 
+34c34
+< 			step 1, Operador, 	"nao insere a descricao da ocorrencia e clica no botao de 'Salvar'"
+---
+> 			step 1, Operador, 	"nao insere a descricao da ocorrencia e clica no botao de 'Registrar'"
+36c36
+< 			step 3, Operador, 	"insere descricao valida para Ocorrencia e clica no botao 'Salvar'", bfs:4
+---
+> 			step 3, Operador, 	"insere descricao valida para Ocorrencia e clica no botao 'Registrar'", bfs:4

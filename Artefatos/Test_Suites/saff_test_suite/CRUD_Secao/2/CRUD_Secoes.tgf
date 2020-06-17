@@ -1,0 +1,27 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+#
+1 2 [c] Estar logado como super administrador.
+2 3 [s]  Super administrador seleciona opção 'Sections' no menu Settings
+3 4 [e]  Sistema exibe lista de Seções
+4 5 [s]  Super administrador clica no nome de uma seção
+5 6 [e]  Sistema exibe dados da seção
+6 7 [s]  Super administrador clica no botão 'Cancel'
+5 8 [e]  Sistema exibe dados da seção
+7 12 [e]  Sistema retorna a lista de seções
+8 9 [s] (Edita dados) Super administrador clica no botão 'Edit'
+9 10 [e]  Sistema lista as opções possíveis de serem incluídas na seção
+10 11 [s]  Super administrador escolhe as opções e pressiona o botão 'Update
+11 2 [e]  Sistema exibe mensagem informando que a seção foi atualizada
+12 13 [c]  .

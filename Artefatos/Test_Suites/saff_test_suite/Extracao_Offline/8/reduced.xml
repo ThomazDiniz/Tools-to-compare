@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<testsuite name="TS">
+  <node_order />
+  <details />
+  <testcase internalid="" name="TC3">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário está logado no servidor.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema abre extrator&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no extrator&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Cai conexão e usuario quer entrar em modo offline ) Sistema exibe mensagem solicitando confirmação se usuario quer entrar em modo offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Administrador do sistema não deseja entrar em modo offline&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no extrator&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial 'SAFF extraction'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC2">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário está logado no servidor.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema abre extrator&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no extrator&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Cai conexão e usuario quer entrar em modo offline ) Sistema exibe mensagem solicitando confirmação se usuario quer entrar em modo offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Administrador do sistema confirma que quer entrar em modo offline&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial 'SAFF extraction'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Administrador do sistema realiza cinco extrações&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema adiciona novas extrações a pasta local'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Administrador do sistema reastabelece conexão&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia extrações locais para o servidor e as apaga da pasta local&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no servidor e vai até a página de extrações&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista com extrações realizada no modo offline no topo&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC6">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário está logado no servidor.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema abre extrator&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no extrator&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Cai conexão e usuario quer entrar em modo offline ) Sistema exibe mensagem solicitando confirmação se usuario quer entrar em modo offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Administrador do sistema não deseja entrar em modo offline&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Offline sempre) Administrador do sistema define que o sistema sempre fará extrações offline&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial 'SAFF extraction'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Administrador do sistema realiza cinco extrações&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema adiciona novas extrações a pasta local'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC4">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário está logado no servidor.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema abre extrator&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no extrator&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Cai conexão e usuario quer entrar em modo offline ) Sistema exibe mensagem solicitando confirmação se usuario quer entrar em modo offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Administrador do sistema não deseja entrar em modo offline&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no extrator&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Cai conexão e usuario quer entrar em modo offline ) Sistema exibe mensagem solicitando confirmação se usuario quer entrar em modo offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Administrador do sistema confirma que quer entrar em modo offline&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial 'SAFF extraction'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Administrador do sistema realiza cinco extrações&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema adiciona novas extrações a pasta local'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Administrador do sistema reastabelece conexão&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia extrações locais para o servidor e as apaga da pasta local&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no servidor e vai até a página de extrações&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista com extrações realizada no modo offline no topo&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+</testsuite>

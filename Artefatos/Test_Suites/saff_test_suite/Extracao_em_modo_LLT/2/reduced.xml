@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<testsuite name="TS">
+  <node_order />
+  <details />
+  <testcase internalid="" name="TC1280">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Operador do sistema inicia o SAFF Extractor e se autentica&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina que requisita dados do terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Test 2) Operador do sistema marca opcao Test 2 para tipo de teste&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema apresenta a marcacao da opcao escolhida&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Product number e serial number que nao casam) Operador do sistema digita um product number e serial number validos mas nao referentes a mesma familia e pressiona Extract (terminal em modo LLT)&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema apresenta mensagem de erro&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Operador do sistema escolhe opcao Pre_Test para tipo de teste&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema apresenta a marcacao da opcao escolhida&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;7  (Uso do leitor de codigo de barras) Operador do sistema le (via leitor de codigo de barras) um product number e serial number validos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema realiza a extração, a envia para o servidor, e a salva nas pastas de backup local ('Backup' e 'Results')&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Operador do sistema loga no servidor e vai ate a pagina de extracoes&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista que inclui a extracao realizada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>extracao realizada. extracao pode ser visualizada via servidor. extracao salva nas pastas de backup local ('Backup' e 'Results').</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC2147">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Operador do sistema inicia o SAFF Extractor e se autentica&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina que requisita dados do terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Disable LLT) Operador do sistema marca a opcao 'Disable LLT'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema apresenta a marcacao da opcao escolhida&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Operador do sistema digita um product number e serial number validos e pressiona Extract&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema realiza uma extracao Disabled LLT, a envia para o servidor, e a salva nas pastas de backup local&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC403">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Operador do sistema inicia o SAFF Extractor e se autentica&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina que requisita dados do terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Operador do sistema escolhe opcao Pre_Test para tipo de teste&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema apresenta a marcacao da opcao escolhida&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Product number e/ou serial number invalidos) Operador do sistema digita um product number e/ou serial number invalidos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema marca campo em vermelho alertando do erro&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Operador do sistema digita um product number e serial number validos e pressiona Extract (terminal em modo LLT)&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;2  (Nao existe terminal conectado) Sistema exibe mensagem informando que não conseguiu se conectar ao terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Operador do sistema inicia o SAFF Extractor e se autentica&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina que requisita dados do terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;(Note) Operador do sistema insere uma anotacao para a extracao&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema apresenta a marcacao da opcao escolhida&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;(Product number e/ou serial number invalidos) Operador do sistema digita um product number e/ou serial number invalidos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema marca campo em vermelho alertando do erro&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Operador do sistema digita um product number e serial number validos e pressiona Extract (terminal em modo LLT)&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Falha no envio para servidor e Usuário deseja fazer extração offline) Sistema exibe mensagem informando que houve erro na conexão com o servidor e pergunta se usuario deseja fazer a extração em modo offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>9</step_number>
+        <actions>&lt;p&gt;Operador do sistema responde Yes&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina que requisita dados do terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>10</step_number>
+        <actions>&lt;p&gt;Operador do sistema configura o teste, insere product number e serial number válidos inicia a extracao&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema salva extração em pasta local&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC2146">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Operador do sistema inicia o SAFF Extractor e se autentica&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina que requisita dados do terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Redirect) Operador do sistema marca a opcao 'Redirect to the display of data'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema apresenta a marcacao da opcao escolhida&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Operador do sistema digita um product number e serial number validos e pressiona Extract (terminal em modo LLT)&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema realiza a extracao, a envia para o servidor, a salva nas pastas de backup local e abre o browser mostrando a extracao realizada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC1294">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Operador do sistema inicia o SAFF Extractor e se autentica&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina que requisita dados do terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;5  (QA) Operador do sistema marca opcao QA para tipo de teste&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema apresenta a marcacao da opcao escolhida&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Operador do sistema digita um product number e serial number validos e pressiona Extract (terminal em modo LLT)&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Falha no envio para servidor e Usuário não deseja fazer extração offline) Sistema exibe mensagem informando que houve erro na conexão com o servidor e pergunta se usuario deseja fazer a extração em modo offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Operador do sistema responde No&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema fecha janela e retorna a pagina que requisita dados do terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Operador do sistema digita um product number e serial number validos e pressiona Extract (terminal em modo LLT)&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;2  (Nao existe terminal conectado) Sistema exibe mensagem informando que não conseguiu se conectar ao terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC596">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Operador do sistema inicia o SAFF Extractor e se autentica&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina que requisita dados do terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Test 1) Operador do sistema marca opcao Test 1 para tipo de teste&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema apresenta a marcacao da opcao escolhida&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Terminal nao se encontra em modo LLT) Operador do sistema conecta terminal em porta USB e o coloca em modo LLT&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema (terminal) entra em modo LLT&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Operador do sistema digita um product number e serial number validos e pressiona Extract (terminal em modo LLT)&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Nao existe porta USB cadastrada) Sistema exibe mensagem solicitando informando não existe porta USB cadastrada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Operador do sistema escolhe opcao Pre_Test para tipo de teste&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema apresenta a marcacao da opcao escolhida&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;(Product number e/ou serial number invalidos) Operador do sistema digita um product number e/ou serial number invalidos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema marca campo em vermelho alertando do erro&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Operador do sistema digita um product number e serial number validos e pressiona Extract (terminal em modo LLT)&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Dados de terminal inválidos) Sistema exibe mensagem informando que dados do terminal estão incorretos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC1435">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Operador do sistema inicia o SAFF Extractor e se autentica&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina que requisita dados do terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;5  (QA) Operador do sistema marca opcao QA para tipo de teste&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema apresenta a marcacao da opcao escolhida&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Terminal nao se encontra em modo LLT) Operador do sistema conecta terminal em porta USB e o coloca em modo LLT&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema (terminal) entra em modo LLT&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Operador do sistema digita um product number e serial number validos e pressiona Extract (terminal em modo LLT)&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Dados de terminal inválidos) Sistema exibe mensagem informando que dados do terminal estão incorretos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Operador do sistema digita um product number e serial number validos e pressiona Extract (terminal em modo LLT)&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Dados de terminal inválidos) Sistema exibe mensagem informando que dados do terminal estão incorretos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC244">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Operador do sistema inicia o SAFF Extractor e se autentica&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina que requisita dados do terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Operador do sistema escolhe opcao Pre_Test para tipo de teste&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema apresenta a marcacao da opcao escolhida&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Terminal nao se encontra em modo LLT) Operador do sistema conecta terminal em porta USB e o coloca em modo LLT&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema (terminal) entra em modo LLT&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Operador do sistema digita um product number e serial number validos e pressiona Extract (terminal em modo LLT)&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;2  (Nao existe terminal conectado) Sistema exibe mensagem informando que não conseguiu se conectar ao terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Operador do sistema inicia o SAFF Extractor e se autentica&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina que requisita dados do terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;5  (QA) Operador do sistema marca opcao QA para tipo de teste&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema apresenta a marcacao da opcao escolhida&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;(Product number e/ou serial number invalidos) Operador do sistema digita um product number e/ou serial number invalidos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema marca campo em vermelho alertando do erro&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Operador do sistema digita um product number e serial number validos e pressiona Extract (terminal em modo LLT)&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema realiza a extração, a envia para o servidor, e a salva nas pastas de backup local ('Backup' e 'Results')&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>9</step_number>
+        <actions>&lt;p&gt;Operador do sistema loga no servidor e vai ate a pagina de extracoes&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista que inclui a extracao realizada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>extracao realizada. extracao pode ser visualizada via servidor. extracao salva nas pastas de backup local ('Backup' e 'Results').</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+</testsuite>

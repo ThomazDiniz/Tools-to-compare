@@ -1,0 +1,1395 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<testsuite name="TS">
+  <node_order />
+  <details />
+  <testcase internalid="" name="TC1">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário não está logado no servidor.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no extrator&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe exibe mensagem perguntando se o usuário deseja entrar em modo offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Administrador do sistema pressiona botão Yes&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial 'SAFF extraction'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Administrador do sistema insere um 'Product number', 'Serial number', tipo de teste 'Pre_test' e pressiona 'Extract'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema adiciona nova extração a pasta local'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no servidor&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia extrações da pasta local para o servidor e as deleta da máquina local&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Administrador do sistema vai até a página de extrações&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista com a extração realizada no modo offline no topo&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC2">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário não está logado no servidor.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no extrator&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe exibe mensagem perguntando se o usuário deseja entrar em modo offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Administrador do sistema pressiona botão Yes&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial 'SAFF extraction'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Administrador do sistema insere um 'Product number', 'Serial number', tipo de teste 'Pre_test' e pressiona 'Extract'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema adiciona nova extração a pasta local'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no servidor&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Cai conexão com servidor) Sistema exibe mensagem informando quantas extrações foram transferidas para o servidor com sucesso e deleta da pasta local as extrações enviadas com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Administrador do sistema insere um 'Product number', 'Serial number', tipo de teste 'Pre_test' e pressiona 'Extract'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema adiciona nova extração a pasta local'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no servidor&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia extrações da pasta local para o servidor e as deleta da máquina local&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Administrador do sistema vai até a página de extrações&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista com a extração realizada no modo offline no topo&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC3">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário não está logado no servidor.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no extrator&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe exibe mensagem perguntando se o usuário deseja entrar em modo offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Administrador do sistema pressiona botão Yes&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial 'SAFF extraction'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Administrador do sistema insere um 'Product number', 'Serial number', tipo de teste 'Pre_test' e pressiona 'Extract'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema adiciona nova extração a pasta local'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no servidor&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Cai conexão com servidor) Sistema exibe mensagem informando quantas extrações foram transferidas para o servidor com sucesso e deleta da pasta local as extrações enviadas com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Administrador do sistema insere um 'Product number', 'Serial number', tipo de teste 'Pre_test' e pressiona 'Extract'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema adiciona nova extração a pasta local'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no servidor&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Cai conexão com servidor) Sistema exibe mensagem informando quantas extrações foram transferidas para o servidor com sucesso e deleta da pasta local as extrações enviadas com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC4">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário não está logado no servidor.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no extrator&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe exibe mensagem perguntando se o usuário deseja entrar em modo offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Administrador do sistema pressiona botão Yes&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial 'SAFF extraction'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Test 1) Administrador do sistema insere um 'Product number', 'Serial number', tipo de teste 'Test 1' e pressiona 'Extract'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema adiciona nova extração a pasta local'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no servidor&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia extrações da pasta local para o servidor e as deleta da máquina local&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Administrador do sistema vai até a página de extrações&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista com a extração realizada no modo offline no topo&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC5">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário não está logado no servidor.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no extrator&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe exibe mensagem perguntando se o usuário deseja entrar em modo offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Administrador do sistema pressiona botão Yes&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial 'SAFF extraction'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Test 1) Administrador do sistema insere um 'Product number', 'Serial number', tipo de teste 'Test 1' e pressiona 'Extract'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema adiciona nova extração a pasta local'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no servidor&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Cai conexão com servidor) Sistema exibe mensagem informando quantas extrações foram transferidas para o servidor com sucesso e deleta da pasta local as extrações enviadas com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Administrador do sistema insere um 'Product number', 'Serial number', tipo de teste 'Pre_test' e pressiona 'Extract'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema adiciona nova extração a pasta local'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no servidor&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia extrações da pasta local para o servidor e as deleta da máquina local&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Administrador do sistema vai até a página de extrações&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista com a extração realizada no modo offline no topo&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC6">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário não está logado no servidor.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no extrator&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe exibe mensagem perguntando se o usuário deseja entrar em modo offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Administrador do sistema pressiona botão Yes&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial 'SAFF extraction'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Test 1) Administrador do sistema insere um 'Product number', 'Serial number', tipo de teste 'Test 1' e pressiona 'Extract'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema adiciona nova extração a pasta local'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no servidor&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Cai conexão com servidor) Sistema exibe mensagem informando quantas extrações foram transferidas para o servidor com sucesso e deleta da pasta local as extrações enviadas com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Administrador do sistema insere um 'Product number', 'Serial number', tipo de teste 'Pre_test' e pressiona 'Extract'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema adiciona nova extração a pasta local'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no servidor&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Cai conexão com servidor) Sistema exibe mensagem informando quantas extrações foram transferidas para o servidor com sucesso e deleta da pasta local as extrações enviadas com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Administrador do sistema insere um 'Product number', 'Serial number', tipo de teste 'Pre_test' e pressiona 'Extract'&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC7">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário não está logado no servidor.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no extrator&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe exibe mensagem perguntando se o usuário deseja entrar em modo offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Administrador do sistema pressiona botão Yes&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial 'SAFF extraction'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Test 2) Administrador do sistema insere um 'Product number', 'Serial number', tipo de teste 'Test 2' e pressiona 'Extract'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema adiciona nova extração a pasta local'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no servidor&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia extrações da pasta local para o servidor e as deleta da máquina local&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Administrador do sistema vai até a página de extrações&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista com a extração realizada no modo offline no topo&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC8">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário não está logado no servidor.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no extrator&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe exibe mensagem perguntando se o usuário deseja entrar em modo offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Administrador do sistema pressiona botão Yes&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial 'SAFF extraction'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Test 2) Administrador do sistema insere um 'Product number', 'Serial number', tipo de teste 'Test 2' e pressiona 'Extract'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema adiciona nova extração a pasta local'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no servidor&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Cai conexão com servidor) Sistema exibe mensagem informando quantas extrações foram transferidas para o servidor com sucesso e deleta da pasta local as extrações enviadas com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Administrador do sistema insere um 'Product number', 'Serial number', tipo de teste 'Pre_test' e pressiona 'Extract'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema adiciona nova extração a pasta local'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no servidor&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia extrações da pasta local para o servidor e as deleta da máquina local&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Administrador do sistema vai até a página de extrações&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista com a extração realizada no modo offline no topo&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC9">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário não está logado no servidor.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no extrator&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe exibe mensagem perguntando se o usuário deseja entrar em modo offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Administrador do sistema pressiona botão Yes&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial 'SAFF extraction'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Test 2) Administrador do sistema insere um 'Product number', 'Serial number', tipo de teste 'Test 2' e pressiona 'Extract'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema adiciona nova extração a pasta local'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no servidor&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Cai conexão com servidor) Sistema exibe mensagem informando quantas extrações foram transferidas para o servidor com sucesso e deleta da pasta local as extrações enviadas com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Administrador do sistema insere um 'Product number', 'Serial number', tipo de teste 'Pre_test' e pressiona 'Extract'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema adiciona nova extração a pasta local'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no servidor&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Cai conexão com servidor) Sistema exibe mensagem informando quantas extrações foram transferidas para o servidor com sucesso e deleta da pasta local as extrações enviadas com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Administrador do sistema insere um 'Product number', 'Serial number', tipo de teste 'Pre_test' e pressiona 'Extract'&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC10">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário não está logado no servidor.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no extrator&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe exibe mensagem perguntando se o usuário deseja entrar em modo offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Administrador do sistema pressiona botão Yes&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial 'SAFF extraction'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(QA) Administrador do sistema insere um 'Product number', 'Serial number', tipo de teste 'QA' e pressiona 'Extract'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema adiciona nova extração a pasta local'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no servidor&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia extrações da pasta local para o servidor e as deleta da máquina local&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Administrador do sistema vai até a página de extrações&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista com a extração realizada no modo offline no topo&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC11">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário não está logado no servidor.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no extrator&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe exibe mensagem perguntando se o usuário deseja entrar em modo offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Administrador do sistema pressiona botão Yes&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial 'SAFF extraction'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(QA) Administrador do sistema insere um 'Product number', 'Serial number', tipo de teste 'QA' e pressiona 'Extract'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema adiciona nova extração a pasta local'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no servidor&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Cai conexão com servidor) Sistema exibe mensagem informando quantas extrações foram transferidas para o servidor com sucesso e deleta da pasta local as extrações enviadas com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Administrador do sistema insere um 'Product number', 'Serial number', tipo de teste 'Pre_test' e pressiona 'Extract'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema adiciona nova extração a pasta local'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no servidor&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia extrações da pasta local para o servidor e as deleta da máquina local&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Administrador do sistema vai até a página de extrações&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista com a extração realizada no modo offline no topo&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC12">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário não está logado no servidor.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no extrator&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe exibe mensagem perguntando se o usuário deseja entrar em modo offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Administrador do sistema pressiona botão Yes&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial 'SAFF extraction'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(QA) Administrador do sistema insere um 'Product number', 'Serial number', tipo de teste 'QA' e pressiona 'Extract'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema adiciona nova extração a pasta local'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no servidor&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Cai conexão com servidor) Sistema exibe mensagem informando quantas extrações foram transferidas para o servidor com sucesso e deleta da pasta local as extrações enviadas com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Administrador do sistema insere um 'Product number', 'Serial number', tipo de teste 'Pre_test' e pressiona 'Extract'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema adiciona nova extração a pasta local'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no servidor&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Cai conexão com servidor) Sistema exibe mensagem informando quantas extrações foram transferidas para o servidor com sucesso e deleta da pasta local as extrações enviadas com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Administrador do sistema insere um 'Product number', 'Serial number', tipo de teste 'Pre_test' e pressiona 'Extract'&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC13">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário não está logado no servidor.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no extrator&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe exibe mensagem perguntando se o usuário deseja entrar em modo offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Administrador do sistema pressiona botão Yes&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial 'SAFF extraction'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Product number ou serial number inválidos) Administrador do sistema insere um 'Product number' ou 'Serial number' inválidos e pressiona 'Extract'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem solicitando informando que o product number ou serial number são inválidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Administrador do sistema insere um 'Product number', 'Serial number', tipo de teste 'Pre_test' e pressiona 'Extract'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema adiciona nova extração a pasta local'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no servidor&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia extrações da pasta local para o servidor e as deleta da máquina local&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Administrador do sistema vai até a página de extrações&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista com a extração realizada no modo offline no topo&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC14">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário não está logado no servidor.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no extrator&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe exibe mensagem perguntando se o usuário deseja entrar em modo offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Administrador do sistema pressiona botão Yes&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial 'SAFF extraction'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Product number ou serial number inválidos) Administrador do sistema insere um 'Product number' ou 'Serial number' inválidos e pressiona 'Extract'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem solicitando informando que o product number ou serial number são inválidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Administrador do sistema insere um 'Product number', 'Serial number', tipo de teste 'Pre_test' e pressiona 'Extract'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema adiciona nova extração a pasta local'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no servidor&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Cai conexão com servidor) Sistema exibe mensagem informando quantas extrações foram transferidas para o servidor com sucesso e deleta da pasta local as extrações enviadas com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Administrador do sistema insere um 'Product number', 'Serial number', tipo de teste 'Pre_test' e pressiona 'Extract'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema adiciona nova extração a pasta local'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no servidor&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia extrações da pasta local para o servidor e as deleta da máquina local&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Administrador do sistema vai até a página de extrações&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista com a extração realizada no modo offline no topo&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC15">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário não está logado no servidor.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no extrator&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe exibe mensagem perguntando se o usuário deseja entrar em modo offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Administrador do sistema pressiona botão Yes&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial 'SAFF extraction'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Product number ou serial number inválidos) Administrador do sistema insere um 'Product number' ou 'Serial number' inválidos e pressiona 'Extract'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem solicitando informando que o product number ou serial number são inválidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Administrador do sistema insere um 'Product number', 'Serial number', tipo de teste 'Pre_test' e pressiona 'Extract'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema adiciona nova extração a pasta local'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no servidor&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Cai conexão com servidor) Sistema exibe mensagem informando quantas extrações foram transferidas para o servidor com sucesso e deleta da pasta local as extrações enviadas com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Administrador do sistema insere um 'Product number', 'Serial number', tipo de teste 'Pre_test' e pressiona 'Extract'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema adiciona nova extração a pasta local'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no servidor&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Cai conexão com servidor) Sistema exibe mensagem informando quantas extrações foram transferidas para o servidor com sucesso e deleta da pasta local as extrações enviadas com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC16">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário não está logado no servidor.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no extrator&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe exibe mensagem perguntando se o usuário deseja entrar em modo offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Pressiona NO) Administrador do sistema pressiona botão No&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema Fecha janela de mensagem&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no extrator&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe exibe mensagem perguntando se o usuário deseja entrar em modo offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Administrador do sistema pressiona botão Yes&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial 'SAFF extraction'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Administrador do sistema insere um 'Product number', 'Serial number', tipo de teste 'Pre_test' e pressiona 'Extract'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema adiciona nova extração a pasta local'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no servidor&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia extrações da pasta local para o servidor e as deleta da máquina local&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Administrador do sistema vai até a página de extrações&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista com a extração realizada no modo offline no topo&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC17">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário não está logado no servidor.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no extrator&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe exibe mensagem perguntando se o usuário deseja entrar em modo offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Pressiona NO) Administrador do sistema pressiona botão No&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema Fecha janela de mensagem&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no extrator&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe exibe mensagem perguntando se o usuário deseja entrar em modo offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Administrador do sistema pressiona botão Yes&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial 'SAFF extraction'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Administrador do sistema insere um 'Product number', 'Serial number', tipo de teste 'Pre_test' e pressiona 'Extract'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema adiciona nova extração a pasta local'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no servidor&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Cai conexão com servidor) Sistema exibe mensagem informando quantas extrações foram transferidas para o servidor com sucesso e deleta da pasta local as extrações enviadas com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC18">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário não está logado no servidor.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no extrator&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe exibe mensagem perguntando se o usuário deseja entrar em modo offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Pressiona NO) Administrador do sistema pressiona botão No&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema Fecha janela de mensagem&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no extrator&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe exibe mensagem perguntando se o usuário deseja entrar em modo offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Administrador do sistema pressiona botão Yes&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial 'SAFF extraction'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;(Test 1) Administrador do sistema insere um 'Product number', 'Serial number', tipo de teste 'Test 1' e pressiona 'Extract'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema adiciona nova extração a pasta local'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no servidor&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia extrações da pasta local para o servidor e as deleta da máquina local&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Administrador do sistema vai até a página de extrações&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista com a extração realizada no modo offline no topo&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC19">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário não está logado no servidor.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no extrator&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe exibe mensagem perguntando se o usuário deseja entrar em modo offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Pressiona NO) Administrador do sistema pressiona botão No&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema Fecha janela de mensagem&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no extrator&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe exibe mensagem perguntando se o usuário deseja entrar em modo offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Administrador do sistema pressiona botão Yes&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial 'SAFF extraction'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;(Test 1) Administrador do sistema insere um 'Product number', 'Serial number', tipo de teste 'Test 1' e pressiona 'Extract'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema adiciona nova extração a pasta local'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no servidor&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Cai conexão com servidor) Sistema exibe mensagem informando quantas extrações foram transferidas para o servidor com sucesso e deleta da pasta local as extrações enviadas com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Administrador do sistema insere um 'Product number', 'Serial number', tipo de teste 'Pre_test' e pressiona 'Extract'&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC20">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário não está logado no servidor.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no extrator&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe exibe mensagem perguntando se o usuário deseja entrar em modo offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Pressiona NO) Administrador do sistema pressiona botão No&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema Fecha janela de mensagem&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no extrator&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe exibe mensagem perguntando se o usuário deseja entrar em modo offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Administrador do sistema pressiona botão Yes&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial 'SAFF extraction'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;(Test 2) Administrador do sistema insere um 'Product number', 'Serial number', tipo de teste 'Test 2' e pressiona 'Extract'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema adiciona nova extração a pasta local'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no servidor&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia extrações da pasta local para o servidor e as deleta da máquina local&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Administrador do sistema vai até a página de extrações&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista com a extração realizada no modo offline no topo&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC21">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário não está logado no servidor.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no extrator&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe exibe mensagem perguntando se o usuário deseja entrar em modo offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Pressiona NO) Administrador do sistema pressiona botão No&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema Fecha janela de mensagem&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no extrator&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe exibe mensagem perguntando se o usuário deseja entrar em modo offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Administrador do sistema pressiona botão Yes&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial 'SAFF extraction'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;(Test 2) Administrador do sistema insere um 'Product number', 'Serial number', tipo de teste 'Test 2' e pressiona 'Extract'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema adiciona nova extração a pasta local'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no servidor&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Cai conexão com servidor) Sistema exibe mensagem informando quantas extrações foram transferidas para o servidor com sucesso e deleta da pasta local as extrações enviadas com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Administrador do sistema insere um 'Product number', 'Serial number', tipo de teste 'Pre_test' e pressiona 'Extract'&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC22">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário não está logado no servidor.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no extrator&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe exibe mensagem perguntando se o usuário deseja entrar em modo offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Pressiona NO) Administrador do sistema pressiona botão No&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema Fecha janela de mensagem&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no extrator&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe exibe mensagem perguntando se o usuário deseja entrar em modo offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Administrador do sistema pressiona botão Yes&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial 'SAFF extraction'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;(QA) Administrador do sistema insere um 'Product number', 'Serial number', tipo de teste 'QA' e pressiona 'Extract'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema adiciona nova extração a pasta local'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no servidor&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia extrações da pasta local para o servidor e as deleta da máquina local&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Administrador do sistema vai até a página de extrações&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista com a extração realizada no modo offline no topo&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC23">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário não está logado no servidor.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no extrator&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe exibe mensagem perguntando se o usuário deseja entrar em modo offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Pressiona NO) Administrador do sistema pressiona botão No&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema Fecha janela de mensagem&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no extrator&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe exibe mensagem perguntando se o usuário deseja entrar em modo offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Administrador do sistema pressiona botão Yes&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial 'SAFF extraction'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;(QA) Administrador do sistema insere um 'Product number', 'Serial number', tipo de teste 'QA' e pressiona 'Extract'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema adiciona nova extração a pasta local'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no servidor&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Cai conexão com servidor) Sistema exibe mensagem informando quantas extrações foram transferidas para o servidor com sucesso e deleta da pasta local as extrações enviadas com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Administrador do sistema insere um 'Product number', 'Serial number', tipo de teste 'Pre_test' e pressiona 'Extract'&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC24">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário não está logado no servidor.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no extrator&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe exibe mensagem perguntando se o usuário deseja entrar em modo offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Pressiona NO) Administrador do sistema pressiona botão No&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema Fecha janela de mensagem&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no extrator&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe exibe mensagem perguntando se o usuário deseja entrar em modo offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Administrador do sistema pressiona botão Yes&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial 'SAFF extraction'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;(Product number ou serial number inválidos) Administrador do sistema insere um 'Product number' ou 'Serial number' inválidos e pressiona 'Extract'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem solicitando informando que o product number ou serial number são inválidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Administrador do sistema insere um 'Product number', 'Serial number', tipo de teste 'Pre_test' e pressiona 'Extract'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema adiciona nova extração a pasta local'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no servidor&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia extrações da pasta local para o servidor e as deleta da máquina local&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Administrador do sistema vai até a página de extrações&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista com a extração realizada no modo offline no topo&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC25">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário não está logado no servidor.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no extrator&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe exibe mensagem perguntando se o usuário deseja entrar em modo offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Pressiona NO) Administrador do sistema pressiona botão No&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema Fecha janela de mensagem&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no extrator&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe exibe mensagem perguntando se o usuário deseja entrar em modo offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Administrador do sistema pressiona botão Yes&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial 'SAFF extraction'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;(Product number ou serial number inválidos) Administrador do sistema insere um 'Product number' ou 'Serial number' inválidos e pressiona 'Extract'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem solicitando informando que o product number ou serial number são inválidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Administrador do sistema insere um 'Product number', 'Serial number', tipo de teste 'Pre_test' e pressiona 'Extract'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema adiciona nova extração a pasta local'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no servidor&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Cai conexão com servidor) Sistema exibe mensagem informando quantas extrações foram transferidas para o servidor com sucesso e deleta da pasta local as extrações enviadas com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC26">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário não está logado no servidor.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no extrator&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe exibe mensagem perguntando se o usuário deseja entrar em modo offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Pressiona NO) Administrador do sistema pressiona botão No&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema Fecha janela de mensagem&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Administrador do sistema loga no extrator&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe exibe mensagem perguntando se o usuário deseja entrar em modo offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Pressiona NO) Administrador do sistema pressiona botão No&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema Fecha janela de mensagem&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+</testsuite>

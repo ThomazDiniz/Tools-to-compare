@@ -1,0 +1,11 @@
+commit 15410608256c1ea163750ec2f325451b3e58c5c5
+Author: Guilherme Gadelha <guilhermemgadelha@outlook.com>
+Date:   Mon Mar 6 16:19:40 2017 -0300
+
+    casos de uso AdministradorEdita*.dsl para versao 0.0.2
+
+commit 37cd4620bd53d183919898a7ee672ad3f79a061f
+Author: Guilherme Gadelha <Guilherme Gadelha>
+Date:   Thu Feb 23 10:23:12 2017 -0300
+
+    v0.0.1 de arquivos de testes

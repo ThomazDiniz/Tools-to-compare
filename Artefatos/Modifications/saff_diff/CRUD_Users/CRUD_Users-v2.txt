@@ -1,0 +1,8 @@
+5c5
+<         actor usuário, "Usuário"
+---
+>         actor usuário, "Super administrador"
+7c7
+<         preCondition "Deve existir pelo menos um usuário cadastrado" 
+---
+>         preCondition "Deve existir pelo menos um usuário super administrador" 

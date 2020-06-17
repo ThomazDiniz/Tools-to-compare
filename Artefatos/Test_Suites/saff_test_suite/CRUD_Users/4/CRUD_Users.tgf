@@ -1,0 +1,125 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+17 17
+18 18
+19 19
+20 20
+21 21
+22 22
+23 23
+24 24
+25 25
+26 26
+27 27
+28 28
+29 29
+30 30
+31 31
+32 32
+33 33
+34 34
+35 35
+36 36
+37 37
+38 38
+39 39
+40 40
+41 41
+42 42
+43 43
+44 44
+45 45
+46 46
+47 47
+48 48
+49 49
+50 50
+51 51
+52 52
+53 53
+54 54
+55 55
+56 56
+57 57
+58 58
+59 59
+#
+1 2 [c] Deve existir pelo menos um usuário cadastrado.
+2 3 [s]  Usuário loga no sistema com perfil de super administrador
+3 4 [e]  Sistema exibe tela principal
+4 5 [s]  Usuário seleciona opção 'Users' no menu Settings
+5 6 [e]  Sistema exibe lista completa de usuários
+6 7 [s]  Usuário seleciona o botão 'Create User'
+7 8 [e]  Sistema exibe página com campos de cadastro do usuário
+8 9 [s]  Usuário preenche corretamente os campos 'Name', 'Login', 'Password', 'Confirm Password', escolhe uma opção para os campos 'Type', 'Laboratory', 'Language', e pressiona o botão 'Create' 
+7 16 [e]  Sistema exibe página com campos de cadastro do usuário
+7 18 [e]  Sistema exibe página com campos de cadastro do usuário
+9 10 [e]  Sistema exibe mensagem indicando que novo usuário foi criado
+10 11 [s]  Usuário clica no link de visualização dos usuários
+11 12 [e]  Sistema exibe lista completa de usuários
+12 13 [s]  Usuário clica no nome do novo usuário
+13 14 [e]  Sistema exibe dados do usuário
+14 15 [s]  Usuário clica no botão 'Cancel'
+13 19 [e]  Sistema exibe dados do usuário
+15 55 [e]  Sistema exibe lista completa de usuários
+16 17 [s] (Usuário com login repetido) Usuário preenche o campo 'Login' com o login associado a um outro usuário cadastrado. Preenche corretamente os demais campos e pressiona o botão 'Create'
+17 8 [e]  Sistema exibe mensagem informando que os este usuários já existe
+18 5 [s] (Cancela criação) Usuário cancela criação
+19 20 [s] (Edita dados) Usuário clica no botão 'Edit'
+20 21 [e]  Sistema exibe campos do documento com valores atuais que podem ser editados
+21 22 [s]  Usuário preenche os novos valores para os campos 'Name' e 'Type', mantém a linguagem e pressiona o botão 'Update
+20 24 [e]  Sistema exibe campos do documento com valores atuais que podem ser editados
+20 28 [e]  Sistema exibe campos do documento com valores atuais que podem ser editados
+20 32 [e]  Sistema exibe campos do documento com valores atuais que podem ser editados
+22 23 [e]  Sistema exibe novos dados do usuários
+23 5 [s]  Usuário acessa link que lista todos usuários
+24 25 [s] (Edita dados e altera linguagem) Usuário preenche os novos valores para os campos 'Name', 'Type', troca mantém o valor do campo 'Language' e pressiona o botão 'Update
+25 26 [e]  Sistema exibe novos dados do usuários
+26 27 [s]  Usuário faz log out e se loga na conta do usuário que teve os dados atualizados
+27 56 [e]  Sistema é apresentado na nova linguagem
+28 29 [s] (Reseta senha) Usuário pressiona botão 'Reset Password'
+29 30 [e]  Sistema exibe mensagem pedindo confirmação
+30 31 [s]  Usuário confirma desejo de resetar senha
+29 48 [e]  Sistema exibe mensagem pedindo confirmação
+31 6 [e]  Sistema exibe lista completa de usuários
+32 33 [s] (Bloqueio de usuário) Usuário pressiona botão 'Block User'
+33 34 [e]  Sistema exibe mensagem pedindo confirmação
+34 35 [s]  Usuário confirma desejo de bloquear usuário
+33 49 [e]  Sistema exibe mensagem pedindo confirmação
+35 36 [e]  Sistema exibe mensagem confirmando bloqueio de usuário
+36 37 [s]  Usuário acessa link que lista todos usuários
+37 38 [e]  Sistema exibe lista completa de usuários onde o usuário atualizado é sinalizado como bloqueado
+38 39 [s]  Usuário clica no nome do usuário bloqueado
+37 50 [e]  Sistema exibe lista completa de usuários onde o usuário atualizado é sinalizado como bloqueado
+39 40 [e]  Sistema exibe dados do usuário
+40 41 [s]  Usuário clica no botão 'Edit'
+39 52 [e]  Sistema exibe dados do usuário
+41 42 [e]  Sistema exibe campos do documento com valores atuais que podem ser editados
+42 43 [s]  Usuário pressiona botão 'Unblock User'
+43 44 [e]  Sistema exibe mensagem pedindo confirmação
+44 45 [s]  Usuário confirma desejo de desbloquear usuário
+45 46 [e]  Sistema exibe mensagem confirmando desbloqueio de usuário
+46 47 [s]  Usuário acessa link que lista todos usuários
+47 6 [e]  Sistema exibe lista completa de usuários onde o usuário atualizado não é sinalizado como bloqueado
+48 57 [s] (Cancela reset de senha) Usuário cancela reset de senha
+49 7 [s] (Cancela bloqueio de usuário) Usuário cancela bloqueio
+50 51 [s] (Test de bloqueio) Usuário faz log out e tenta loga na conta do usuário que teve os dados atualizados
+51 58 [e]  Sistema exibe mensagem que usuário está bloqueado
+52 53 [s] (Deleta usuário) Usuário clica no botão 'Delete'
+53 54 [e]  Sistema exibe mensagem solicitando confirmação
+54 5 [s]  Usuário pressiona o botao OK
+55 59 [c]  .

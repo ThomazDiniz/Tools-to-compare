@@ -1,0 +1,78 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+17 17
+18 18
+19 19
+20 20
+21 21
+22 22
+23 23
+24 24
+25 25
+26 26
+27 27
+28 28
+29 29
+30 30
+31 31
+32 32
+33 33
+34 34
+35 35
+36 36
+37 37
+#
+1 18 conditions
+18 2  Usuario Administrador esta logado no sistema.
+2 19 steps
+19 3   Usuario Administrador clica na opcao 'Administrador' no menu da tela principal
+3 20 expected_results
+20 4   Sistema apresenta uma listagem dos Administradores cadastrados no sistema
+4 21 steps
+21 5   Usuario Administrador clica no botao 'Adicionar Administrador'
+5 22 expected_results
+22 6   Sistema abre a tela de cadastro de Administradores
+6 23 steps
+23 7   Usuario Administrador preenche os dados do Administrador, seleciona suas permissoes e clica no botao 'Registrar'
+7 24 expected_results
+24 16   Sistema notifica que o Administrador foi adicionado com sucesso
+6 25 steps
+25 8   Usuario Administrador preenche os dados do Administrador, seleciona suas permissoes e clica no botao 'Registrar'
+6 26 steps
+26 10   Usuario Administrador preenche os dados do Administrador, seleciona suas permissoes e clica no botao 'Registrar'
+6 27 steps
+27 12   Usuario Administrador preenche os dados do Administrador, seleciona suas permissoes e clica no botao 'Registrar'
+6 28 steps
+28 14   Usuario Administrador preenche os dados do Administrador, seleciona suas permissoes e clica no botao 'Registrar'
+8 29 expected_results
+29 9  (Dados obrigatorios') Sistema informa que os dados obrigatorios devem ser preenchidos
+9 30 steps
+30 7   Usuario Administrador preenche os dados orbigatorios e clica no botao 'Registrar'
+10 31 expected_results
+31 11  (Email invalido) Sistema alerta usuario de que Email e invalido
+11 32 steps
+32 7   Usuario Administrador insere um Email valido e clica no botao 'Registrar'
+12 33 expected_results
+33 13  (Senha e Confirmacao diferentes) Sistema alerta usuario de que senhas estao diferentes
+13 34 steps
+34 7   Usuario Administrador insere Senhas iguais e clica no botao 'Registrar'
+14 35 expected_results
+35 15  (Sem Permissao) Sistema alerta usuario que Administrador nao esta com nenhuma Permissao
+15 36 steps
+36 7   Usuario Administrador insere uma permissao e clica no botao 'Registrar'
+16 37 conditions
+37 17  O Administrador foi adicionado com sucesso.

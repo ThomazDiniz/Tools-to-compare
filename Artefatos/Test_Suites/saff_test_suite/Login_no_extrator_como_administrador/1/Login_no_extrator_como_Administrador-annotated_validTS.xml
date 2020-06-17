@@ -1,0 +1,877 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<testsuite name="TS">
+  <node_order />
+  <details />
+  <testcase internalid="" name="TC1">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Deve existir um usuario cadastrado com perfil administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Super Administrador abre modulo de extracao&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Super Administrador digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de extracao por dispositivo&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC2">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Deve existir um usuario cadastrado com perfil administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Super Administrador abre modulo de extracao&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Super Administrador digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Sem conexao com o servidor e usuario deseja fazer extracao offline) Sistema exibe pop-up questionando se o usuqrio deseja fazer extracoes offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Super Administrador pressiona o botao Yes&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema fecha a janela pop-up e exibe tela de extracao por dispositivo em modo offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC3">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Deve existir um usuario cadastrado com perfil administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Super Administrador abre modulo de extracao&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Super Administrador digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Sem conexao com o servidor e usuario nao deseja fazer extração offline) Sistema exibe pop-up questionando se o usuário deveja fazer extracoes offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Super Administrador pressiona o botao No&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema fecha a janela pop-up&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Super Administrador digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de extracao por dispositivo&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC4">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Deve existir um usuario cadastrado com perfil administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Super Administrador abre modulo de extracao&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Super Administrador digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Sem conexao com o servidor e usuario nao deseja fazer extração offline) Sistema exibe pop-up questionando se o usuário deveja fazer extracoes offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Super Administrador pressiona o botao No&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema fecha a janela pop-up&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Super Administrador digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Sem conexao com o servidor e usuario deseja fazer extracao offline) Sistema exibe pop-up questionando se o usuqrio deseja fazer extracoes offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Super Administrador pressiona o botao Yes&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema fecha a janela pop-up e exibe tela de extracao por dispositivo em modo offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC5">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Deve existir um usuario cadastrado com perfil administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Super Administrador abre modulo de extracao&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Super Administrador digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Sem conexao com o servidor e usuario nao deseja fazer extração offline) Sistema exibe pop-up questionando se o usuário deveja fazer extracoes offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Super Administrador pressiona o botao No&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema fecha a janela pop-up&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Super Administrador digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Sem conexao com o servidor e usuario nao deseja fazer extração offline) Sistema exibe pop-up questionando se o usuário deveja fazer extracoes offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Super Administrador pressiona o botao No&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema fecha a janela pop-up&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC6">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Deve existir um usuario cadastrado com perfil administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Super Administrador abre modulo de extracao&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Super Administrador digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Sem conexao com o servidor e usuario nao deseja fazer extração offline) Sistema exibe pop-up questionando se o usuário deveja fazer extracoes offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Super Administrador pressiona o botao No&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema fecha a janela pop-up&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Super Administrador digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Usuario inativo por 90 dias) Sistema exibe mensagem indicando que usuario foi bloqueado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC7">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Deve existir um usuario cadastrado com perfil administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Super Administrador abre modulo de extracao&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Super Administrador digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Usuario inativo por 90 dias) Sistema exibe mensagem indicando que usuario foi bloqueado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC8">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Deve existir um usuario cadastrado com perfil administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Super Administrador abre modulo de extracao&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(User invalido) Super Administrador digita o user de um usuário invalido, digita uma password e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe na pagina de login uma mensagem de usuario ou senha incorretos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Super Administrador digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de extracao por dispositivo&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC9">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Deve existir um usuario cadastrado com perfil administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Super Administrador abre modulo de extracao&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(User invalido) Super Administrador digita o user de um usuário invalido, digita uma password e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe na pagina de login uma mensagem de usuario ou senha incorretos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Super Administrador digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Sem conexao com o servidor e usuario deseja fazer extracao offline) Sistema exibe pop-up questionando se o usuqrio deseja fazer extracoes offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Super Administrador pressiona o botao Yes&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema fecha a janela pop-up e exibe tela de extracao por dispositivo em modo offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC10">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Deve existir um usuario cadastrado com perfil administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Super Administrador abre modulo de extracao&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(User invalido) Super Administrador digita o user de um usuário invalido, digita uma password e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe na pagina de login uma mensagem de usuario ou senha incorretos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Super Administrador digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Sem conexao com o servidor e usuario nao deseja fazer extração offline) Sistema exibe pop-up questionando se o usuário deveja fazer extracoes offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Super Administrador pressiona o botao No&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema fecha a janela pop-up&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Super Administrador digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de extracao por dispositivo&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC11">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Deve existir um usuario cadastrado com perfil administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Super Administrador abre modulo de extracao&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(User invalido) Super Administrador digita o user de um usuário invalido, digita uma password e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe na pagina de login uma mensagem de usuario ou senha incorretos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Super Administrador digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Sem conexao com o servidor e usuario nao deseja fazer extração offline) Sistema exibe pop-up questionando se o usuário deveja fazer extracoes offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Super Administrador pressiona o botao No&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema fecha a janela pop-up&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Super Administrador digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Sem conexao com o servidor e usuario deseja fazer extracao offline) Sistema exibe pop-up questionando se o usuqrio deseja fazer extracoes offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Super Administrador pressiona o botao Yes&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema fecha a janela pop-up e exibe tela de extracao por dispositivo em modo offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC12">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Deve existir um usuario cadastrado com perfil administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Super Administrador abre modulo de extracao&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(User invalido) Super Administrador digita o user de um usuário invalido, digita uma password e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe na pagina de login uma mensagem de usuario ou senha incorretos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Super Administrador digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Sem conexao com o servidor e usuario nao deseja fazer extração offline) Sistema exibe pop-up questionando se o usuário deveja fazer extracoes offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Super Administrador pressiona o botao No&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema fecha a janela pop-up&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Super Administrador digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Sem conexao com o servidor e usuario nao deseja fazer extração offline) Sistema exibe pop-up questionando se o usuário deveja fazer extracoes offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Super Administrador pressiona o botao No&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema fecha a janela pop-up&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC13">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Deve existir um usuario cadastrado com perfil administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Super Administrador abre modulo de extracao&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(User invalido) Super Administrador digita o user de um usuário invalido, digita uma password e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe na pagina de login uma mensagem de usuario ou senha incorretos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Super Administrador digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Sem conexao com o servidor e usuario nao deseja fazer extração offline) Sistema exibe pop-up questionando se o usuário deveja fazer extracoes offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Super Administrador pressiona o botao No&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema fecha a janela pop-up&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Super Administrador digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Usuario inativo por 90 dias) Sistema exibe mensagem indicando que usuario foi bloqueado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC14">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Deve existir um usuario cadastrado com perfil administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Super Administrador abre modulo de extracao&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(User invalido) Super Administrador digita o user de um usuário invalido, digita uma password e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe na pagina de login uma mensagem de usuario ou senha incorretos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Super Administrador digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Usuario inativo por 90 dias) Sistema exibe mensagem indicando que usuario foi bloqueado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC15">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Deve existir um usuario cadastrado com perfil administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Super Administrador abre modulo de extracao&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Password invalida) Super Administrador digita o user de um usuário administrador corretamente, digita uma password invalida e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre um pop-up e exibe a mensagem de usuario ou senha incorretos; informa o numero de tentativas restantes ate que o usuario seja bloqueado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Super Administrador pressiona o botao Ok&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema fecha a janela pop-up&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Super Administrador digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de extracao por dispositivo&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC16">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Deve existir um usuario cadastrado com perfil administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Super Administrador abre modulo de extracao&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Password invalida) Super Administrador digita o user de um usuário administrador corretamente, digita uma password invalida e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre um pop-up e exibe a mensagem de usuario ou senha incorretos; informa o numero de tentativas restantes ate que o usuario seja bloqueado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Super Administrador pressiona o botao Ok&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema fecha a janela pop-up&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Super Administrador digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Sem conexao com o servidor e usuario deseja fazer extracao offline) Sistema exibe pop-up questionando se o usuqrio deseja fazer extracoes offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Super Administrador pressiona o botao Yes&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema fecha a janela pop-up e exibe tela de extracao por dispositivo em modo offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC17">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Deve existir um usuario cadastrado com perfil administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Super Administrador abre modulo de extracao&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Password invalida) Super Administrador digita o user de um usuário administrador corretamente, digita uma password invalida e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre um pop-up e exibe a mensagem de usuario ou senha incorretos; informa o numero de tentativas restantes ate que o usuario seja bloqueado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Super Administrador pressiona o botao Ok&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema fecha a janela pop-up&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Super Administrador digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Sem conexao com o servidor e usuario nao deseja fazer extração offline) Sistema exibe pop-up questionando se o usuário deveja fazer extracoes offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Super Administrador pressiona o botao No&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema fecha a janela pop-up&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Super Administrador digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de extracao por dispositivo&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC18">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Deve existir um usuario cadastrado com perfil administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Super Administrador abre modulo de extracao&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Password invalida) Super Administrador digita o user de um usuário administrador corretamente, digita uma password invalida e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre um pop-up e exibe a mensagem de usuario ou senha incorretos; informa o numero de tentativas restantes ate que o usuario seja bloqueado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Super Administrador pressiona o botao Ok&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema fecha a janela pop-up&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Super Administrador digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Sem conexao com o servidor e usuario nao deseja fazer extração offline) Sistema exibe pop-up questionando se o usuário deveja fazer extracoes offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Super Administrador pressiona o botao No&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema fecha a janela pop-up&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Super Administrador digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Sem conexao com o servidor e usuario deseja fazer extracao offline) Sistema exibe pop-up questionando se o usuqrio deseja fazer extracoes offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Super Administrador pressiona o botao Yes&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema fecha a janela pop-up e exibe tela de extracao por dispositivo em modo offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC19">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Deve existir um usuario cadastrado com perfil administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Super Administrador abre modulo de extracao&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Password invalida) Super Administrador digita o user de um usuário administrador corretamente, digita uma password invalida e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre um pop-up e exibe a mensagem de usuario ou senha incorretos; informa o numero de tentativas restantes ate que o usuario seja bloqueado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Super Administrador pressiona o botao Ok&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema fecha a janela pop-up&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Super Administrador digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Sem conexao com o servidor e usuario nao deseja fazer extração offline) Sistema exibe pop-up questionando se o usuário deveja fazer extracoes offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Super Administrador pressiona o botao No&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema fecha a janela pop-up&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Super Administrador digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Sem conexao com o servidor e usuario nao deseja fazer extração offline) Sistema exibe pop-up questionando se o usuário deveja fazer extracoes offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Super Administrador pressiona o botao No&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema fecha a janela pop-up&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC20">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Deve existir um usuario cadastrado com perfil administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Super Administrador abre modulo de extracao&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Password invalida) Super Administrador digita o user de um usuário administrador corretamente, digita uma password invalida e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre um pop-up e exibe a mensagem de usuario ou senha incorretos; informa o numero de tentativas restantes ate que o usuario seja bloqueado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Super Administrador pressiona o botao Ok&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema fecha a janela pop-up&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Super Administrador digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Sem conexao com o servidor e usuario nao deseja fazer extração offline) Sistema exibe pop-up questionando se o usuário deveja fazer extracoes offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Super Administrador pressiona o botao No&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema fecha a janela pop-up&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Super Administrador digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Usuario inativo por 90 dias) Sistema exibe mensagem indicando que usuario foi bloqueado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC21">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Deve existir um usuario cadastrado com perfil administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Super Administrador abre modulo de extracao&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Password invalida) Super Administrador digita o user de um usuário administrador corretamente, digita uma password invalida e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre um pop-up e exibe a mensagem de usuario ou senha incorretos; informa o numero de tentativas restantes ate que o usuario seja bloqueado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Super Administrador pressiona o botao Ok&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema fecha a janela pop-up&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Super Administrador digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Usuario inativo por 90 dias) Sistema exibe mensagem indicando que usuario foi bloqueado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC22">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Deve existir um usuario cadastrado com perfil administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Super Administrador abre modulo de extracao&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Numero de tentativas invalidas e 5) Super Administrador digita o user correte e o password invalido pela sexta vez e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema bloqueia o usuario e exibe uma mensagem informando que o usuario foi bloqueado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Super Administrador tenta mais uma vez logar na conta do usuário, agora com dados validos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem informando usuario esta bloqueado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+</testsuite>

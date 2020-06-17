@@ -1,0 +1,8 @@
+10c10
+< 		preCondition "Usuario Administrador esta logado no sistema."
+---
+> 		preCondition "Usuario Administrador esta logado no sistema. Existe um Ecommerce com picking para o dia"
+16c16
+< 			step 4, system, 		"abre uma tela com o Picking diario para aquele Ecommerce selecionado"
+---
+> 			step 4, system, 		"exibe tela com o Picking diario para aquele Ecommerce selecionado"

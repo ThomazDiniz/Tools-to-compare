@@ -1,0 +1,24 @@
+15c15
+<             step 3, Administrador,  "clica no opcao 'E-commerces' no menu principal"
+---
+>             step 3, Administrador,  "clica no opcao 'Ecommerces' no menu principal"
+24c24
+<             step 1, Administrador, "clica no botao Voltar", bfs:2
+---
+>             step 1, Administrador, "clica no botao 'Voltar'", bfs:2
+28c28
+<             step 1, Administrador, "clica no botao Cancelar", bfs:4
+---
+>             step 1, Administrador, "clica no botao 'Cancelar'", bfs:4
+31,35c31
+<         alternative 3, "Navega pela lista de Ecommerce", {
+<             step 1, Administrador, "clica no botao de paginacao", bfs:4
+<         }
+< 
+<         exception 1, "Nao preencher campos obrigatorios", {
+---
+>         exception 1, "Nao preenche algum campo obrigatorio", {
+45c41
+<         postCondition "O novo E-commerce salvo no sistema."
+---
+>         postCondition "O novo E-commerce esta salvo no sistema."

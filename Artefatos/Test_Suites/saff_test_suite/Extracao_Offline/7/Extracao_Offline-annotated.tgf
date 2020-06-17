@@ -1,0 +1,97 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+17 17
+18 18
+19 19
+20 20
+21 21
+22 22
+23 23
+24 24
+25 25
+26 26
+27 27
+28 28
+29 29
+30 30
+31 31
+32 32
+33 33
+34 34
+35 35
+36 36
+37 37
+38 38
+39 39
+40 40
+41 41
+42 42
+43 43
+44 44
+45 45
+46 46
+47 47
+48 48
+#
+1 25 conditions
+25 2  Usuário está logado no servidor.
+2 26 steps
+26 3   Administrador do sistema abre extrator
+3 27 expected_results
+27 4   Sistema exibe tela de login
+4 28 steps
+28 5   Administrador do sistema loga no extrator
+3 29 expected_results
+29 17   Sistema exibe tela de login
+5 30 expected_results
+30 21   Sistema exibe tela inicial 'SAFF extraction'
+4 31 steps
+31 6   Administrador do sistema loga no extrator
+4 32 steps
+32 15   Administrador do sistema loga no extrator
+6 33 expected_results
+33 7  (Cai conexão e usuario quer entrar em modo offline ) Sistema exibe mensagem solicitando confirmação se usuario quer entrar em modo offline
+7 34 steps
+34 8   Administrador do sistema confirma que quer entrar em modo offline
+8 35 expected_results
+35 9   Sistema exibe tela inicial 'SAFF extraction'
+9 36 steps
+36 10   Administrador do sistema realiza cinco extrações
+10 37 expected_results
+37 11   Sistema adiciona novas extrações a pasta local'
+11 38 steps
+38 12   Administrador do sistema reastabelece conexão
+12 39 expected_results
+39 13   Sistema envia extrações locais para o servidor e as apaga da pasta local
+13 40 steps
+40 14   Administrador do sistema loga no servidor e vai até a página de extrações
+14 41 expected_results
+41 22   Sistema exibe lista com extrações realizada no modo offline no topo
+15 42 expected_results
+42 16  (Cai conexão e usuario nao quer entrar em modo offline ) Sistema exibe mensagem solicitando confirmação se usuario quer entrar em modo offline
+16 43 steps
+43 3   Administrador do sistema não deseja entrar em modo offline
+17 44 steps
+44 18  (Offline sempre) Administrador do sistema define que o sistema sempre fará extrações offline
+18 45 expected_results
+45 19   Sistema exibe tela inicial 'SAFF extraction'
+19 46 steps
+46 20   Administrador do sistema realiza cinco extrações
+20 47 expected_results
+47 23   Sistema adiciona novas extrações a pasta local'
+21 48 conditions
+48 24   .

@@ -1,0 +1,36 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+#
+1 2 [c] Usuario Administrador logado no sistema; Existe pelo menos um Terminal registrado.
+2 3 [s]  Usuario Administrador abre tela inicial do sistema
+3 4 [e]  Sistema exibe tela inicial do sistema
+4 5 [s]  Usuario Administrador seleciona a opcao 'Terminais' no menu da tela principal
+5 6 [e]  Sistema mostra a lista de Terminais do sistema
+6 7 [s]  Usuario Administrador seleciona o Terminal em que sera adicionado o Operador
+5 10 [e]  Sistema mostra a lista de Terminais do sistema
+5 12 [e]  Sistema mostra a lista de Terminais do sistema
+7 8 [e]  Sistema abre a tela de edicao do Terminal
+8 9 [s]  Usuario Administrador adiciona os dados do novo Operador na secao 'Operadores' e clica no botao 'Adicionar Operador'
+7 11 [e]  Sistema abre a tela de edicao do Terminal
+9 15 [e]  Sistema salva o novo Operador e incrementa lista de Operadores
+8 13 [s]  Usuario Administrador adiciona os dados do novo Operador na secao 'Operadores' e clica no botao 'Adicionar Operador'
+10 3 [s] (Volta para tela inicial de sistema) Usuario Administrador clica no botao Voltar
+11 5 [s] (Cancela registro de Operador de Terminal) Usuario Administrador clica no botao Cancelar
+12 5 [s] (Volta para listagem de Terminal) Usuario Administrador clica no botao 'Voltar'
+13 14 [e] (Nao insere algum dado obrigatorio') Sistema informa que os dados obrigatorios devem ser preenchidos
+14 7 [s]  Usuario Administrador adiciona os dados obrigatorios e clica no botao 'Adicionar Operador'
+15 16 [c] Operador de Terminal salvo no sistema.

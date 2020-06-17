@@ -1,0 +1,71 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+17 17
+18 18
+19 19
+20 20
+21 21
+22 22
+23 23
+24 24
+25 25
+26 26
+27 27
+28 28
+29 29
+30 30
+31 31
+32 32
+33 33
+34 34
+#
+1 17 conditions
+17 2  Administrador logado.
+2 18 steps
+18 3   Usuario Administrador abre tela inicial do sistema
+3 19 expected_results
+19 4   Sistema exibe tela inicial do sistema
+4 20 steps
+20 5   Usuario Administrador entra na tela de Edição de Parametros do NFe Reader
+5 21 expected_results
+21 6   Sistema apresenta uma tela com os Parametros do NFe Reader com os valores atuais
+6 22 steps
+22 7   Usuario Administrador escolhe dia de Parametros do NFe Reader
+5 23 expected_results
+23 10   Sistema apresenta uma tela com os Parametros do NFe Reader com os valores atuais
+7 24 expected_results
+24 8   Sistema insere automaticamente Horario de Inicio, Horario de Termino, Periodicidade e Raio atuais
+8 25 steps
+25 9   Usuario Administrador modifica valores de paremetros e clica em Atualizar
+9 26 expected_results
+26 15   Sistema notifica usuario que os Parâmetros foram atualizados com sucesso
+8 27 steps
+27 11   Usuario Administrador modifica valores de paremetros e clica em Atualizar
+8 28 steps
+28 13   Usuario Administrador modifica valores de paremetros e clica em Atualizar
+10 29 expected_results
+29 3  (cancela edicao de Parametros) Sistema clica no botao de 'Cancelar'
+11 30 expected_results
+30 12  (Não insere algum dado obrigatorio') Sistema informa que os dados obrigatorios devem ser preenchidos
+12 31 steps
+31 7   Usuario Administrador preenche dados obrigatorios e clica em Atualizar
+13 32 expected_results
+32 14  (Usuario insere algum dado invalido) Sistema alerta que dado e invalido
+14 33 steps
+33 7   Usuario Administrador preenche dados obrigatorios e clica em Atualizar
+15 34 conditions
+34 16  Os Parametros do NFe Reader devem estar atualizados.

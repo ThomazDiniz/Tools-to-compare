@@ -1,0 +1,29 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+#
+1 8 conditions
+8 2  Usuário deve estar logado com perfil de administrador. Deve existir ao menos uma extracao cadastrada.
+2 9 steps
+9 3   Administrador do sistema digita no campo ?Product Number? o numero de produto e no campo ?Serial Number? o numero serial correspondente e pressiona o botao 'Search'
+1 10 conditions
+10 4  Usuário deve estar logado com perfil de administrador. Deve existir ao menos uma extracao cadastrada.
+3 11 expected_results
+11 6   Sistema exibe tela correspondente a extracao
+4 12 steps
+12 5  (Product Number ou Serial Number invalidos) Administrador do sistema digita o product number e/ou numero serial invalidos e pressiona o botao 'Search'
+5 13 expected_results
+13 2   Sistema exibe mensagem que product number ou serial number sao invalidos
+6 14 conditions
+14 7   .

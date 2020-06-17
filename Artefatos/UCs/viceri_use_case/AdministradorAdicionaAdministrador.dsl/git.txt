@@ -1,0 +1,17 @@
+commit 6bc61593d65c1a6b0d146fc182548c4ed8e9c131
+Author: Guilherme Gadelha <guilhermemgadelha@outlook.com>
+Date:   Fri Mar 10 16:07:15 2017 -0300
+
+    novos casos de uso para Operador de Terminal, de Ecommerce e Administrador de Ecommerce
+
+commit 9a59291dcfccf24b437ccffd50ff27e28603d052
+Author: Guilherme Gadelha <Guilherme Gadelha>
+Date:   Mon Mar 6 16:17:22 2017 -0300
+
+    casos de uso para AdministradorAdiciona*.dsl
+
+commit 37cd4620bd53d183919898a7ee672ad3f79a061f
+Author: Guilherme Gadelha <Guilherme Gadelha>
+Date:   Thu Feb 23 10:23:12 2017 -0300
+
+    v0.0.1 de arquivos de testes

@@ -1,0 +1,122 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+17 17
+18 18
+19 19
+20 20
+21 21
+22 22
+23 23
+24 24
+25 25
+26 26
+27 27
+28 28
+29 29
+30 30
+31 31
+32 32
+33 33
+34 34
+35 35
+36 36
+37 37
+38 38
+39 39
+40 40
+41 41
+42 42
+43 43
+44 44
+45 45
+46 46
+47 47
+48 48
+49 49
+50 50
+51 51
+52 52
+53 53
+54 54
+55 55
+56 56
+57 57
+#
+1 26 conditions
+26 2  Usuario Administrador esta logado no sistema; Existe pelo menos um Ecommerce registrado.
+2 27 steps
+27 3   Usuario Administrador clica no opcao 'E-commerces' no menu principal
+3 28 expected_results
+28 4   Sistema exibe a tela com a lista de E-commerces cadastrados no sistema
+4 29 steps
+29 5   Usuario Administrador clica em um dos E-commerces listados
+3 30 expected_results
+30 8   Sistema exibe a tela com a lista de E-commerces cadastrados no sistema
+5 31 expected_results
+31 6   Sistema exibe tela com informacões de E-commerce
+6 32 steps
+32 7   Usuario Administrador adiciona os dados do novo Operador na secao 'Operadores' e clica no botao 'Adicionar Operador'
+7 33 expected_results
+33 24   Sistema mostra operador adicionado em tabela na tela de cadastro
+6 34 steps
+34 9   Usuario Administrador adiciona os dados do novo Operador na secao 'Operadores' e clica no botao 'Adicionar Operador'
+6 35 steps
+35 14   Usuario Administrador adiciona os dados do novo Operador na secao 'Operadores' e clica no botao 'Adicionar Operador'
+6 36 steps
+36 16   Usuario Administrador adiciona os dados do novo Operador na secao 'Operadores' e clica no botao 'Adicionar Operador'
+6 37 steps
+37 18   Usuario Administrador adiciona os dados do novo Operador na secao 'Operadores' e clica no botao 'Adicionar Operador'
+6 38 steps
+38 20   Usuario Administrador adiciona os dados do novo Operador na secao 'Operadores' e clica no botao 'Adicionar Operador'
+6 39 steps
+39 22   Usuario Administrador adiciona os dados do novo Operador na secao 'Operadores' e clica no botao 'Adicionar Operador'
+8 40 steps
+40 3  (Navega pelas paginas da lista) Usuario Administrador procura o E-commerce navegando pelas paginas da lista
+9 41 expected_results
+41 10  (Campos obrigatorios) Sistema alerta ao usuario que o campo deve ser preenchido
+10 42 steps
+42 7   Usuario Administrador informa os campos obrigatorios e clica no botao de 'Adicionar Operador'
+11 43 steps
+43 12  (Clica no botao voltar) Usuario Administrador clica no botao voltar
+12 44 expected_results
+44 13   Sistema exibe tela de Dashboard
+13 45 steps
+45 7   Usuario Administrador 
+14 46 expected_results
+46 15  (Nome de Usuario ja cadastrado) Sistema alerta que ja existe um Operador cadastrado com o nome de usuario informado
+15 47 steps
+47 7   Usuario Administrador informa um novo Nome de Usuario e clica no botao de 'Adicionar Operador'
+16 48 expected_results
+48 17  (Email ja cadastrado) Sistema alerta que ja existe um Operador cadastrado com o email informado
+17 49 steps
+49 7 7   Usuario Administrador informa um novo Email e clica no botao de 'Adicionar Operador'
+18 50 expected_results
+50 19  (Email invalido) Sistema alerta que ja existe um Operador cadastrado com o email informado
+19 51 steps
+51 7   Usuario Administrador informa um novo Email valido e clica no botao de 'Adicionar Operador'
+20 52 expected_results
+52 21  (Cpf ja cadastrado) Sistema alerta que ja existe um Operador cadastrado com o cpf informado
+21 53 steps
+53 7   Usuario Administrador informa um novo Cpf e clica no botao de 'Adicionar Operador'
+22 54 expected_results
+54 23  (Senhas nao coincidem) Sistema alerta que as senhas informadas nao coincidem
+22 55 expected_results
+55 5  (Senhas nao coincidem) Sistema alerta que as senhas informadas nao coincidem
+23 56 steps
+56 7   Usuario Administrador informa senhas iguais e clica no botao de 'Adicionar Operador'
+24 57 conditions
+57 25  O novo Operador de Ecommerce esta salvo no sistema.

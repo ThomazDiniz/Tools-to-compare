@@ -1,0 +1,100 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+17 17
+18 18
+19 19
+20 20
+21 21
+22 22
+23 23
+24 24
+25 25
+26 26
+27 27
+28 28
+29 29
+30 30
+31 31
+32 32
+33 33
+34 34
+35 35
+36 36
+37 37
+38 38
+39 39
+40 40
+41 41
+42 42
+43 43
+44 44
+#
+1 2 [c]  .
+2 3 [s]  Operador do sistema inicia o SAFF Extractor e se autentica
+3 4 [e]  Sistema exibe pagina que requisita dados do terminal
+4 5 [s]  Operador do sistema escolhe opcao Pre_Test para tipo de teste
+3 23 [e]  Sistema exibe pagina que requisita dados do terminal
+3 24 [e]  Sistema exibe pagina que requisita dados do terminal
+3 25 [e]  Sistema exibe pagina que requisita dados do terminal
+3 26 [e]  Sistema exibe pagina que requisita dados do terminal
+3 28 [e]  Sistema exibe pagina que requisita dados do terminal
+3 32 [e]  Sistema exibe pagina que requisita dados do terminal
+5 6 [e]  Sistema apresenta a marcacao da opcao escolhida
+6 7 [s]  Operador do sistema digita um product number e serial number validos e pressiona Extract (terminal em modo LLT)
+5 21 [e]  Sistema apresenta a marcacao da opcao escolhida
+5 27 [e]  Sistema apresenta a marcacao da opcao escolhida
+5 36 [e]  Sistema apresenta a marcacao da opcao escolhida
+5 38 [e]  Sistema apresenta a marcacao da opcao escolhida
+7 8 [e]  Sistema realiza a extração, a envia para o servidor, e a salva nas pastas de backup local ('Backup' e 'Results')
+6 11 [s]  Operador do sistema digita um product number e serial number validos e pressiona Extract (terminal em modo LLT)
+6 14 [s]  Operador do sistema digita um product number e serial number validos e pressiona Extract (terminal em modo LLT)
+6 19 [s]  Operador do sistema digita um product number e serial number validos e pressiona Extract (terminal em modo LLT)
+6 10 [s]  Operador do sistema digita um product number e serial number validos e pressiona Extract (terminal em modo LLT)
+6 20 [s]  Operador do sistema digita um product number e serial number validos e pressiona Extract (terminal em modo LLT)
+8 9 [s]  Operador do sistema loga no servidor e vai ate a pagina de extracoes
+9 40 [e]  Sistema exibe lista que inclui a extracao realizada
+10 4 [e] (Nao existe porta USB cadastrada) Sistema exibe mensagem solicitando informando não existe porta USB cadastrada
+11 12 [e] (Falha no envio para servidor e Usuário não deseja fazer extração offline) Sistema exibe mensagem informando que houve erro na conexão com o servidor e pergunta se usuario deseja fazer a extração em modo offline
+12 13 [s]  Operador do sistema responde No
+13 6 [e]  Sistema fecha janela e retorna a pagina que requisita dados do terminal
+14 15 [e] (Falha no envio para servidor e Usuário deseja fazer extração offline) Sistema exibe mensagem informando que houve erro na conexão com o servidor e pergunta se usuario deseja fazer a extração em modo offline
+15 16 [s]  Operador do sistema responde Yes
+16 17 [e]  Sistema exibe pagina que requisita dados do terminal
+17 18 [s]  Operador do sistema configura o teste, insere product number e serial number válidos inicia a extracao
+18 41 [e]  Sistema salva extração em pasta local
+19 6 [e] (Dados de terminal inválidos) Sistema exibe mensagem informando que dados do terminal estão incorretos
+20 2 [e] (Nao existe terminal conectado) Sistema exibe mensagem informando que não conseguiu se conectar ao terminal
+21 22 [s] (Terminal nao se encontra em modo LLT) Operador do sistema conecta terminal em porta USB e o coloca em modo LLT
+22 6 [e]  Sistema (terminal) entra em modo LLT
+23 5 [s] (Test 1) Operador do sistema marca opcao Test 1 para tipo de teste
+24 5 [s] (Test 2) Operador do sistema marca opcao Test 2 para tipo de teste
+25 5 [s] (QA) Operador do sistema marca opcao QA para tipo de teste
+26 5 [s] (Note) Operador do sistema insere uma anotacao para a extracao
+27 7 [s] (Uso do leitor de codigo de barras) Operador do sistema le (via leitor de codigo de barras) um product number e serial number validos
+28 29 [s] (Redirect) Operador do sistema marca a opcao 'Redirect to the display of data'
+29 30 [e]  Sistema apresenta a marcacao da opcao escolhida
+30 31 [s]  Operador do sistema digita um product number e serial number validos e pressiona Extract (terminal em modo LLT)
+31 42 [e]  Sistema realiza a extracao, a envia para o servidor, a salva nas pastas de backup local e abre o browser mostrando a extracao realizada
+32 33 [s] (Disable LLT) Operador do sistema marca a opcao 'Disable LLT'
+33 34 [e]  Sistema apresenta a marcacao da opcao escolhida
+34 35 [s]  Operador do sistema digita um product number e serial number validos, preenche o Note e pressiona Extract
+35 43 [e]  Sistema realiza uma extracao Disabled LLT, a envia para o servidor, e a salva nas pastas de backup local
+36 37 [s] (Product number e/ou serial number invalidos) Operador do sistema digita um product number e/ou serial number invalidos
+37 6 [e]  Sistema marca campo em vermelho alertando do erro
+38 39 [s] (Product number e serial number que nao casam) Operador do sistema digita um product number e serial number validos mas nao referentes a mesma familia e pressiona Extract (terminal em modo LLT)
+39 4 [e]  Sistema apresenta mensagem de erro
+40 44 [c] extracao realizada. extracao pode ser visualizada via servidor. extracao salva nas pastas de backup local ('Backup' e 'Results').

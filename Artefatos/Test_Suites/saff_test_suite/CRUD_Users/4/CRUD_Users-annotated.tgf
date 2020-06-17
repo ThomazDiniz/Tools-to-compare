@@ -1,0 +1,255 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+17 17
+18 18
+19 19
+20 20
+21 21
+22 22
+23 23
+24 24
+25 25
+26 26
+27 27
+28 28
+29 29
+30 30
+31 31
+32 32
+33 33
+34 34
+35 35
+36 36
+37 37
+38 38
+39 39
+40 40
+41 41
+42 42
+43 43
+44 44
+45 45
+46 46
+47 47
+48 48
+49 49
+50 50
+51 51
+52 52
+53 53
+54 54
+55 55
+56 56
+57 57
+58 58
+59 59
+60 60
+61 61
+62 62
+63 63
+64 64
+65 65
+66 66
+67 67
+68 68
+69 69
+70 70
+71 71
+72 72
+73 73
+74 74
+75 75
+76 76
+77 77
+78 78
+79 79
+80 80
+81 81
+82 82
+83 83
+84 84
+85 85
+86 86
+87 87
+88 88
+89 89
+90 90
+91 91
+92 92
+93 93
+94 94
+95 95
+96 96
+97 97
+98 98
+99 99
+100 100
+101 101
+102 102
+103 103
+104 104
+105 105
+106 106
+107 107
+108 108
+109 109
+110 110
+111 111
+112 112
+113 113
+114 114
+115 115
+116 116
+117 117
+118 118
+119 119
+120 120
+121 121
+122 122
+123 123
+124 124
+#
+1 60 conditions
+60 2  Deve existir pelo menos um usuário cadastrado.
+2 61 steps
+61 3   Usuário loga no sistema com perfil de super administrador
+3 62 expected_results
+62 4   Sistema exibe tela principal
+4 63 steps
+63 5   Usuário seleciona opção 'Users' no menu Settings
+5 64 expected_results
+64 6   Sistema exibe lista completa de usuários
+6 65 steps
+65 7   Usuário seleciona o botão 'Create User'
+7 66 expected_results
+66 8   Sistema exibe página com campos de cadastro do usuário
+8 67 steps
+67 9   Usuário preenche corretamente os campos 'Name', 'Login', 'Password', 'Confirm Password', escolhe uma opção para os campos 'Type', 'Laboratory', 'Language', e pressiona o botão 'Create' 
+7 68 expected_results
+68 16   Sistema exibe página com campos de cadastro do usuário
+7 69 expected_results
+69 18   Sistema exibe página com campos de cadastro do usuário
+9 70 expected_results
+70 10   Sistema exibe mensagem indicando que novo usuário foi criado
+10 71 steps
+71 11   Usuário clica no link de visualização dos usuários
+11 72 expected_results
+72 12   Sistema exibe lista completa de usuários
+12 73 steps
+73 13   Usuário clica no nome do novo usuário
+13 74 expected_results
+74 14   Sistema exibe dados do usuário
+14 75 steps
+75 15   Usuário clica no botão 'Cancel'
+13 76 expected_results
+76 19   Sistema exibe dados do usuário
+15 77 expected_results
+77 55   Sistema exibe lista completa de usuários
+16 78 steps
+78 17  (Usuário com login repetido) Usuário preenche o campo 'Login' com o login associado a um outro usuário cadastrado. Preenche corretamente os demais campos e pressiona o botão 'Create'
+17 79 expected_results
+79 8   Sistema exibe mensagem informando que os este usuários já existe
+18 80 steps
+80 5  (Cancela criação) Usuário cancela criação
+19 81 steps
+81 20  (Edita dados) Usuário clica no botão 'Edit'
+20 82 expected_results
+82 21   Sistema exibe campos do documento com valores atuais que podem ser editados
+21 83 steps
+83 22   Usuário preenche os novos valores para os campos 'Name' e 'Type', mantém a linguagem e pressiona o botão 'Update
+20 84 expected_results
+84 24   Sistema exibe campos do documento com valores atuais que podem ser editados
+20 85 expected_results
+85 28   Sistema exibe campos do documento com valores atuais que podem ser editados
+20 86 expected_results
+86 32   Sistema exibe campos do documento com valores atuais que podem ser editados
+22 87 expected_results
+87 23   Sistema exibe novos dados do usuários
+23 88 steps
+88 5   Usuário acessa link que lista todos usuários
+24 89 steps
+89 25  (Edita dados e altera linguagem) Usuário preenche os novos valores para os campos 'Name', 'Type', troca mantém o valor do campo 'Language' e pressiona o botão 'Update
+25 90 expected_results
+90 26   Sistema exibe novos dados do usuários
+26 91 steps
+91 27   Usuário faz log out e se loga na conta do usuário que teve os dados atualizados
+27 92 expected_results
+92 56   Sistema é apresentado na nova linguagem
+28 93 steps
+93 29  (Reseta senha) Usuário pressiona botão 'Reset Password'
+29 94 expected_results
+94 30   Sistema exibe mensagem pedindo confirmação
+30 95 steps
+95 31   Usuário confirma desejo de resetar senha
+29 96 expected_results
+96 48   Sistema exibe mensagem pedindo confirmação
+31 97 expected_results
+97 6   Sistema exibe lista completa de usuários
+32 98 steps
+98 33  (Bloqueio de usuário) Usuário pressiona botão 'Block User'
+33 99 expected_results
+99 34   Sistema exibe mensagem pedindo confirmação
+34 100 steps
+100 35   Usuário confirma desejo de bloquear usuário
+33 101 expected_results
+101 49   Sistema exibe mensagem pedindo confirmação
+35 102 expected_results
+102 36   Sistema exibe mensagem confirmando bloqueio de usuário
+36 103 steps
+103 37   Usuário acessa link que lista todos usuários
+37 104 expected_results
+104 38   Sistema exibe lista completa de usuários onde o usuário atualizado é sinalizado como bloqueado
+38 105 steps
+105 39   Usuário clica no nome do usuário bloqueado
+37 106 expected_results
+106 50   Sistema exibe lista completa de usuários onde o usuário atualizado é sinalizado como bloqueado
+39 107 expected_results
+107 40   Sistema exibe dados do usuário
+40 108 steps
+108 41   Usuário clica no botão 'Edit'
+39 109 expected_results
+109 52   Sistema exibe dados do usuário
+41 110 expected_results
+110 42   Sistema exibe campos do documento com valores atuais que podem ser editados
+42 111 steps
+111 43   Usuário pressiona botão 'Unblock User'
+43 112 expected_results
+112 44   Sistema exibe mensagem pedindo confirmação
+44 113 steps
+113 45   Usuário confirma desejo de desbloquear usuário
+45 114 expected_results
+114 46   Sistema exibe mensagem confirmando desbloqueio de usuário
+46 115 steps
+115 47   Usuário acessa link que lista todos usuários
+47 116 expected_results
+116 6   Sistema exibe lista completa de usuários onde o usuário atualizado não é sinalizado como bloqueado
+48 117 steps
+117 57  (Cancela reset de senha) Usuário cancela reset de senha
+49 118 steps
+118 7  (Cancela bloqueio de usuário) Usuário cancela bloqueio
+50 119 steps
+119 51  (Test de bloqueio) Usuário faz log out e tenta loga na conta do usuário que teve os dados atualizados
+51 120 expected_results
+120 58   Sistema exibe mensagem que usuário está bloqueado
+52 121 steps
+121 53  (Deleta usuário) Usuário clica no botão 'Delete'
+53 122 expected_results
+122 54   Sistema exibe mensagem solicitando confirmação
+54 123 steps
+123 5  5   Usuário pressiona o botao OK
+55 124 conditions
+124 59   .

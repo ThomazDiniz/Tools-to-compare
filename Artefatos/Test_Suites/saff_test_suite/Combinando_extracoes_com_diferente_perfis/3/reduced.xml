@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<testsuite name="TS">
+  <node_order />
+  <details />
+  <testcase internalid="" name="TC1">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário deve estar logado no servidor e extrator como administrador. Deve existir um usuário cadastrado com perfil de operador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema pressiona opção ?Extract from dicrtory?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de extração por diretório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Administrador do sistema seleciona pasta ?Ext1?, que contém um único conjunto de arquivos para a família ?IPP320-01T1220A?, e pressiona o botão ?Extract?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe na parte inferior da tela uma mensagem indicando que uma extração foi realizada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Administrador do sistema acessa página ?Extractions?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a lista de extrações com somente um elemento&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Administrador do sistema faz logout&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Administrador do sistema faz login como operador e vai para a página ?Extractions?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista vazia&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Administrador do sistema pressiona opção ?Extract from dicrtory?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de extração por diretório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Administrador do sistema seleciona pasta ?Ext1?, que contém um único conjunto de arquivos para a família ?IPP320-01T1220A?, e pressiona o botão ?Extract?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe na parte inferior da tela uma mensagem indicando que uma extração foi realizada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Administrador do sistema acessa página ?Extractions?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a lista de extrações com somente um elemento&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>9</step_number>
+        <actions>&lt;p&gt;Administrador do sistema faz logout&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>10</step_number>
+        <actions>&lt;p&gt;Administrador do sistema faz login como administrador e vai para a página ?Extractions?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com duas entradas&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+</testsuite>

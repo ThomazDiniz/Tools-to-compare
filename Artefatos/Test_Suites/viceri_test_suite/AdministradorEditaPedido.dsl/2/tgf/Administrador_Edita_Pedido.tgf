@@ -1,0 +1,44 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+17 17
+18 18
+19 19
+#
+1 2 [c] Usuario Administrador logado no sistema; Existem Pedidos registrados no sistema.
+2 3 [s]  Usuario Administrador Clicar na opcao 'Pedidos' no menu da tela principal
+3 4 [e]  Sistema exibe a tela de listagem de Pedidos
+4 5 [s]  Usuario Administrador clica em um Pedido existente
+3 10 [e]  Sistema exibe a tela de listagem de Pedidos
+3 11 [e]  Sistema exibe a tela de listagem de Pedidos
+3 12 [e]  Sistema exibe a tela de listagem de Pedidos
+5 6 [e]  Sistema exibe a tela de edicao de Pedido
+6 7 [s]  Usuario Administrador preenche os dados de novo CEP
+7 8 [e]  Sistema preenche demais campos de Endereco exceto Numero e Complemento
+6 14 [s]  Usuario Administrador preenche os dados de novo CEP
+8 9 [s]  Usuario Administrador preenche demais campos de Endereco e clica em Atualizar
+7 13 [e]  Sistema preenche demais campos de Endereco exceto Numero e Complemento
+9 18 [e]  Sistema notifica usuario que o Pedido foi atualizado com sucesso
+8 16 [s]  Usuario Administrador preenche demais campos de Endereco e clica em Atualizar
+10 3 [s] (Usuario ordena lista de Pedidos) Usuario Administrador clica em um dos botões de ordenacao associada a uma coluna da tabela
+11 3 [s] (Usuario filtra lista de Pedidos) Usuario Administrador preenche campos de filtragem
+12 3 [s] (Usuario navega por paginas de tabela) Usuario Administrador clica em botao de navegacao de paginas de tabela
+13 3 [s] (Usuario cancela atualizacao de Pedido) Usuario Administrador clica no botao Cancelar
+14 15 [e] (Usuario insere CEP invalido) Sistema alerta que CEP é invalido
+15 7 [s]  Usuario Administrador preenche um cpf valido e clica em Atualizar
+16 17 [e] (Nao insere algum dado obrigatorio') Sistema informa que os dados obrigatorios devem ser preenchidos
+17 7 [s]  Usuario Administrador preenche dados obrigatorios e clica em Atualizar
+18 19 [c] O Pedido esta atualizado no banco.

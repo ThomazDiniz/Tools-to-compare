@@ -1,0 +1,10 @@
+15c15
+<             step 3, Administrador,  "clica em um dos terminais listados", af:[1,4,5,6]
+---
+>             step 3, Administrador,  "clica em um dos terminais listados", af:[1,4,5]
+43,46c42
+<         alternative 6, "Volta para tela inicial de sistema", {
+<             step 1, Administrador, "clica no botao Voltar", bfs:2
+<         }
+< 
+---

@@ -1,0 +1,107 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+17 17
+18 18
+19 19
+20 20
+21 21
+22 22
+23 23
+24 24
+25 25
+26 26
+27 27
+28 28
+29 29
+30 30
+31 31
+32 32
+33 33
+34 34
+35 35
+36 36
+37 37
+38 38
+39 39
+40 40
+41 41
+42 42
+43 43
+44 44
+45 45
+46 46
+47 47
+48 48
+49 49
+50 50
+#
+1 23 conditions
+23 2  Usuario Administrador logado no sistema; Existem Pedidos registrados no sistema.
+2 24 steps
+24 3   Usuario Administrador abre tela inicial do sistema
+3 25 expected_results
+25 4   Sistema exibe tela inicial do sistema
+4 26 steps
+26 5   Usuario Administrador clica na opcao 'Pedidos' no menu da tela principal
+5 27 expected_results
+27 6   Sistema exibe a tela de listagem de Pedidos
+6 28 steps
+28 7   Usuario Administrador clica em um Pedido existente
+5 29 expected_results
+29 12   Sistema exibe a tela de listagem de Pedidos
+5 30 expected_results
+30 13   Sistema exibe a tela de listagem de Pedidos
+5 31 expected_results
+31 14   Sistema exibe a tela de listagem de Pedidos
+5 32 expected_results
+32 16   Sistema exibe a tela de listagem de Pedidos
+7 33 expected_results
+33 8   Sistema exibe a tela de edicao de Pedido
+8 34 steps
+34 9   Usuario Administrador preenche os dados de novo CEP
+9 35 expected_results
+35 10   Sistema preenche demais campos de Endereco exceto Numero e Complemento
+8 36 steps
+36 17   Usuario Administrador preenche os dados de novo CEP
+10 37 steps
+37 11   Usuario Administrador preenche demais campos de Endereco e clica em Atualizar
+9 38 expected_results
+38 15   Sistema preenche demais campos de Endereco exceto Numero e Complemento
+11 39 expected_results
+39 21   Sistema notifica usuario que o Pedido foi atualizado com sucesso
+10 40 steps
+40 19   Usuario Administrador preenche demais campos de Endereco e clica em Atualizar
+12 41 steps
+41 5  (ordena lista de Pedidos) Usuario Administrador clica em um dos botões de ordenacao associada a uma coluna da tabela
+13 42 steps
+42 5  (filtra lista de Pedidos) Usuario Administrador preenche campos de filtragem
+14 43 steps
+43 5  (navega por paginas de tabela) Usuario Administrador clica em botao de navegacao de paginas de tabela
+15 44 steps
+44 5 5  (cancela atualizacao de Pedido) Usuario Administrador clica no botao Cancelar
+16 45 steps
+45 3  (volta para tela inicial de sistema) Usuario Administrador clica no botao Cancelar
+17 46 expected_results
+46 18  (Usuario insere CEP invalido) Sistema alerta que CEP é invalido
+18 47 steps
+47 7   Usuario Administrador preenche um cpf valido e clica em Atualizar
+19 48 expected_results
+48 20  (Nao insere algum dado obrigatorio') Sistema informa que os dados obrigatorios devem ser preenchidos
+20 49 steps
+49 7   Usuario Administrador preenche dados obrigatorios e clica em Atualizar
+21 50 conditions
+50 22  O Pedido esta atualizado no banco.

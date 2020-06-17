@@ -1,0 +1,90 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+17 17
+18 18
+19 19
+20 20
+21 21
+22 22
+23 23
+24 24
+25 25
+26 26
+27 27
+28 28
+29 29
+30 30
+31 31
+32 32
+33 33
+34 34
+35 35
+36 36
+37 37
+38 38
+39 39
+40 40
+41 41
+42 42
+43 43
+44 44
+45 45
+#
+1 24 conditions
+24 2  Usuário deve estar logado no servidor e extrator como administrador. Deve existir um usuário cadastrado com perfil de operador.
+2 25 steps
+25 3   Administrador do sistema pressiona opção ?Extract from dicrtory?
+3 26 expected_results
+26 4   Sistema exibe tela de extração por diretório
+4 27 steps
+27 5   Administrador do sistema seleciona pasta ?Ext1?, que contém um único conjunto de arquivos para a família ?IPP320-01T1220A?, e pressiona o botão ?Extract?
+5 28 expected_results
+28 6   Sistema exibe na parte inferior da tela uma mensagem indicando que uma extração foi realizada
+6 29 steps
+29 7   Administrador do sistema acessa página ?Extractions?
+7 30 expected_results
+30 8   Sistema exibe a lista de extrações com somente um elemento
+8 31 steps
+31 9   Administrador do sistema faz logout
+9 32 expected_results
+32 10   Sistema exibe página de login
+10 33 steps
+33 11   Administrador do sistema faz login como operador e vai para a página ?Extractions?
+11 34 expected_results
+34 12   Sistema exibe uma lista vazia
+12 35 steps
+35 13   Administrador do sistema pressiona opção ?Extract from dicrtory?
+13 36 expected_results
+36 14   Sistema exibe tela de extração por diretório
+14 37 steps
+37 15   Administrador do sistema seleciona pasta ?Ext1?, que contém um único conjunto de arquivos para a família ?IPP320-01T1220A?, e pressiona o botão ?Extract?
+15 38 expected_results
+38 16   Sistema exibe na parte inferior da tela uma mensagem indicando que uma extração foi realizada
+16 39 steps
+39 17   Administrador do sistema acessa página ?Extractions?
+17 40 expected_results
+40 18   Sistema exibe a lista de extrações com somente um elemento
+18 41 steps
+41 19   Administrador do sistema faz logout
+19 42 expected_results
+42 20   Sistema exibe página de login
+20 43 steps
+43 21   Administrador do sistema faz login como administrador e vai para a página ?Extractions?
+21 44 expected_results
+44 22   Sistema exibe uma lista com duas entradas
+22 45 conditions
+45 23   .

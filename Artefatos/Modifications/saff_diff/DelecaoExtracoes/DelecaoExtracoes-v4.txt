@@ -1,0 +1,43 @@
+4c5
+---
+>         version "1.2", type:"Modification", user:"Kallynny", date:"24/02/2016"
+8c9
+<         preCondition "Usuario deve estar logado no servidor", "705 extracoes ja foram realizadas (pasta “EXTRACT_FILE_IPP320_AKIRA”)"
+---
+>         preCondition "Usuario deve estar logado no servidor", "703 extracoes ja foram realizadas (pasta “EXTRACT_FILE_IPP320_AKIRA”)" , "seleciona opção para mostrar 25 entradas por página"
+16c17
+<             step 6, system, "exibe a lista de extracoes com 704 entradas"
+---
+>             step 6, system, "exibe a lista de extracoes com 702 entradas"
+26c27
+<             step 2, system, "exibe opcoes “Activated”, “Alert Interruption”, “Deactivated”, “Mockup” e “Error”"
+---
+>             step 2, system, "exibe opcoes “Activated”, “Alert Interruption”, “Deactivated”, “Mockup”, “LLT Disabled”  e “Error”"
+28,30c29,31
+<             step 4, system, "atualiza pagina mostrando 608 extracoes"
+<             step 5, administrador, "seleciona o check box que marca todas extracoes para delecao"
+<             step 6, system, "marca todas extracoes após o filtro com um tick"
+---
+>             step 4, system, "atualiza pagina mostrando 606 extracoes"
+>             step 5, administrador, "seleciona o check box que marca todas extracoes listadas na tela para delecao"
+>             step 6, system, "marca todas as extracoes listadas após o filtro com um tick"
+34c35
+<             step 10, system, "exibe a lista de extracoes com 96 entradas"
+---
+>             step 10, system, "exibe a lista de extracoes com 581 entradas"
+37,38c38,40
+<         alternative 3, "Deleta todas extracoes", {
+<         	step 1, administrador, "seleciona o check box que marca todas extracoes para delecao"
+---
+>         
+>         alternative 3, "Deleta todas extracoes da página atual", {
+>         	step 1, administrador, "seleciona o check box que marca todas extracoes para delecao que estão listadas na página "
+41c43,45
+<             step 4, system, "exibe uma mensagem pop-up indicando que nao existem extracoes para serem deletadas"
+---
+>             step 4, system, "exibe uma mensagem pop-up solicitando a confirmacao da delecao"
+>             step 5, Administrador, "confirma deleção"
+>             step 6, system, "exibe a lista de extrações com 678 entradas"
+43c48
+---
+> 

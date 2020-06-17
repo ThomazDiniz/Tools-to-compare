@@ -1,0 +1,37 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+17 17
+#
+1 2 [c] Usuário deve estar logado no sistema. administrador ou super administrador.
+2 3 [s]  Usuário do sistema seleciona a opção 'My Account' no canto superior direito
+3 4 [e]  Sistema exibe tela onde os campos 'Name', 'Login', 'Type' e 'Language'. Eles estão devidamente preenchidos
+4 5 [s]  Usuário do sistema pressiona botão 'Edit'
+5 6 [e]  Sistema exibe página com campos em branco para atualização
+6 7 [s]  Usuário do sistema preenche corretamente os campos 'Old Password', 'New Password', 'Confirm Password' e pressiona o botão 'Update'
+5 8 [e]  Sistema exibe página com campos em branco para atualização
+5 10 [e]  Sistema exibe página com campos em branco para atualização
+5 11 [e]  Sistema exibe página com campos em branco para atualização
+5 13 [e]  Sistema exibe página com campos em branco para atualização
+7 15 [e]  Sistema exibe página com informações do usuário e apresenta mensagem informando que as informações foram atualizadas
+8 9 [s] (Troca Idioma) Usuário do sistema preenche corretamente os campos 'Old Password', 'New Password', 'Confirm Password', troca 'Language' de Inglês para Português e pressiona o botão 'Update'
+9 16 [e]  Sistema exibe página com informações do usuário. Apresenta mensagem informando que as informações foram atualizadas e atualiza conta no novo idioma
+10 3 [s] (Cancela Edição) Usuário do sistema pressiona botão 'Cancel'
+11 12 [s] (Password inválido) Usuário do sistema preenche incorretamente o campos 'Old Password'
+12 6 [e]  Sistema exibe mensagem infrmando que o Password fornecido não está correto
+13 14 [s] (Novo Password fora dos padrões (uppercase, lowercase, numbers, special characters and size between 8 and 20)) Usuário do sistema preenche o campos 'New Password' com uma senha fora dos padrões exigidos
+14 6 [e]  Sistema exibe mensagem infrmando que o Password fornecido não está conforme o exigido
+15 17 [c]  .

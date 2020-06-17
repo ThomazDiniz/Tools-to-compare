@@ -1,0 +1,54 @@
+3c4
+---
+>         version "1.1", type:"Update", user:"Larissa", date:"01/02/2016"
+10c11
+<             step 1, superAdmin, "seleciona opcao 'Customers' no menu Settings"
+---
+>             step 1, superAdmin, "seleciona opção 'Customers' no menu Settings"
+13,16c14,17
+<             step 4, system, "exibe pagina com campos de cadastro de novo cliente"
+<             step 5, superAdmin, "preenche corretamente os campos 'Name', 'Key File' e 'Country' e pressiona o botao 'Create' ", af:[1,2]
+<             step 6, system, "exibe pagina com dados do novo cliente e mensagem que um novo cliente foi adicionado"
+<             step 7, superAdmin, "seleciona opcao 'Customers' no menu Settings"
+---
+>             step 4, system, "exibe página com campos de cadastro de novo cliente"
+>             step 5, superAdmin, "preenche corretamente os campos 'Name', 'Key File' e 'Country' e pressiona o botão 'Create' ", af:[1]
+>             step 6, system, "exibe página com dados do novo cliente e mensagem que um novo cliente foi adicionado"
+>             step 7, superAdmin, "seleciona opção 'Customers' no menu Settings"
+20c21
+<             step 11, superAdmin, "clica no botao 'Cancel'", af:[3,4]
+---
+>             step 11, superAdmin, "clica no botão 'Cancel'", af:[2,3]
+24,27c25,27
+<         alternative 1, "Campo fora da formatacao esperada, e.g., 'ddd' para 'Key File'", {
+<             step 1, superAdmin, "preenche incorretamente os campos 'Name', 'Key File' e/ou 'Country' e pressiona o botão 'Create' "
+<             step 2, system, "exibe mensagem informando que os dados nao correspondem a formatação esperada", bfs:5
+<         }   
+---
+>         alternative 1, "Cancela criação", {
+>             step 1, superAdmin, "Cancela criação", bfs:2
+>         }    
+29,34c29,30
+<         alternative 2, "Cancela criacao", {
+<             step 1, superAdmin, "Cancela criacao", bfs:2
+<         }    
+< 
+<         alternative 3, "Edita dados", {
+<             step 1, superAdmin, "clica no botao 'Edit'"
+---
+>         alternative 2, "Edita dados", {
+>             step 1, superAdmin, "clica no botão 'Edit'"
+36c32
+<             step 3, superAdmin, "preenche os novos valores e pressiona o botao 'Update", bfs:2
+---
+>             step 3, superAdmin, "preenche os novos valores e pressiona o botão 'Update", bfs:10
+39,42c35,38
+<         alternative 4, "Deleta cliente", {
+<             step 1, superAdmin, "clica no botao 'Delete'"
+<             step 2, system, "exibe mensagem solicitando confirmacao"
+<             step 3, superAdmin, "pressiona o botao OK", bfs:2
+---
+>         alternative 3, "Deleta cliente", {
+>             step 1, superAdmin, "clica no botão 'Delete'"
+>             step 2, system, "exibe mensagem solicitando confirmação"
+>             step 3, superAdmin, "pressiona o botão OK", bfs:2

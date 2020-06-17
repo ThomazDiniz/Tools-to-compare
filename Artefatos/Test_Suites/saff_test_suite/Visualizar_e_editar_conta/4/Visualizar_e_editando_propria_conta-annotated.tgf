@@ -1,0 +1,75 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+17 17
+18 18
+19 19
+20 20
+21 21
+22 22
+23 23
+24 24
+25 25
+26 26
+27 27
+28 28
+29 29
+30 30
+31 31
+32 32
+33 33
+34 34
+35 35
+36 36
+#
+1 18 conditions
+18 2  Usuário deve estar logado no sistema. administrador ou super administrador.
+2 19 steps
+19 3   Usuário do sistema seleciona a opção 'My Account' no canto superior direito
+3 20 expected_results
+20 4   Sistema exibe tela onde os campos 'Name', 'Login', 'Type' e 'Language'. Eles estão devidamente preenchidos
+4 21 steps
+21 5   Usuário do sistema pressiona botão 'Edit'
+5 22 expected_results
+22 6   Sistema exibe página com campos em branco para atualização
+6 23 steps
+23 7   Usuário do sistema preenche corretamente os campos 'Old Password', 'New Password', 'Confirm Password' e pressiona o botão 'Update'
+5 24 expected_results
+24 8   Sistema exibe página com campos em branco para atualização
+5 25 expected_results
+25 10   Sistema exibe página com campos em branco para atualização
+5 26 expected_results
+26 11   Sistema exibe página com campos em branco para atualização
+5 27 expected_results
+27 13   Sistema exibe página com campos em branco para atualização
+7 28 expected_results
+28 15   Sistema exibe página com informações do usuário e apresenta mensagem informando que as informações foram atualizadas
+8 29 steps
+29 9  (Troca Idioma) Usuário do sistema preenche corretamente os campos 'Old Password', 'New Password', 'Confirm Password', troca 'Language' de Inglês para Português e pressiona o botão 'Update'
+9 30 expected_results
+30 16   Sistema exibe página com informações do usuário. Apresenta mensagem informando que as informações foram atualizadas e atualiza conta no novo idioma
+10 31 steps
+31 3  (Cancela Edição) Usuário do sistema pressiona botão 'Cancel'
+11 32 steps
+32 12  (Password inválido) Usuário do sistema preenche incorretamente o campos 'Old Password'
+12 33 expected_results
+33 6   Sistema exibe mensagem infrmando que o Password fornecido não está correto
+13 34 steps
+34 14  (Novo Password fora dos padrões (uppercase, lowercase, numbers, special characters and size between 8 and 20)) Usuário do sistema preenche o campos 'New Password' com uma senha fora dos padrões exigidos
+14 35 expected_results
+35 6   Sistema exibe mensagem infrmando que o Password fornecido não está conforme o exigido
+15 36 conditions
+36 17   .

@@ -1,0 +1,49 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+17 17
+18 18
+19 19
+20 20
+21 21
+22 22
+#
+1 2 [c] Usuário deve estar logado no servidor como administrador. Não existem extrações cadastradas no banco de dados.
+2 3 [s]  Administrador do sistema conecta um terminal em uma porta USB previamente cadastrada e o coloca em modo LLT
+3 4 [e]  Sistema entra em modo LLT
+2 10 [s]  Administrador do sistema conecta um terminal em uma porta USB previamente cadastrada e o coloca em modo LLT
+2 16 [s]  Administrador do sistema conecta um terminal em uma porta USB previamente cadastrada e o coloca em modo LLT
+4 5 [s]  Administrador do sistema inicia o SAFF Extractor e se autentica
+5 6 [e]  Sistema exibe página que requisita dados do terminal
+4 11 [s]  Administrador do sistema inicia o SAFF Extractor e se autentica
+6 7 [s]  Administrador do sistema digita o product number e serial number válidos e pressiona tecla Tab
+7 8 [e]  Sistema muda foco para campo referente ao tipo de teste
+8 9 [s]  Administrador do sistema escolhe opção Test1 para tipo de teste e pressiona botão 'Extract'
+9 20 [e]  Sistema realiza a extração
+8 12 [s]  Administrador do sistema escolhe opção Test1 para tipo de teste e pressiona botão 'Extract'
+8 15 [s]  Administrador do sistema escolhe opção Test1 para tipo de teste e pressiona botão 'Extract'
+8 17 [s]  Administrador do sistema escolhe opção Test1 para tipo de teste e pressiona botão 'Extract'
+10 2 [e] (Não existe porta USB cadastrada) Sistema exibe mensagem solicitando informando não existe porta USB cadastrada
+11 4 [e] (Login ou senha incorretos) Sistema exibe mensagem informando que login ou senha estão incorretos
+12 13 [e] (Falha no envio para servidor e Usuário deseja fazer extração offline) Sistema exibe mensagem informando houve erro na conexão com o servidor e pergunta se usuário deseja fazer a extração em modo offline
+13 14 [s]  Administrador do sistema responde Yes
+14 21 [e]  Sistema realiza extração em modo offline
+15 6 [e] (Dados de terminal inválidos) Sistema exibe mensagem informando que dados do terminal estão incorretos
+16 2 [e] (Não existe terminal conectado) Sistema exibe mensagem informando que não conseguiu se conectar ao terminal
+17 18 [e] (Falha no envio para servidor e Usuário não deseja fazer extração offline) Sistema exibe mensagem informando houve erro na conexão com o servidor e pergunta se usuário deseja fazer a extração em modo offline
+18 19 [s]  Administrador do sistema responde No
+19 6 [e]  Sistema fecha janela e retorna a página de inserção de dados
+20 22 [c]  .

@@ -1,0 +1,3761 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<testsuite name="TS">
+  <node_order />
+  <details />
+  <testcase internalid="" name="TC1">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Central de Operacoes' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em algum contador de 'Engine' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona alguma Nota na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota selecionada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Visualizar DANFE'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma nova aba com a versao da Danfe em PDF&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao 'Imprimir'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia documento para impressora&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A Danfe esta impressa.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC2">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Central de Operacoes' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em algum contador de 'Engine' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona alguma Nota na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota selecionada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Visualizar DANFE'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma nova aba com a versao da Danfe em PDF&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;(Cancela impressao de Danfe) Usuario Administrador clica em botao 'Cancelar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota selecionada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Visualizar DANFE'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma nova aba com a versao da Danfe em PDF&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao 'Imprimir'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia documento para impressora&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A Danfe esta impressa.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC4">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Central de Operacoes' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em algum contador de 'Engine' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Navega pelas paginas da lista) Usuario Administrador seleciona outra pagina&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona alguma Nota na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota selecionada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Visualizar DANFE'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma nova aba com a versao da Danfe em PDF&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao 'Imprimir'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia documento para impressora&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A Danfe esta impressa.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC9">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Central de Operacoes' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em algum contador de 'Engine' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Clica no botao voltar) Usuario Administrador clica no botao 'Voltar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em algum contador de 'Engine' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona alguma Nota na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota selecionada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Visualizar DANFE'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma nova aba com a versao da Danfe em PDF&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao 'Imprimir'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia documento para impressora&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A Danfe esta impressa.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC14">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Central de Operacoes' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em algum contador de 'Engine' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Clica no botao voltar) Usuario Administrador clica no botao 'Voltar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;(Seleciona contador de 'Conferencia') Usuario Administrador clica em algum contador de 'Conferencia' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona alguma Nota na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota selecionada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Visualizar DANFE'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma nova aba com a versao da Danfe em PDF&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao 'Imprimir'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia documento para impressora&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A Danfe esta impressa.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC19">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Central de Operacoes' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em algum contador de 'Engine' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Clica no botao voltar) Usuario Administrador clica no botao 'Voltar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;(Seleciona contador de 'Picking') Usuario Administrador clica em algum contador de 'Picking' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona alguma Nota na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota selecionada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Visualizar DANFE'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma nova aba com a versao da Danfe em PDF&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao 'Imprimir'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia documento para impressora&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A Danfe esta impressa.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC24">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Central de Operacoes' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em algum contador de 'Engine' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Clica no botao voltar) Usuario Administrador clica no botao 'Voltar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;(Seleciona contador de 'Atrasos') Usuario Administrador clica em algum contador de 'Atrasos' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona alguma Nota na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota selecionada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Visualizar DANFE'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma nova aba com a versao da Danfe em PDF&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao 'Imprimir'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia documento para impressora&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A Danfe esta impressa.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC29">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Central de Operacoes' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em algum contador de 'Engine' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Clica no botao voltar) Usuario Administrador clica no botao 'Voltar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;7  (Seleciona contador de 'Retornos') Usuario Administrador clica em algum contador de 'Retornos' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona alguma Nota na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota selecionada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Visualizar DANFE'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma nova aba com a versao da Danfe em PDF&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao 'Imprimir'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia documento para impressora&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A Danfe esta impressa.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC34">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Central de Operacoes' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em algum contador de 'Engine' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Clica no botao voltar) Usuario Administrador clica no botao 'Voltar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;(Seleciona contador de 'Ocorrencias') Usuario Administrador clica em algum contador de 'Ocorrencias' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona alguma Nota na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota selecionada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Visualizar DANFE'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma nova aba com a versao da Danfe em PDF&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao 'Imprimir'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia documento para impressora&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A Danfe esta impressa.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC39">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Central de Operacoes' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em algum contador de 'Engine' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Ordena Notas) Usuario Administrador ordenas as notas por alguma coluna&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona alguma Nota na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota selecionada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Visualizar DANFE'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma nova aba com a versao da Danfe em PDF&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao 'Imprimir'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia documento para impressora&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A Danfe esta impressa.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC44">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Central de Operacoes' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Seleciona contador de 'Conferencia') Usuario Administrador clica em algum contador de 'Conferencia' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona alguma Nota na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota selecionada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Visualizar DANFE'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma nova aba com a versao da Danfe em PDF&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao 'Imprimir'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia documento para impressora&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A Danfe esta impressa.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC45">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Central de Operacoes' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Seleciona contador de 'Conferencia') Usuario Administrador clica em algum contador de 'Conferencia' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona alguma Nota na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota selecionada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Visualizar DANFE'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma nova aba com a versao da Danfe em PDF&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;(Cancela impressao de Danfe) Usuario Administrador clica em botao 'Cancelar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota selecionada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Visualizar DANFE'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma nova aba com a versao da Danfe em PDF&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao 'Imprimir'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia documento para impressora&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A Danfe esta impressa.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC47">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Central de Operacoes' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Seleciona contador de 'Conferencia') Usuario Administrador clica em algum contador de 'Conferencia' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Navega pelas paginas da lista) Usuario Administrador seleciona outra pagina&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona alguma Nota na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota selecionada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Visualizar DANFE'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma nova aba com a versao da Danfe em PDF&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao 'Imprimir'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia documento para impressora&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A Danfe esta impressa.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC52">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Central de Operacoes' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Seleciona contador de 'Conferencia') Usuario Administrador clica em algum contador de 'Conferencia' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Clica no botao voltar) Usuario Administrador clica no botao 'Voltar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em algum contador de 'Engine' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona alguma Nota na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota selecionada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Visualizar DANFE'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma nova aba com a versao da Danfe em PDF&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao 'Imprimir'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia documento para impressora&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A Danfe esta impressa.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC57">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Central de Operacoes' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Seleciona contador de 'Conferencia') Usuario Administrador clica em algum contador de 'Conferencia' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Clica no botao voltar) Usuario Administrador clica no botao 'Voltar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;(Seleciona contador de 'Conferencia') Usuario Administrador clica em algum contador de 'Conferencia' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona alguma Nota na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota selecionada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Visualizar DANFE'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma nova aba com a versao da Danfe em PDF&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao 'Imprimir'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia documento para impressora&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A Danfe esta impressa.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC62">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Central de Operacoes' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Seleciona contador de 'Conferencia') Usuario Administrador clica em algum contador de 'Conferencia' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Clica no botao voltar) Usuario Administrador clica no botao 'Voltar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;(Seleciona contador de 'Picking') Usuario Administrador clica em algum contador de 'Picking' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona alguma Nota na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota selecionada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Visualizar DANFE'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma nova aba com a versao da Danfe em PDF&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao 'Imprimir'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia documento para impressora&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A Danfe esta impressa.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC67">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Central de Operacoes' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Seleciona contador de 'Conferencia') Usuario Administrador clica em algum contador de 'Conferencia' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Clica no botao voltar) Usuario Administrador clica no botao 'Voltar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;(Seleciona contador de 'Atrasos') Usuario Administrador clica em algum contador de 'Atrasos' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona alguma Nota na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota selecionada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Visualizar DANFE'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma nova aba com a versao da Danfe em PDF&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao 'Imprimir'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia documento para impressora&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A Danfe esta impressa.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC72">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Central de Operacoes' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Seleciona contador de 'Conferencia') Usuario Administrador clica em algum contador de 'Conferencia' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Clica no botao voltar) Usuario Administrador clica no botao 'Voltar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;7  (Seleciona contador de 'Retornos') Usuario Administrador clica em algum contador de 'Retornos' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona alguma Nota na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota selecionada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Visualizar DANFE'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma nova aba com a versao da Danfe em PDF&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao 'Imprimir'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia documento para impressora&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A Danfe esta impressa.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC77">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Central de Operacoes' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Seleciona contador de 'Conferencia') Usuario Administrador clica em algum contador de 'Conferencia' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Clica no botao voltar) Usuario Administrador clica no botao 'Voltar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;(Seleciona contador de 'Ocorrencias') Usuario Administrador clica em algum contador de 'Ocorrencias' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona alguma Nota na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota selecionada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Visualizar DANFE'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma nova aba com a versao da Danfe em PDF&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao 'Imprimir'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia documento para impressora&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A Danfe esta impressa.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC82">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Central de Operacoes' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Seleciona contador de 'Conferencia') Usuario Administrador clica em algum contador de 'Conferencia' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Ordena Notas) Usuario Administrador ordenas as notas por alguma coluna&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona alguma Nota na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota selecionada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Visualizar DANFE'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma nova aba com a versao da Danfe em PDF&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao 'Imprimir'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia documento para impressora&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A Danfe esta impressa.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC87">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Central de Operacoes' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Seleciona contador de 'Picking') Usuario Administrador clica em algum contador de 'Picking' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona alguma Nota na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota selecionada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Visualizar DANFE'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma nova aba com a versao da Danfe em PDF&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao 'Imprimir'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia documento para impressora&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A Danfe esta impressa.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC88">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Central de Operacoes' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Seleciona contador de 'Picking') Usuario Administrador clica em algum contador de 'Picking' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona alguma Nota na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota selecionada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Visualizar DANFE'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma nova aba com a versao da Danfe em PDF&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;(Cancela impressao de Danfe) Usuario Administrador clica em botao 'Cancelar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota selecionada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Visualizar DANFE'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma nova aba com a versao da Danfe em PDF&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao 'Imprimir'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia documento para impressora&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A Danfe esta impressa.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC90">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Central de Operacoes' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Seleciona contador de 'Picking') Usuario Administrador clica em algum contador de 'Picking' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Navega pelas paginas da lista) Usuario Administrador seleciona outra pagina&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona alguma Nota na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota selecionada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Visualizar DANFE'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma nova aba com a versao da Danfe em PDF&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao 'Imprimir'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia documento para impressora&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A Danfe esta impressa.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC95">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Central de Operacoes' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Seleciona contador de 'Picking') Usuario Administrador clica em algum contador de 'Picking' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Clica no botao voltar) Usuario Administrador clica no botao 'Voltar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em algum contador de 'Engine' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona alguma Nota na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota selecionada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Visualizar DANFE'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma nova aba com a versao da Danfe em PDF&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao 'Imprimir'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia documento para impressora&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A Danfe esta impressa.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC100">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Central de Operacoes' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Seleciona contador de 'Picking') Usuario Administrador clica em algum contador de 'Picking' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Clica no botao voltar) Usuario Administrador clica no botao 'Voltar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;(Seleciona contador de 'Conferencia') Usuario Administrador clica em algum contador de 'Conferencia' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona alguma Nota na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota selecionada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Visualizar DANFE'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma nova aba com a versao da Danfe em PDF&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao 'Imprimir'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia documento para impressora&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A Danfe esta impressa.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC105">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Central de Operacoes' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Seleciona contador de 'Picking') Usuario Administrador clica em algum contador de 'Picking' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Clica no botao voltar) Usuario Administrador clica no botao 'Voltar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;(Seleciona contador de 'Picking') Usuario Administrador clica em algum contador de 'Picking' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona alguma Nota na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota selecionada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Visualizar DANFE'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma nova aba com a versao da Danfe em PDF&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao 'Imprimir'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia documento para impressora&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A Danfe esta impressa.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC110">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Central de Operacoes' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Seleciona contador de 'Picking') Usuario Administrador clica em algum contador de 'Picking' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Clica no botao voltar) Usuario Administrador clica no botao 'Voltar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;(Seleciona contador de 'Atrasos') Usuario Administrador clica em algum contador de 'Atrasos' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona alguma Nota na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota selecionada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Visualizar DANFE'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma nova aba com a versao da Danfe em PDF&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao 'Imprimir'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia documento para impressora&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A Danfe esta impressa.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC115">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Central de Operacoes' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Seleciona contador de 'Picking') Usuario Administrador clica em algum contador de 'Picking' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Clica no botao voltar) Usuario Administrador clica no botao 'Voltar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;7  (Seleciona contador de 'Retornos') Usuario Administrador clica em algum contador de 'Retornos' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona alguma Nota na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota selecionada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Visualizar DANFE'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma nova aba com a versao da Danfe em PDF&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao 'Imprimir'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia documento para impressora&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A Danfe esta impressa.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC120">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Central de Operacoes' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Seleciona contador de 'Picking') Usuario Administrador clica em algum contador de 'Picking' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Clica no botao voltar) Usuario Administrador clica no botao 'Voltar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;(Seleciona contador de 'Ocorrencias') Usuario Administrador clica em algum contador de 'Ocorrencias' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona alguma Nota na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota selecionada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Visualizar DANFE'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma nova aba com a versao da Danfe em PDF&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao 'Imprimir'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia documento para impressora&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A Danfe esta impressa.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC125">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Central de Operacoes' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Seleciona contador de 'Picking') Usuario Administrador clica em algum contador de 'Picking' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Ordena Notas) Usuario Administrador ordenas as notas por alguma coluna&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona alguma Nota na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota selecionada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Visualizar DANFE'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma nova aba com a versao da Danfe em PDF&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao 'Imprimir'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia documento para impressora&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A Danfe esta impressa.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC130">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Central de Operacoes' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Seleciona contador de 'Atrasos') Usuario Administrador clica em algum contador de 'Atrasos' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona alguma Nota na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota selecionada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Visualizar DANFE'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma nova aba com a versao da Danfe em PDF&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao 'Imprimir'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia documento para impressora&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A Danfe esta impressa.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC131">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Central de Operacoes' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Seleciona contador de 'Atrasos') Usuario Administrador clica em algum contador de 'Atrasos' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona alguma Nota na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota selecionada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Visualizar DANFE'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma nova aba com a versao da Danfe em PDF&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;(Cancela impressao de Danfe) Usuario Administrador clica em botao 'Cancelar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota selecionada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Visualizar DANFE'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma nova aba com a versao da Danfe em PDF&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao 'Imprimir'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia documento para impressora&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A Danfe esta impressa.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC133">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Central de Operacoes' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Seleciona contador de 'Atrasos') Usuario Administrador clica em algum contador de 'Atrasos' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Navega pelas paginas da lista) Usuario Administrador seleciona outra pagina&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona alguma Nota na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota selecionada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Visualizar DANFE'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma nova aba com a versao da Danfe em PDF&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao 'Imprimir'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia documento para impressora&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A Danfe esta impressa.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC138">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Central de Operacoes' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Seleciona contador de 'Atrasos') Usuario Administrador clica em algum contador de 'Atrasos' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Clica no botao voltar) Usuario Administrador clica no botao 'Voltar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em algum contador de 'Engine' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona alguma Nota na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota selecionada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Visualizar DANFE'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma nova aba com a versao da Danfe em PDF&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao 'Imprimir'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia documento para impressora&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A Danfe esta impressa.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC143">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Central de Operacoes' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Seleciona contador de 'Atrasos') Usuario Administrador clica em algum contador de 'Atrasos' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Clica no botao voltar) Usuario Administrador clica no botao 'Voltar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;(Seleciona contador de 'Conferencia') Usuario Administrador clica em algum contador de 'Conferencia' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona alguma Nota na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota selecionada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Visualizar DANFE'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma nova aba com a versao da Danfe em PDF&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao 'Imprimir'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia documento para impressora&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A Danfe esta impressa.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC148">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Central de Operacoes' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Seleciona contador de 'Atrasos') Usuario Administrador clica em algum contador de 'Atrasos' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Clica no botao voltar) Usuario Administrador clica no botao 'Voltar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;(Seleciona contador de 'Picking') Usuario Administrador clica em algum contador de 'Picking' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona alguma Nota na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota selecionada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Visualizar DANFE'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma nova aba com a versao da Danfe em PDF&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao 'Imprimir'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia documento para impressora&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A Danfe esta impressa.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC153">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Central de Operacoes' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Seleciona contador de 'Atrasos') Usuario Administrador clica em algum contador de 'Atrasos' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Clica no botao voltar) Usuario Administrador clica no botao 'Voltar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;(Seleciona contador de 'Atrasos') Usuario Administrador clica em algum contador de 'Atrasos' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona alguma Nota na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota selecionada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Visualizar DANFE'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma nova aba com a versao da Danfe em PDF&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao 'Imprimir'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia documento para impressora&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A Danfe esta impressa.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC158">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Central de Operacoes' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Seleciona contador de 'Atrasos') Usuario Administrador clica em algum contador de 'Atrasos' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Clica no botao voltar) Usuario Administrador clica no botao 'Voltar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;7  (Seleciona contador de 'Retornos') Usuario Administrador clica em algum contador de 'Retornos' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona alguma Nota na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota selecionada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Visualizar DANFE'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma nova aba com a versao da Danfe em PDF&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao 'Imprimir'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia documento para impressora&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A Danfe esta impressa.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC163">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Central de Operacoes' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Seleciona contador de 'Atrasos') Usuario Administrador clica em algum contador de 'Atrasos' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Clica no botao voltar) Usuario Administrador clica no botao 'Voltar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;(Seleciona contador de 'Ocorrencias') Usuario Administrador clica em algum contador de 'Ocorrencias' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona alguma Nota na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota selecionada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Visualizar DANFE'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma nova aba com a versao da Danfe em PDF&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao 'Imprimir'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia documento para impressora&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A Danfe esta impressa.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC168">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Central de Operacoes' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Seleciona contador de 'Atrasos') Usuario Administrador clica em algum contador de 'Atrasos' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Ordena Notas) Usuario Administrador ordenas as notas por alguma coluna&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona alguma Nota na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota selecionada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Visualizar DANFE'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma nova aba com a versao da Danfe em PDF&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao 'Imprimir'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia documento para impressora&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A Danfe esta impressa.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC173">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Central de Operacoes' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;7  (Seleciona contador de 'Retornos') Usuario Administrador clica em algum contador de 'Retornos' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona alguma Nota na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota selecionada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Visualizar DANFE'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma nova aba com a versao da Danfe em PDF&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao 'Imprimir'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia documento para impressora&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A Danfe esta impressa.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC174">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Central de Operacoes' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;7  (Seleciona contador de 'Retornos') Usuario Administrador clica em algum contador de 'Retornos' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona alguma Nota na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota selecionada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Visualizar DANFE'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma nova aba com a versao da Danfe em PDF&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;(Cancela impressao de Danfe) Usuario Administrador clica em botao 'Cancelar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota selecionada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Visualizar DANFE'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma nova aba com a versao da Danfe em PDF&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao 'Imprimir'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia documento para impressora&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A Danfe esta impressa.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC176">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Central de Operacoes' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;7  (Seleciona contador de 'Retornos') Usuario Administrador clica em algum contador de 'Retornos' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Navega pelas paginas da lista) Usuario Administrador seleciona outra pagina&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona alguma Nota na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota selecionada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Visualizar DANFE'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma nova aba com a versao da Danfe em PDF&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao 'Imprimir'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia documento para impressora&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A Danfe esta impressa.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC181">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Central de Operacoes' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;7  (Seleciona contador de 'Retornos') Usuario Administrador clica em algum contador de 'Retornos' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Clica no botao voltar) Usuario Administrador clica no botao 'Voltar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em algum contador de 'Engine' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona alguma Nota na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota selecionada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Visualizar DANFE'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma nova aba com a versao da Danfe em PDF&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao 'Imprimir'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia documento para impressora&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A Danfe esta impressa.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC186">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Central de Operacoes' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;7  (Seleciona contador de 'Retornos') Usuario Administrador clica em algum contador de 'Retornos' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Clica no botao voltar) Usuario Administrador clica no botao 'Voltar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;(Seleciona contador de 'Conferencia') Usuario Administrador clica em algum contador de 'Conferencia' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona alguma Nota na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota selecionada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Visualizar DANFE'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma nova aba com a versao da Danfe em PDF&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao 'Imprimir'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia documento para impressora&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A Danfe esta impressa.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC191">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Central de Operacoes' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;7  (Seleciona contador de 'Retornos') Usuario Administrador clica em algum contador de 'Retornos' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Clica no botao voltar) Usuario Administrador clica no botao 'Voltar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;(Seleciona contador de 'Picking') Usuario Administrador clica em algum contador de 'Picking' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona alguma Nota na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota selecionada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Visualizar DANFE'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma nova aba com a versao da Danfe em PDF&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao 'Imprimir'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia documento para impressora&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A Danfe esta impressa.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC196">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Central de Operacoes' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;7  (Seleciona contador de 'Retornos') Usuario Administrador clica em algum contador de 'Retornos' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Clica no botao voltar) Usuario Administrador clica no botao 'Voltar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;(Seleciona contador de 'Atrasos') Usuario Administrador clica em algum contador de 'Atrasos' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona alguma Nota na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota selecionada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Visualizar DANFE'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma nova aba com a versao da Danfe em PDF&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao 'Imprimir'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia documento para impressora&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A Danfe esta impressa.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC201">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Central de Operacoes' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;7  (Seleciona contador de 'Retornos') Usuario Administrador clica em algum contador de 'Retornos' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Clica no botao voltar) Usuario Administrador clica no botao 'Voltar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;7  (Seleciona contador de 'Retornos') Usuario Administrador clica em algum contador de 'Retornos' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona alguma Nota na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota selecionada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Visualizar DANFE'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma nova aba com a versao da Danfe em PDF&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao 'Imprimir'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia documento para impressora&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A Danfe esta impressa.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC206">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Central de Operacoes' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;7  (Seleciona contador de 'Retornos') Usuario Administrador clica em algum contador de 'Retornos' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Clica no botao voltar) Usuario Administrador clica no botao 'Voltar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;(Seleciona contador de 'Ocorrencias') Usuario Administrador clica em algum contador de 'Ocorrencias' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona alguma Nota na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota selecionada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Visualizar DANFE'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma nova aba com a versao da Danfe em PDF&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao 'Imprimir'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia documento para impressora&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A Danfe esta impressa.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC211">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Central de Operacoes' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;7  (Seleciona contador de 'Retornos') Usuario Administrador clica em algum contador de 'Retornos' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Ordena Notas) Usuario Administrador ordenas as notas por alguma coluna&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona alguma Nota na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota selecionada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Visualizar DANFE'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma nova aba com a versao da Danfe em PDF&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao 'Imprimir'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia documento para impressora&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A Danfe esta impressa.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC216">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Central de Operacoes' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Seleciona contador de 'Ocorrencias') Usuario Administrador clica em algum contador de 'Ocorrencias' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona alguma Nota na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota selecionada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Visualizar DANFE'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma nova aba com a versao da Danfe em PDF&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao 'Imprimir'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia documento para impressora&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A Danfe esta impressa.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC217">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Central de Operacoes' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Seleciona contador de 'Ocorrencias') Usuario Administrador clica em algum contador de 'Ocorrencias' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona alguma Nota na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota selecionada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Visualizar DANFE'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma nova aba com a versao da Danfe em PDF&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;(Cancela impressao de Danfe) Usuario Administrador clica em botao 'Cancelar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota selecionada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Visualizar DANFE'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma nova aba com a versao da Danfe em PDF&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao 'Imprimir'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia documento para impressora&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A Danfe esta impressa.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC219">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Central de Operacoes' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Seleciona contador de 'Ocorrencias') Usuario Administrador clica em algum contador de 'Ocorrencias' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Navega pelas paginas da lista) Usuario Administrador seleciona outra pagina&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona alguma Nota na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota selecionada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Visualizar DANFE'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma nova aba com a versao da Danfe em PDF&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao 'Imprimir'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia documento para impressora&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A Danfe esta impressa.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC224">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Central de Operacoes' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Seleciona contador de 'Ocorrencias') Usuario Administrador clica em algum contador de 'Ocorrencias' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Clica no botao voltar) Usuario Administrador clica no botao 'Voltar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em algum contador de 'Engine' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona alguma Nota na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota selecionada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Visualizar DANFE'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma nova aba com a versao da Danfe em PDF&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao 'Imprimir'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia documento para impressora&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A Danfe esta impressa.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC229">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Central de Operacoes' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Seleciona contador de 'Ocorrencias') Usuario Administrador clica em algum contador de 'Ocorrencias' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Clica no botao voltar) Usuario Administrador clica no botao 'Voltar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;(Seleciona contador de 'Conferencia') Usuario Administrador clica em algum contador de 'Conferencia' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona alguma Nota na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota selecionada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Visualizar DANFE'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma nova aba com a versao da Danfe em PDF&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao 'Imprimir'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia documento para impressora&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A Danfe esta impressa.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC234">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Central de Operacoes' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Seleciona contador de 'Ocorrencias') Usuario Administrador clica em algum contador de 'Ocorrencias' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Clica no botao voltar) Usuario Administrador clica no botao 'Voltar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;(Seleciona contador de 'Picking') Usuario Administrador clica em algum contador de 'Picking' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona alguma Nota na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota selecionada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Visualizar DANFE'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma nova aba com a versao da Danfe em PDF&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao 'Imprimir'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia documento para impressora&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A Danfe esta impressa.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC239">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Central de Operacoes' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Seleciona contador de 'Ocorrencias') Usuario Administrador clica em algum contador de 'Ocorrencias' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Clica no botao voltar) Usuario Administrador clica no botao 'Voltar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;(Seleciona contador de 'Atrasos') Usuario Administrador clica em algum contador de 'Atrasos' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona alguma Nota na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota selecionada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Visualizar DANFE'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma nova aba com a versao da Danfe em PDF&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao 'Imprimir'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia documento para impressora&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A Danfe esta impressa.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC244">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Central de Operacoes' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Seleciona contador de 'Ocorrencias') Usuario Administrador clica em algum contador de 'Ocorrencias' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Clica no botao voltar) Usuario Administrador clica no botao 'Voltar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;7  (Seleciona contador de 'Retornos') Usuario Administrador clica em algum contador de 'Retornos' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona alguma Nota na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota selecionada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Visualizar DANFE'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma nova aba com a versao da Danfe em PDF&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao 'Imprimir'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia documento para impressora&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A Danfe esta impressa.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC249">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Central de Operacoes' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Seleciona contador de 'Ocorrencias') Usuario Administrador clica em algum contador de 'Ocorrencias' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Clica no botao voltar) Usuario Administrador clica no botao 'Voltar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;(Seleciona contador de 'Ocorrencias') Usuario Administrador clica em algum contador de 'Ocorrencias' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona alguma Nota na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota selecionada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Visualizar DANFE'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma nova aba com a versao da Danfe em PDF&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao 'Imprimir'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia documento para impressora&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A Danfe esta impressa.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC254">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Central de Operacoes' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Seleciona contador de 'Ocorrencias') Usuario Administrador clica em algum contador de 'Ocorrencias' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Ordena Notas) Usuario Administrador ordenas as notas por alguma coluna&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com as listas das 'Notas'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona alguma Nota na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota selecionada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Visualizar DANFE'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma nova aba com a versao da Danfe em PDF&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao 'Imprimir'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia documento para impressora&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A Danfe esta impressa.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+</testsuite>

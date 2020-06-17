@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<testsuite name="TS">
+  <node_order />
+  <details />
+  <testcase internalid="" name="TC1">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Deve existir um usuário cadastrado com perfil administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita um login e pasword de usuário administrador e pressiona o botão Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela ?Search extraction?&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC2">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Deve existir um usuário cadastrado com perfil administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;(Login ou Password inválidos) Administrador do sistema digita um login de usuário administrador e/ou password invalidos e pressiona Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem ?Invalid username or password? na tela de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita um login e pasword de usuário administrador e pressiona o botão Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela ?Search extraction?&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC3">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Deve existir um usuário cadastrado com perfil administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;(Número de tentativas inválidas é 3) Administrador do sistema digita um login de usuário administrador e/ou password invalidos pela terceira vez e pressiona Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem de alerta&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita um login e pasword de usuário administrador e pressiona o botão Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela ?Search extraction?&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC4">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Deve existir um usuário cadastrado com perfil administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;(Número de tentativas inválidas é 5) Administrador do sistema digita um login de usuário administrador e/ou password invalidos pela quinta vez e pressiona Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema bloqueia a sessão&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita um login e pasword de usuário administrador e pressiona o botão Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela ?Search extraction?&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+</testsuite>

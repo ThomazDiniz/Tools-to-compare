@@ -1,0 +1,941 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<testsuite name="TS">
+  <node_order />
+  <details />
+  <testcase internalid="" name="TC1">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Administrador logado; Algum E-commerce salvo no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona a opcao 'E-commerce' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a tela de detalhes do ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona um E-commerce na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre a tela de edicao do Ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador modifica os dados existentes&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema valida os dados cadastrais do ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica usuario de que o Ecommerce foi atualizado com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>Ecommerce esta com dados atualizados no sistema.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC2">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Administrador logado; Algum E-commerce salvo no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona a opcao 'E-commerce' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a tela de detalhes do ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona um E-commerce na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre a tela de edicao do Ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador modifica os dados existentes&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema valida os dados cadastrais do ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Nao insere algum dado obrigat&#xfffd;rio') Sistema informa que os dados obrigat&#xfffd;rios devem ser preenchidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador adiciona dados corretos e clica em 'Atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica usuario de que o Ecommerce foi atualizado com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>Ecommerce esta com dados atualizados no sistema.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC3">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Administrador logado; Algum E-commerce salvo no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona a opcao 'E-commerce' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a tela de detalhes do ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona um E-commerce na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre a tela de edicao do Ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador modifica os dados existentes&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema valida os dados cadastrais do ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Usuario insere algum dado invalido) Sistema alerta que o dado esta invalido e pede nova entrada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador corrige os dados invalidos e clica em 'Atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica usuario de que o Ecommerce foi atualizado com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>Ecommerce esta com dados atualizados no sistema.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC4">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Administrador logado; Algum E-commerce salvo no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona a opcao 'E-commerce' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a tela de detalhes do ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona um E-commerce na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre a tela de edicao do Ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador modifica os dados existentes&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema valida os dados cadastrais do ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Volta para tela inicial de sistema) Usuario Administrador clica no botao Voltar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a tela de detalhes do ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona um E-commerce na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre a tela de edicao do Ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador modifica os dados existentes&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema valida os dados cadastrais do ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica usuario de que o Ecommerce foi atualizado com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>Ecommerce esta com dados atualizados no sistema.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC5">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Administrador logado; Algum E-commerce salvo no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona a opcao 'E-commerce' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a tela de detalhes do ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona um E-commerce na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre a tela de edicao do Ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador modifica os dados existentes&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema valida os dados cadastrais do ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Volta para tela inicial de sistema) Usuario Administrador clica no botao Voltar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a tela de detalhes do ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona um E-commerce na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre a tela de edicao do Ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador modifica os dados existentes&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema valida os dados cadastrais do ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Nao insere algum dado obrigat&#xfffd;rio') Sistema informa que os dados obrigat&#xfffd;rios devem ser preenchidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Usuario Administrador adiciona dados corretos e clica em 'Atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica usuario de que o Ecommerce foi atualizado com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>Ecommerce esta com dados atualizados no sistema.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC6">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Administrador logado; Algum E-commerce salvo no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona a opcao 'E-commerce' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a tela de detalhes do ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona um E-commerce na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre a tela de edicao do Ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador modifica os dados existentes&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema valida os dados cadastrais do ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Volta para tela inicial de sistema) Usuario Administrador clica no botao Voltar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a tela de detalhes do ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona um E-commerce na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre a tela de edicao do Ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador modifica os dados existentes&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema valida os dados cadastrais do ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Usuario insere algum dado invalido) Sistema alerta que o dado esta invalido e pede nova entrada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Usuario Administrador corrige os dados invalidos e clica em 'Atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica usuario de que o Ecommerce foi atualizado com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>Ecommerce esta com dados atualizados no sistema.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC12">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Administrador logado; Algum E-commerce salvo no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona a opcao 'E-commerce' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a tela de detalhes do ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Ordena lista de Ecommerce) Usuario Administrador clica em um dos bot&#xfffd;es de ordenacao associada a uma coluna da tabela&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a tela de detalhes do ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona um E-commerce na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre a tela de edicao do Ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador modifica os dados existentes&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema valida os dados cadastrais do ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica usuario de que o Ecommerce foi atualizado com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>Ecommerce esta com dados atualizados no sistema.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC13">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Administrador logado; Algum E-commerce salvo no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona a opcao 'E-commerce' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a tela de detalhes do ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Ordena lista de Ecommerce) Usuario Administrador clica em um dos bot&#xfffd;es de ordenacao associada a uma coluna da tabela&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a tela de detalhes do ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona um E-commerce na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre a tela de edicao do Ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador modifica os dados existentes&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema valida os dados cadastrais do ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Nao insere algum dado obrigat&#xfffd;rio') Sistema informa que os dados obrigat&#xfffd;rios devem ser preenchidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador adiciona dados corretos e clica em 'Atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica usuario de que o Ecommerce foi atualizado com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>Ecommerce esta com dados atualizados no sistema.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC14">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Administrador logado; Algum E-commerce salvo no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona a opcao 'E-commerce' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a tela de detalhes do ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Ordena lista de Ecommerce) Usuario Administrador clica em um dos bot&#xfffd;es de ordenacao associada a uma coluna da tabela&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a tela de detalhes do ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona um E-commerce na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre a tela de edicao do Ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador modifica os dados existentes&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema valida os dados cadastrais do ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Usuario insere algum dado invalido) Sistema alerta que o dado esta invalido e pede nova entrada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador corrige os dados invalidos e clica em 'Atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica usuario de que o Ecommerce foi atualizado com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>Ecommerce esta com dados atualizados no sistema.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC20">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Administrador logado; Algum E-commerce salvo no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona a opcao 'E-commerce' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a tela de detalhes do ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Navega por paginas de tabela) Usuario Administrador clica em botao de navegacao de paginas de tabela&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a tela de detalhes do ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona um E-commerce na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre a tela de edicao do Ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador modifica os dados existentes&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema valida os dados cadastrais do ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica usuario de que o Ecommerce foi atualizado com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>Ecommerce esta com dados atualizados no sistema.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC21">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Administrador logado; Algum E-commerce salvo no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona a opcao 'E-commerce' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a tela de detalhes do ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Navega por paginas de tabela) Usuario Administrador clica em botao de navegacao de paginas de tabela&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a tela de detalhes do ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona um E-commerce na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre a tela de edicao do Ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador modifica os dados existentes&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema valida os dados cadastrais do ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Nao insere algum dado obrigat&#xfffd;rio') Sistema informa que os dados obrigat&#xfffd;rios devem ser preenchidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador adiciona dados corretos e clica em 'Atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica usuario de que o Ecommerce foi atualizado com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>Ecommerce esta com dados atualizados no sistema.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC22">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Administrador logado; Algum E-commerce salvo no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona a opcao 'E-commerce' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a tela de detalhes do ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Navega por paginas de tabela) Usuario Administrador clica em botao de navegacao de paginas de tabela&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a tela de detalhes do ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona um E-commerce na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre a tela de edicao do Ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador modifica os dados existentes&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema valida os dados cadastrais do ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Usuario insere algum dado invalido) Sistema alerta que o dado esta invalido e pede nova entrada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador corrige os dados invalidos e clica em 'Atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica usuario de que o Ecommerce foi atualizado com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>Ecommerce esta com dados atualizados no sistema.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC28">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Administrador logado; Algum E-commerce salvo no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona a opcao 'E-commerce' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a tela de detalhes do ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Filtra lista de Ecommerce) Usuario Administrador preenche campos de filtragem&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a tela de detalhes do ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona um E-commerce na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre a tela de edicao do Ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador modifica os dados existentes&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema valida os dados cadastrais do ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica usuario de que o Ecommerce foi atualizado com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>Ecommerce esta com dados atualizados no sistema.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC29">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Administrador logado; Algum E-commerce salvo no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona a opcao 'E-commerce' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a tela de detalhes do ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Filtra lista de Ecommerce) Usuario Administrador preenche campos de filtragem&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a tela de detalhes do ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona um E-commerce na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre a tela de edicao do Ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador modifica os dados existentes&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema valida os dados cadastrais do ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Nao insere algum dado obrigat&#xfffd;rio') Sistema informa que os dados obrigat&#xfffd;rios devem ser preenchidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador adiciona dados corretos e clica em 'Atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica usuario de que o Ecommerce foi atualizado com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>Ecommerce esta com dados atualizados no sistema.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC30">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Administrador logado; Algum E-commerce salvo no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona a opcao 'E-commerce' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a tela de detalhes do ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Filtra lista de Ecommerce) Usuario Administrador preenche campos de filtragem&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a tela de detalhes do ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona um E-commerce na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre a tela de edicao do Ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador modifica os dados existentes&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema valida os dados cadastrais do ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Usuario insere algum dado invalido) Sistema alerta que o dado esta invalido e pede nova entrada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador corrige os dados invalidos e clica em 'Atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica usuario de que o Ecommerce foi atualizado com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>Ecommerce esta com dados atualizados no sistema.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC36">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Administrador logado; Algum E-commerce salvo no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona a opcao 'E-commerce' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a tela de detalhes do ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;3  (Cancela atualizacao de Ecommerce) Usuario Administrador clica no botao Cancelar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a tela de detalhes do ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona um E-commerce na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre a tela de edicao do Ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador modifica os dados existentes&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema valida os dados cadastrais do ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica usuario de que o Ecommerce foi atualizado com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>Ecommerce esta com dados atualizados no sistema.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC37">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Administrador logado; Algum E-commerce salvo no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona a opcao 'E-commerce' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a tela de detalhes do ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;3  (Cancela atualizacao de Ecommerce) Usuario Administrador clica no botao Cancelar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a tela de detalhes do ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona um E-commerce na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre a tela de edicao do Ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador modifica os dados existentes&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema valida os dados cadastrais do ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Nao insere algum dado obrigat&#xfffd;rio') Sistema informa que os dados obrigat&#xfffd;rios devem ser preenchidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador adiciona dados corretos e clica em 'Atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica usuario de que o Ecommerce foi atualizado com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>Ecommerce esta com dados atualizados no sistema.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC38">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Administrador logado; Algum E-commerce salvo no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona a opcao 'E-commerce' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a tela de detalhes do ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;3  (Cancela atualizacao de Ecommerce) Usuario Administrador clica no botao Cancelar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a tela de detalhes do ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona um E-commerce na lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre a tela de edicao do Ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador modifica os dados existentes&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema valida os dados cadastrais do ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Usuario insere algum dado invalido) Sistema alerta que o dado esta invalido e pede nova entrada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador corrige os dados invalidos e clica em 'Atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica usuario de que o Ecommerce foi atualizado com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>Ecommerce esta com dados atualizados no sistema.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+</testsuite>

@@ -1,0 +1,5 @@
+commit e474c126708c5e6123f276204b601bb24e111587
+Author: Guilherme Gadelha <guilhermemgadelha@outlook.com>
+Date:   Mon Mar 13 16:49:34 2017 -0300
+
+    novos casos de uso para Operador de Terminal

@@ -1,0 +1,79 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+17 17
+18 18
+19 19
+20 20
+21 21
+22 22
+23 23
+24 24
+25 25
+26 26
+27 27
+28 28
+29 29
+30 30
+31 31
+32 32
+33 33
+34 34
+35 35
+36 36
+37 37
+38 38
+#
+1 19 conditions
+19 2  Deve existir um usuario cadastrado com perfil administrador.
+2 20 steps
+20 3   Administrador do sistema acessa o sistema
+3 21 expected_results
+21 4   Sistema exibe pagina de login
+4 22 steps
+22 5   Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login
+3 23 expected_results
+23 6   Sistema exibe pagina de login
+3 24 expected_results
+24 8   Sistema exibe pagina de login
+3 25 expected_results
+25 10   Sistema exibe pagina de login
+5 26 expected_results
+26 15   Sistema exibe pagina ?Search extraction?
+4 27 steps
+27 13   Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login
+4 28 steps
+28 14   Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login
+6 29 steps
+29 7  (User invalido) Administrador do sistema digita o user de um usuário invalido, digita uma password e pressiona o botao Login
+7 30 expected_results
+30 4   Sistema exibe mensagem ?Invalid user or password? na pagina de login
+8 31 steps
+31 9  (Password invalida) Administrador do sistema digita o user de um usuario administrador corretamente, digita uma password inválida e pressiona o botão Login
+9 32 expected_results
+32 4   Sistema exibe mensagem ?User or Password incorrect. Attempts remaining until the account lockout: #tentativas restantes#? na página de login
+10 33 steps
+33 11  (Número de tentativas invalidas e 5) Administrador do sistema digita o user de um usuario administrador corretamente, digita uma password inválida pela sexta vez e pressiona o botao Login
+11 34 expected_results
+34 12   Sistema bloqueia o usuario
+12 35 expected_results
+35 16   Sistema exibe a mensagem ?This user has been blocked.?
+13 36 expected_results
+36 3 3  (Usuario inativo por 30 minutos) Sistema finaliza sessão do usuario e retorna a pagina de login ao receber alguma requisicao do usuario
+14 37 expected_results
+37 17  (Usuario inativo por 90 dias) Sistema exibe a mensagem ?This user has been blocked.?
+15 38 conditions
+38 18  O usuario deve estar logado.

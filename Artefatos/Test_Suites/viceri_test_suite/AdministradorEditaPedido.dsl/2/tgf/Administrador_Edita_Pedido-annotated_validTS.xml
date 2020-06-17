@@ -1,0 +1,765 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<testsuite name="TS">
+  <node_order />
+  <details />
+  <testcase internalid="" name="TC1">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador logado no sistema; Existem Pedidos registrados no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Clicar na opcao 'Pedidos' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem de Pedidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em um Pedido existente&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de edicao de Pedido&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche os dados de novo CEP&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema preenche demais campos de Endereco exceto Numero e Complemento&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche demais campos de Endereco e clica em Atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica usuario que o Pedido foi atualizado com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O Pedido esta atualizado no banco.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC2">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador logado no sistema; Existem Pedidos registrados no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Clicar na opcao 'Pedidos' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem de Pedidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em um Pedido existente&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de edicao de Pedido&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche os dados de novo CEP&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema preenche demais campos de Endereco exceto Numero e Complemento&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche demais campos de Endereco e clica em Atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Nao insere algum dado obrigatorio') Sistema informa que os dados obrigatorios devem ser preenchidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;7   Usuario Administrador preenche dados obrigatorios e clica em Atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema preenche demais campos de Endereco exceto Numero e Complemento&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche demais campos de Endereco e clica em Atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica usuario que o Pedido foi atualizado com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O Pedido esta atualizado no banco.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC5">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador logado no sistema; Existem Pedidos registrados no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Clicar na opcao 'Pedidos' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem de Pedidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em um Pedido existente&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de edicao de Pedido&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche os dados de novo CEP&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema preenche demais campos de Endereco exceto Numero e Complemento&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;3  (Usuario cancela atualizacao de Pedido) Usuario Administrador clica no botao Cancelar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem de Pedidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em um Pedido existente&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de edicao de Pedido&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche os dados de novo CEP&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema preenche demais campos de Endereco exceto Numero e Complemento&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche demais campos de Endereco e clica em Atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica usuario que o Pedido foi atualizado com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O Pedido esta atualizado no banco.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC8">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador logado no sistema; Existem Pedidos registrados no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Clicar na opcao 'Pedidos' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem de Pedidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em um Pedido existente&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de edicao de Pedido&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche os dados de novo CEP&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema preenche demais campos de Endereco exceto Numero e Complemento&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;3  (Usuario cancela atualizacao de Pedido) Usuario Administrador clica no botao Cancelar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem de Pedidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em um Pedido existente&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de edicao de Pedido&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche os dados de novo CEP&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Usuario insere CEP invalido) Sistema alerta que CEP &#xfffd; invalido&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche um cpf valido e clica em Atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema preenche demais campos de Endereco exceto Numero e Complemento&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche demais campos de Endereco e clica em Atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica usuario que o Pedido foi atualizado com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O Pedido esta atualizado no banco.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC14">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador logado no sistema; Existem Pedidos registrados no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Clicar na opcao 'Pedidos' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem de Pedidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em um Pedido existente&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de edicao de Pedido&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche os dados de novo CEP&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Usuario insere CEP invalido) Sistema alerta que CEP &#xfffd; invalido&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche um cpf valido e clica em Atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema preenche demais campos de Endereco exceto Numero e Complemento&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche demais campos de Endereco e clica em Atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica usuario que o Pedido foi atualizado com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O Pedido esta atualizado no banco.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC15">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador logado no sistema; Existem Pedidos registrados no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Clicar na opcao 'Pedidos' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem de Pedidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em um Pedido existente&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de edicao de Pedido&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche os dados de novo CEP&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Usuario insere CEP invalido) Sistema alerta que CEP &#xfffd; invalido&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche um cpf valido e clica em Atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema preenche demais campos de Endereco exceto Numero e Complemento&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche demais campos de Endereco e clica em Atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Nao insere algum dado obrigatorio') Sistema informa que os dados obrigatorios devem ser preenchidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;7   Usuario Administrador preenche dados obrigatorios e clica em Atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema preenche demais campos de Endereco exceto Numero e Complemento&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche demais campos de Endereco e clica em Atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica usuario que o Pedido foi atualizado com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O Pedido esta atualizado no banco.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC18">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador logado no sistema; Existem Pedidos registrados no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Clicar na opcao 'Pedidos' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem de Pedidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em um Pedido existente&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de edicao de Pedido&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche os dados de novo CEP&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Usuario insere CEP invalido) Sistema alerta que CEP &#xfffd; invalido&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche um cpf valido e clica em Atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema preenche demais campos de Endereco exceto Numero e Complemento&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;3  (Usuario cancela atualizacao de Pedido) Usuario Administrador clica no botao Cancelar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem de Pedidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em um Pedido existente&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de edicao de Pedido&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche os dados de novo CEP&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema preenche demais campos de Endereco exceto Numero e Complemento&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche demais campos de Endereco e clica em Atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica usuario que o Pedido foi atualizado com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O Pedido esta atualizado no banco.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC21">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador logado no sistema; Existem Pedidos registrados no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Clicar na opcao 'Pedidos' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem de Pedidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em um Pedido existente&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de edicao de Pedido&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche os dados de novo CEP&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Usuario insere CEP invalido) Sistema alerta que CEP &#xfffd; invalido&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche um cpf valido e clica em Atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema preenche demais campos de Endereco exceto Numero e Complemento&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;3  (Usuario cancela atualizacao de Pedido) Usuario Administrador clica no botao Cancelar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem de Pedidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em um Pedido existente&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de edicao de Pedido&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche os dados de novo CEP&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Usuario insere CEP invalido) Sistema alerta que CEP &#xfffd; invalido&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche um cpf valido e clica em Atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema preenche demais campos de Endereco exceto Numero e Complemento&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>9</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche demais campos de Endereco e clica em Atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica usuario que o Pedido foi atualizado com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O Pedido esta atualizado no banco.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC27">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador logado no sistema; Existem Pedidos registrados no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Clicar na opcao 'Pedidos' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem de Pedidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Usuario ordena lista de Pedidos) Usuario Administrador clica em um dos bot&#xfffd;es de ordenacao associada a uma coluna da tabela&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem de Pedidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em um Pedido existente&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de edicao de Pedido&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche os dados de novo CEP&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema preenche demais campos de Endereco exceto Numero e Complemento&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche demais campos de Endereco e clica em Atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica usuario que o Pedido foi atualizado com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O Pedido esta atualizado no banco.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC30">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador logado no sistema; Existem Pedidos registrados no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Clicar na opcao 'Pedidos' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem de Pedidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Usuario ordena lista de Pedidos) Usuario Administrador clica em um dos bot&#xfffd;es de ordenacao associada a uma coluna da tabela&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem de Pedidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em um Pedido existente&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de edicao de Pedido&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche os dados de novo CEP&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Usuario insere CEP invalido) Sistema alerta que CEP &#xfffd; invalido&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche um cpf valido e clica em Atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema preenche demais campos de Endereco exceto Numero e Complemento&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche demais campos de Endereco e clica em Atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica usuario que o Pedido foi atualizado com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O Pedido esta atualizado no banco.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC36">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador logado no sistema; Existem Pedidos registrados no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Clicar na opcao 'Pedidos' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem de Pedidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Usuario filtra lista de Pedidos) Usuario Administrador preenche campos de filtragem&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem de Pedidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em um Pedido existente&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de edicao de Pedido&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche os dados de novo CEP&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema preenche demais campos de Endereco exceto Numero e Complemento&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche demais campos de Endereco e clica em Atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica usuario que o Pedido foi atualizado com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O Pedido esta atualizado no banco.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC39">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador logado no sistema; Existem Pedidos registrados no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Clicar na opcao 'Pedidos' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem de Pedidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Usuario filtra lista de Pedidos) Usuario Administrador preenche campos de filtragem&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem de Pedidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em um Pedido existente&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de edicao de Pedido&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche os dados de novo CEP&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Usuario insere CEP invalido) Sistema alerta que CEP &#xfffd; invalido&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche um cpf valido e clica em Atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema preenche demais campos de Endereco exceto Numero e Complemento&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche demais campos de Endereco e clica em Atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica usuario que o Pedido foi atualizado com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O Pedido esta atualizado no banco.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC45">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador logado no sistema; Existem Pedidos registrados no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Clicar na opcao 'Pedidos' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem de Pedidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Usuario navega por paginas de tabela) Usuario Administrador clica em botao de navegacao de paginas de tabela&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem de Pedidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em um Pedido existente&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de edicao de Pedido&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche os dados de novo CEP&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema preenche demais campos de Endereco exceto Numero e Complemento&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche demais campos de Endereco e clica em Atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica usuario que o Pedido foi atualizado com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O Pedido esta atualizado no banco.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC48">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador logado no sistema; Existem Pedidos registrados no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Clicar na opcao 'Pedidos' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem de Pedidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Usuario navega por paginas de tabela) Usuario Administrador clica em botao de navegacao de paginas de tabela&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem de Pedidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em um Pedido existente&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de edicao de Pedido&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche os dados de novo CEP&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Usuario insere CEP invalido) Sistema alerta que CEP &#xfffd; invalido&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche um cpf valido e clica em Atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema preenche demais campos de Endereco exceto Numero e Complemento&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche demais campos de Endereco e clica em Atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica usuario que o Pedido foi atualizado com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O Pedido esta atualizado no banco.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+</testsuite>

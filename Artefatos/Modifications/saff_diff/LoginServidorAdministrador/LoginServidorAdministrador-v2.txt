@@ -1,0 +1,16 @@
+3c4
+---
+>         version "2.0", type:"Modification", user:"Everton", date:"24/07/2015"
+5c7
+---
+>         clock, "temporizador"
+11c13
+<             step 2, system, "exibe tela “Search extraction”"
+---
+>             step 2, system, "exibe tela “Search extraction”", ef:[1]
+30c33,36
+---
+>         exception 3, "Usuario inativo por 30 minutos", {
+>             step 1, system, "finaliza sessao do usuario e retorna a pagina de login", bfs:1
+>         }
+> 

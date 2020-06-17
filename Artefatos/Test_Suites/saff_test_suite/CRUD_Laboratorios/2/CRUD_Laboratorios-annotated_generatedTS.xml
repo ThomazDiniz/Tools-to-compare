@@ -1,0 +1,2568 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<testsuite name="TS">
+  <node_order />
+  <details />
+  <testcase internalid="" name="TC1">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Estar logado como super administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona o botão 'Create Laboratories'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos de cadastro de novo Laboratório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Super administrador preenche corretamente os campos 'Name', 'Country' e 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com dados do novo Laboratório e mensagem que um novo entrada foi adicionado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Super administrador clica no nome de um Laboratório&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dados do Laboratório e lista de usuários associados a este&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Super administrador clica no botão 'Cancel'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema retorna a lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC2">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Estar logado como super administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona o botão 'Create Laboratories'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos de cadastro de novo Laboratório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Super administrador preenche corretamente os campos 'Name', 'Country' e 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com dados do novo Laboratório e mensagem que um novo entrada foi adicionado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Super administrador clica no nome de um Laboratório&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dados do Laboratório e lista de usuários associados a este&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;(Edita dados) Super administrador clica no botão 'Edit'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe campos do Laboratório com valores atuais que podem ser editados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Super administrador preenche os novos valores e pressiona o botão 'Update&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona o botão 'Create Laboratories'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos de cadastro de novo Laboratório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>9</step_number>
+        <actions>&lt;p&gt;Super administrador preenche corretamente os campos 'Name', 'Country' e 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com dados do novo Laboratório e mensagem que um novo entrada foi adicionado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>10</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>11</step_number>
+        <actions>&lt;p&gt;Super administrador clica no nome de um Laboratório&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dados do Laboratório e lista de usuários associados a este&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>12</step_number>
+        <actions>&lt;p&gt;Super administrador clica no botão 'Cancel'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema retorna a lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC3">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Estar logado como super administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona o botão 'Create Laboratories'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos de cadastro de novo Laboratório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Super administrador preenche corretamente os campos 'Name', 'Country' e 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com dados do novo Laboratório e mensagem que um novo entrada foi adicionado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Super administrador clica no nome de um Laboratório&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dados do Laboratório e lista de usuários associados a este&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;(Edita dados) Super administrador clica no botão 'Edit'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe campos do Laboratório com valores atuais que podem ser editados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Super administrador preenche os novos valores e pressiona o botão 'Update&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona o botão 'Create Laboratories'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos de cadastro de novo Laboratório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>9</step_number>
+        <actions>&lt;p&gt;Super administrador preenche corretamente os campos 'Name', 'Country' e 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com dados do novo Laboratório e mensagem que um novo entrada foi adicionado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>10</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>11</step_number>
+        <actions>&lt;p&gt;Super administrador clica no nome de um Laboratório&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dados do Laboratório e lista de usuários associados a este&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>12</step_number>
+        <actions>&lt;p&gt;(Edita dados) Super administrador clica no botão 'Edit'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe campos do Laboratório com valores atuais que podem ser editados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>13</step_number>
+        <actions>&lt;p&gt;Super administrador preenche os novos valores e pressiona o botão 'Update&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC4">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Estar logado como super administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona o botão 'Create Laboratories'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos de cadastro de novo Laboratório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Super administrador preenche corretamente os campos 'Name', 'Country' e 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com dados do novo Laboratório e mensagem que um novo entrada foi adicionado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Super administrador clica no nome de um Laboratório&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dados do Laboratório e lista de usuários associados a este&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;(Edita dados) Super administrador clica no botão 'Edit'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe campos do Laboratório com valores atuais que podem ser editados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Super administrador preenche os novos valores e pressiona o botão 'Update&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona o botão 'Create Laboratories'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos de cadastro de novo Laboratório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>9</step_number>
+        <actions>&lt;p&gt;(Campo fora da formatação esperada, e.g, Country = xx) Super administrador preenche incorretamente algum dos campos 'Name', 'Country' ou 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem informando que os dados não correspondem a formatação esperada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>10</step_number>
+        <actions>&lt;p&gt;Super administrador preenche corretamente os campos 'Name', 'Country' e 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com dados do novo Laboratório e mensagem que um novo entrada foi adicionado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>11</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>12</step_number>
+        <actions>&lt;p&gt;Super administrador clica no nome de um Laboratório&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dados do Laboratório e lista de usuários associados a este&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>13</step_number>
+        <actions>&lt;p&gt;Super administrador clica no botão 'Cancel'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema retorna a lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC5">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Estar logado como super administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona o botão 'Create Laboratories'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos de cadastro de novo Laboratório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Super administrador preenche corretamente os campos 'Name', 'Country' e 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com dados do novo Laboratório e mensagem que um novo entrada foi adicionado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Super administrador clica no nome de um Laboratório&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dados do Laboratório e lista de usuários associados a este&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;(Edita dados) Super administrador clica no botão 'Edit'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe campos do Laboratório com valores atuais que podem ser editados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Super administrador preenche os novos valores e pressiona o botão 'Update&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona o botão 'Create Laboratories'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos de cadastro de novo Laboratório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>9</step_number>
+        <actions>&lt;p&gt;(Campo fora da formatação esperada, e.g, Country = xx) Super administrador preenche incorretamente algum dos campos 'Name', 'Country' ou 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem informando que os dados não correspondem a formatação esperada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>10</step_number>
+        <actions>&lt;p&gt;Super administrador preenche corretamente os campos 'Name', 'Country' e 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com dados do novo Laboratório e mensagem que um novo entrada foi adicionado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>11</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>12</step_number>
+        <actions>&lt;p&gt;Super administrador clica no nome de um Laboratório&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dados do Laboratório e lista de usuários associados a este&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>13</step_number>
+        <actions>&lt;p&gt;(Edita dados) Super administrador clica no botão 'Edit'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe campos do Laboratório com valores atuais que podem ser editados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>14</step_number>
+        <actions>&lt;p&gt;Super administrador preenche os novos valores e pressiona o botão 'Update&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC6">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Estar logado como super administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona o botão 'Create Laboratories'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos de cadastro de novo Laboratório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Super administrador preenche corretamente os campos 'Name', 'Country' e 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com dados do novo Laboratório e mensagem que um novo entrada foi adicionado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Super administrador clica no nome de um Laboratório&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dados do Laboratório e lista de usuários associados a este&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;(Edita dados) Super administrador clica no botão 'Edit'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe campos do Laboratório com valores atuais que podem ser editados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Super administrador preenche os novos valores e pressiona o botão 'Update&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona o botão 'Create Laboratories'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos de cadastro de novo Laboratório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>9</step_number>
+        <actions>&lt;p&gt;(Cancela criação) Super administrador cancela criação&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC7">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Estar logado como super administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona o botão 'Create Laboratories'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos de cadastro de novo Laboratório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Super administrador preenche corretamente os campos 'Name', 'Country' e 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com dados do novo Laboratório e mensagem que um novo entrada foi adicionado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Super administrador clica no nome de um Laboratório&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dados do Laboratório e lista de usuários associados a este&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;(Edita dados) Super administrador clica no botão 'Edit'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe campos do Laboratório com valores atuais que podem ser editados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Super administrador preenche os novos valores e pressiona o botão 'Update&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona o botão 'Create Laboratories'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos de cadastro de novo Laboratório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>9</step_number>
+        <actions>&lt;p&gt;(Nome de Laboratório já existente) Super administrador preenche o campo 'Name' com um nome de laboratório jã existente. Preenche corretamente os campos 'Country' e 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem informando que já existe laboratório cadastrado com esse nome&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>10</step_number>
+        <actions>&lt;p&gt;Super administrador preenche corretamente os campos 'Name', 'Country' e 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com dados do novo Laboratório e mensagem que um novo entrada foi adicionado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>11</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>12</step_number>
+        <actions>&lt;p&gt;Super administrador clica no nome de um Laboratório&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dados do Laboratório e lista de usuários associados a este&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>13</step_number>
+        <actions>&lt;p&gt;Super administrador clica no botão 'Cancel'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema retorna a lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC8">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Estar logado como super administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona o botão 'Create Laboratories'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos de cadastro de novo Laboratório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Super administrador preenche corretamente os campos 'Name', 'Country' e 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com dados do novo Laboratório e mensagem que um novo entrada foi adicionado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Super administrador clica no nome de um Laboratório&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dados do Laboratório e lista de usuários associados a este&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;(Edita dados) Super administrador clica no botão 'Edit'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe campos do Laboratório com valores atuais que podem ser editados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Super administrador preenche os novos valores e pressiona o botão 'Update&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona o botão 'Create Laboratories'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos de cadastro de novo Laboratório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>9</step_number>
+        <actions>&lt;p&gt;(Nome de Laboratório já existente) Super administrador preenche o campo 'Name' com um nome de laboratório jã existente. Preenche corretamente os campos 'Country' e 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem informando que já existe laboratório cadastrado com esse nome&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>10</step_number>
+        <actions>&lt;p&gt;Super administrador preenche corretamente os campos 'Name', 'Country' e 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com dados do novo Laboratório e mensagem que um novo entrada foi adicionado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>11</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>12</step_number>
+        <actions>&lt;p&gt;Super administrador clica no nome de um Laboratório&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dados do Laboratório e lista de usuários associados a este&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>13</step_number>
+        <actions>&lt;p&gt;(Edita dados) Super administrador clica no botão 'Edit'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe campos do Laboratório com valores atuais que podem ser editados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>14</step_number>
+        <actions>&lt;p&gt;Super administrador preenche os novos valores e pressiona o botão 'Update&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC9">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Estar logado como super administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona o botão 'Create Laboratories'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos de cadastro de novo Laboratório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Campo fora da formatação esperada, e.g, Country = xx) Super administrador preenche incorretamente algum dos campos 'Name', 'Country' ou 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem informando que os dados não correspondem a formatação esperada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Super administrador preenche corretamente os campos 'Name', 'Country' e 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com dados do novo Laboratório e mensagem que um novo entrada foi adicionado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Super administrador clica no nome de um Laboratório&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dados do Laboratório e lista de usuários associados a este&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Super administrador clica no botão 'Cancel'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema retorna a lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC10">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Estar logado como super administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona o botão 'Create Laboratories'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos de cadastro de novo Laboratório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Campo fora da formatação esperada, e.g, Country = xx) Super administrador preenche incorretamente algum dos campos 'Name', 'Country' ou 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem informando que os dados não correspondem a formatação esperada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Super administrador preenche corretamente os campos 'Name', 'Country' e 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com dados do novo Laboratório e mensagem que um novo entrada foi adicionado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Super administrador clica no nome de um Laboratório&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dados do Laboratório e lista de usuários associados a este&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;(Edita dados) Super administrador clica no botão 'Edit'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe campos do Laboratório com valores atuais que podem ser editados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Super administrador preenche os novos valores e pressiona o botão 'Update&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>9</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona o botão 'Create Laboratories'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos de cadastro de novo Laboratório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>10</step_number>
+        <actions>&lt;p&gt;Super administrador preenche corretamente os campos 'Name', 'Country' e 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com dados do novo Laboratório e mensagem que um novo entrada foi adicionado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>11</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>12</step_number>
+        <actions>&lt;p&gt;Super administrador clica no nome de um Laboratório&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dados do Laboratório e lista de usuários associados a este&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>13</step_number>
+        <actions>&lt;p&gt;Super administrador clica no botão 'Cancel'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema retorna a lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC11">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Estar logado como super administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona o botão 'Create Laboratories'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos de cadastro de novo Laboratório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Campo fora da formatação esperada, e.g, Country = xx) Super administrador preenche incorretamente algum dos campos 'Name', 'Country' ou 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem informando que os dados não correspondem a formatação esperada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Super administrador preenche corretamente os campos 'Name', 'Country' e 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com dados do novo Laboratório e mensagem que um novo entrada foi adicionado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Super administrador clica no nome de um Laboratório&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dados do Laboratório e lista de usuários associados a este&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;(Edita dados) Super administrador clica no botão 'Edit'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe campos do Laboratório com valores atuais que podem ser editados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Super administrador preenche os novos valores e pressiona o botão 'Update&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>9</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona o botão 'Create Laboratories'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos de cadastro de novo Laboratório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>10</step_number>
+        <actions>&lt;p&gt;Super administrador preenche corretamente os campos 'Name', 'Country' e 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com dados do novo Laboratório e mensagem que um novo entrada foi adicionado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>11</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>12</step_number>
+        <actions>&lt;p&gt;Super administrador clica no nome de um Laboratório&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dados do Laboratório e lista de usuários associados a este&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>13</step_number>
+        <actions>&lt;p&gt;(Edita dados) Super administrador clica no botão 'Edit'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe campos do Laboratório com valores atuais que podem ser editados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>14</step_number>
+        <actions>&lt;p&gt;Super administrador preenche os novos valores e pressiona o botão 'Update&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC12">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Estar logado como super administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona o botão 'Create Laboratories'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos de cadastro de novo Laboratório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Campo fora da formatação esperada, e.g, Country = xx) Super administrador preenche incorretamente algum dos campos 'Name', 'Country' ou 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem informando que os dados não correspondem a formatação esperada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Super administrador preenche corretamente os campos 'Name', 'Country' e 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com dados do novo Laboratório e mensagem que um novo entrada foi adicionado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Super administrador clica no nome de um Laboratório&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dados do Laboratório e lista de usuários associados a este&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;(Edita dados) Super administrador clica no botão 'Edit'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe campos do Laboratório com valores atuais que podem ser editados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Super administrador preenche os novos valores e pressiona o botão 'Update&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>9</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona o botão 'Create Laboratories'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos de cadastro de novo Laboratório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>10</step_number>
+        <actions>&lt;p&gt;(Campo fora da formatação esperada, e.g, Country = xx) Super administrador preenche incorretamente algum dos campos 'Name', 'Country' ou 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem informando que os dados não correspondem a formatação esperada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>11</step_number>
+        <actions>&lt;p&gt;Super administrador preenche corretamente os campos 'Name', 'Country' e 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com dados do novo Laboratório e mensagem que um novo entrada foi adicionado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>12</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>13</step_number>
+        <actions>&lt;p&gt;Super administrador clica no nome de um Laboratório&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dados do Laboratório e lista de usuários associados a este&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>14</step_number>
+        <actions>&lt;p&gt;Super administrador clica no botão 'Cancel'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema retorna a lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC13">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Estar logado como super administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona o botão 'Create Laboratories'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos de cadastro de novo Laboratório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Campo fora da formatação esperada, e.g, Country = xx) Super administrador preenche incorretamente algum dos campos 'Name', 'Country' ou 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem informando que os dados não correspondem a formatação esperada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Super administrador preenche corretamente os campos 'Name', 'Country' e 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com dados do novo Laboratório e mensagem que um novo entrada foi adicionado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Super administrador clica no nome de um Laboratório&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dados do Laboratório e lista de usuários associados a este&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;(Edita dados) Super administrador clica no botão 'Edit'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe campos do Laboratório com valores atuais que podem ser editados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Super administrador preenche os novos valores e pressiona o botão 'Update&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>9</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona o botão 'Create Laboratories'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos de cadastro de novo Laboratório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>10</step_number>
+        <actions>&lt;p&gt;(Campo fora da formatação esperada, e.g, Country = xx) Super administrador preenche incorretamente algum dos campos 'Name', 'Country' ou 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem informando que os dados não correspondem a formatação esperada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>11</step_number>
+        <actions>&lt;p&gt;Super administrador preenche corretamente os campos 'Name', 'Country' e 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com dados do novo Laboratório e mensagem que um novo entrada foi adicionado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>12</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>13</step_number>
+        <actions>&lt;p&gt;Super administrador clica no nome de um Laboratório&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dados do Laboratório e lista de usuários associados a este&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>14</step_number>
+        <actions>&lt;p&gt;(Edita dados) Super administrador clica no botão 'Edit'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe campos do Laboratório com valores atuais que podem ser editados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>15</step_number>
+        <actions>&lt;p&gt;Super administrador preenche os novos valores e pressiona o botão 'Update&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC14">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Estar logado como super administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona o botão 'Create Laboratories'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos de cadastro de novo Laboratório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Campo fora da formatação esperada, e.g, Country = xx) Super administrador preenche incorretamente algum dos campos 'Name', 'Country' ou 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem informando que os dados não correspondem a formatação esperada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Super administrador preenche corretamente os campos 'Name', 'Country' e 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com dados do novo Laboratório e mensagem que um novo entrada foi adicionado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Super administrador clica no nome de um Laboratório&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dados do Laboratório e lista de usuários associados a este&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;(Edita dados) Super administrador clica no botão 'Edit'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe campos do Laboratório com valores atuais que podem ser editados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Super administrador preenche os novos valores e pressiona o botão 'Update&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>9</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona o botão 'Create Laboratories'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos de cadastro de novo Laboratório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>10</step_number>
+        <actions>&lt;p&gt;(Cancela criação) Super administrador cancela criação&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC15">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Estar logado como super administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona o botão 'Create Laboratories'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos de cadastro de novo Laboratório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Campo fora da formatação esperada, e.g, Country = xx) Super administrador preenche incorretamente algum dos campos 'Name', 'Country' ou 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem informando que os dados não correspondem a formatação esperada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Super administrador preenche corretamente os campos 'Name', 'Country' e 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com dados do novo Laboratório e mensagem que um novo entrada foi adicionado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Super administrador clica no nome de um Laboratório&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dados do Laboratório e lista de usuários associados a este&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;(Edita dados) Super administrador clica no botão 'Edit'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe campos do Laboratório com valores atuais que podem ser editados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Super administrador preenche os novos valores e pressiona o botão 'Update&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>9</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona o botão 'Create Laboratories'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos de cadastro de novo Laboratório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>10</step_number>
+        <actions>&lt;p&gt;(Nome de Laboratório já existente) Super administrador preenche o campo 'Name' com um nome de laboratório jã existente. Preenche corretamente os campos 'Country' e 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem informando que já existe laboratório cadastrado com esse nome&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>11</step_number>
+        <actions>&lt;p&gt;Super administrador preenche corretamente os campos 'Name', 'Country' e 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com dados do novo Laboratório e mensagem que um novo entrada foi adicionado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>12</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>13</step_number>
+        <actions>&lt;p&gt;Super administrador clica no nome de um Laboratório&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dados do Laboratório e lista de usuários associados a este&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>14</step_number>
+        <actions>&lt;p&gt;Super administrador clica no botão 'Cancel'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema retorna a lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC16">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Estar logado como super administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona o botão 'Create Laboratories'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos de cadastro de novo Laboratório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Campo fora da formatação esperada, e.g, Country = xx) Super administrador preenche incorretamente algum dos campos 'Name', 'Country' ou 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem informando que os dados não correspondem a formatação esperada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Super administrador preenche corretamente os campos 'Name', 'Country' e 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com dados do novo Laboratório e mensagem que um novo entrada foi adicionado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Super administrador clica no nome de um Laboratório&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dados do Laboratório e lista de usuários associados a este&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;(Edita dados) Super administrador clica no botão 'Edit'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe campos do Laboratório com valores atuais que podem ser editados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Super administrador preenche os novos valores e pressiona o botão 'Update&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>9</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona o botão 'Create Laboratories'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos de cadastro de novo Laboratório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>10</step_number>
+        <actions>&lt;p&gt;(Nome de Laboratório já existente) Super administrador preenche o campo 'Name' com um nome de laboratório jã existente. Preenche corretamente os campos 'Country' e 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem informando que já existe laboratório cadastrado com esse nome&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>11</step_number>
+        <actions>&lt;p&gt;Super administrador preenche corretamente os campos 'Name', 'Country' e 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com dados do novo Laboratório e mensagem que um novo entrada foi adicionado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>12</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>13</step_number>
+        <actions>&lt;p&gt;Super administrador clica no nome de um Laboratório&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dados do Laboratório e lista de usuários associados a este&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>14</step_number>
+        <actions>&lt;p&gt;(Edita dados) Super administrador clica no botão 'Edit'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe campos do Laboratório com valores atuais que podem ser editados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>15</step_number>
+        <actions>&lt;p&gt;Super administrador preenche os novos valores e pressiona o botão 'Update&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC17">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Estar logado como super administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona o botão 'Create Laboratories'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos de cadastro de novo Laboratório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Cancela criação) Super administrador cancela criação&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona o botão 'Create Laboratories'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos de cadastro de novo Laboratório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Super administrador preenche corretamente os campos 'Name', 'Country' e 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com dados do novo Laboratório e mensagem que um novo entrada foi adicionado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Super administrador clica no nome de um Laboratório&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dados do Laboratório e lista de usuários associados a este&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Super administrador clica no botão 'Cancel'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema retorna a lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC18">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Estar logado como super administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona o botão 'Create Laboratories'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos de cadastro de novo Laboratório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Cancela criação) Super administrador cancela criação&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona o botão 'Create Laboratories'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos de cadastro de novo Laboratório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Super administrador preenche corretamente os campos 'Name', 'Country' e 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com dados do novo Laboratório e mensagem que um novo entrada foi adicionado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Super administrador clica no nome de um Laboratório&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dados do Laboratório e lista de usuários associados a este&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;(Edita dados) Super administrador clica no botão 'Edit'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe campos do Laboratório com valores atuais que podem ser editados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>9</step_number>
+        <actions>&lt;p&gt;Super administrador preenche os novos valores e pressiona o botão 'Update&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC19">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Estar logado como super administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona o botão 'Create Laboratories'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos de cadastro de novo Laboratório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Cancela criação) Super administrador cancela criação&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona o botão 'Create Laboratories'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos de cadastro de novo Laboratório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;(Campo fora da formatação esperada, e.g, Country = xx) Super administrador preenche incorretamente algum dos campos 'Name', 'Country' ou 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem informando que os dados não correspondem a formatação esperada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Super administrador preenche corretamente os campos 'Name', 'Country' e 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com dados do novo Laboratório e mensagem que um novo entrada foi adicionado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Super administrador clica no nome de um Laboratório&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dados do Laboratório e lista de usuários associados a este&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>9</step_number>
+        <actions>&lt;p&gt;Super administrador clica no botão 'Cancel'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema retorna a lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC20">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Estar logado como super administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona o botão 'Create Laboratories'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos de cadastro de novo Laboratório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Cancela criação) Super administrador cancela criação&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona o botão 'Create Laboratories'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos de cadastro de novo Laboratório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;(Campo fora da formatação esperada, e.g, Country = xx) Super administrador preenche incorretamente algum dos campos 'Name', 'Country' ou 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem informando que os dados não correspondem a formatação esperada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Super administrador preenche corretamente os campos 'Name', 'Country' e 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com dados do novo Laboratório e mensagem que um novo entrada foi adicionado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Super administrador clica no nome de um Laboratório&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dados do Laboratório e lista de usuários associados a este&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>9</step_number>
+        <actions>&lt;p&gt;(Edita dados) Super administrador clica no botão 'Edit'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe campos do Laboratório com valores atuais que podem ser editados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>10</step_number>
+        <actions>&lt;p&gt;Super administrador preenche os novos valores e pressiona o botão 'Update&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC21">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Estar logado como super administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona o botão 'Create Laboratories'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos de cadastro de novo Laboratório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Cancela criação) Super administrador cancela criação&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona o botão 'Create Laboratories'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos de cadastro de novo Laboratório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;(Cancela criação) Super administrador cancela criação&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC22">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Estar logado como super administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona o botão 'Create Laboratories'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos de cadastro de novo Laboratório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Cancela criação) Super administrador cancela criação&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona o botão 'Create Laboratories'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos de cadastro de novo Laboratório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;(Nome de Laboratório já existente) Super administrador preenche o campo 'Name' com um nome de laboratório jã existente. Preenche corretamente os campos 'Country' e 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem informando que já existe laboratório cadastrado com esse nome&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Super administrador preenche corretamente os campos 'Name', 'Country' e 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com dados do novo Laboratório e mensagem que um novo entrada foi adicionado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Super administrador clica no nome de um Laboratório&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dados do Laboratório e lista de usuários associados a este&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>9</step_number>
+        <actions>&lt;p&gt;Super administrador clica no botão 'Cancel'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema retorna a lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC23">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Estar logado como super administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona o botão 'Create Laboratories'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos de cadastro de novo Laboratório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Cancela criação) Super administrador cancela criação&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona o botão 'Create Laboratories'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos de cadastro de novo Laboratório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;(Nome de Laboratório já existente) Super administrador preenche o campo 'Name' com um nome de laboratório jã existente. Preenche corretamente os campos 'Country' e 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem informando que já existe laboratório cadastrado com esse nome&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Super administrador preenche corretamente os campos 'Name', 'Country' e 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com dados do novo Laboratório e mensagem que um novo entrada foi adicionado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Super administrador clica no nome de um Laboratório&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dados do Laboratório e lista de usuários associados a este&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>9</step_number>
+        <actions>&lt;p&gt;(Edita dados) Super administrador clica no botão 'Edit'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe campos do Laboratório com valores atuais que podem ser editados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>10</step_number>
+        <actions>&lt;p&gt;Super administrador preenche os novos valores e pressiona o botão 'Update&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC24">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Estar logado como super administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona o botão 'Create Laboratories'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos de cadastro de novo Laboratório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Nome de Laboratório já existente) Super administrador preenche o campo 'Name' com um nome de laboratório jã existente. Preenche corretamente os campos 'Country' e 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem informando que já existe laboratório cadastrado com esse nome&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Super administrador preenche corretamente os campos 'Name', 'Country' e 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com dados do novo Laboratório e mensagem que um novo entrada foi adicionado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Super administrador clica no nome de um Laboratório&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dados do Laboratório e lista de usuários associados a este&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Super administrador clica no botão 'Cancel'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema retorna a lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC25">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Estar logado como super administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona o botão 'Create Laboratories'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos de cadastro de novo Laboratório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Nome de Laboratório já existente) Super administrador preenche o campo 'Name' com um nome de laboratório jã existente. Preenche corretamente os campos 'Country' e 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem informando que já existe laboratório cadastrado com esse nome&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Super administrador preenche corretamente os campos 'Name', 'Country' e 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com dados do novo Laboratório e mensagem que um novo entrada foi adicionado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Super administrador clica no nome de um Laboratório&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dados do Laboratório e lista de usuários associados a este&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;(Edita dados) Super administrador clica no botão 'Edit'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe campos do Laboratório com valores atuais que podem ser editados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Super administrador preenche os novos valores e pressiona o botão 'Update&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>9</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona o botão 'Create Laboratories'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos de cadastro de novo Laboratório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>10</step_number>
+        <actions>&lt;p&gt;Super administrador preenche corretamente os campos 'Name', 'Country' e 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com dados do novo Laboratório e mensagem que um novo entrada foi adicionado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>11</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>12</step_number>
+        <actions>&lt;p&gt;Super administrador clica no nome de um Laboratório&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dados do Laboratório e lista de usuários associados a este&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>13</step_number>
+        <actions>&lt;p&gt;Super administrador clica no botão 'Cancel'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema retorna a lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC26">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Estar logado como super administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona o botão 'Create Laboratories'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos de cadastro de novo Laboratório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Nome de Laboratório já existente) Super administrador preenche o campo 'Name' com um nome de laboratório jã existente. Preenche corretamente os campos 'Country' e 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem informando que já existe laboratório cadastrado com esse nome&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Super administrador preenche corretamente os campos 'Name', 'Country' e 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com dados do novo Laboratório e mensagem que um novo entrada foi adicionado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Super administrador clica no nome de um Laboratório&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dados do Laboratório e lista de usuários associados a este&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;(Edita dados) Super administrador clica no botão 'Edit'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe campos do Laboratório com valores atuais que podem ser editados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Super administrador preenche os novos valores e pressiona o botão 'Update&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>9</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona o botão 'Create Laboratories'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos de cadastro de novo Laboratório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>10</step_number>
+        <actions>&lt;p&gt;Super administrador preenche corretamente os campos 'Name', 'Country' e 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com dados do novo Laboratório e mensagem que um novo entrada foi adicionado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>11</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>12</step_number>
+        <actions>&lt;p&gt;Super administrador clica no nome de um Laboratório&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dados do Laboratório e lista de usuários associados a este&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>13</step_number>
+        <actions>&lt;p&gt;(Edita dados) Super administrador clica no botão 'Edit'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe campos do Laboratório com valores atuais que podem ser editados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>14</step_number>
+        <actions>&lt;p&gt;Super administrador preenche os novos valores e pressiona o botão 'Update&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC27">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Estar logado como super administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona o botão 'Create Laboratories'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos de cadastro de novo Laboratório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Nome de Laboratório já existente) Super administrador preenche o campo 'Name' com um nome de laboratório jã existente. Preenche corretamente os campos 'Country' e 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem informando que já existe laboratório cadastrado com esse nome&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Super administrador preenche corretamente os campos 'Name', 'Country' e 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com dados do novo Laboratório e mensagem que um novo entrada foi adicionado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Super administrador clica no nome de um Laboratório&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dados do Laboratório e lista de usuários associados a este&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;(Edita dados) Super administrador clica no botão 'Edit'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe campos do Laboratório com valores atuais que podem ser editados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Super administrador preenche os novos valores e pressiona o botão 'Update&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>9</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona o botão 'Create Laboratories'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos de cadastro de novo Laboratório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>10</step_number>
+        <actions>&lt;p&gt;(Campo fora da formatação esperada, e.g, Country = xx) Super administrador preenche incorretamente algum dos campos 'Name', 'Country' ou 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem informando que os dados não correspondem a formatação esperada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>11</step_number>
+        <actions>&lt;p&gt;Super administrador preenche corretamente os campos 'Name', 'Country' e 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com dados do novo Laboratório e mensagem que um novo entrada foi adicionado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>12</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>13</step_number>
+        <actions>&lt;p&gt;Super administrador clica no nome de um Laboratório&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dados do Laboratório e lista de usuários associados a este&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>14</step_number>
+        <actions>&lt;p&gt;Super administrador clica no botão 'Cancel'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema retorna a lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC28">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Estar logado como super administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona o botão 'Create Laboratories'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos de cadastro de novo Laboratório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Nome de Laboratório já existente) Super administrador preenche o campo 'Name' com um nome de laboratório jã existente. Preenche corretamente os campos 'Country' e 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem informando que já existe laboratório cadastrado com esse nome&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Super administrador preenche corretamente os campos 'Name', 'Country' e 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com dados do novo Laboratório e mensagem que um novo entrada foi adicionado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Super administrador clica no nome de um Laboratório&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dados do Laboratório e lista de usuários associados a este&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;(Edita dados) Super administrador clica no botão 'Edit'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe campos do Laboratório com valores atuais que podem ser editados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Super administrador preenche os novos valores e pressiona o botão 'Update&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>9</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona o botão 'Create Laboratories'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos de cadastro de novo Laboratório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>10</step_number>
+        <actions>&lt;p&gt;(Campo fora da formatação esperada, e.g, Country = xx) Super administrador preenche incorretamente algum dos campos 'Name', 'Country' ou 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem informando que os dados não correspondem a formatação esperada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>11</step_number>
+        <actions>&lt;p&gt;Super administrador preenche corretamente os campos 'Name', 'Country' e 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com dados do novo Laboratório e mensagem que um novo entrada foi adicionado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>12</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>13</step_number>
+        <actions>&lt;p&gt;Super administrador clica no nome de um Laboratório&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dados do Laboratório e lista de usuários associados a este&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>14</step_number>
+        <actions>&lt;p&gt;(Edita dados) Super administrador clica no botão 'Edit'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe campos do Laboratório com valores atuais que podem ser editados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>15</step_number>
+        <actions>&lt;p&gt;Super administrador preenche os novos valores e pressiona o botão 'Update&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC29">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Estar logado como super administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona o botão 'Create Laboratories'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos de cadastro de novo Laboratório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Nome de Laboratório já existente) Super administrador preenche o campo 'Name' com um nome de laboratório jã existente. Preenche corretamente os campos 'Country' e 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem informando que já existe laboratório cadastrado com esse nome&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Super administrador preenche corretamente os campos 'Name', 'Country' e 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com dados do novo Laboratório e mensagem que um novo entrada foi adicionado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Super administrador clica no nome de um Laboratório&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dados do Laboratório e lista de usuários associados a este&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;(Edita dados) Super administrador clica no botão 'Edit'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe campos do Laboratório com valores atuais que podem ser editados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Super administrador preenche os novos valores e pressiona o botão 'Update&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>9</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona o botão 'Create Laboratories'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos de cadastro de novo Laboratório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>10</step_number>
+        <actions>&lt;p&gt;(Cancela criação) Super administrador cancela criação&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC30">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Estar logado como super administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona o botão 'Create Laboratories'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos de cadastro de novo Laboratório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Nome de Laboratório já existente) Super administrador preenche o campo 'Name' com um nome de laboratório jã existente. Preenche corretamente os campos 'Country' e 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem informando que já existe laboratório cadastrado com esse nome&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Super administrador preenche corretamente os campos 'Name', 'Country' e 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com dados do novo Laboratório e mensagem que um novo entrada foi adicionado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Super administrador clica no nome de um Laboratório&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dados do Laboratório e lista de usuários associados a este&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;(Edita dados) Super administrador clica no botão 'Edit'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe campos do Laboratório com valores atuais que podem ser editados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Super administrador preenche os novos valores e pressiona o botão 'Update&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>9</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona o botão 'Create Laboratories'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos de cadastro de novo Laboratório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>10</step_number>
+        <actions>&lt;p&gt;(Nome de Laboratório já existente) Super administrador preenche o campo 'Name' com um nome de laboratório jã existente. Preenche corretamente os campos 'Country' e 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem informando que já existe laboratório cadastrado com esse nome&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>11</step_number>
+        <actions>&lt;p&gt;Super administrador preenche corretamente os campos 'Name', 'Country' e 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com dados do novo Laboratório e mensagem que um novo entrada foi adicionado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>12</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>13</step_number>
+        <actions>&lt;p&gt;Super administrador clica no nome de um Laboratório&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dados do Laboratório e lista de usuários associados a este&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>14</step_number>
+        <actions>&lt;p&gt;Super administrador clica no botão 'Cancel'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema retorna a lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC31">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Estar logado como super administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona o botão 'Create Laboratories'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos de cadastro de novo Laboratório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Nome de Laboratório já existente) Super administrador preenche o campo 'Name' com um nome de laboratório jã existente. Preenche corretamente os campos 'Country' e 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem informando que já existe laboratório cadastrado com esse nome&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Super administrador preenche corretamente os campos 'Name', 'Country' e 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com dados do novo Laboratório e mensagem que um novo entrada foi adicionado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Super administrador clica no nome de um Laboratório&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dados do Laboratório e lista de usuários associados a este&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;(Edita dados) Super administrador clica no botão 'Edit'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe campos do Laboratório com valores atuais que podem ser editados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Super administrador preenche os novos valores e pressiona o botão 'Update&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>9</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona o botão 'Create Laboratories'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos de cadastro de novo Laboratório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>10</step_number>
+        <actions>&lt;p&gt;(Nome de Laboratório já existente) Super administrador preenche o campo 'Name' com um nome de laboratório jã existente. Preenche corretamente os campos 'Country' e 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem informando que já existe laboratório cadastrado com esse nome&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>11</step_number>
+        <actions>&lt;p&gt;Super administrador preenche corretamente os campos 'Name', 'Country' e 'Description' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com dados do novo Laboratório e mensagem que um novo entrada foi adicionado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>12</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Laboratories' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de laboratórios&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>13</step_number>
+        <actions>&lt;p&gt;Super administrador clica no nome de um Laboratório&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dados do Laboratório e lista de usuários associados a este&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>14</step_number>
+        <actions>&lt;p&gt;(Edita dados) Super administrador clica no botão 'Edit'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe campos do Laboratório com valores atuais que podem ser editados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>15</step_number>
+        <actions>&lt;p&gt;Super administrador preenche os novos valores e pressiona o botão 'Update&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+</testsuite>

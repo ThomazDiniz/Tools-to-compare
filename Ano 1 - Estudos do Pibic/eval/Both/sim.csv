@@ -1,0 +1,33 @@
+old	new	isSyntactic	Hamming	Reversed Hamming	Levenshtein	OSA	Jaro	Jaro-Winkler	LCS	Jaccard	NGram	Cosine	Sørensen–Dice
+<step>	<step>	0	0.0
+<step_number>1</step_number>	<step_number>1</step_number>	0	0.0
+<actions><p>operador Pressiona no bot�o ICT220 3 testes<p></actions>	<actions><p>operador Tire foto da maquina<p></actions>	0	0.627906976744186
+<execution_type />	<execution_type />	0	0.0
+</step>	</step>	0	0.0
+<step>	<step>	0	0.0
+<step_number>2</step_number>	<step_number>2</step_number>	0	0.0
+<actions><p>operador Pressiona no bot�o Executar<p></actions>	<actions><p>operador Pressiona no botao Executar<p></actions>	0	0.027777777777777776
+<expectedresults><p>system Mostra uma caixa de mensagem indicando que os testes est�o sendo executados junto com uma barra de carregamento</p></expectedresults>	<expectedresults><p>system Mostra uma caixa de mensagem indicando que os testes estao sendo executados junto com uma barra de carregamento</p></expectedresults>	0	0.00847457627118644
+<execution_type />	<execution_type />	0	0.0
+</step>	</step>	0	0.0
+<step>	<step>	0	0.0
+<step_number>3</step_number>	<step_number>3</step_number>	0	0.0
+<actions><p>operador Executa os testes na m�quina<p></actions>	<actions><p>operador Executa os testes na maquina<p></actions>	0	0.02702702702702703
+<expectedresults><p>system Mostra a tela pedindo a descri��o do usu�rio para dizer qual o resultado dos testes.</p></expectedresults>	<expectedresults><p>system Mostra a tela pedindo a descricao do usuario para dizer qual o resultado dos testes.</p></expectedresults>	0	0.03296703296703297
+<execution_type />	<execution_type />	0	0.0
+</step>	</step>	0	0.0
+<step>	<step>	0	0.0
+<step_number>4</step_number>	<step_number>4</step_number>	0	0.0
+<actions><p>operador Digite o ocorrido nos testes na caixa de nota e pressione em okou cancelar caso n�o tenha nada a descrever.<p></actions>	<actions><p>operador Digite o ocorrido nos testes na caixa de nota e pressione em okou cancelar caso nao tenha nada a descrever.<p></actions>	0	0.008620689655172414
+<execution_type />	<execution_type />	0	0.0
+</step>	</step>	0	0.0
+<step>	<step>	0	0.0
+<step_number>5</step_number>	<step_number>5</step_number>	0	0.0
+<actions><p>operador Tire foto da m�quina<p></actions>	<actions><p>operador Tire foto da maquina<p></actions>	0	0.034482758620689655
+<execution_type />	<execution_type />	0	0.0
+</step>	</step>	0	0.0
+<step>	<step>	0	0.0
+<step_number>6</step_number>	<step_number>6</step_number>	0	0.0
+<actions><p>operador Pressione no bot�o de enviar<p></actions>	<actions><p>operador Tire foto da maquina<p></actions>	0	0.5135135135135135
+<execution_type />	<execution_type />	0	0.0
+</step>	</step>	0	0.0

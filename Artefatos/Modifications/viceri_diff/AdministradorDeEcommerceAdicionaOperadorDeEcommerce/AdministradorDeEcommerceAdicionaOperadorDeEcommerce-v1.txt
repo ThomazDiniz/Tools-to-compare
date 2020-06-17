@@ -1,0 +1,4 @@
+18c18
+< 			step 6, system, 			"mostra operador adicionado em tabela na tela de cadastro", ef:[1,2,3,4,5,6]
+---
+> 			step 6, system, 			"notifica que o operador foi adicionado e o mostra em tabela de operadores", ef:[1,2,3,4,5,6]

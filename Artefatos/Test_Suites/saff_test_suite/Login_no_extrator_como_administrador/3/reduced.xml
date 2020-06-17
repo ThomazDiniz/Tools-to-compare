@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<testsuite name="TS">
+  <node_order />
+  <details />
+  <testcase internalid="" name="TC31">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário deve estar logado no servidor como super administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;´Super Administrador abre módulo de extração&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página inicial do módulo de extração&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Numero de tentativas invalidas é 5) ´Super Administrador digita um login de usuário administrador e/ou password invalidos pela quinta vez e pressiona Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema bloqueia usuário&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;´Super Administrador tenta mais uma vez logar na conta do usuário, agora com dados válidos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem que usuário está bloqueado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC15">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário deve estar logado no servidor como super administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;´Super Administrador abre módulo de extração&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página inicial do módulo de extração&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Login ou Password inválidos) ´Super Administrador digita um login de usuário administrador e/ou password invalidos e pressiona Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem ?Invalid username or password? na tela de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;´Super Administrador digita um login de usuário administrador e password e pressiona Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Sem conexão com o servidor e usuário não deseja fazer extração offline) Sistema exibe pop-up questionanado se o usuário deveja fazer uma extração offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;´Super Administrador pressiona No&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema fecha a janela pop-up&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;´Super Administrador digita um login de usuário administrador e password e pressiona Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Sem conexão com o servidor e usuário não deseja fazer extração offline) Sistema exibe pop-up questionanado se o usuário deveja fazer uma extração offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;´Super Administrador pressiona No&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema fecha a janela pop-up&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC24">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário deve estar logado no servidor como super administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;´Super Administrador abre módulo de extração&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página inicial do módulo de extração&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Numero de tentativas invalidas é 3) ´Super Administrador digita um login de usuário administrador e/ou password invalidos pela terceira vez e pressiona Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem de alerta&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;´Super Administrador digita um login de usuário administrador e password e pressiona Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Sem conexão com o servidor e usuário não deseja fazer extração offline) Sistema exibe pop-up questionanado se o usuário deveja fazer uma extração offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;´Super Administrador pressiona No&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema fecha a janela pop-up&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;´Super Administrador digita um login de usuário administrador e password e pressiona Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Sem conexão com o servidor e usuário deseja fazer extração offline) Sistema exibe pop-up questionanado se o usuário deveja fazer uma extração offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;´Super Administrador pressiona Yes&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema fecha a janela pop-up&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC27">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário deve estar logado no servidor como super administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;´Super Administrador abre módulo de extração&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página inicial do módulo de extração&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Numero de tentativas invalidas é 3) ´Super Administrador digita um login de usuário administrador e/ou password invalidos pela terceira vez e pressiona Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem de alerta&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;´Super Administrador digita um login de usuário administrador e password e pressiona Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Usuario inativo por 90 dias) Sistema infoma que usuario esta bloqueado por inatividade&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;´Super Administrador executa programa externo que reinicia senha de super admin&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;´Super Administrador digita um login de usuário administrador e password e pressiona Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela ?SAFF Extractor?&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC1">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário deve estar logado no servidor como super administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;´Super Administrador abre módulo de extração&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página inicial do módulo de extração&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;´Super Administrador digita um login de usuário administrador e password e pressiona Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela ?SAFF Extractor?&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+</testsuite>

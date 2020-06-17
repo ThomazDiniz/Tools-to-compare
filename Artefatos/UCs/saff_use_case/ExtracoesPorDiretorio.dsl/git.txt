@@ -1,0 +1,23 @@
+commit 040c01efd39b48b13e7390cae58cc1aa39c47ddf
+Author: unknown <kallynny@ingenico-08.ingenico.net>
+Date:   Mon Feb 29 09:44:58 2016 -0300
+
+    Atualização de casos de uso
+
+commit 3f0675657caf8a74c221818ad38aa8b7592b67f4
+Author: unknown <rafaelsilva@Ingenico-SPLAb.ingenico.net>
+Date:   Mon Oct 26 15:30:56 2015 -0300
+
+    novos casos de uso
+
+commit 6f7e2d2913546e69690d1fd457eb059d96ba5d56
+Author: everton <evertongaldino@gmail.com>
+Date:   Thu Jun 18 14:34:47 2015 -0300
+
+    Minor updates
+
+commit 0d6ee3ac4235bf1892289fb4d475c55e0bc99e44
+Author: everton <evertongaldino@gmail.com>
+Date:   Wed Jun 17 16:19:37 2015 -0300
+
+    Casos de uso SAFF/Extrator - v1

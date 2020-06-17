@@ -1,0 +1,146 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+17 17
+18 18
+19 19
+20 20
+21 21
+22 22
+23 23
+24 24
+25 25
+26 26
+27 27
+28 28
+29 29
+30 30
+31 31
+32 32
+33 33
+34 34
+35 35
+36 36
+37 37
+38 38
+39 39
+40 40
+41 41
+42 42
+43 43
+44 44
+45 45
+46 46
+47 47
+48 48
+49 49
+50 50
+51 51
+52 52
+53 53
+54 54
+55 55
+56 56
+57 57
+58 58
+59 59
+60 60
+61 61
+62 62
+63 63
+64 64
+65 65
+66 66
+67 67
+68 68
+69 69
+70 70
+71 71
+72 72
+73 73
+#
+1 38 conditions
+38 2  Administrador deve estar logado. não existem extrações cadastradas.
+2 39 steps
+39 3   Administrador pressiona opção ?Extract from directory?
+3 40 expected_results
+40 4   Sistema exibe tela de extração por diretório
+4 41 steps
+41 5   Administrador seleciona pasta ?Ext1?, que contém um único conjunto de arquivos para a família ?IPP320-01T1220A?, e pressiona o botão ?Extract?
+5 42 expected_results
+42 6   Sistema exibe na parte inferior da tela uma mensagem indicando que uma extração foi realizada
+6 43 steps
+43 7   Administrador acessa página ?Extractions?
+7 44 expected_results
+44 8   Sistema exibe a lista de extrações com somente um elemento
+8 45 steps
+45 9   Administrador faz logout
+9 46 expected_results
+46 10   Sistema exibe página de login
+10 47 steps
+47 11   Operador de uma lab diferente do administrador faz login e vai para a página ?Extractions?
+11 48 expected_results
+48 12   Sistema exibe uma lista vazia
+12 49 steps
+49 13   Operador de uma lab diferente do administrador pressiona opção ?Extract from directory?
+13 50 expected_results
+50 14   Sistema exibe tela de extração por diretório
+14 51 steps
+51 15   Operador de uma lab diferente do administrador seleciona pasta ?Ext1?, que contém um único conjunto de arquivos para a família ?IPP320-01T1220A?, e pressiona o botão ?Extract?
+15 52 expected_results
+52 16   Sistema exibe na parte inferior da tela uma mensagem indicando que uma extração foi realizada
+16 53 steps
+53 17   Operador de uma lab diferente do administrador acessa página ?Extractions?
+17 54 expected_results
+54 18   Sistema exibe a lista de extrações com somente um elemento
+18 55 steps
+55 19   Operador de uma lab diferente do administrador faz logout
+19 56 expected_results
+56 20   Sistema exibe página de login
+20 57 steps
+57 21   Operador de mesmo lab do administrador faz login e vai para a página ?Extractions?
+21 58 expected_results
+58 22   Sistema exibe uma lista com uma extração
+22 59 steps
+59 23   Operador de mesmo lab do administrador faz logout
+23 60 expected_results
+60 24   Sistema exibe página de login
+24 61 steps
+61 25   Gerente de uma lab diferente do administrador e operador faz login e vai para a página ?Extractions?
+25 62 expected_results
+62 26   Sistema exibe uma lista vazia
+26 63 steps
+63 27   Gerente de uma lab diferente do administrador e operador pressiona opção ?Extract from directory?
+27 64 expected_results
+64 28   Sistema exibe tela de extração por diretório
+28 65 steps
+65 29   Gerente de uma lab diferente do administrador e operador seleciona pasta ?Ext1?, que contém um único conjunto de arquivos para a família ?IPP320-01T1220A?, e pressiona o botão ?Extract?
+29 66 expected_results
+66 30   Sistema exibe na parte inferior da tela uma mensagem indicando que uma extração foi realizada
+30 67 steps
+67 31   Gerente de uma lab diferente do administrador e operador acessa página ?Extractions?
+31 68 expected_results
+68 32   Sistema exibe a lista de extrações com somente um elemento
+32 69 steps
+69 33   Gerente de uma lab diferente do administrador e operador faz logout
+33 70 expected_results
+70 34   Sistema exibe página de login
+34 71 steps
+71 35   Super Administrador faz login e vai para a página ?Extractions?
+35 72 expected_results
+72 36   Sistema exibe lista com três extrações
+36 73 conditions
+73 37   .

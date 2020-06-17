@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<testsuite name="TS">
+  <node_order />
+  <details />
+  <testcase internalid="" name="TC25">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;(Modifica o intervalo do temporizador) administrador do sistema modifica o valor da propriedade AUTO_COLLECT_WAIT_TIME para 60 (o valor é em segundos)&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema bloqueia todos os botoes, com excecao do botao 'Stop'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;temporizador a cada 10 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema verifica se existem diretórios de serial number no formato correto e que foram criados a X ou mais tempo definido na propriedade AUTO_COLLECT_WAIT_TIME no arquivo conf.properties e então: envia as extracoes com essas restricoes para o servidor, transfere essas extrações(somente a pasta de serial number) para a pasta 'AUTO_COLLECT_READ_DIR/PRODUCTNUMBER'(onde o PRODUCTNUMBER é referente a cada SERIALNUMBER), atualiza o contador de extrações realizadas/enviadas e fica em espera por novas extracoes com essas mesmas restricoes na pasta indicada, verifica se existe conexão com o servidor para enviar as extrações offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Insere novas extracoes na pasta) administrador do sistema adiciona novas extracoes na pasta indicada&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema bloqueia todos os botoes, com excecao do botao 'Stop'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;temporizador a cada 10 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Extração não se encontra em formato adequado ou o diretório do SERIALNUMBER está vazio) Sistema move a extração para a pasta broken&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC16">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;administrador do sistema inicia o SAFF Extractor e se autentica&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de coleta automatica&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Altera a pasta C:\Collect para uma pasta vazia) administrador do sistema seleciona pasta vazia, e pressiona botao 'Start'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema fica em espera ate que alguma extracao seja adicionada na pasta indicada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;administrador do sistema adiciona extracao a pasta indicada&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema bloqueia todos os botoes, com excecao do botao 'Stop'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;temporizador a cada 10 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Falha no envio ao servidor) Sistema mantem a informacao de quais extracoes foram enviadas para o servidor; salva a extração no modo offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;temporizador a cada 10 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema verifica se existem diretórios de serial number no formato correto e que foram criados a X ou mais tempo definido na propriedade AUTO_COLLECT_WAIT_TIME no arquivo conf.properties e então: envia as extracoes com essas restricoes para o servidor, transfere essas extrações(somente a pasta de serial number) para a pasta 'AUTO_COLLECT_READ_DIR/PRODUCTNUMBER'(onde o PRODUCTNUMBER é referente a cada SERIALNUMBER), atualiza o contador de extrações realizadas/enviadas e fica em espera por novas extracoes com essas mesmas restricoes na pasta indicada, verifica se existe conexão com o servidor para enviar as extrações offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;administrador do sistema pressiona botao 'Stop'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema desbloqueia todos os botoes e para de escutar a pasta indicada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>As extracoes da pasta indicada foram enviadas para o servidor e transferidas para a pasta 'read'.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC4">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;administrador do sistema inicia o SAFF Extractor e se autentica&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de coleta automatica&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;administrador do sistema seleciona uma pasta contendo varias extrações, fornece as informacoes solicitadas na tela inicial e pressiona o botao 'Start'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema bloqueia todos os botoes, com excecao do botao 'Stop'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;temporizador a cada 10 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema verifica se existem diretórios de serial number no formato correto e que foram criados a X ou mais tempo definido na propriedade AUTO_COLLECT_WAIT_TIME no arquivo conf.properties e então: envia as extracoes com essas restricoes para o servidor, transfere essas extrações(somente a pasta de serial number) para a pasta 'AUTO_COLLECT_READ_DIR/PRODUCTNUMBER'(onde o PRODUCTNUMBER é referente a cada SERIALNUMBER), atualiza o contador de extrações realizadas/enviadas e fica em espera por novas extracoes com essas mesmas restricoes na pasta indicada, verifica se existe conexão com o servidor para enviar as extrações offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Insere novas extracoes na pasta) administrador do sistema adiciona novas extracoes na pasta indicada&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema bloqueia todos os botoes, com excecao do botao 'Stop'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;temporizador a cada 10 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Falha no envio ao servidor) Sistema mantem a informacao de quais extracoes foram enviadas para o servidor; salva a extração no modo offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC12">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;administrador do sistema inicia o SAFF Extractor e se autentica&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de coleta automatica&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Altera a pasta C:\Collect para uma pasta vazia) administrador do sistema seleciona pasta vazia, e pressiona botao 'Start'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema fica em espera ate que alguma extracao seja adicionada na pasta indicada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;administrador do sistema adiciona extracao a pasta indicada&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema bloqueia todos os botoes, com excecao do botao 'Stop'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;temporizador a cada 10 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema verifica se existem diretórios de serial number no formato correto e que foram criados a X ou mais tempo definido na propriedade AUTO_COLLECT_WAIT_TIME no arquivo conf.properties e então: envia as extracoes com essas restricoes para o servidor, transfere essas extrações(somente a pasta de serial number) para a pasta 'AUTO_COLLECT_READ_DIR/PRODUCTNUMBER'(onde o PRODUCTNUMBER é referente a cada SERIALNUMBER), atualiza o contador de extrações realizadas/enviadas e fica em espera por novas extracoes com essas mesmas restricoes na pasta indicada, verifica se existe conexão com o servidor para enviar as extrações offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;(Insere novas extracoes na pasta) administrador do sistema adiciona novas extracoes na pasta indicada&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema bloqueia todos os botoes, com excecao do botao 'Stop'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;temporizador a cada 10 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema verifica se existem diretórios de serial number no formato correto e que foram criados a X ou mais tempo definido na propriedade AUTO_COLLECT_WAIT_TIME no arquivo conf.properties e então: envia as extracoes com essas restricoes para o servidor, transfere essas extrações(somente a pasta de serial number) para a pasta 'AUTO_COLLECT_READ_DIR/PRODUCTNUMBER'(onde o PRODUCTNUMBER é referente a cada SERIALNUMBER), atualiza o contador de extrações realizadas/enviadas e fica em espera por novas extracoes com essas mesmas restricoes na pasta indicada, verifica se existe conexão com o servidor para enviar as extrações offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;administrador do sistema pressiona botao 'Stop'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema desbloqueia todos os botoes e para de escutar a pasta indicada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>As extracoes da pasta indicada foram enviadas para o servidor e transferidas para a pasta 'read'.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+</testsuite>

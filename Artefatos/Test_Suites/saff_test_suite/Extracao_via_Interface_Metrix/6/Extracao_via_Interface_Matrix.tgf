@@ -1,0 +1,39 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+17 17
+18 18
+#
+1 2 [c]  .
+2 3 [s]  operador do sistema inicia o SAFF Extractor e se autentica
+3 4 [e]  Sistema exibe tela de coleta automatica
+4 5 [s]  operador do sistema seleciona uma pasta contendo varias extracoes, fornece as informacoes solicitadas na tela inicial e pressiona o botao 'Start'
+3 10 [e]  Sistema exibe tela de coleta automatica
+5 6 [e]  Sistema bloqueia todos os botoes, com excecao do botao 'Stop'
+6 7 [s]  temporizador a cada 30 segundos
+7 8 [e]  Sistema envia extracoes para o servidor, transfere essas extrações para a pasta 'read', atualiza o contador de extrações realizadas e fica em espera por novas extracoes na pasta indicada
+6 14 [s]  temporizador a cada 30 segundos
+8 9 [s]  operador do sistema pressiona botao 'Stop'
+7 13 [e]  Sistema envia extracoes para o servidor, transfere essas extrações para a pasta 'read', atualiza o contador de extrações realizadas e fica em espera por novas extracoes na pasta indicada
+9 17 [e]  Sistema desbloqueia todos os botoes e para de escutar a pasta indicada
+10 11 [s] (Seleciona pasta vazia) operador do sistema seleciona pasta vazia, e pressiona botao 'Start'
+11 12 [e]  Sistema fica em espera ate que alguma extracao seja adicionada na pasta indicada
+12 5 [s]  operador do sistema adiciona extracao a pasta indicada
+13 5 [s] (Insere novas extracoes na pasta) operador do sistema adiciona novas extracoes na pasta indicada
+14 15 [e] (Falha no envio ao servidor) Sistema mantem a informacao de quais extracoes foram enviadas para o servidor; fica em espera ate que a conexao seja reestabelecida
+15 16 [s]  temporizador a cada 30 segundos
+16 6 [e]  Sistema tenta enviar extrações restantes para o servidor
+17 18 [c] As extracoes da pasta indicada foram enviadas para o servidor e transferidas para a pasta 'read'.

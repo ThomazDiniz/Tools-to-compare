@@ -1,0 +1,79 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+17 17
+18 18
+19 19
+20 20
+21 21
+22 22
+23 23
+24 24
+25 25
+26 26
+27 27
+28 28
+29 29
+30 30
+31 31
+32 32
+33 33
+34 34
+35 35
+36 36
+37 37
+38 38
+#
+1 19 conditions
+19 2  O Operador logado; Operador pertence Ecommerce alvo.
+2 20 steps
+20 3   Operador do Ecommerce seleciona a opcao 'Picking' no menu da tela principal
+3 21 expected_results
+21 4   Sistema mostra a tela com Picking para o dia
+4 22 steps
+22 5   Operador do Ecommerce clica em botao 'Iniciar Picking'
+3 23 expected_results
+23 11   Sistema mostra a tela com Picking para o dia
+5 24 expected_results
+24 6   Sistema mostra tela com dados de Picking
+6 25 steps
+25 7   Operador do Ecommerce clica no botao 'Registrar Ocorrencia'
+7 26 expected_results
+26 8   Sistema abre a janela de registro da Ocorrencia
+8 27 steps
+27 9   Operador do Ecommerce entra com o texto descrevendo sua Ocorrencia e clica no botao 'Registrar'
+7 28 expected_results
+28 10   Sistema abre a janela de registro da Ocorrencia
+9 29 expected_results
+29 17   Sistema cadastra a Ocorrencia e volta para tela de Picking
+8 30 steps
+30 14   Operador do Ecommerce entra com o texto descrevendo sua Ocorrencia e clica no botao 'Registrar'
+10 31 steps
+31 5  (Clicar no botao 'Cancelar') Operador do Ecommerce desiste de salvar uma ocorrencia e clica bo botao 'Cancelar'
+11 32 steps
+32 12  (registra ocorrencia apos visualizar lista de veiculos) Operador do Ecommerce clica em botao 'Consultar Veiculos'
+12 33 expected_results
+33 13   Sistema exibe lista de veiculos para picking
+13 34 steps
+34 5   Operador do Ecommerce clica em botao 'Iniciar Picking'
+14 35 steps
+35 15  (Nao insere a descricao da ocorrencia') Operador do Ecommerce nao insere a descricao da ocorrencia e clica no botao de 'Salvar'
+15 36 expected_results
+36 16   Sistema informa que a mensagem da ocorrencia nao pode ser vazia
+16 37 steps
+37 5   Operador do Ecommerce insere descricao valida para Ocorrencia e clica no botao 'Salvar'
+17 38 conditions
+38 18  O sistema tem uma nova ocorrencia cadastrada para aquela nota.

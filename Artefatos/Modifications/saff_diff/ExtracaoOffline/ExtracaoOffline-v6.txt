@@ -1,0 +1,19 @@
+13c13
+<             step 3, operador, "escolhe opcao Pre_Test para tipo de teste", af:[2,3,4,5,7,8]
+---
+>             step 3, operador, "escolhe opcao Pre_Test para tipo de teste", af:[2,3,4,5]
+15,16c15,16
+<             step 5, operador, "digita um product number e serial number validos e pressiona Extract (terminal em modo LLT)",af:[3,4,5]
+<             step 4, system, "exibe tela para entrada em modo offline"ef[1,2]
+---
+>             step 5, operador, "digita um product number e serial number validos e pressiona Extract (terminal em modo LLT)",af:[3,4,5,6]
+>             step 6, system, "exibe tela para entrada em modo offline"ef[1,2]
+68c69,75
+---
+>         alternative 6, "Product number e serial number que nao casam",{
+>             step 1, operador, "digita um product number e serial number validos mas nao referentes a mesma familia e pressiona Extract (terminal em modo LLT)"
+>             step 2, system, "apresenta mensagem de erro", bfs:3
+>         }
+> 
+> 
+> 

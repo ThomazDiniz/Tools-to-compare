@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<testsuite name="TS">
+  <node_order />
+  <details />
+  <testcase internalid="" name="TC1">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Clicar na opcao 'Compatibilidade' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem das Compatibilidades&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em 'Adicionar Compatibilidade'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de cadastro de Compatibilidade&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche os dados da Compatibilidade e clica em botao 'Registrar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica usuario que os nova Compatibilidade foi adicionada com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A nova Compatibilidade esta adicionada ao banco.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC2">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Clicar na opcao 'Compatibilidade' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem das Compatibilidades&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em 'Adicionar Compatibilidade'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de cadastro de Compatibilidade&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche os dados da Compatibilidade e clica em botao 'Registrar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Nao insere algum dado obrigatorio') Sistema informa que os dados obrigatorios devem ser preenchidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche dados obrigatorios e clica em Atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica usuario que os nova Compatibilidade foi adicionada com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A nova Compatibilidade esta adicionada ao banco.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC3">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Clicar na opcao 'Compatibilidade' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem das Compatibilidades&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em 'Adicionar Compatibilidade'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de cadastro de Compatibilidade&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche os dados da Compatibilidade e clica em botao 'Registrar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Usuario insere Tipo de Mercadoria invalido) Sistema alerta que Tipo de Mercadoria e invalido&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche um Tipo de Mercadoria valido e clica em Atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica usuario que os nova Compatibilidade foi adicionada com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A nova Compatibilidade esta adicionada ao banco.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC4">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Clicar na opcao 'Compatibilidade' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem das Compatibilidades&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em 'Adicionar Compatibilidade'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de cadastro de Compatibilidade&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche os dados da Compatibilidade e clica em botao 'Registrar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Usuario insere NCM invalido) Sistema alerta que NCM e invalido&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche um NCM valido e clica em Atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica usuario que os nova Compatibilidade foi adicionada com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A nova Compatibilidade esta adicionada ao banco.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC5">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Clicar na opcao 'Compatibilidade' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem das Compatibilidades&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em 'Adicionar Compatibilidade'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de cadastro de Compatibilidade&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Cancelar registro de nova Compatibilidade) Usuario Administrador clica no botao Cancelar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem das Compatibilidades&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em 'Adicionar Compatibilidade'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de cadastro de Compatibilidade&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche os dados da Compatibilidade e clica em botao 'Registrar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica usuario que os nova Compatibilidade foi adicionada com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A nova Compatibilidade esta adicionada ao banco.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC6">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Clicar na opcao 'Compatibilidade' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem das Compatibilidades&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em 'Adicionar Compatibilidade'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de cadastro de Compatibilidade&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Cancelar registro de nova Compatibilidade) Usuario Administrador clica no botao Cancelar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem das Compatibilidades&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em 'Adicionar Compatibilidade'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de cadastro de Compatibilidade&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche os dados da Compatibilidade e clica em botao 'Registrar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Nao insere algum dado obrigatorio') Sistema informa que os dados obrigatorios devem ser preenchidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche dados obrigatorios e clica em Atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica usuario que os nova Compatibilidade foi adicionada com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A nova Compatibilidade esta adicionada ao banco.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC7">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Clicar na opcao 'Compatibilidade' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem das Compatibilidades&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em 'Adicionar Compatibilidade'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de cadastro de Compatibilidade&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Cancelar registro de nova Compatibilidade) Usuario Administrador clica no botao Cancelar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem das Compatibilidades&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em 'Adicionar Compatibilidade'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de cadastro de Compatibilidade&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche os dados da Compatibilidade e clica em botao 'Registrar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Usuario insere Tipo de Mercadoria invalido) Sistema alerta que Tipo de Mercadoria e invalido&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche um Tipo de Mercadoria valido e clica em Atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica usuario que os nova Compatibilidade foi adicionada com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A nova Compatibilidade esta adicionada ao banco.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC8">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Clicar na opcao 'Compatibilidade' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem das Compatibilidades&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em 'Adicionar Compatibilidade'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de cadastro de Compatibilidade&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Cancelar registro de nova Compatibilidade) Usuario Administrador clica no botao Cancelar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem das Compatibilidades&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em 'Adicionar Compatibilidade'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de cadastro de Compatibilidade&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche os dados da Compatibilidade e clica em botao 'Registrar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Usuario insere NCM invalido) Sistema alerta que NCM e invalido&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche um NCM valido e clica em Atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica usuario que os nova Compatibilidade foi adicionada com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A nova Compatibilidade esta adicionada ao banco.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC9">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Clicar na opcao 'Compatibilidade' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem das Compatibilidades&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em 'Adicionar Compatibilidade'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de cadastro de Compatibilidade&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Cancelar registro de nova Compatibilidade) Usuario Administrador clica no botao Cancelar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem das Compatibilidades&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em 'Adicionar Compatibilidade'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de cadastro de Compatibilidade&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;(Cancelar registro de nova Compatibilidade) Usuario Administrador clica no botao Cancelar&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC10">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Clicar na opcao 'Compatibilidade' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem das Compatibilidades&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em 'Adicionar Compatibilidade'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de cadastro de Compatibilidade&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Cancelar registro de nova Compatibilidade) Usuario Administrador clica no botao Cancelar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem das Compatibilidades&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Volta para listagem de Compatibilidades) Usuario Administrador clica no botao Voltar&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC11">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Clicar na opcao 'Compatibilidade' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem das Compatibilidades&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Volta para listagem de Compatibilidades) Usuario Administrador clica no botao Voltar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem das Compatibilidades&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em 'Adicionar Compatibilidade'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de cadastro de Compatibilidade&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche os dados da Compatibilidade e clica em botao 'Registrar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica usuario que os nova Compatibilidade foi adicionada com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A nova Compatibilidade esta adicionada ao banco.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC12">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Clicar na opcao 'Compatibilidade' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem das Compatibilidades&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Volta para listagem de Compatibilidades) Usuario Administrador clica no botao Voltar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem das Compatibilidades&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em 'Adicionar Compatibilidade'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de cadastro de Compatibilidade&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche os dados da Compatibilidade e clica em botao 'Registrar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Nao insere algum dado obrigatorio') Sistema informa que os dados obrigatorios devem ser preenchidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche dados obrigatorios e clica em Atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica usuario que os nova Compatibilidade foi adicionada com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A nova Compatibilidade esta adicionada ao banco.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC13">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Clicar na opcao 'Compatibilidade' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem das Compatibilidades&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Volta para listagem de Compatibilidades) Usuario Administrador clica no botao Voltar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem das Compatibilidades&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em 'Adicionar Compatibilidade'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de cadastro de Compatibilidade&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche os dados da Compatibilidade e clica em botao 'Registrar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Usuario insere Tipo de Mercadoria invalido) Sistema alerta que Tipo de Mercadoria e invalido&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche um Tipo de Mercadoria valido e clica em Atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica usuario que os nova Compatibilidade foi adicionada com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A nova Compatibilidade esta adicionada ao banco.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC14">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Clicar na opcao 'Compatibilidade' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem das Compatibilidades&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Volta para listagem de Compatibilidades) Usuario Administrador clica no botao Voltar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem das Compatibilidades&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em 'Adicionar Compatibilidade'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de cadastro de Compatibilidade&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche os dados da Compatibilidade e clica em botao 'Registrar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Usuario insere NCM invalido) Sistema alerta que NCM e invalido&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche um NCM valido e clica em Atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica usuario que os nova Compatibilidade foi adicionada com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A nova Compatibilidade esta adicionada ao banco.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC15">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Clicar na opcao 'Compatibilidade' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem das Compatibilidades&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Volta para listagem de Compatibilidades) Usuario Administrador clica no botao Voltar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem das Compatibilidades&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em 'Adicionar Compatibilidade'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de cadastro de Compatibilidade&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Cancelar registro de nova Compatibilidade) Usuario Administrador clica no botao Cancelar&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC16">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Clicar na opcao 'Compatibilidade' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem das Compatibilidades&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Volta para listagem de Compatibilidades) Usuario Administrador clica no botao Voltar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem das Compatibilidades&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Volta para listagem de Compatibilidades) Usuario Administrador clica no botao Voltar&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+</testsuite>

@@ -1,0 +1,360 @@
+Complementar:
+	Classificação semântica, como ajudar mais o testador.
+
+	Research Question 3: 
+		Como diminuir o fardo de quem está fazendo os testes sintáticos. 
+		Ou pelo menos dizer o quão difícil é para ajustar.
+
+	Research Question 4:
+		Como classificar Semânticos
+		Quais passos entraram e quais passos saíram.
+
+	Simpósio Brasileiro de testes.
+
+
+
+Decidir a arquitetura da ferramenta
+  Receber a suíte de testes, uc e uc' para retornar duas suites de teste
+  "Suíte Nova" é a Suíte Original - UC' : Sn -> S - UC' U
+  "Suíte Original é ela menos A UCDELTA": S - UCDelta
+
+  SN -> UC' => S²
+  S² 0 uc'low
+  S² uc'
+Pega S filtrando S²
+
+
+
+
+Levshtein = 473
+OSA = 473
+Jaccard = 473
+NGRAM = 473
+JaroWinkler = 472
+Cosine = 470
+SorensenDice = 469
+LCS = 469
+Jaro = 471
+Hamming = 467
+HammingInverso = 452
+
+FLevshtein = 45
+FOSA = 45
+FJaccard = 45
+FNGRAM = 45
+FJaroWinkler = 46	
+FCosine = 48
+FSorensenDice = 49
+FLCS = 49
+FJaro = 47
+FHamming = 51
+FHammingInverso = 66
+
+total = 518
+
+vetorSucessos = c(Levshtein,OSA,Jaccard,NGRAM,JaroWinkler,Cosine,SorensenDice,LCS,Jaro,Hamming,HammingInverso)
+vetorTotal = c(total,total,total,total,total,total,total,total,total,total,total)
+vetorP = c(0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5)
+vetorFalhas = c(FLevshtein,FOSA,FJaccard,FNGRAM,FJaroWinkler,FCosine,FSorensenDice,FLCS,FJaro,FHamming,FHammingInverso)
+
+prop.test(vetorSucessos,vetorTotal)
+
+prop.test(vetorSucessos,vetorTotal, p=NULL,
+          alternative = c("two.sided", "less", "greater"),
+          conf.level = 0.1, correct = TRUE)
+
+
+prop.test(c(Levshtein,OSA),c(total,total), p=NULL,
+          alternative = c("two.sided", "less", "greater"),
+          conf.level = 0.95, correct = TRUE)
+prop.test(c(Levshtein,Jaccard),c(total,total), p=NULL,
+          alternative = c("two.sided", "less", "greater"),
+          conf.level = 0.95, correct = TRUE)
+prop.test(c(Levshtein,NGRAM),c(total,total), p=NULL,
+          alternative = c("two.sided", "less", "greater"),
+          conf.level = 0.95, correct = TRUE)
+prop.test(c(Levshtein,JaroWinkler),c(total,total), p=NULL,
+          alternative = c("two.sided", "less", "greater"),
+          conf.level = 0.95, correct = TRUE)
+prop.test(c(Levshtein,Cosine),c(total,total), p=NULL,
+          alternative = c("two.sided", "less", "greater"),
+          conf.level = 0.95, correct = TRUE)
+prop.test(c(Levshtein,SorensenDice),c(total,total), p=NULL,
+          alternative = c("two.sided", "less", "greater"),
+          conf.level = 0.95, correct = TRUE)
+prop.test(c(Levshtein,LCS),c(total,total), p=NULL,
+          alternative = c("two.sided", "less", "greater"),
+          conf.level = 0.95, correct = TRUE)
+prop.test(c(Levshtein,Jaro),c(total,total), p=NULL,
+          alternative = c("two.sided", "less", "greater"),
+          conf.level = 0.95, correct = TRUE)
+prop.test(c(Levshtein,Hamming),c(total,total), p=NULL,
+          alternative = c("two.sided", "less", "greater"),
+          conf.level = 0.95, correct = TRUE)
+prop.test(c(Levshtein,HammingInverso),c(total,total), p=NULL,
+          alternative = c("two.sided", "less", "greater"),
+          conf.level = 0.95, correct = TRUE)
+
+
+prop.test(c(OSA,Jaccard),c(total,total), p=NULL,
+          alternative = c("two.sided", "less", "greater"),
+          conf.level = 0.95, correct = TRUE)
+prop.test(c(OSA,NGRAM),c(total,total), p=NULL,
+          alternative = c("two.sided", "less", "greater"),
+          conf.level = 0.95, correct = TRUE)
+prop.test(c(OSA,JaroWinkler),c(total,total), p=NULL,
+          alternative = c("two.sided", "less", "greater"),
+          conf.level = 0.95, correct = TRUE)
+prop.test(c(OSA,Cosine),c(total,total), p=NULL,
+          alternative = c("two.sided", "less", "greater"),
+          conf.level = 0.95, correct = TRUE)
+prop.test(c(OSA,SorensenDice),c(total,total), p=NULL,
+          alternative = c("two.sided", "less", "greater"),
+          conf.level = 0.95, correct = TRUE)
+prop.test(c(OSA,LCS),c(total,total), p=NULL,
+          alternative = c("two.sided", "less", "greater"),
+          conf.level = 0.95, correct = TRUE)
+prop.test(c(OSA,Jaro),c(total,total), p=NULL,
+          alternative = c("two.sided", "less", "greater"),
+          conf.level = 0.95, correct = TRUE)
+prop.test(c(OSA,Hamming),c(total,total), p=NULL,
+          alternative = c("two.sided", "less", "greater"),
+          conf.level = 0.95, correct = TRUE)
+prop.test(c(OSA,HammingInverso),c(total,total), p=NULL,
+          alternative = c("two.sided", "less", "greater"),
+          conf.level = 0.95, correct = TRUE)
+
+
+prop.test(c(Jaccard,NGRAM),c(total,total), p=NULL,
+          alternative = c("two.sided", "less", "greater"),
+          conf.level = 0.95, correct = TRUE)
+prop.test(c(Jaccard,JaroWinkler),c(total,total), p=NULL,
+          alternative = c("two.sided", "less", "greater"),
+          conf.level = 0.95, correct = TRUE)
+prop.test(c(Jaccard,Cosine),c(total,total), p=NULL,
+          alternative = c("two.sided", "less", "greater"),
+          conf.level = 0.95, correct = TRUE)
+prop.test(c(Jaccard,SorensenDice),c(total,total), p=NULL,
+          alternative = c("two.sided", "less", "greater"),
+          conf.level = 0.95, correct = TRUE)
+prop.test(c(Jaccard,LCS),c(total,total), p=NULL,
+          alternative = c("two.sided", "less", "greater"),
+          conf.level = 0.95, correct = TRUE)
+prop.test(c(Jaccard,Jaro),c(total,total), p=NULL,
+          alternative = c("two.sided", "less", "greater"),
+          conf.level = 0.95, correct = TRUE)
+prop.test(c(Jaccard,Hamming),c(total,total), p=NULL,
+          alternative = c("two.sided", "less", "greater"),
+          conf.level = 0.95, correct = TRUE)
+prop.test(c(Jaccard,HammingInverso),c(total,total), p=NULL,
+          alternative = c("two.sided", "less", "greater"),
+          conf.level = 0.95, correct = TRUE)
+
+
+
+
+
+
+prop.test(c(NGRAM,JaroWinkler),c(total,total), p=NULL,
+          alternative = c("two.sided", "less", "greater"),
+          conf.level = 0.95, correct = TRUE)
+prop.test(c(NGRAM,Cosine),c(total,total), p=NULL,
+          alternative = c("two.sided", "less", "greater"),
+          conf.level = 0.95, correct = TRUE)
+prop.test(c(NGRAM,SorensenDice),c(total,total), p=NULL,
+          alternative = c("two.sided", "less", "greater"),
+          conf.level = 0.95, correct = TRUE)
+prop.test(c(NGRAM,LCS),c(total,total), p=NULL,
+          alternative = c("two.sided", "less", "greater"),
+          conf.level = 0.95, correct = TRUE)
+prop.test(c(NGRAM,Jaro),c(total,total), p=NULL,
+          alternative = c("two.sided", "less", "greater"),
+          conf.level = 0.95, correct = TRUE)
+prop.test(c(NGRAM,Hamming),c(total,total), p=NULL,
+          alternative = c("two.sided", "less", "greater"),
+          conf.level = 0.95, correct = TRUE)
+prop.test(c(NGRAM,HammingInverso),c(total,total), p=NULL,
+          alternative = c("two.sided", "less", "greater"),
+          conf.level = 0.95, correct = TRUE)
+
+
+
+prop.test(c(JaroWinkler,Cosine),c(total,total), p=NULL,
+          alternative = c("two.sided", "less", "greater"),
+          conf.level = 0.95, correct = TRUE)
+prop.test(c(JaroWinkler,SorensenDice),c(total,total), p=NULL,
+          alternative = c("two.sided", "less", "greater"),
+          conf.level = 0.95, correct = TRUE)
+prop.test(c(JaroWinkler,LCS),c(total,total), p=NULL,
+          alternative = c("two.sided", "less", "greater"),
+          conf.level = 0.95, correct = TRUE)
+prop.test(c(JaroWinkler,Jaro),c(total,total), p=NULL,
+          alternative = c("two.sided", "less", "greater"),
+          conf.level = 0.95, correct = TRUE)
+prop.test(c(JaroWinkler,Hamming),c(total,total), p=NULL,
+          alternative = c("two.sided", "less", "greater"),
+          conf.level = 0.95, correct = TRUE)
+prop.test(c(JaroWinkler,HammingInverso),c(total,total), p=NULL,
+          alternative = c("two.sided", "less", "greater"),
+          conf.level = 0.95, correct = TRUE)
+
+
+
+
+
+
+
+prop.test(c(Cosine,SorensenDice),c(total,total), p=NULL,
+          alternative = c("two.sided", "less", "greater"),
+          conf.level = 0.95, correct = TRUE)
+prop.test(c(Cosine,LCS),c(total,total), p=NULL,
+          alternative = c("two.sided", "less", "greater"),
+          conf.level = 0.95, correct = TRUE)
+prop.test(c(Cosine,Jaro),c(total,total), p=NULL,
+          alternative = c("two.sided", "less", "greater"),
+          conf.level = 0.95, correct = TRUE)
+prop.test(c(Cosine,Hamming),c(total,total), p=NULL,
+          alternative = c("two.sided", "less", "greater"),
+          conf.level = 0.95, correct = TRUE)
+prop.test(c(Cosine,HammingInverso),c(total,total), p=NULL,
+          alternative = c("two.sided", "less", "greater"),
+          conf.level = 0.95, correct = TRUE)
+
+
+
+prop.test(c(SorensenDice,LCS),c(total,total), p=NULL,
+          alternative = c("two.sided", "less", "greater"),
+          conf.level = 0.95, correct = TRUE)
+prop.test(c(SorensenDice,Jaro),c(total,total), p=NULL,
+          alternative = c("two.sided", "less", "greater"),
+          conf.level = 0.95, correct = TRUE)
+prop.test(c(SorensenDice,Hamming),c(total,total), p=NULL,
+          alternative = c("two.sided", "less", "greater"),
+          conf.level = 0.95, correct = TRUE)
+prop.test(c(SorensenDice,HammingInverso),c(total,total), p=NULL,
+          alternative = c("two.sided", "less", "greater"),
+          conf.level = 0.95, correct = TRUE)
+
+
+
+prop.test(c(LCS,Jaro),c(total,total), p=NULL,
+          alternative = c("two.sided", "less", "greater"),
+          conf.level = 0.95, correct = TRUE)
+prop.test(c(LCS,Hamming),c(total,total), p=NULL,
+          alternative = c("two.sided", "less", "greater"),
+          conf.level = 0.95, correct = TRUE)
+prop.test(c(LCS,HammingInverso),c(total,total), p=NULL,
+          alternative = c("two.sided", "less", "greater"),
+          conf.level = 0.95, correct = TRUE)
+
+
+
+
+prop.test(c(Jaro,Hamming),c(total,total), p=NULL,
+          alternative = c("two.sided", "less", "greater"),
+          conf.level = 0.95, correct = TRUE)
+prop.test(c(Jaro,HammingInverso),c(total,total), p=NULL,
+          alternative = c("two.sided", "less", "greater"),
+          conf.level = 0.95, correct = TRUE)
+
+prop.test(c(Hamming,HammingInverso),c(total,total), p=NULL,
+          alternative = c("two.sided", "less", "greater"),
+          conf.level = 0.95, correct = TRUE)
+
+
+install.packages("ggpubr")
+install.packages("ggplot2")
+install.packages("reshape2")
+install.packages("plot3D")
+library("plot3D")
+library("ggplot2")
+library("reshape2")
+library("ggpubr")
+detach("ggplot2")
+detach("reshape2")
+detach("ggpubr")
+
+Sys.setlocale(category="LC_ALL", locale = "English_United States.1252");
+funcoes = c("Hamming", "Levenshtein", "OSA", "Jaro", "Jaro.Winkler", "LCS", "Jaccard", "NGram", "Cosine", "SÃ.rensenâ..Dice");
+
+functions = c("Hamming", "Levenshtein", "OSA", "Jaro", "Jaro-Winkler", "LCS", "Jaccard", "NGram", "Cosine", "Sørensen–Dice");
+funcoesFator = factor(funcoes);
+tipos = c(0,1)
+todos = read.csv('C:/Users/Thomaz/Desktop/UFCG/Pibic/R/todos.csv',sep = ",");
+sintaticos = read.csv('C:/Users/Thomaz/Desktop/UFCG/Pibic/R/sintaticos.csv',sep = ",");
+semanticos = read.csv('C:/Users/Thomaz/Desktop/UFCG/Pibic/R/semanticos.csv',sep = ",");
+
+todos$sintatico <- factor(todos$isSyntactic)
+sintaticos$sintatico <- factor(sintaticos$isSyntactic)
+semanticos$sintatico <- factor(semanticos$isSyntactic)
+todos.m <- melt(todos,id.vars='sintatico', measure.vars=funcoes)
+sintaticos.m <- melt(sintaticos,id.vars='sintatico', measure.vars=funcoes)
+semanticos.m <- melt(semanticos,id.vars='sintatico', measure.vars=funcoes)
+totalSintaticos = nrow(sintaticos)
+totalTodos = nrow(todos)
+totalSemanticos = nrow(semanticos)
+
+errors =  aggregate(. ~ sintatico + variable, 
+                   data = todos.m, 
+                   FUN = sd)
+means = aggregate(. ~ sintatico + variable, 
+                  data = todos.m, 
+                  FUN = mean)
+sinerrors =  aggregate(. ~ variable, 
+                   data = sintaticos.m, 
+                   FUN = sd)
+sinmeans = aggregate(. ~ variable, 
+                  data = sintaticos.m, 
+                  FUN = mean)
+semerrors =  aggregate(. ~ variable, 
+                   data = semanticos.m, 
+                   FUN = sd)
+semmeans = aggregate(. ~ variable, 
+                  data = semanticos.m, 
+                  FUN = mean)
+
+
+----------Boxplot
+p <- ggplot(todos.m) +
+      geom_boxplot(aes(x=sintatico, y=value, color=variable),outlier.size =0.1)+
+      labs(x = "", y = "Distance Between Edits", color = "Functions") + 
+      scale_x_discrete(labels= c("High Impact", "Low Impact")) +
+      scale_color_hue(labels = functions)
+
+
+p <- ggplot(todos.m, aes(x=variable, y=value, fill = factor(sintatico))) +
+      geom_boxplot(outlier.size =0.1)+
+      labs(x = "Function", y = "Distance Between Edits", fill = "Classification") +
+      scale_x_discrete(labels= functions) + 
+      coord_flip() +
+      scale_fill_discrete(labels = c("High Impact", "Low Impact"))
+      
+
+p <- ggplot(sintaticos.m, aes(x=variable, y=value)) +
+    geom_boxplot(outlier.size =0.1)+
+    labs(x = "Function", y = "Distance Between Low Impact Edits") +
+    scale_x_discrete(labels= functions) + 
+    coord_flip()
+
+p <- ggplot(semanticos.m, aes(x=variable, y=value)) +
+    geom_boxplot(outlier.size =0.1)+
+    labs(x = "Function", y = "Distance Between High Impact Edits") +
+    scale_x_discrete(labels= functions) + 
+    coord_flip()
+
+
+-----Intervalos de confiança
+p <- ggplot(means, aes(x = variable, 
+                  y = value,
+                  fill = factor(sintatico)) ) + 
+  geom_bar(stat = 'identity', 
+           position = position_dodge(0.7)) + 
+  geom_errorbar(aes(ymin = pmax(0,means$value - errors$value),
+                    ymax = pmin(1,means$value + errors$value)),
+                width = 0.3,
+                position = position_dodge(0.7))+
+  xlab("") +
+  ylab("Distance Between Edits") + 
+  labs(fill = "") +
+  scale_x_discrete(labels= functions) +
+  scale_fill_discrete(labels = c("High Impact", "Low Impact"))

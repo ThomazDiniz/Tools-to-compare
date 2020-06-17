@@ -1,0 +1,117 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+17 17
+18 18
+19 19
+20 20
+21 21
+22 22
+23 23
+24 24
+25 25
+26 26
+27 27
+28 28
+29 29
+30 30
+31 31
+32 32
+33 33
+34 34
+35 35
+36 36
+37 37
+38 38
+39 39
+40 40
+41 41
+42 42
+43 43
+44 44
+45 45
+46 46
+47 47
+48 48
+49 49
+50 50
+51 51
+52 52
+53 53
+54 54
+55 55
+56 56
+#
+1 27 conditions
+27 2  Estar logado como super administrador.
+2 28 steps
+28 3   Super administrador seleciona opção 'Laboratories' no menu Settings
+3 29 expected_results
+29 4   Sistema exibe lista de laboratórios
+4 30 steps
+30 5   Super administrador seleciona o botão 'Create Laboratories', situado no lado direito inferior da tela
+5 31 expected_results
+31 6   Sistema exibe página com campos de cadastro de novo Laboratório
+6 32 steps
+32 7   Super administrador preenche corretamente os campos 'Name', 'Country' e 'Description' e pressiona o botão 'Create' 
+5 33 expected_results
+33 14   Sistema exibe página com campos de cadastro de novo Laboratório
+5 34 expected_results
+34 16   Sistema exibe página com campos de cadastro de novo Laboratório
+5 35 expected_results
+35 23   Sistema exibe página com campos de cadastro de novo Laboratório
+7 36 expected_results
+36 8   Sistema exibe página com dados do novo Laboratório e mensagem que um novo entrada foi adicionado
+8 37 steps
+37 9   Super administrador seleciona opção 'Laboratories' no menu Settings
+9 38 expected_results
+38 10   Sistema exibe lista de laboratórios
+10 39 steps
+39 11   Super administrador clica no nome de um Laboratório
+11 40 expected_results
+40 12   Sistema exibe dados do Laboratório e lista de usuários associados a este
+12 41 steps
+41 13   Super administrador clica no botão 'Cancel'
+11 42 expected_results
+42 17   Sistema exibe dados do Laboratório e lista de usuários associados a este
+11 43 expected_results
+43 20   Sistema exibe dados do Laboratório e lista de usuários associados a este
+13 44 expected_results
+44 25   Sistema retorna a lista de laboratórios
+14 45 steps
+45 15  (Campo fora da formatação esperada, e.g, Country = xx) Super administrador preenche incorretamente algum dos campos 'Name', 'Country' ou 'Description' e pressiona o botão 'Create' 
+15 46 expected_results
+46 6   Sistema exibe mensagem informando que os dados não correspondem a formatação esperada
+16 47 steps
+47 3  (Cancela criação) Super administrador cancela criação
+17 48 steps
+48 18  (Edita dados) Super administrador clica no botão 'Edit'
+18 49 expected_results
+49 19   Sistema exibe campos do Laboratório com valores atuais que podem ser editados
+19 50 steps
+50 3   Super administrador preenche os novos valores e pressiona o botão 'Update
+20 51 steps
+51 21  (Deleta Laboratório) Super administrador clica no botão 'Delete'
+21 52 expected_results
+52 22   Sistema exibe mensagem solicitando confirmação
+22 53 steps
+53 3   Super administrador pressiona o botao OK
+23 54 steps
+54 24  (Nome de Laboratório já existente) Super administrador preenche o campo 'Name' com um nome de laboratório jã existente. Preenche corretamente os campos 'Country' e 'Description' e pressiona o botão 'Create' 
+24 55 expected_results
+55 6   Sistema exibe mensagem informando que já existe laboratório cadastrado com esse nome
+25 56 conditions
+56 26   .

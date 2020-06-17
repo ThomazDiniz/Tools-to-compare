@@ -1,0 +1,31 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+#
+1 2 [c] Usuario Administrador deve estar logado no sistema.
+2 3 [s]  Usuario Administrador clica no opcao 'Terminais' no menu da tela principal
+3 4 [e]  Sistema exibe a listagens dos Terminais
+4 5 [s]  Usuario Administrador clica em um dos terminais listados
+3 10 [e]  Sistema exibe a listagens dos Terminais
+3 11 [e]  Sistema exibe a listagens dos Terminais
+5 6 [e]  Sistema apresenta tela de edicao de Terminal
+6 7 [s]  Usuario Administrador clica no botao de 'Remover' do beneficio a ser removido
+7 8 [e]  Sistema exibe popuo de confirmacao
+8 9 [s]  Usuario Administrador clica em botao de 'Sim'
+7 12 [e]  Sistema exibe popuo de confirmacao
+9 13 [e]  Sistema noficica usuario de que Terminal foi deletado com sucesso.
+10 3 [s] (Navega pelas paginas da lista) Usuario Administrador navega nas paginas da lista
+11 3 [s] (Usuario ordena lista de Terminais) Usuario Administrador ordenas os terminais por seus atributos
+12 5 [s] (Cancelar remocao) Usuario Administrador clica no botao de 'Voltar'
+13 14 [c] Beneficio de Terminal deletado no sistema.

@@ -1,0 +1,48 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+17 17
+18 18
+19 19
+20 20
+#
+1 2 [c] Administrador logado; Existe Compatibilidade registrada no sistema.
+2 3 [s]  Usuario Administrador Clicar na opcao 'Compatibildiade' no menu da tela principal
+3 4 [e]  Sistema exibe a tela de listagem das Compatibilidades
+4 5 [s]  Usuario Administrador clica em uma Compatibilidade existente'
+3 8 [e]  Sistema exibe a tela de listagem das Compatibilidades
+3 9 [e]  Sistema exibe a tela de listagem das Compatibilidades
+3 10 [e]  Sistema exibe a tela de listagem das Compatibilidades
+3 12 [e]  Sistema exibe a tela de listagem das Compatibilidades
+5 6 [e]  Sistema exibe a tela de edicao de Compatibilidade
+6 7 [s]  Usuario Administrador preenche os dados da Compatibilidade e clica em botao 'Atualizar'
+5 11 [e]  Sistema exibe a tela de edicao de Compatibilidade
+7 19 [e]  Sistema notifica usuario que os nova Compatibilidade foi atualizado com sucesso
+6 13 [s]  Usuario Administrador preenche os dados da Compatibilidade e clica em botao 'Atualizar'
+6 15 [s]  Usuario Administrador preenche os dados da Compatibilidade e clica em botao 'Atualizar'
+6 17 [s]  Usuario Administrador preenche os dados da Compatibilidade e clica em botao 'Atualizar'
+8 3 [s] (Ordena lista de Compatibilidades) Usuario Administrador clica em um dos botões de ordenacao associada a uma coluna da tabela
+9 3 [s] (Filtra lista de Compatibilidades) Usuario Administrador preenche campos de filtragem
+10 3 [s] (Navega por paginas de tabela) Usuario Administrador clica em botao de navegacao de paginas de tabela
+11 3 [s] (Cancela atualizacao de Compatibilidade) Usuario Administrador clica no botao Cancelar
+12 3 [s] (Volta para tela inicial de sistema) Usuario Administrador clica no botao Voltar
+13 14 [e] (Nao insere algum dado obrigatorio') Sistema informa que os dados obrigatorios devem ser preenchidos
+14 7 [s]  Usuario Administrador preenche dados obrigatorios e clica em Atualizar
+15 16 [e] (Usuario insere Tipo de Mercadoria invalido) Sistema alerta que Horario de Inicio é invalido
+16 7 [s]  Usuario Administrador preenche um Tipo de Mercadoria valida e clica em Atualizar
+17 18 [e] (Usuario insere NCM invalido) Sistema alerta que NCM é invalido
+18 7 [s]  Usuario Administrador preenche um NCM valido e clica em Atualizar
+19 20 [c] A nova Compatibilidade esta atualizada no banco.

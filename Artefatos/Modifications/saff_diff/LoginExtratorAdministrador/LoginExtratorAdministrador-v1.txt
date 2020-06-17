@@ -1,0 +1,30 @@
+3c4
+---
+>         version "2.0", type:"Modification", user:"Everton", date:"24/07/2015"
+5c6
+<         actor administrador, "Administrador do sistema"
+---
+>         actor administrador, "´Super Administrador"
+7c8
+<         preCondition "Deve existir um usuário cadastrado com perfil administrador", "Usuário deve estar logado no servidor como administrador"
+---
+>         preCondition "Usuário deve estar logado no servidor como super administrador"
+13c14
+<             step 4, system, "exibe tela “SAFF Extractor”", ef:[1,2]
+---
+>             step 4, system, "exibe tela “SAFF Extractor”", ef:[1,2,3]
+21c22
+<         alternative 2, "Número de tentativas inválidas é 3", { 
+---
+>         alternative 2, "Numero de tentativas invalidas é 3", { 
+26c27
+<         alternative 3, "Número de tentativas inválidas é 5", {
+---
+>         alternative 3, "Numero de tentativas invalidas é 5", {
+45c47,51
+---
+>         exception 3, "Usuario inativo por 90 dias", {
+>             step 1, system, "infoma que usuario esta bloqueado por inatividade"
+>             step 2, administrador, "executa programa externo que reinicia senha de super admin", bfs:3
+>         }
+> 

@@ -1,0 +1,43 @@
+14c14
+<             step 3, administrador, "digita o user e a password de um usuário administrador e pressiona o botao Login", af:[1,2,3]
+---
+>             step 3, administrador, "digita o user e a password de um usuario administrador e pressiona o botao Login", af:[1,2,3]
+18,20c18,20
+<         alternative 1, "User invalido", {
+<             step 1, administrador, "digita o user de um usuário inválido, digita uma password e pressiona o botao Login"
+<             step 2, system, "exibe mensagem “Invalid user or password” na tela de login", bfs:2
+---
+>        alternative 1, "User invalido", {
+>             step 1, administrador, "digita o user de um usuário invalido, digita uma password e pressiona o botao Login"
+>             step 2, system, "exibe na pagina de login uma mensagem de usuario ou senha incorretos", bfs:3
+25c25
+<             step 2, system, "abre um pop-up e exibe a mensagem “User or Password incorrect. Attempts remaining until the account lockout: #tentativas restantes#” em um pop-up"
+---
+>             step 2, system, "abre um pop-up e exibe a mensagem de usuario ou senha incorretos; informa o numero de tentativas restantes ate que o usuario seja bloqueado"
+27c27
+<             step 4, system, "fecha a janela pop-up", bfs:2
+---
+>             step 4, system, "fecha a janela pop-up", bfs:3
+31,32c31,32
+<             step 1, administrador, "digita o user de um usuario administrador corretamente, digita uma password invalida pela sexta vez e pressiona o botao Login"
+<             step 2, system, "bloqueia o usuário e exibe a mensagem 'This user has been blocked'"
+---
+>             step 1, administrador, "digita o user correte e o password invalido pela sexta vez e pressiona o botao Login"
+>             step 2, system, "bloqueia o usuario e exibe uma mensagem informando que o usuario foi bloqueado"
+34c34
+<             step 4, system, "exibe mensagem informando usuario está bloqueado"
+---
+>             step 4, system, "exibe mensagem informando usuario esta bloqueado"
+43c43
+<         exception 2, "Sem conexao com o servidor e usuário nao deseja fazer extração offline", {
+---
+>         exception 2, "Sem conexao com o servidor e usuario nao deseja fazer extração offline", {
+50,51c50
+<             step 1, system, "exibe a mensagem 'This user has been blocked'"
+<             step 2, administrador, "executa programa externo que reinicia senha de super admin", bfs:3
+---
+>             step 1, system, "exibe mensagem indicando que usuario foi bloqueado"
+54c53
+<         postCondition "O usuario deve estar logado"
+---
+>         postCondition " "

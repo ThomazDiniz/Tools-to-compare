@@ -1,0 +1,51 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+17 17
+18 18
+19 19
+20 20
+21 21
+22 22
+#
+1 2 [c] Usuario Administrador logado no sistema; Existem Pedidos registrados no sistema.
+2 3 [s]  Usuario Administrador abre tela inicial do sistema
+3 4 [e]  Sistema exibe tela inicial do sistema
+4 5 [s]  Usuario Administrador clica na opcao 'Pedidos' no menu da tela principal
+5 6 [e]  Sistema exibe a tela de listagem de Pedidos
+6 7 [s]  Usuario Administrador clica em um Pedido existente
+5 12 [e]  Sistema exibe a tela de listagem de Pedidos
+5 13 [e]  Sistema exibe a tela de listagem de Pedidos
+5 14 [e]  Sistema exibe a tela de listagem de Pedidos
+5 16 [e]  Sistema exibe a tela de listagem de Pedidos
+7 8 [e]  Sistema exibe a tela de edicao de Pedido
+8 9 [s]  Usuario Administrador preenche os dados de novo CEP
+9 10 [e]  Sistema preenche demais campos de Endereco exceto Numero e Complemento
+8 17 [s]  Usuario Administrador preenche os dados de novo CEP
+10 11 [s]  Usuario Administrador preenche demais campos de Endereco e clica em Atualizar
+9 15 [e]  Sistema preenche demais campos de Endereco exceto Numero e Complemento
+11 21 [e]  Sistema notifica usuario que o Pedido foi atualizado com sucesso
+10 19 [s]  Usuario Administrador preenche demais campos de Endereco e clica em Atualizar
+12 5 [s] (ordena lista de Pedidos) Usuario Administrador clica em um dos botões de ordenacao associada a uma coluna da tabela
+13 5 [s] (filtra lista de Pedidos) Usuario Administrador preenche campos de filtragem
+14 5 [s] (navega por paginas de tabela) Usuario Administrador clica em botao de navegacao de paginas de tabela
+15 5 [s] (cancela atualizacao de Pedido) Usuario Administrador clica no botao Cancelar
+16 3 [s] (volta para tela inicial de sistema) Usuario Administrador clica no botao Cancelar
+17 18 [e] (Usuario insere CEP invalido) Sistema alerta que CEP é invalido
+18 7 [s]  Usuario Administrador preenche um cpf valido e clica em Atualizar
+19 20 [e] (Nao insere algum dado obrigatorio') Sistema informa que os dados obrigatorios devem ser preenchidos
+20 7 [s]  Usuario Administrador preenche dados obrigatorios e clica em Atualizar
+21 22 [c] O Pedido esta atualizado no banco.

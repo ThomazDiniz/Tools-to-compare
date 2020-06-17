@@ -1,0 +1,4 @@
+11c11
+<             step 2, system, "exibe tela onde os campos 'Name', 'Login', 'Type' e 'Language'. Eles estão devidamente preenchidos"
+---
+>             step 2, system, "exibe tela onde os campos 'Name', 'Login', 'Type', 'Laboratory' e 'Language'. Eles estão devidamente preenchidos"

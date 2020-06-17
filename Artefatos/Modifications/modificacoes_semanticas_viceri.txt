@@ -1,0 +1,18 @@
+stringTest("AdministradorAdicionaAdministrador", 2, "notifica que o Administrador foi adicionado com sucesso", "notifica que o Administrador foi adicionado com sucesso e exibe lista de Administradores");
+
+stringTest("AdministradorAdicionaCompatibilidade", 3, "notifica usuario que os nova Compatibilidade foi adicionada com sucesso", "notifica usuario que os nova Compatibilidade foi adicionada com sucesso e exibe lista de Compatibilidades");
+
+stringTest("AdministradorAdicionaEcommerce", 3, "mostra uma mensagem de cadastro de E-commerce com sucesso", "notifica que E-commerce foi cadastrado com sucesso e exibe lista de Ecommerces");
+
+stringTest("AdministradorDeEcommerceAdicionaOperadorDeEcommerce", 3, "mostra operador adicionado em tabela na tela de cadastro", "notifica que o operador foi adicionado e o mostra em tabela de operadores");
+
+stringTest("AdministradorEditaEcommerce", 1, "atualiza os dados do E-commerce no sistema", "notifica usuario de que o Ecommerce foi atualizado com sucesso");
+
+stringTest("AdministradorEditaParametrosDoNFeReader", 1, "preenche dados validos e clica em Atualizar", "preenche dados obrigatorios e clica em Atualizar");
+
+stringTest("AdministradorRegistraOcorrenciaEmNota", 1, "clica em tab 'Pedidos'", "clica em contador 'Outros'");
+stringTest("AdministradorRegistraOcorrenciaEmNota", 1, "abre uma tela com a lista de 'Pedidos'", "abre uma tela com a lista de 'Pedidos' ou Notas");
+stringTest("AdministradorRegistraOcorrenciaEmNota", 1, "seleciona algum Pedido (NFe) da lista", "seleciona algum Pedido ou Nota da lista");
+stringTest("AdministradorRegistraOcorrenciaEmNota", 1, "filtra os pedidos por algum campo", "filtra as notas por algum campo");
+
+stringTest("OperadorDeEcommerceRegistraOcorrenciaEmNotaDePicking", 1, "clica no botao 'Registrar Ocorrencia'", "clica no botao 'Registrar Ocorrencia' para uma determinada nota");

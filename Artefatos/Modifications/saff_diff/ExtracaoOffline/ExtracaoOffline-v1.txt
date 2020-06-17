@@ -1,0 +1,29 @@
+10,11c10,13
+<             step 1, administrador, "loga no extrator", af[2]
+<             step 2, system, "exibe tela inicial 'SAFF extraction'", ef:[1]
+---
+>             step 1, administrador, "abre extrator"
+>             step 2, system, "exibe tela de login"
+>             step 3, administrador, "loga no extrator", af:[1]
+>             step 4, system, "exibe tela inicial 'SAFF extraction'", ef:[1,2]
+14,15c16,18
+<         exception 1, "Cai conexão ", {
+<             step 2, administrador "confirma que quer entrar em modo offline", af[1]
+---
+>         exception 1, "Cai conexão e usuario quer entrar em modo offline ", {
+>             step 1, system, "exibe mensagem solicitando confirmação se usuario quer entrar em modo offline"
+>             step 2, administrador, "confirma que quer entrar em modo offline"
+25,26c28,30
+<         alternative 1, "Pressiona NO", {
+<             step 1, administrador, "Não deseja entrar em modo offline", bfs:2
+---
+>         exception 2, "Cai conexão e usuario quer entrar em modo offline ", {
+>             step 1, system, "exibe mensagem solicitando confirmação se usuario quer entrar em modo offline"
+>             step 2, administrador, "não deseja entrar em modo offline", bfs:2
+30c34
+<         alternative 2, "Offline sempre", {
+---
+>         alternative 1, "Offline sempre", {
+34c39
+---
+>         }

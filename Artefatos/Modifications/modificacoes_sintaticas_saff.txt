@@ -1,0 +1,463 @@
+    extracaoEmModoLLTv2
+"exibe página que requisita dados do terminal"; "exibe pagina que requisita dados do terminal"
+"exibe mensagem informando houve erro na conexão com o servidor e pergunta se usuário deseja fazer a extração em modo offline"; "exibe mensagem informando que houve erro na conexão com o servidor e pergunta se usuario deseja fazer a extração em modo offline"
+
+    crudClientev1()
+"seleciona o botão 'Create Customer', situado no lado direito inferior da tela"; "seleciona o botão 'Create Customer'"
+
+    crudClientev2
+"seleciona opção 'Customers' no menu Settings"; "seleciona opcao 'Customers' no menu Settings"
+"exibe página com campos de cadastro de novo cliente"; "exibe pagina com campos de cadastro de novo cliente"
+"preenche corretamente os campos 'Name', 'Key File' e 'Country' e pressiona o botão 'Create'"; "preenche corretamente os campos 'Name', 'Key File' e 'Country' e pressiona o botao 'Create' "
+"exibe página com dados do novo cliente e mensagem que um novo cliente foi adicionado";"exibe pagina com dados do novo cliente e mensagem que um novo cliente foi adicionado" 
+"seleciona opção 'Customers' no menu Settings"; "seleciona opcao 'Customers' no menu Settings"
+"clica no botão 'Cancel'"; "clica no botao 'Cancel'"
+"exibe mensagem informando que os dados não correspondem a formatação esperada"; "exibe mensagem informando que os dados nao correspondem a formatação esperada"
+"Cancela criação"; "Cancela criacao"
+"clica no botão 'Edit'"; "clica no botao 'Edit'"
+"preenche os novos valores e pressiona o botão 'Update"; "preenche os novos valores e pressiona o botao 'Update"
+"clica no botão 'Delete'"; "clica no botao 'Delete'"
+"exibe mensagem solicitando confirmação"; "exibe mensagem solicitando confirmacao"
+
+    crudClientev3()
+"seleciona opcao 'Customers' no menu Settings"; "seleciona opção 'Customers' no menu Settings"
+"exibe pagina com campos de cadastro de novo cliente"; "exibe página com campos de cadastro de novo cliente"
+"preenche corretamente os campos 'Name', 'Key File' e 'Country' e pressiona o botao 'Create'"; "preenche corretamente os campos 'Name', 'Key File' e 'Country' e pressiona o botão 'Create' "
+"exibe pagina com dados do novo cliente e mensagem que um novo cliente foi adicionado"; "exibe página com dados do novo cliente e mensagem que um novo cliente foi adicionado"
+"clica no botao 'Cancel'"; "clica no botão 'Cancel'"
+"Cancela criacao"; "Cancela criação"
+"clica no botao 'Edit'"; "clica no botão 'Edit'"
+"preenche os novos valores e pressiona o botao 'Update"; "preenche os novos valores e pressiona o botão 'Update"
+"clica no botão 'Delete'"; "clica no botão 'Delete'"
+"exibe mensagem solicitando confirmação"; "exibe mensagem solicitando confirmação"
+"pressiona o botao OK"; "pressiona o botão OK"
+
+    crudDiagnosticosv1
+"seleciona o botao 'Create Diagnostic', situado no lado direito inferior da tela"; "seleciona o botao 'Create Diagnostic'"
+
+    crudDiagnosticosv3
+"exibe lista de diagnósticos"; "exibe lista de diagnosticos"
+"exibe dados do diagnóstico"; "exibe dados do diagnostico"
+"preenche algum dos campos ('Name', 'Family', 'Type', 'Scenary' ou 'Situation') com formatação errada e pressiona o botao 'Create'"; "preenche algum dos campos ('Name', 'Family', 'Type', 'Scenary' ou 'Situation') com formatacao errada e pressiona o botao 'Create' "
+"exibe mensagem informando que os dados nao correspondem a formatação esperada"; "exibe mensagem informando que os dados nao correspondem a formatacao esperada"
+"Cancela criaçao"; "Cancela criacao"
+"exibe mensagem solicitando confirmaçao"; "exibe mensagem solicitando confirmacao"
+
+    crudDocumentosv1
+"seleciona o botão 'Create Document', situado no lado direito inferior da tela"; "seleciona o botão 'Create Document'"
+
+    crudDocumentosv3
+"seleciona o botão 'Create Document'"; "seleciona o botao 'Create Document'"
+"exibe página com campos de cadastro de novo documento"; "exibe pagina com campos de cadastro de novo documento"
+"preenche corretamente os campos 'Title', 'Description', 'Family' (com uma família com extrações existentes), seleciona um arquivo PDF e pressiona o botão 'Create'"; "preenche corretamente os campos 'Title', 'Description', 'Family' (com uma família com extracoes existentes), seleciona um arquivo PDF e pressiona o botao 'Create' "
+"clica no nome link de visualização do documento"; "clica no nome link de visualizacao do documento"
+"abre lista de extrações e seleciona uma das famílias cadastradas anteriormente"; "abre lista de extracoes e seleciona uma das famílias cadastradas anteriormente"
+"se existir extração da familia cadastrada, esta deve exibir no campo Document um link para o novo documento"; "se existir extracao da familia cadastrada, esta deve exibir no campo Document um link para o novo documento"
+"preenche corretamente os demais campos mas não seleciona um arquivo PDF. Pressiona o botão 'Create'"; "preenche corretamente os demais campos mas não seleciona um arquivo PDF. Pressiona o botao 'Create'"
+"exibe mensagem informando que os dados não correspondem a formatação esperada ou está faltando informações"; "exibe mensagem informando que os dados não correspondem a formatação esperada ou esta faltando informacoes"
+"preenche o campo 'Title' com o nome de um documento já cadastrado. Preenche corretamente os campos'Description', 'Family', seleciona um arquivo PDF e pressiona o botão 'Create'"; "preenche o campo 'Title' com o nome de um documento ja cadastrado. Preenche corretamente os campos'Description', 'Family', seleciona um arquivo PDF e pressiona o botão 'Create'"
+"seleciona um arquivo de outro formato e pressiona o botão 'Create'"; "seleciona um arquivo de outro formato e pressiona o botao 'Create'"
+"exibe mensagem informando que o documento especificado não é um arquivo PDF"; "exibe mensagem informando que o documento especificado nao e um arquivo PDF"
+"cancela criação"; "cancela criacao"
+"clica no botão 'Edit'"; "clica no botao 'Edit'"
+"clica no botão 'Delete'"; "clica no botao 'Delete'"
+"exibe mensagem solicitando confirmação"; "exibe mensagem solicitando confirmacao"
+
+    crudDocumentosv4
+"seleciona o botao 'Create Document'"; "seleciona o botão 'Create Document'"
+"exibe pagina com campos de cadastro de novo documento"; "exibe página com campos de cadastro de novo documento"
+"preenche corretamente os campos 'Title', 'Description', 'Family' (com uma família com extracoes existentes), seleciona um arquivo PDF e pressiona o botao 'Create'"; "preenche corretamente os campos 'Title', 'Description', 'Family', seleciona um arquivo PDF e pressiona o botão 'Create' "
+"clica no nome link de visualizacao do documento"; "clica no ícone link de visualização do documento"
+"abre lista de extracoes e seleciona uma das famílias cadastradas anteriormente"; "abre lista de extrações e seleciona uma extração das famílias cadastradas anteriormente"
+"se existir extracao da familia cadastrada, esta deve exibir no campo Document um link para o novo documento"; "se existir extração da familia cadastrada, esta deve exibir no campo Document um link para o novo documento"
+
+    crudLaboratoriosv1
+"seleciona o botão 'Create Laboratories', situado no lado direito inferior da tela"; "seleciona o botão 'Create Laboratories'"
+
+    crudLaboratoriosv2
+"seleciona opção 'Laboratories' no menu Settings"; "seleciona opcao 'Laboratories' no menu Settings"
+"seleciona o botão 'Create Laboratories'"; "seleciona o botao 'Create Laboratories'"
+"exibe página com dados do novo Laboratório e mensagem que um novo entrada foi adicionado"; "exibe pagina com dados do novo Laboratório e mensagem que um novo entrada foi adicionado"
+"seleciona opção 'Laboratories' no menu Settings"; "seleciona opcao 'Laboratories' no menu Settings"
+"exibe lista de laboratórios"; "exibe lista de laboratorios"
+"exibe dados do Laboratório e lista de usuários associados a este"; "exibe dados do Laboratorio e lista de usuarios associados a este"
+"retorna a lista de laboratórios"; "retorna a lista de laboratorios"
+"exibe mensagem informando que os dados não correspondem a formatação esperada"; "exibe mensagem informando que os dados nao correspondem a formatação esperada"
+"clica no botão 'Edit'"; "clica no botao 'Edit'"
+"preenche os novos valores e pressiona o botão 'Update"; "preenche os novos valores e pressiona o botao 'Update"
+"preenche o campo 'Name' com um nome de laboratório jã existente. Preenche corretamente os campos 'Country' e 'Description' e pressiona o botão 'Create'"; "preenche o campo 'Name' com um nome de laboratorio ja existente. Preenche corretamente os campos 'Country' e 'Description' e pressiona o botao 'Create' "
+"exibe mensagem informando que já existe laboratório cadastrado com esse nome"; "exibe mensagem informando que ja existe laboratório cadastrado com esse nome"
+
+    crudSecaov1
+"seleciona opção 'Sections' no menu Settings"; "seleciona opcao 'Sections' no menu Settings"
+"exibe lista de Seções"; "exibe lista de Secoes"
+"clica no nome de uma seção"; "clica no nome de uma secao"
+"exibe dados da seção"; "exibe dados da secao"
+"clica no botão 'Cancel'"; "clica no botao 'Cancel'"
+"retorna a lista de seções"; "retorna a lista de secoes"
+"lista as opções possíveis de serem incluídas na seção"; "lista as opcoes possíveis de serem incluidas na secao"
+"escolhe as opções e pressiona o botão 'Update"; "escolhe as opcoes e pressiona o botão 'Update"
+"exibe mensagem informando que a seção foi atualizada"; "exibe mensagem informando que a secao foi atualizada"
+
+    crudSecuInfov1
+"seleciona o botão 'Create Secu Info', situado no lado direito inferior da tela"; "seleciona o botão 'Create Secu Info'"
+
+    crudSecuInfov2
+"seleciona o botão 'Create Secu Info'"; "seleciona o botao 'Create Secu Info'"
+"exibe página com campos de cadastro de novo Secu Info"; "exibe pagina com campos de cadastro de novo Secu Info"
+"exibe página com dados do novo Secu Info e mensagem que um novo entrada foi adicionado"; "exibe pagina com dados do novo Secu Info e mensagem que um novo entrada foi adicionado"
+"seleciona opção 'Secu Info' no menu Settings"; "seleciona opcao 'Secu Info' no menu Settings"
+"clica no botão 'Cancel'"; "clica no botao 'Cancel'"
+"Cancela criação"; "Cancela criacao"
+"clica no botão 'Edit'"; "clica no botao 'Edit'"
+"clica no botão 'Delete'"; "clica no botao 'Delete'"
+"exibe mensagem solicitando confirmação"; "exibe mensagem solicitando confirmacao"
+
+    crudUsersv1
+"seleciona o botão 'Create User', situado no lado direito inferior da tela"; "seleciona o botão 'Create User'"
+
+
+    crudUsersv3
+"seleciona opção 'Users' no menu Settings"; "seleciona opcao 'Users' no menu Settings"
+"exibe página com campos de cadastro do usuário"; "exibe pagina com campos de cadastro do usuario"
+"preenche corretamente os campos 'Name', 'Login', 'Password', 'Confirm Password', escolhe uma opção para os campos 'Type', 'Laboratory', 'Language', e pressiona o botão 'Create'"; "preenche corretamente os campos 'Name', 'Login', 'Password', 'Confirm Password', escolhe uma opcao para os campos 'Type', 'Laboratory', 'Language', e pressiona o botão 'Create' "
+"exibe mensagem indicando que novo usuário foi criado"; "exibe mensagem indicando que novo usuario foi criado"
+"clica no link de visualização dos usuários"; "clica no link de visualizacao dos usuarios"
+"exibe lista completa de usuários"; "exibe lista completa de usuarios"
+"exibe dados do usuário"; "exibe dados do usuario"
+"preenche o campo 'Login' com o login associado a um outro usuário cadastrado. Preenche corretamente os demais campos e pressiona o botão 'Create'"; "preenche o campo 'Login' com o login associado a um outro usuario cadastrado. Preenche corretamente os demais campos e pressiona o botão 'Create'"
+"exibe mensagem informando que os este usuários já existe"; "exibe mensagem informando que os este usuarios já existe"
+"cancela criação"; "cancela criacao"
+"clica no botão 'Edit'"; "clica no botao 'Edit'"
+"preenche os novos valores para os campos 'Name' e 'Type', mantém a linguagem e pressiona o botão 'Update"; "preenche os novos valores para os campos 'Name' e 'Type', mantém a linguagem e pressiona o botao 'Update"
+"exibe novos dados do usuários"; "exibe novos dados do usuarios"
+"acessa link que lista todos usuários"; "acessa link que lista todos usuarios"
+"é apresentado na nova linguagem"; "e apresentado na nova linguagem"
+"pressiona botão 'Reset Password'"; "pressiona botao 'Reset Password'"
+"exibe mensagem pedindo confirmação"; "exibe mensagem pedindo confirmacao"
+"pressiona botão 'Block User'"; "pressiona botao 'Block User'"
+"exibe mensagem pedindo confirmação"; "exibe mensagem pedindo confirmacao"
+"confirma desejo de bloquear usuário"; "confirma desejo de bloquear usuario"
+"exibe mensagem confirmando bloqueio de usuário"; "exibe mensagem confirmando bloqueio de usuario"
+"acessa link que lista todos usuários"; "acessa link que lista todos usuarios"
+"exibe lista completa de usuários onde o usuário atualizado é sinalizado como bloqueado"; "exibe lista completa de usuários onde o usuario atualizado e sinalizado como bloqueado"
+"clica no nome do usuário bloqueado"; "clica no nome do usuario bloqueado"
+"clica no botão 'Edit'"; "clica no botao 'Edit'"
+"pressiona botão 'Unblock User'"; "pressiona botao 'Unblock User'"
+"confirma desejo de desbloquear usuário"; "confirma desejo de desbloquear usuario"
+"exibe mensagem confirmando desbloqueio de usuário"; "exibe mensagem confirmando desbloqueio de usuario"
+"acessa link que lista todos usuários"; "acessa link que lista todos usuarios"
+"exibe lista completa de usuários onde o usuário atualizado não é sinalizado como bloqueado"; "exibe lista completa de usuários onde o usuario atualizado nao e sinalizado como bloqueado"
+"faz log out e tenta loga na conta do usuário que teve os dados atualizados"; "faz log out e tenta loga na conta do usuario que teve os dados atualizados"
+"exibe mensagem que usuário está bloqueado"; "exibe mensagem que usuário esta bloqueado"
+"exibe mensagem solicitando confirmação"; "exibe mensagem solicitando confirmacao"
+
+    loginExtratorComoAdministradorv2
+"abre módulo de extração"; "abre modulo de extracao"
+"digita um login de usuário administrador e password e pressiona Login"; "digita o user e a password de um usuário administrador e pressiona o botao Login"
+"exibe tela “SAFF Extractor”"; "exibe tela de extracao por dispositivo"
+"digita um login de usuário administrador e/ou password invalidos e pressiona Login"; "digita o user de um usuário inválido, digita uma password e pressiona o botao Login"
+"exibe mensagem “Invalid username or password” na tela de login"; "exibe mensagem “Invalid user or password” na tela de login"
+"tenta mais uma vez logar na conta do usuário, agora com dados válidos"; "tenta mais uma vez logar na conta do usuário, agora com dados validos"
+"exibe mensagem que usuário está bloqueado"; "exibe mensagem informando usuario está bloqueado"
+"exibe pop-up questionanado se o usuário deveja fazer uma extração offline"; 
+"pressiona Yes"; "pressiona o botao Yes"
+"pressiona No";  "pressiona o botao No"
+
+    loginExtratorComoAdministradorv3
+"digita o user e a password de um usuário administrador e pressiona o botao Login"; "digita o user e a password de um usuario administrador e pressiona o botao Login"
+"digita o user de um usuário inválido, digita uma password e pressiona o botao Login"; "digita o user de um usuário invalido, digita uma password e pressiona o botao Login"
+"exibe mensagem informando usuario está bloqueado"; "exibe mensagem informando usuario esta bloqueado"
+
+    extracoesPorDiretoriov2
+"pressiona opção “Extract from dicrtory”"; "pressiona opcao “Extract from dicrtory”"
+"exibe tela de extração por diretório"; "exibe tela de extracao por diretorio"
+"seleciona pasta “EXTRACT_FILE_IPP320_AKIRA”, que contém 705 extrações para diversas família, e pressiona o botão “Extract”"; "seleciona pasta “EXTRACT_FILE_IPP320_AKIRA”, que contem 705 extrações para diversas familias, e pressiona o botao “Extract”"
+"acessa página “Extractions”"; "acessa pagina “Extractions”"
+"exibe a lista de extrações com as 50 últimas entradas. Entrada 1: 14170PP30289943. Entrada 50: 12328PP30166463"; "exibe a lista de extrações com as 50 ultimas entradas. Entrada 1: 14170PP30289943. Entrada 50: 12328PP30166463"
+"seleciona opção para mostrar 100 entradas por página"; "seleciona opcao para mostrar 100 entradas por pagina"
+"exibe a lista de extrações com as 100 últimas entradas."; "exibe a lista de extrações com as 100 ultimas entradas."
+"exibe as opções “Ingenico Brazil” e “Ingenico”"; "exibe as opcoes “Ingenico Brazil” e “Ingenico”"
+"seleciona opção “Ingenico” no campo de filtro “Customer”"; "seleciona opcao “Ingenico” no campo de filtro “Customer”"
+"atualiza a página mostrando somente 32 extrações"; "atualiza a pagina mostrando somente 32 extrações"
+"seleciona opção default no campo de filtro “Customer”"; "seleciona opcao default no campo de filtro “Customer”"
+"atualiza a página mostrando todas 705 extrações"; "atualiza a pagina mostrando todas 705 extrações"
+"atualiza a página mostrando todas 673 extrações"; "atualiza a pagina mostrando 673 extracoes"
+"exibe opções “Activated”, “Alert Interruption”, “Deactivated”, “Mockup” e “Error”"; "exibe opcoes “Activated”, “Alert Interruption”, “Deactivated”, “Mockup” e “Error”"
+"seleciona opção “Activated” no campo de filtro “State”"; "seleciona opcao “Activated” no campo de filtro “State”"
+"atualiza página mostrando 608 extrações"; "atualiza pagina mostrando 608 extrações"
+"seleciona opção “Alert Interruption” no campo de filtro “State”"; "seleciona opcao “Alert Interruption” no campo de filtro “State”"
+"atualiza página mostrando 97 extrações"; "atualiza pagina mostrando 97 extracoes"
+"seleciona opção “Mockup” no campo de filtro “State”"; "seleciona opcao “Mockup” no campo de filtro “State”"
+"atualiza página mostrando lista vazia"; "atualiza pagina mostrando lista vazia"
+"seleciona opção “Error” no campo de filtro “State”"; "seleciona opcao “Error” no campo de filtro “State”"
+"atualiza página mostrando extrações associadas aos estados 'Alert Interruption' e 'Mockup'"; "atualiza pagina mostrando extrações associadas aos estados 'Alert Interruption' e 'Mockup'"
+
+    extracoesPorDiretoriov3
+"pressiona opcao “Extract from dicrtory”"; "pressiona opcao “Extract from directory”"
+
+    listarUsuariosv1
+"exibe página contendo os campos 'Name', 'Login', 'Type' e 'Language' devidamente preenchidos"; "exibe pagina contendo os campos 'Name', 'Login', 'Type' e 'Language' devidamente preenchidos"
+"selecionar o botâo 'Options', opção 'Users' na página principal"; "selecionar o botao 'Options', opcao 'Users' na pagina principal""exibe lista somente cos usuários cadastrados do tipo 'Operator' associados ao mesmo laboratorio que o gerente"
+"exibe lista somente cos usuários cadastrados do tipo 'Operator' associados ao mesmo laboratório que o gerente"; "exibe lista somente cos usuários cadastrados do tipo 'Operator' associados ao mesmo laboratorio que o gerente"
+"exibe lista somente cos usuários cadastrados do tipo 'Operator' e 'Manager' associados ao mesmo laboratório que o administrador"); "exibe lista somente cos usuarios cadastrados do tipo 'Operator' e 'Manager' associados ao mesmo laboratorio que o administrador"
+
+    pesquisarPorExtracaov1
+"digita no campo “Product Number” o número de produto e o número serial correspondente e pressiona o botão 'Search'"; "digita no campo “Product Number” o numero de produto e o numero serial correspondente e pressiona o botao 'Search'"
+"exibe tela correspondente a extração"; "exibe tela correspondente a extracao"
+"digita o product number e/ou número serial inválidos e pressiona o botão 'Search'"; "digita o product number e/ou numero serial invalidos e pressiona o botao 'Search'"
+"exibe mensagem “No extraction found. Please, insert a Serial Number to search for the last extraction."; "exibe mensagem que product number ou serial number sao invalidos"
+
+    settingsv2
+"pressiona botão 'Settings'"; "pressiona botao 'Settings'"
+"exibe a janela de configurações"; "exibe a janela de configuracoes"
+"seleciona a opção 'Português' no campo 'Language' e pressiona botão 'Save'"; "seleciona a opção 'Portugues' no campo 'Language' e salva"
+"exibe tela inicial 'SAFF extraction' tualizada com todos os campos em português"; "exibe tela inicial 'SAFF extraction' tualizada com todos os campos em portugues"
+"Abre arquivo de configurações e modifica propriedade linguagem para 'Español', salva e loga novamente no sistema" ; "Abre arquivo de configuracoes e modifica propriedade linguagem para 'Espanol', salva e loga novamente no sistema" 
+"seleciona somente opção 'Pre test' no campo 'Visible Test Type' e pressiona botão 'Save'"; "seleciona somente opcao 'Pre test' no campo 'Visible Test Type' e pressiona botao 'Save'"
+"atualiza tela inicial 'SAFF extraction' exibindo somente 'Pre test' como opção de teste."; "atualiza tela inicial 'SAFF extraction' exibindo somente 'Pre test' como opcao de teste." 
+"seleciona somente opção 'Pre test' no campo 'Default Test Type' e pressiona botão 'Save'"; "seleciona somente opcao 'Pre test' no campo 'Default Test Type' e pressiona botao 'Save'"
+"atualiza tela inicial 'SAFF extraction' exibindo e tipo de teste 'Pre test' está marcado."; "atualiza tela inicial 'SAFF extraction' exibindo e tipo de teste 'Pre test' esta marcado."
+
+   visualizarEEditarContav1
+"seleciona a opção 'My Account' no canto superior direito"; "seleciona a opcao 'My Account'"
+"pressiona botão 'Edit'"; "pressiona botao 'Edit'"
+"exibe página com campos em branco para atualização"; "exibe pagina com campos em branco para atualizacao"
+"preenche corretamente os campos 'Old Password', 'New Password', 'Confirm Password' e pressiona o botão 'Update'"; "preenche corretamente os campos 'Old Password', 'New Password', 'Confirm Password' e pressiona o botao 'Update'"
+"exibe página com informações do usuário e apresenta mensagem informando que as informações foram atualizadas"; "exibe pagina com informacoes do usuario e apresenta mensagem informando que as informacoes foram atualizadas"
+"preenche corretamente os campos 'Old Password', 'New Password', 'Confirm Password', troca 'Language' de Inglês para Português e pressiona o botão 'Update'"; "preenche corretamente os campos 'Old Password', 'New Password', 'Confirm Password', troca 'Language' de Ingles para Portugues e pressiona o botao 'Update'"
+"exibe página com informações do usuário. Apresenta mensagem informando que as informações foram atualizadas e atualiza conta no novo idioma"; "exibe pagina com informações do usuario. Apresenta mensagem informando que as informacoes foram atualizadas e atualiza conta no novo idioma"
+"pressiona botão 'Cancel'"; "pressiona botao 'Cancel'"
+"preenche incorretamente o campos 'Old Password'"; "preenche incorretamente o campos 'Old Password'"
+"exibe mensagem infrmando que o Password fornecido não está correto"; "exibe mensagem infrmando que o Password fornecido não esta correto"
+"preenche o campos 'New Password' com uma senha fora dos padrões exigidos"; "preenche o campos 'New Password' com uma senha fora dos padroes exigidos"
+"exibe mensagem infrmando que o Password fornecido não está conforme o exigido"; "exibe mensagem infrmando que o Password fornecido nao esta conforme o exigido"
+
+========================================================================================
+
+stringTest("extracaoEmModoLLT", 2,"exibe página que requisita dados do terminal", "exibe pagina que requisita dados do terminal");
+stringTest("extracaoEmModoLLT", 2,"exibe mensagem informando houve erro na conexão com o servidor e pergunta se usuário deseja fazer a extração em modo offline", "exibe mensagem informando que houve erro na conexão com o servidor e pergunta se usuario deseja fazer a extração em modo offline");
+
+stringTest("seleciona o botão 'Create Customer', situado no lado direito inferior da tela", "seleciona o botão 'Create Customer'");
+
+stringTest("crudCliente", 2,"seleciona opção 'Customers' no menu Settings", "seleciona opcao 'Customers' no menu Settings");
+stringTest("crudCliente", 2,"exibe página com campos de cadastro de novo cliente", "exibe pagina com campos de cadastro de novo cliente");
+stringTest("crudCliente", 2,"preenche corretamente os campos 'Name', 'Key File' e 'Country' e pressiona o botão 'Create'", "preenche corretamente os campos 'Name', 'Key File' e 'Country' e pressiona o botao 'Create' ");
+stringTest("crudCliente", 2,"exibe página com dados do novo cliente e mensagem que um novo cliente foi adicionado";"exibe pagina com dados do novo cliente e mensagem que um novo cliente foi adicionado" );
+stringTest("crudCliente", 2,"seleciona opção 'Customers' no menu Settings", "seleciona opcao 'Customers' no menu Settings");
+stringTest("crudCliente", 2,"clica no botão 'Cancel'", "clica no botao 'Cancel'");
+stringTest("crudCliente", 2,"exibe mensagem informando que os dados não correspondem a formatação esperada", "exibe mensagem informando que os dados nao correspondem a formatação esperada");
+stringTest("crudCliente", 2,"Cancela criação", "Cancela criacao");
+stringTest("crudCliente", 2,"clica no botão 'Edit'", "clica no botao 'Edit'");
+stringTest("crudCliente", 2,"preenche os novos valores e pressiona o botão 'Update", "preenche os novos valores e pressiona o botao 'Update");
+stringTest("crudCliente", 2,"clica no botão 'Delete'", "clica no botao 'Delete'");
+stringTest("crudCliente", 2,"exibe mensagem solicitando confirmação", "exibe mensagem solicitando confirmacao");
+
+stringTest("crudCliente", 3,"seleciona opcao 'Customers' no menu Settings", "seleciona opção 'Customers' no menu Settings");
+stringTest("crudCliente", 3,"exibe pagina com campos de cadastro de novo cliente", "exibe página com campos de cadastro de novo cliente");
+stringTest("crudCliente", 3,"preenche corretamente os campos 'Name', 'Key File' e 'Country' e pressiona o botao 'Create'", "preenche corretamente os campos 'Name', 'Key File' e 'Country' e pressiona o botão 'Create' ");
+stringTest("crudCliente", 3,"exibe pagina com dados do novo cliente e mensagem que um novo cliente foi adicionado", "exibe página com dados do novo cliente e mensagem que um novo cliente foi adicionado");
+stringTest("crudCliente", 3,"clica no botao 'Cancel'", "clica no botão 'Cancel'");
+stringTest("crudCliente", 3,"Cancela criacao", "Cancela criação");
+stringTest("crudCliente", 3,"clica no botao 'Edit'", "clica no botão 'Edit'");
+stringTest("crudCliente", 3,"preenche os novos valores e pressiona o botao 'Update", "preenche os novos valores e pressiona o botão 'Update");
+stringTest("crudCliente", 3,"clica no botão 'Delete'", "clica no botão 'Delete'");
+stringTest("crudCliente", 3,"exibe mensagem solicitando confirmação", "exibe mensagem solicitando confirmação");
+stringTest("crudCliente", 3,"pressiona o botao OK", "pressiona o botão OK");
+
+stringTest("crudDiagnosticos", 1, "seleciona o botao 'Create Diagnostic', situado no lado direito inferior da tela", "seleciona o botao 'Create Diagnostic'");
+
+stringTest("crudDiagnosticos", 3, "exibe lista de diagnósticos", "exibe lista de diagnosticos");
+stringTest("crudDiagnosticos", 3, "exibe dados do diagnóstico", "exibe dados do diagnostico");
+stringTest("crudDiagnosticos", 3, "preenche algum dos campos ('Name', 'Family', 'Type', 'Scenary' ou 'Situation') com formatação errada e pressiona o botao 'Create'", "preenche algum dos campos ('Name', 'Family', 'Type', 'Scenary' ou 'Situation') com formatacao errada e pressiona o botao 'Create' ");
+stringTest("crudDiagnosticos", 3, "exibe mensagem informando que os dados nao correspondem a formatação esperada", "exibe mensagem informando que os dados nao correspondem a formatacao esperada");
+stringTest("crudDiagnosticos", 3, "Cancela criaçao", "Cancela criacao");
+stringTest("crudDiagnosticos", 3, "exibe mensagem solicitando confirmaçao", "exibe mensagem solicitando confirmacao");
+
+stringTest("crudDocumentos", 1, "seleciona o botão 'Create Document', situado no lado direito inferior da tela", "seleciona o botão 'Create Document'");
+
+
+stringTest("crudDocumentos", 3, "seleciona o botão 'Create Document'", "seleciona o botao 'Create Document'");
+stringTest("crudDocumentos", 3, "exibe página com campos de cadastro de novo documento", "exibe pagina com campos de cadastro de novo documento");
+stringTest("crudDocumentos", 3, "preenche corretamente os campos 'Title', 'Description', 'Family' (com uma família com extrações existentes), seleciona um arquivo PDF e pressiona o botão 'Create'", "preenche corretamente os campos 'Title', 'Description', 'Family' (com uma família com extracoes existentes), seleciona um arquivo PDF e pressiona o botao 'Create' ");
+stringTest("crudDocumentos", 3, "clica no nome link de visualização do documento", "clica no nome link de visualizacao do documento");
+stringTest("crudDocumentos", 3, "abre lista de extrações e seleciona uma das famílias cadastradas anteriormente", "abre lista de extracoes e seleciona uma das famílias cadastradas anteriormente");
+stringTest("crudDocumentos", 3, "se existir extração da familia cadastrada, esta deve exibir no campo Document um link para o novo documento", "se existir extracao da familia cadastrada, esta deve exibir no campo Document um link para o novo documento");
+stringTest("crudDocumentos", 3, "preenche corretamente os demais campos mas não seleciona um arquivo PDF. Pressiona o botão 'Create'", "preenche corretamente os demais campos mas não seleciona um arquivo PDF. Pressiona o botao 'Create'");
+stringTest("crudDocumentos", 3, "exibe mensagem informando que os dados não correspondem a formatação esperada ou está faltando informações", "exibe mensagem informando que os dados não correspondem a formatação esperada ou esta faltando informacoes");
+stringTest("crudDocumentos", 3, "preenche o campo 'Title' com o nome de um documento já cadastrado. Preenche corretamente os campos'Description', 'Family', seleciona um arquivo PDF e pressiona o botão 'Create'", "preenche o campo 'Title' com o nome de um documento ja cadastrado. Preenche corretamente os campos'Description', 'Family', seleciona um arquivo PDF e pressiona o botão 'Create'");
+stringTest("crudDocumentos", 3, "seleciona um arquivo de outro formato e pressiona o botão 'Create'", "seleciona um arquivo de outro formato e pressiona o botao 'Create'");
+stringTest("crudDocumentos", 3, "exibe mensagem informando que o documento especificado não é um arquivo PDF", "exibe mensagem informando que o documento especificado nao e um arquivo PDF");
+stringTest("crudDocumentos", 3, "cancela criação", "cancela criacao");
+stringTest("crudDocumentos", 3, "clica no botão 'Edit'", "clica no botao 'Edit'");
+stringTest("crudDocumentos", 3, "clica no botão 'Delete'", "clica no botao 'Delete'");
+stringTest("crudDocumentos", 3, "exibe mensagem solicitando confirmação", "exibe mensagem solicitando confirmacao");
+
+
+stringTest("crudDocumentos", 4, "seleciona o botao 'Create Document'", "seleciona o botão 'Create Document'");
+stringTest("crudDocumentos", 4, "exibe pagina com campos de cadastro de novo documento", "exibe página com campos de cadastro de novo documento");
+stringTest("crudDocumentos", 4, "preenche corretamente os campos 'Title', 'Description', 'Family' (com uma família com extracoes existentes), seleciona um arquivo PDF e pressiona o botao 'Create'", "preenche corretamente os campos 'Title', 'Description', 'Family', seleciona um arquivo PDF e pressiona o botão 'Create' ");
+stringTest("crudDocumentos", 4, "clica no nome link de visualizacao do documento", "clica no ícone link de visualização do documento");
+stringTest("crudDocumentos", 4, "abre lista de extracoes e seleciona uma das famílias cadastradas anteriormente", "abre lista de extrações e seleciona uma extração das famílias cadastradas anteriormente");
+stringTest("crudDocumentos", 4, "se existir extracao da familia cadastrada, esta deve exibir no campo Document um link para o novo documento", "se existir extração da familia cadastrada, esta deve exibir no campo Document um link para o novo documento");
+
+
+stringTest("crudLaboratorios", 1, "seleciona o botão 'Create Laboratories', situado no lado direito inferior da tela", "seleciona o botão 'Create Laboratories'");
+
+
+stringTest("crudLaboratorios", 2, "seleciona opção 'Laboratories' no menu Settings", "seleciona opcao 'Laboratories' no menu Settings");
+stringTest("crudLaboratorios", 2, "seleciona o botão 'Create Laboratories'", "seleciona o botao 'Create Laboratories'");
+stringTest("crudLaboratorios", 2, "exibe página com dados do novo Laboratório e mensagem que um novo entrada foi adicionado", "exibe pagina com dados do novo Laboratório e mensagem que um novo entrada foi adicionado");
+stringTest("crudLaboratorios", 2, "seleciona opção 'Laboratories' no menu Settings", "seleciona opcao 'Laboratories' no menu Settings");
+stringTest("crudLaboratorios", 2, "exibe lista de laboratórios", "exibe lista de laboratorios");
+stringTest("crudLaboratorios", 2, "exibe dados do Laboratório e lista de usuários associados a este", "exibe dados do Laboratorio e lista de usuarios associados a este");
+stringTest("crudLaboratorios", 2, "retorna a lista de laboratórios", "retorna a lista de laboratorios");
+stringTest("crudLaboratorios", 2, "exibe mensagem informando que os dados não correspondem a formatação esperada", "exibe mensagem informando que os dados nao correspondem a formatação esperada");
+stringTest("crudLaboratorios", 2, "clica no botão 'Edit'", "clica no botao 'Edit'");
+stringTest("crudLaboratorios", 2, "preenche os novos valores e pressiona o botão 'Update", "preenche os novos valores e pressiona o botao 'Update");
+stringTest("crudLaboratorios", 2, "preenche o campo 'Name' com um nome de laboratório jã existente. Preenche corretamente os campos 'Country' e 'Description' e pressiona o botão 'Create'", "preenche o campo 'Name' com um nome de laboratorio ja existente. Preenche corretamente os campos 'Country' e 'Description' e pressiona o botao 'Create' ");
+stringTest("crudLaboratorios", 2, "exibe mensagem informando que já existe laboratório cadastrado com esse nome", "exibe mensagem informando que ja existe laboratório cadastrado com esse nome");
+
+
+stringTest("crudSecao", 1, "seleciona opção 'Sections' no menu Settings", "seleciona opcao 'Sections' no menu Settings");
+stringTest("crudSecao", 1, "exibe lista de Seções", "exibe lista de Secoes");
+stringTest("crudSecao", 1, "clica no nome de uma seção", "clica no nome de uma secao");
+stringTest("crudSecao", 1, "exibe dados da seção", "exibe dados da secao");
+stringTest("crudSecao", 1, "clica no botão 'Cancel'", "clica no botao 'Cancel'");
+stringTest("crudSecao", 1, "retorna a lista de seções", "retorna a lista de secoes");
+stringTest("crudSecao", 1, "lista as opções possíveis de serem incluídas na seção", "lista as opcoes possíveis de serem incluidas na secao");
+stringTest("crudSecao", 1, "escolhe as opções e pressiona o botão 'Update", "escolhe as opcoes e pressiona o botão 'Update");
+stringTest("crudSecao", 1, "exibe mensagem informando que a seção foi atualizada", "exibe mensagem informando que a secao foi atualizada");
+
+
+stringTest("crudSecuInfo", 1, "seleciona o botão 'Create Secu Info', situado no lado direito inferior da tela", "seleciona o botão 'Create Secu Info'");
+
+
+stringTest("crudSecuInfo", 2, "seleciona o botão 'Create Secu Info'", "seleciona o botao 'Create Secu Info'");
+stringTest("crudSecuInfo", 2, "exibe página com campos de cadastro de novo Secu Info", "exibe pagina com campos de cadastro de novo Secu Info");
+stringTest("crudSecuInfo", 2, "exibe página com dados do novo Secu Info e mensagem que um novo entrada foi adicionado", "exibe pagina com dados do novo Secu Info e mensagem que um novo entrada foi adicionado");
+stringTest("crudSecuInfo", 2, "seleciona opção 'Secu Info' no menu Settings", "seleciona opcao 'Secu Info' no menu Settings");
+stringTest("crudSecuInfo", 2, "clica no botão 'Cancel'", "clica no botao 'Cancel'");
+stringTest("crudSecuInfo", 2, "Cancela criação", "Cancela criacao");
+stringTest("crudSecuInfo", 2, "clica no botão 'Edit'", "clica no botao 'Edit'");
+stringTest("crudSecuInfo", 2, "clica no botão 'Delete'", "clica no botao 'Delete'");
+stringTest("crudSecuInfo", 2, "exibe mensagem solicitando confirmação", "exibe mensagem solicitando confirmacao");
+
+
+stringTest("crudUsers", 1, "seleciona o botão 'Create User', situado no lado direito inferior da tela", "seleciona o botão 'Create User'");
+
+
+stringTest("crudUsers", 3, "seleciona opção 'Users' no menu Settings", "seleciona opcao 'Users' no menu Settings");
+stringTest("crudUsers", 3, "exibe página com campos de cadastro do usuário", "exibe pagina com campos de cadastro do usuario");
+stringTest("crudUsers", 3, "preenche corretamente os campos 'Name', 'Login', 'Password', 'Confirm Password', escolhe uma opção para os campos 'Type', 'Laboratory', 'Language', e pressiona o botão 'Create'", "preenche corretamente os campos 'Name', 'Login', 'Password', 'Confirm Password', escolhe uma opcao para os campos 'Type', 'Laboratory', 'Language', e pressiona o botão 'Create' ");
+stringTest("crudUsers", 3, "exibe mensagem indicando que novo usuário foi criado", "exibe mensagem indicando que novo usuario foi criado");
+stringTest("crudUsers", 3, "clica no link de visualização dos usuários", "clica no link de visualizacao dos usuarios");
+stringTest("crudUsers", 3, "exibe lista completa de usuários", "exibe lista completa de usuarios");
+stringTest("crudUsers", 3, "exibe dados do usuário", "exibe dados do usuario");
+stringTest("crudUsers", 3, "preenche o campo 'Login' com o login associado a um outro usuário cadastrado. Preenche corretamente os demais campos e pressiona o botão 'Create'", "preenche o campo 'Login' com o login associado a um outro usuario cadastrado. Preenche corretamente os demais campos e pressiona o botão 'Create'");
+stringTest("crudUsers", 3, "exibe mensagem informando que os este usuários já existe", "exibe mensagem informando que os este usuarios já existe");
+stringTest("crudUsers", 3, "cancela criação", "cancela criacao");
+stringTest("crudUsers", 3, "clica no botão 'Edit'", "clica no botao 'Edit'");
+stringTest("crudUsers", 3, "preenche os novos valores para os campos 'Name' e 'Type', mantém a linguagem e pressiona o botão 'Update", "preenche os novos valores para os campos 'Name' e 'Type', mantém a linguagem e pressiona o botao 'Update");
+stringTest("crudUsers", 3, "exibe novos dados do usuários", "exibe novos dados do usuarios");
+stringTest("crudUsers", 3, "acessa link que lista todos usuários", "acessa link que lista todos usuarios");
+stringTest("crudUsers", 3, "é apresentado na nova linguagem", "e apresentado na nova linguagem");
+stringTest("crudUsers", 3, "pressiona botão 'Reset Password'", "pressiona botao 'Reset Password'");
+stringTest("crudUsers", 3, "exibe mensagem pedindo confirmação", "exibe mensagem pedindo confirmacao");
+stringTest("crudUsers", 3, "pressiona botão 'Block User'", "pressiona botao 'Block User'");
+stringTest("crudUsers", 3, "exibe mensagem pedindo confirmação", "exibe mensagem pedindo confirmacao");
+stringTest("crudUsers", 3, "confirma desejo de bloquear usuário", "confirma desejo de bloquear usuario");
+stringTest("crudUsers", 3, "exibe mensagem confirmando bloqueio de usuário", "exibe mensagem confirmando bloqueio de usuario");
+stringTest("crudUsers", 3, "acessa link que lista todos usuários", "acessa link que lista todos usuarios");
+stringTest("crudUsers", 3, "exibe lista completa de usuários onde o usuário atualizado é sinalizado como bloqueado", "exibe lista completa de usuários onde o usuario atualizado e sinalizado como bloqueado");
+stringTest("crudUsers", 3, "clica no nome do usuário bloqueado", "clica no nome do usuario bloqueado");
+stringTest("crudUsers", 3, "clica no botão 'Edit'", "clica no botao 'Edit'");
+stringTest("crudUsers", 3, "pressiona botão 'Unblock User'", "pressiona botao 'Unblock User'");
+stringTest("crudUsers", 3, "confirma desejo de desbloquear usuário", "confirma desejo de desbloquear usuario");
+stringTest("crudUsers", 3, "exibe mensagem confirmando desbloqueio de usuário", "exibe mensagem confirmando desbloqueio de usuario");
+stringTest("crudUsers", 3, "acessa link que lista todos usuários", "acessa link que lista todos usuarios");
+stringTest("crudUsers", 3, "exibe lista completa de usuários onde o usuário atualizado não é sinalizado como bloqueado", "exibe lista completa de usuários onde o usuario atualizado nao e sinalizado como bloqueado");
+stringTest("crudUsers", 3, "faz log out e tenta loga na conta do usuário que teve os dados atualizados", "faz log out e tenta loga na conta do usuario que teve os dados atualizados");
+stringTest("crudUsers", 3, "exibe mensagem que usuário está bloqueado", "exibe mensagem que usuário esta bloqueado");
+stringTest("crudUsers", 3, "exibe mensagem solicitando confirmação", "exibe mensagem solicitando confirmacao");
+
+
+stringTest("loginExtratorComoAdministrador", 2, "abre módulo de extração", "abre modulo de extracao");
+stringTest("loginExtratorComoAdministrador", 2, "digita um login de usuário administrador e password e pressiona Login", "digita o user e a password de um usuário administrador e pressiona o botao Login");
+stringTest("loginExtratorComoAdministrador", 2, "exibe tela “SAFF Extractor”", "exibe tela de extracao por dispositivo");
+stringTest("loginExtratorComoAdministrador", 2, "digita um login de usuário administrador e/ou password invalidos e pressiona Login", "digita o user de um usuário inválido, digita uma password e pressiona o botao Login");
+stringTest("loginExtratorComoAdministrador", 2, "exibe mensagem “Invalid username or password” na tela de login", "exibe mensagem “Invalid user or password” na tela de login");
+stringTest("loginExtratorComoAdministrador", 2, "tenta mais uma vez logar na conta do usuário, agora com dados válidos", "tenta mais uma vez logar na conta do usuário, agora com dados validos");
+stringTest("loginExtratorComoAdministrador", 2, "exibe mensagem que usuário está bloqueado", "exibe mensagem informando usuario está bloqueado");
+stringTest("loginExtratorComoAdministrador", 2, "exibe pop-up questionanado se o usuário deveja fazer uma extração offline"; );
+stringTest("loginExtratorComoAdministrador", 2, "pressiona Yes", "pressiona o botao Yes");
+stringTest("loginExtratorComoAdministrador", 2, "pressiona No";  "pressiona o botao No");
+
+
+stringTest("loginExtratorComoAdministrador", 3, "digita o user e a password de um usuário administrador e pressiona o botao Login", "digita o user e a password de um usuario administrador e pressiona o botao Login");
+stringTest("loginExtratorComoAdministrador", 3, "digita o user de um usuário inválido, digita uma password e pressiona o botao Login", "digita o user de um usuário invalido, digita uma password e pressiona o botao Login");
+stringTest("loginExtratorComoAdministrador", 3, "exibe mensagem informando usuario está bloqueado", "exibe mensagem informando usuario esta bloqueado");
+
+
+stringTest("extracoesPorDiretorio", 2, "pressiona opção “Extract from dicrtory”", "pressiona opcao “Extract from dicrtory”");
+stringTest("extracoesPorDiretorio", 2, "exibe tela de extração por diretório", "exibe tela de extracao por diretorio");
+stringTest("extracoesPorDiretorio", 2, "seleciona pasta “EXTRACT_FILE_IPP320_AKIRA”, que contém 705 extrações para diversas família, e pressiona o botão “Extract”", "seleciona pasta “EXTRACT_FILE_IPP320_AKIRA”, que contem 705 extrações para diversas familias, e pressiona o botao “Extract”");
+stringTest("extracoesPorDiretorio", 2, "acessa página “Extractions”", "acessa pagina “Extractions”");
+stringTest("extracoesPorDiretorio", 2, "exibe a lista de extrações com as 50 últimas entradas. Entrada 1: 14170PP30289943. Entrada 50: 12328PP30166463", "exibe a lista de extrações com as 50 ultimas entradas. Entrada 1: 14170PP30289943. Entrada 50: 12328PP30166463");
+stringTest("extracoesPorDiretorio", 2, "seleciona opção para mostrar 100 entradas por página", "seleciona opcao para mostrar 100 entradas por pagina");
+stringTest("extracoesPorDiretorio", 2, "exibe a lista de extrações com as 100 últimas entradas.", "exibe a lista de extrações com as 100 ultimas entradas.");
+stringTest("extracoesPorDiretorio", 2, "exibe as opções “Ingenico Brazil” e “Ingenico”", "exibe as opcoes “Ingenico Brazil” e “Ingenico”");
+stringTest("extracoesPorDiretorio", 2, "seleciona opção “Ingenico” no campo de filtro “Customer”", "seleciona opcao “Ingenico” no campo de filtro “Customer”");
+stringTest("extracoesPorDiretorio", 2, "atualiza a página mostrando somente 32 extrações", "atualiza a pagina mostrando somente 32 extrações");
+stringTest("extracoesPorDiretorio", 2, "seleciona opção default no campo de filtro “Customer”", "seleciona opcao default no campo de filtro “Customer”");
+stringTest("extracoesPorDiretorio", 2, "atualiza a página mostrando todas 705 extrações", "atualiza a pagina mostrando todas 705 extrações");
+stringTest("extracoesPorDiretorio", 2, "atualiza a página mostrando todas 673 extrações", "atualiza a pagina mostrando 673 extracoes");
+stringTest("extracoesPorDiretorio", 2, "exibe opções “Activated”, “Alert Interruption”, “Deactivated”, “Mockup” e “Error”", "exibe opcoes “Activated”, “Alert Interruption”, “Deactivated”, “Mockup” e “Error”");
+stringTest("extracoesPorDiretorio", 2, "seleciona opção “Activated” no campo de filtro “State”", "seleciona opcao “Activated” no campo de filtro “State”");
+stringTest("extracoesPorDiretorio", 2, "atualiza página mostrando 608 extrações", "atualiza pagina mostrando 608 extrações");
+stringTest("extracoesPorDiretorio", 2, "seleciona opção “Alert Interruption” no campo de filtro “State”", "seleciona opcao “Alert Interruption” no campo de filtro “State”");
+stringTest("extracoesPorDiretorio", 2, "atualiza página mostrando 97 extrações", "atualiza pagina mostrando 97 extracoes");
+stringTest("extracoesPorDiretorio", 2, "seleciona opção “Mockup” no campo de filtro “State”", "seleciona opcao “Mockup” no campo de filtro “State”");
+stringTest("extracoesPorDiretorio", 2, "atualiza página mostrando lista vazia", "atualiza pagina mostrando lista vazia");
+stringTest("extracoesPorDiretorio", 2, "seleciona opção “Error” no campo de filtro “State”", "seleciona opcao “Error” no campo de filtro “State”");
+stringTest("extracoesPorDiretorio", 2, "atualiza página mostrando extrações associadas aos estados 'Alert Interruption' e 'Mockup'", "atualiza pagina mostrando extrações associadas aos estados 'Alert Interruption' e 'Mockup'");
+
+
+stringTest("extracoesPorDiretorio", 3, "pressiona opcao “Extract from dicrtory”", "pressiona opcao “Extract from directory”");
+
+
+stringTest("listarUsuarios", 1, "exibe página contendo os campos 'Name', 'Login', 'Type' e 'Language' devidamente preenchidos", "exibe pagina contendo os campos 'Name', 'Login', 'Type' e 'Language' devidamente preenchidos");
+stringTest("listarUsuarios", 1, "selecionar o botâo 'Options', opção 'Users' na página principal", "selecionar o botao 'Options', opcao 'Users' na pagina principal""exibe lista somente cos usuários cadastrados do tipo 'Operator' associados ao mesmo laboratorio que o gerente");
+stringTest("listarUsuarios", 1, "exibe lista somente cos usuários cadastrados do tipo 'Operator' associados ao mesmo laboratório que o gerente", "exibe lista somente cos usuários cadastrados do tipo 'Operator' associados ao mesmo laboratorio que o gerente");
+stringTest("listarUsuarios", 1, "exibe lista somente cos usuários cadastrados do tipo 'Operator' e 'Manager' associados ao mesmo laboratório que o administrador"); "exibe lista somente cos usuarios cadastrados do tipo 'Operator' e 'Manager' associados ao mesmo laboratorio que o administrador");
+
+
+stringTest("pesquisarPorExtracao", 1 "digita no campo “Product Number” o número de produto e o número serial correspondente e pressiona o botão 'Search'", "digita no campo “Product Number” o numero de produto e o numero serial correspondente e pressiona o botao 'Search'");
+stringTest("pesquisarPorExtracao", 1 "exibe tela correspondente a extração", "exibe tela correspondente a extracao");
+stringTest("pesquisarPorExtracao", 1 "digita o product number e/ou número serial inválidos e pressiona o botão 'Search'", "digita o product number e/ou numero serial invalidos e pressiona o botao 'Search'");
+stringTest("pesquisarPorExtracao", 1 "exibe mensagem “No extraction found. Please, insert a Serial Number to search for the last extraction.", "exibe mensagem que product number ou serial number sao invalidos");
+
+
+stringTest("settings", 2, "pressiona botão 'Settings'", "pressiona botao 'Settings'");
+stringTest("settings", 2, "exibe a janela de configurações", "exibe a janela de configuracoes");
+stringTest("settings", 2, "seleciona a opção 'Português' no campo 'Language' e pressiona botão 'Save'", "seleciona a opção 'Portugues' no campo 'Language' e salva");
+stringTest("settings", 2, "exibe tela inicial 'SAFF extraction' tualizada com todos os campos em português", "exibe tela inicial 'SAFF extraction' tualizada com todos os campos em portugues");
+stringTest("settings", 2, "Abre arquivo de configurações e modifica propriedade linguagem para 'Español', salva e loga novamente no sistema" ; "Abre arquivo de configuracoes e modifica propriedade linguagem para 'Espanol', salva e loga novamente no sistema" );
+stringTest("settings", 2, "seleciona somente opção 'Pre test' no campo 'Visible Test Type' e pressiona botão 'Save'", "seleciona somente opcao 'Pre test' no campo 'Visible Test Type' e pressiona botao 'Save'");
+stringTest("settings", 2, "atualiza tela inicial 'SAFF extraction' exibindo somente 'Pre test' como opção de teste.", "atualiza tela inicial 'SAFF extraction' exibindo somente 'Pre test' como opcao de teste." );
+stringTest("settings", 2, "seleciona somente opção 'Pre test' no campo 'Default Test Type' e pressiona botão 'Save'", "seleciona somente opcao 'Pre test' no campo 'Default Test Type' e pressiona botao 'Save'");
+stringTest("settings", 2, "atualiza tela inicial 'SAFF extraction' exibindo e tipo de teste 'Pre test' está marcado.", "atualiza tela inicial 'SAFF extraction' exibindo e tipo de teste 'Pre test' esta marcado.");
+
+
+stringTest("visualizarEEditarConta", 1, "seleciona a opção 'My Account' no canto superior direito", "seleciona a opcao 'My Account'");
+stringTest("visualizarEEditarConta", 1, "pressiona botão 'Edit'", "pressiona botao 'Edit'");
+stringTest("visualizarEEditarConta", 1, "exibe página com campos em branco para atualização", "exibe pagina com campos em branco para atualizacao");
+stringTest("visualizarEEditarConta", 1, "preenche corretamente os campos 'Old Password', 'New Password', 'Confirm Password' e pressiona o botão 'Update'", "preenche corretamente os campos 'Old Password', 'New Password', 'Confirm Password' e pressiona o botao 'Update'");
+stringTest("visualizarEEditarConta", 1, "exibe página com informações do usuário e apresenta mensagem informando que as informações foram atualizadas", "exibe pagina com informacoes do usuario e apresenta mensagem informando que as informacoes foram atualizadas");
+stringTest("visualizarEEditarConta", 1, "preenche corretamente os campos 'Old Password', 'New Password', 'Confirm Password', troca 'Language' de Inglês para Português e pressiona o botão 'Update'", "preenche corretamente os campos 'Old Password', 'New Password', 'Confirm Password', troca 'Language' de Ingles para Portugues e pressiona o botao 'Update'");
+stringTest("visualizarEEditarConta", 1, "exibe página com informações do usuário. Apresenta mensagem informando que as informações foram atualizadas e atualiza conta no novo idioma", "exibe pagina com informações do usuario. Apresenta mensagem informando que as informacoes foram atualizadas e atualiza conta no novo idioma");
+stringTest("visualizarEEditarConta", 1, "pressiona botão 'Cancel'", "pressiona botao 'Cancel'");
+stringTest("visualizarEEditarConta", 1, "preenche incorretamente o campos 'Old Password'", "preenche incorretamente o campos 'Old Password'");
+stringTest("visualizarEEditarConta", 1, "exibe mensagem infrmando que o Password fornecido não está correto", "exibe mensagem infrmando que o Password fornecido não esta correto");
+stringTest("visualizarEEditarConta", 1, "preenche o campos 'New Password' com uma senha fora dos padrões exigidos", "preenche o campos 'New Password' com uma senha fora dos padroes exigidos");
+stringTest("visualizarEEditarConta", 1, "exibe mensagem infrmando que o Password fornecido não está conforme o exigido", "exibe mensagem infrmando que o Password fornecido nao esta conforme o exigido");

@@ -1,0 +1,39 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+17 17
+18 18
+#
+1 2 [c] Existem diversos usuários de diferentes perfis cadastrados no sistema.
+2 3 [s]  Usuário do sistema loga no sistema com perfil de super administrador
+1 8 [c] Existem diversos usuários de diferentes perfis cadastrados no sistema.
+1 12 [c] Existem diversos usuários de diferentes perfis cadastrados no sistema.
+1 16 [c] Existem diversos usuários de diferentes perfis cadastrados no sistema.
+3 4 [e]  Sistema exibe tela principal
+4 5 [s]  Usuário do sistema selecionar o botâo 'Options', opção 'Users' na página principal
+5 6 [e]  Sistema exibe lista com todos os usuários cadastrados
+6 7 [s]  Usuário do sistema clica no nome de um usuário
+7 17 [e]  Sistema exibe página contendo os campos 'Name', 'Login', 'Type' e 'Language' devidamente preenchidos
+8 9 [s] (Gerente) Usuário do sistema loga no sistema com perfil de gerente
+9 10 [e]  Sistema exibe tela principal
+10 11 [s]  Usuário do sistema selecionar o botâo 'Options', opção 'Users' na página principal
+11 6 [e]  Sistema exibe lista somente cos usuários cadastrados do tipo 'Operator' associados ao mesmo laboratório que o gerente
+12 13 [s] (administrador) Usuário do sistema loga no sistema com perfil de administrador
+13 14 [e]  Sistema exibe tela principal
+14 15 [s]  Usuário do sistema selecionar o botâo 'Options', opção 'Users' na página principal
+15 6 [e]  Sistema exibe lista somente cos usuários cadastrados do tipo 'Operator' e 'Manager' associados ao mesmo laboratório que o administrador
+16 3 [s] (Super viewer) Usuário do sistema loga no sistema com perfil de super viewer
+17 18 [c]  .

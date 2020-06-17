@@ -1,0 +1,67 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+17 17
+18 18
+19 19
+20 20
+21 21
+22 22
+23 23
+24 24
+25 25
+26 26
+27 27
+28 28
+29 29
+30 30
+31 31
+#
+1 2 [c]  .
+2 3 [s]  Usuario loga no sistema com perfil de super administrador ou administrador
+1 25 [c]  .
+3 4 [e]  Sistema exibe tela principal
+4 5 [s]  Usuario seleciona opçao 'Diagnostics' no menu Settings
+5 6 [e]  Sistema exibe lista diagnosticos
+6 7 [s]  Usuario seleciona o botao 'Create Diagnostic', situado no lado direito inferior da tela
+7 8 [e]  Sistema exibe página com campos de cadastro de novo documento
+8 9 [s]  Usuario preenche corretamente os campos 'Name', 'Family', 'Type', 'Scenary', 'Situation' e pressiona o botao 'Create' 
+7 14 [e]  Sistema exibe página com campos de cadastro de novo documento
+7 16 [e]  Sistema exibe página com campos de cadastro de novo documento
+7 18 [e]  Sistema exibe página com campos de cadastro de novo documento
+9 10 [e]  Sistema exibe lista de diagnósticos
+10 11 [s]  Usuario clica no nome de um diagnostico
+11 12 [e]  Sistema exibe dados do diagnóstico
+12 13 [s]  Usuario clica no botão 'Cancel'
+11 19 [e]  Sistema exibe dados do diagnóstico
+11 22 [e]  Sistema exibe dados do diagnóstico
+13 29 [e]  Sistema retorna a lista de diagnosticos
+14 15 [s] (Scenary ou Situation faltando informacao) Usuario preenche nao preenche algum dos campos 'Name', 'Family', 'Type', 'Scenary' ou 'Situation' e pressiona o botao 'Create' 
+15 8 [e]  Sistema exibe mensagem informando que existe informaçao indispensável faltando
+16 17 [s] (Campo fora da formatação esperada) Usuario preenche algum dos campos ('Name', 'Family', 'Type', 'Scenary' ou 'Situation') com formatação errada e pressiona o botao 'Create' 
+17 8 [e]  Sistema exibe mensagem informando que os dados nao correspondem a formatação esperada
+18 5 [s] (Cancela criaçao) Usuario Cancela criaçao
+19 20 [s] (Edita dados) Usuario clica no botao 'Edit'
+20 21 [e]  Sistema exibe campos do diagnostico com valores atuais que podem ser editados
+21 5 [s]  Usuario preenche os novos valores e pressiona o botão 'Update
+22 23 [s] (Deleta diagnostico) Usuario clica no botao 'Delete'
+23 24 [e]  Sistema exibe mensagem solicitando confirmaçao
+24 5 [s]  Usuario pressiona o botao OK
+25 26 [s] (Visualizaçao para Operador, Gerente) Usuario loga no sistema com perfil de administrador, gerente ou operador
+26 27 [e]  Sistema exibe tela principal
+27 28 [s]  Usuario seleciona opçao 'Diagnostics' no menu Settings
+28 30 [e]  Sistema exibe lista de diagnosticos pertencentes ao mesmo laboratorio do usuario
+29 31 [c]  .

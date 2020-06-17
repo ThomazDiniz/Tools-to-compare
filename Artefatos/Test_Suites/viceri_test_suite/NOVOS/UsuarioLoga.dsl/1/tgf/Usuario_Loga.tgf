@@ -1,0 +1,34 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+#
+1 2 [c] Acesso ao Browser; Acesso a internet.
+2 3 [s]  Usuario Bazooca entra na homepage do sistema
+3 4 [e]  Sistema exibe homepage
+4 5 [s]  Usuario Bazooca clica no botao 'Login'
+5 6 [e]  Sistema apresenta um form com os campos username e password e um botao de submissao
+6 7 [s]  Usuario Bazooca preenche os campos de username e password e clica no botao de submissao
+5 8 [e]  Sistema apresenta um form com os campos username e password e um botao de submissao
+5 9 [e]  Sistema apresenta um form com os campos username e password e um botao de submissao
+7 14 [e]  Sistema mostra uma mensagem de usuario logado com sucesso
+6 12 [s]  Usuario Bazooca preenche os campos de username e password e clica no botao de submissao
+6 13 [s]  Usuario Bazooca preenche os campos de username e password e clica no botao de submissao
+8 5 [s] (Um ou mais username sao apresentados) Usuario Bazooca seleciona um dos usernames sugeridos, digita um password e clica no botao de submeter
+9 10 [s] (esqueceu credenciais) Usuario Bazooca clica no botao 'Esqueceu sua senha?'
+10 11 [e]  Sistema pede para usuario inserir email de cadastro
+11 2 [s]  Usuario Bazooca usuario clica em botao 'Confirmar'
+12 4 [e] (usuario nao existe no banco de dados) Sistema alerta que usuario nao existe
+13 4 [e] (combinacao de username/password incorreta) Sistema alerta que username e/ou password estao incorretos
+14 15 [c] Usuario esta logado no sistema.

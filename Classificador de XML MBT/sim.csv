@@ -1,0 +1,130 @@
+base,delta,isSyntactic,Levenshtein
+Redireciona para tela de selecao de plano de teste,,0,1.0
+Seleciona um plano de teste,,0,1.0
+,Pressiona no icone de camera fotografica,0,1.0
+,Redireciona para tela de captura de foto,0,1.0
+,Tire foto da maquina e pressiona botao voltar,0,1.0
+,Valida numero do produto,0,1.0
+,Insere o numero de serie,0,1.0
+,Valida numero de serie,0,1.0
+,Pressiona botao iniciar,0,1.0
+Usuario Identificou a maquina,,0,1.0
+,Exibe mensagem indicando que nao pode se comunicar com o servidor.,0,1.0
+,Usuario esta logado no sistema,0,1.0
+,Pressiona o botao para habilitar/desabilitar exibicao de senha,0,1.0
+,Habilita/Desabilita exibicao de senha,0,1.0
+,Insere usuario e senha e pressiona o botao de login.,0,1.0
+Usuario selecionou o sintoma da maquina,,0,1.0
+Pressiona no botão Executar,Mostra uma caixa de mensagem indicando que os testes estao sendo executados junto com uma barra de carregamento,0,0.8288288288288288
+Digite o ocorrido nos testes na caixa de nota e pressione em okou cancelar caso nao tenha nada a descrever.,Exibe a tela do resultado detalhado dos testes da maquina indicando a situacao dos testes executados.,0,0.7570093457943925
+Usuario Executou os testes,Resultado e enviado ao servidor,0,0.7419354838709677
+Pressione em sim,Pressione no botao de rejeicao de resultados,0,0.7045454545454546
+Mostra a tela pedindo a descricao do usuario para dizer qual o resultado dos testes.,Exibe a tela para insercao nota de texto.,0,0.6666666666666666
+Pressiona no botao ICT220 3 testes,Seleciona um plano de teste,0,0.5882352941176471
+Insere o numero do produto e do serial e pressione em iniciar,Insere o numero do produto,0,0.5737704918032787
+Tire foto da maquina,Tire foto da maquina e pressiona botao voltar,0,0.5555555555555556
+Pressiona no botao Executar,Conecta terminal ao celular e pressiona no botao Executar,0,0.543859649122807
+Redireciona para a tela demonstrando os testes possiveis: Display/Display Backlight e Buzzer,Redireciona para a tela exibindo os testes inclusos no plano de teste selecionado,0,0.5
+Redireciona para a tela de descricao de nota de testes com a descricao padrao selecionada.,Redireciona para a tela de descrição de nota de testes,0,0.4222222222222222
+Pressione no botao de enviar,Pressione no botao de aprovacao de terminal,0,0.4186046511627907
+Exibe a tela para insercao nota de texto.,Exibe a tela para selecionar nota de texto pre-definida.,0,0.375
+Redireciona para a tela de selecao de codigo de falha.,Redireciona para a tela de seleção de diagnóstico técnico.,0,0.3275862068965517
+Seleciona um ou mais codigos de falha e confirma,Seleciona um ou mais diagnósticos técnicos e confirma,0,0.32075471698113206
+Pressiona o botao system,Pressiona o botão Padrão,0,0.2916666666666667
+Seleciona codigo de falha e confirma,Seleciona outras falhas e confirma,0,0.25
+Redireciona para a tela de selecao de codigo de falhar,Redireciona para a tela de seleção de outras falhas,0,0.2037037037037037
+Exibe icone notificando que a senha esta vazia.,Exibe mensagem indicando que e necessario preencher o campo senha,1,0.6
+Muda para a tela de leitura de codigo de barras e pede para o usuario alinhar o codigo de barras com a linha vermelha do leitor,Redireciona para a tela de leitura de product number e serial number e pede para o usuario alinhar o codigo de barras com a linha vermelha do leitor,1,0.21621621621621623
+Exibe mensagem indicando que e necessario digitar o campo de usuario,Exibe mensagem indicando que e necessario preencher o campo nome de usuario,1,0.17333333333333334
+Redireciona para a tela de Execucao de plano de testes,Redireciona para a tela de listagem de plano de testes,1,0.14814814814814814
+Exibe notificacao indicando que o usuario esta sem conexao com a internet.,Exibe mensagem indicando que o usuario esta sem conexao com a internet.,1,0.13513513513513514
+Retorna a tela de identificacao do terminal,Redireciona a tela de identificacao do terminal,1,0.1276595744680851
+Mostra uma caixa de mensagem indicando que os testes estao sendo executados junto com uma barra de carregamento,Exibe uma caixa de mensagem indicando que os testes estao sendo executados junto com uma barra de progresso,1,0.12612612612612611
+Requisita confirmacao de rejeicao,Requisita confirmação de rejeição,1,0.12121212121212122
+Digita o numero do produto e do serial e pressione em iniciar,Insere o numero do produto e do serial e pressione em iniciar,1,0.09836065573770492
+Exibe mensagem indicando que o usuario e a senha digitados sao invalidos.,Exibe mensagem indicando que o usuario e a senha fornecidos sao invalidos.,1,0.0945945945945946
+Requisita confirmacao do usuario,Requisita confirmação do usuário,1,0.09375
+Pressiona no icone de camera fotografica,Pressiona no ícone de câmera fotográfica,1,0.075
+Pressione no botao de aprovacao de terminal,Pressione no botão de aprovação de terminal,1,0.06976744186046512
+Usuario Identificou a maquina,Usuário Identificou a máquina,1,0.06896551724137931
+Confirma rejeicao do terminal,Confirma rejeição do terminal,1,0.06896551724137931
+Usuário Identificou a máquina,Usuario Identificou a maquina,1,0.06896551724137931
+Usuário Identificou a máquina,Usuario Identificou a maquina,1,0.06896551724137931
+Pressione no botao de rejeicao de resultados,Pressione no botão de rejeição de resultados,1,0.06818181818181818
+Exibe notificação indicando que o usuário está sem conexão com a internet.,Exibe notificacao indicando que o usuario esta sem conexao com a internet.,1,0.06756756756756757
+Usuario esta logado no sistema.,Usuário está logado no sistema.,1,0.06451612903225806
+Usuário está logado no sistema.,Usuario esta logado no sistema.,1,0.06451612903225806
+Usuário está logado no sistema.,Usuario esta logado no sistema.,1,0.06451612903225806
+Usuário está logado no sistema.,Usuario esta logado no sistema.,1,0.06451612903225806
+Confirma a aprovacao do terminal,Confirma a aprovação do terminal,1,0.0625
+A sessão do usuário foi encerrada,A sessao do usuario foi encerrada,1,0.06060606060606061
+Na tela de identificação acessa o menu de opções localizado na action bar,Na tela de identificacao acessa o menu de opcoes localizado na action bar,1,0.0547945205479452
+Na tela de identificação acessa o menu de opções localizado na action bar,Na tela de identificacao acessa o menu de opcoes localizado na action bar,1,0.0547945205479452
+Exibe opções: deletar TMA e gerar TMA,Exibe opcoes: deletar TMA e gerar TMA,1,0.05405405405405406
+Posiciona a câmera para ler o código de barras da máquina,Posiciona a camera para ler o codigo de barras da maquina,1,0.05263157894736842
+Pressiona a imagem de código de barras para fazer a identificação da máquina.,Pressiona a imagem de codigo de barras para fazer a identificacao da maquina.,1,0.05194805194805195
+Usuario selecionou o sintoma da maquina,Usuário selecionou o sintoma da máquina,1,0.05128205128205128
+Usuário selecionou o sintoma da máquina,Usuario selecionou o sintoma da maquina,1,0.05128205128205128
+Usuário selecionou o sintoma da máquina,Usuario selecionou o sintoma da maquina,1,0.05128205128205128
+Insere o texto de identificação da ordem de serviço na caixa de texto e pressiona o botão próximo.,Insere o texto de identificacao da ordem de servico na caixa de texto e pressiona o botao proximo.,1,0.05102040816326531
+Tire foto da máquina,Tire foto da maquina,1,0.05
+Informa que o terminal não está conectado,Informa que o terminal nao esta conectado,1,0.04878048780487805
+Redireciona para tela de seleção do diretório de armazenamento,Redireciona para tela de selecao do diretorio de armazenamento,1,0.04838709677419355
+Exibe as opções: deletar TMA para versão Telium2 e  deletar TMA para versão Telium3,Exibe as opcoes: deletar TMA para versao Telium2 e  deletar TMA para versao Telium3,1,0.04819277108433735
+Retorna a tela de identificação do terminal,Retorna a tela de identificacao do terminal,1,0.046511627906976744
+Tire foto da maquina e pressiona botao voltar,Tire foto da máquina e pressiona botão voltar,1,0.044444444444444446
+Redireciona para a tela de seleção de sintoma,Redireciona para a tela de selecao de sintoma,1,0.044444444444444446
+Exibe mensagem indicando que é necessário digitar o campo de usuário,Exibe mensagem indicando que e necessario digitar o campo de usuario,1,0.04411764705882353
+Selecione o sintoma não bloqueante da máquina.,Selecione o sintoma nao bloqueante da maquina.,1,0.043478260869565216
+Selecione o sintoma nao bloqueante da maquina.,Selecione sintoma nao bloqueante da maquina.,1,0.043478260869565216
+Redireciona a tela de identificacao do terminal,Redireciona a tela de identificação do terminal,1,0.0425531914893617
+Envia ao terminal o comando para remoção do TMA,Envia ao terminal o comando para remocao do TMA,1,0.0425531914893617
+Redireciona para a tela de Identificação de OS.,Redireciona para a tela de Identificacao de OS.,1,0.0425531914893617
+Exibe ícone notificando que a senha está vazia.,Exibe icone notificando que a senha esta vazia.,1,0.0425531914893617
+Pressiona no botao Outra,Pressiona no botão Outra,1,0.041666666666666664
+Pressiona o botao voltar,Pressiona o botão voltar,1,0.041666666666666664
+Acessa o menu de opções localizado na action bar,Acessa o menu de opcoes localizado na action bar,1,0.041666666666666664
+Exibe mensagem indicando que o usuário e a senha digitados são inválidos.,Exibe mensagem indicando que o usuario e a senha digitados sao invalidos.,1,0.0410958904109589
+Redireciona para tela de seleção do dispositivo usb,Redireciona para tela de selecao do dispositivo usb,1,0.0392156862745098
+Abre menu lateral do sistema e seleciona opção sair,Abre menu lateral do sistema e seleciona opcao sair,1,0.0392156862745098
+Pressiona o botao cancelar,Pressiona o botão cancelar,1,0.038461538461538464
+Usuário Executou os testes,Usuario Executou os testes,1,0.038461538461538464
+Redireciona para a tela de identificação do terminal,Redireciona para a tela de identificacao do terminal,1,0.038461538461538464
+Insere usuário e senha e pressiona o botão de login.,Insere usuario e senha e pressiona o botao de login.,1,0.038461538461538464
+Redireciona para a tela de Execução de plano de testes,Redireciona para a tela de Execucao de plano de testes,1,0.037037037037037035
+Executa os testes na maquina,Executa os testes na máquina,1,0.03571428571428571
+Executa os testes na máquina,Executa os testes na maquina,1,0.03571428571428571
+Mostra a tela pedindo a descrição do usuário para dizer qual o resultado dos testes.,Mostra a tela pedindo a descricao do usuario para dizer qual o resultado dos testes.,1,0.03571428571428571
+Pressione no botão de enviar,Pressione no botao de enviar,1,0.03571428571428571
+Não remove o TMA do terminal,Nao remove o TMA do terminal,1,0.03571428571428571
+Redireciona para a tela de descricao de nota de texto sem nenhum detalhe pre-definido,Redireciona para a tela de descrição de nota de texto sem nenhum detalhe pré-definido,1,0.03529411764705882
+Exibe ícone ao usuário indicando que o campo de ordem de serviço deve ser preenchido.,Exibe icone ao usuario indicando que o campo de ordem de servico deve ser preenchido.,1,0.03529411764705882
+Seleciona opção para deletar TMA com terminal desconectado,Seleciona opcao para deletar TMA com terminal desconectado,1,0.034482758620689655
+Exibe mensagem informando que o terminal nao esta conectado.,Exibe mensagem informando que o terminal não está conectado.,1,0.03333333333333333
+Encerra a sessão do usuário e redireciona para tela de login,Encerra a sessao do usuario e redireciona para tela de login,1,0.03333333333333333
+Operador está logado no sistema,Operador esta logado no sistema,1,0.03225806451612903
+Operador está logado no sistema,Operador esta logado no sistema,1,0.03225806451612903
+Usuario esta logado no sistema.,Usuario esta logado no sistema,1,0.03225806451612903
+seleciona opção para gerar TMA com dispositivo usb desconectado,seleciona opcao para gerar TMA com dispositivo usb desconectado,1,0.031746031746031744
+Pressiona o botao de editar nota,Pressiona o botão de editar nota,1,0.03125
+Digite o ocorrido nos testes na caixa de nota e pressione em ok.,Digite ocorrido nos testes na caixa de nota e pressione em ok.,1,0.03125
+Exibe a tela do resultado detalhado dos testes da maquina indicando a situacao dos testes executados.,Exibe a tela do resultado detalhado dos testes da máquina indicando a situação dos testes executados.,1,0.0297029702970297
+Conecta o terminar ao celular e seleciona a opção com a versão Telium diferente do terminal conectado,Conecta o terminar ao celular e seleciona a opcao com a versao Telium diferente do terminal conectado,1,0.0297029702970297
+Pressiona no botão ICT220 3 testes,Pressiona no botao ICT220 3 testes,1,0.029411764705882353
+Conecta o terminar ao celular e seleciona a opção com a versão Telium correspondente ao terminal conectado,Conecta o terminar ao celular e seleciona a opcao com a versao Telium correspondente ao terminal conectado,1,0.02830188679245283
+Selecione um dos sintomas bloqueantes.,Selecione um dos sintomas bloqueantes,1,0.02631578947368421
+Pressiona no icone de camera fotografica,Pressiona no icone de camera fotográfica,1,0.025
+Mostra a tela do resultado detalhado dos testes da máquina indicando a situação do display/do display blacklight e do buzzer.,Mostra a tela do resultado detalhado dos testes da maquina indicando a situacao do display/do display blacklight e do buzzer.,1,0.024
+Muda para a tela de leitura de código de barras e pede para o usuário alinhar o código de barras com a linha vermelha do leitor,Muda para a tela de leitura de codigo de barras e pede para o usuario alinhar o codigo de barras com a linha vermelha do leitor,1,0.023622047244094488
+Exibe mensagem indicando que nao tem mais conexao com o dispositivo ou houve timeout.,Exibe mensagem indicando que não tem mais conexão com o dispositivo ou houve timeout.,1,0.023529411764705882
+Exibe mensagem indicando que não tem mais conexão com o dispositivo ou houve timeout.,Exibe mensagem indicando que nao tem mais conexao com o dispositivo ou houve timeout.,1,0.023529411764705882
+Selecione sintoma nao bloqueante da maquina.,Selecione sintoma nao bloqueante da maquina,1,0.022727272727272728
+Operador está na tela de listagem de plano de teste,Operador esta na tela de listagem de plano de teste,1,0.0196078431372549
+Redireciona para uma tela indicando que o teste falhou e fornece as opcoes para pular/repetir e confirmar falha.,Redireciona para uma tela indicando que o teste falhou e fornece as opções para pular/repetir e confirmar falha.,1,0.017857142857142856
+Conecta terminal ao celular e pressiona no botao Executar,Conecta terminal ao celular e pressiona no botão Executar,1,0.017543859649122806
+Digita o número do produto e do serial e pressione em iniciar,Digita o numero do produto e do serial e pressione em iniciar,1,0.01639344262295082
+Exibe mensagem informando que nao existe nota cadastrada no sistema.,Exibe mensagem informando que não existe nota cadastrada no sistema.,1,0.014705882352941176
+Cria pasta de nome TELIUM na raiz do pendrive e pressiona botão selecionar,Cria pasta de nome TELIUM na raiz do pendrive e pressiona botao selecionar,1,0.013513513513513514
+Exibe uma caixa de mensagem indicando que os testes estao sendo executados junto com uma barra de progresso,Exibe uma caixa de mensagem indicando que os testes estão sendo executados junto com uma barra de progresso,1,0.009345794392523364
+Digite o ocorrido nos testes na caixa de nota e pressione em okou cancelar caso não tenha nada a descrever.,Digite o ocorrido nos testes na caixa de nota e pressione em okou cancelar caso nao tenha nada a descrever.,1,0.009345794392523364
+Mostra uma caixa de mensagem indicando que os testes estão sendo executados junto com uma barra de carregamento,Mostra uma caixa de mensagem indicando que os testes estao sendo executados junto com uma barra de carregamento,1,0.009009009009009009

@@ -1,0 +1,45 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+17 17
+18 18
+19 19
+#
+1 2 [c] Usuario Administrador esta logado no sistema.
+2 3 [s]  Usuario Administrador Entra na tela de Listagem de Terminais
+3 4 [e]  Sistema exibe uma lista com os Terminais cadastrados
+4 5 [s]  Usuario Administrador clica em um dos terminais listados
+3 8 [e]  Sistema exibe uma lista com os Terminais cadastrados
+3 13 [e]  Sistema exibe uma lista com os Terminais cadastrados
+3 14 [e]  Sistema exibe uma lista com os Terminais cadastrados
+3 15 [e]  Sistema exibe uma lista com os Terminais cadastrados
+5 6 [e]  Sistema exibe tela de edicao de Terminal
+6 7 [s]  Usuario Administrador altera dados do terminal e clica no botao de 'Atualizar'
+5 9 [e]  Sistema exibe tela de edicao de Terminal
+5 12 [e]  Sistema exibe tela de edicao de Terminal
+7 18 [e]  Sistema notifica usuario de que Terminal foi atualizado com sucesso
+6 16 [s]  Usuario Administrador altera dados do terminal e clica no botao de 'Atualizar'
+8 3 [s] (Ordena lista de Terminais) Usuario Administrador ordena lista dos Terminais por alguma coluna
+9 10 [s] (Adiciona Beneficio associado a Terminal) Usuario Administrador preenche os dados do novo beneficio e clica no botao 'Adicionar Benficio'
+10 11 [e]  Sistema incrementa o a lista de beneficio do Terminal
+11 7 [s]  Usuario Administrador clica em Atualizar
+12 3 [s] (Cancela edicao) Usuario Administrador clica no botao de 'Cancelar'
+13 3 [s] (Navega por paginas de tabela) Usuario Administrador clica em botao de navegacao de paginas de tabela
+14 3 [s] (Filtra lista de Terminais) Usuario Administrador preenche campos de filtragem
+15 3 [s] (Volta para tela inicial de sistema) Usuario Administrador clica no botao Voltar
+16 17 [e] (Usuario nao preenche algum campo obrigatorio) Sistema informa que o campo e obrigatorio
+17 7 [s]  Usuario Administrador preenche o campo obrigatorio e clica no botao de 'Atualizar'
+18 19 [c] O Terminal foi atualizado com sucesso.

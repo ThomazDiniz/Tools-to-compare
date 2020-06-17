@@ -1,0 +1,62 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+17 17
+18 18
+19 19
+20 20
+21 21
+22 22
+23 23
+24 24
+25 25
+26 26
+27 27
+28 28
+29 29
+30 30
+31 31
+#
+1 17 conditions
+17 2  Usuario deve estar logado no servidor e extrator como administrador. Sistema esta configurado para ingles.
+2 18 steps
+18 3   Administrador do sistema pressiona botao 'Settings'
+1 19 conditions
+19 6  Usuario deve estar logado no servidor e extrator como administrador. Sistema esta configurado para ingles.
+3 20 expected_results
+20 4   Sistema exibe a janela de configuracoes
+4 21 steps
+21 5   Administrador do sistema seleciona a opção 'Portugues' no campo 'Language' e salva
+3 22 expected_results
+22 8   Sistema exibe a janela de configuracoes
+3 23 expected_results
+23 10   Sistema exibe a janela de configuracoes
+5 24 expected_results
+24 12   Sistema exibe tela inicial 'SAFF extraction' tualizada com todos os campos em portugues
+6 25 steps
+25 7  (Linguagem Espanhol) Administrador do sistema Abre arquivo de configuracoes e modifica propriedade linguagem para 'Espanol', salva e loga novamente no sistema
+7 26 expected_results
+26 13   Sistema exibe tela inicial 'SAFF extraction' atualizada com todos os campos em espanhol
+8 27 steps
+27 9  (Visible Test Type) Administrador do sistema seleciona somente opcao 'Pre test' no campo 'Visible Test Type' e pressiona botao 'Save'
+9 28 expected_results
+28 14   Sistema atualiza tela inicial 'SAFF extraction' exibindo somente 'Pre test' como opcao de teste.
+10 29 steps
+29 11  (Default Test Type) Administrador do sistema seleciona somente opcao 'Pre test' no campo 'Default Test Type' e pressiona botao 'Save'
+11 30 expected_results
+30 15   Sistema atualiza tela inicial 'SAFF extraction' exibindo e tipo de teste 'Pre test' esta marcado.
+12 31 conditions
+31 16   .

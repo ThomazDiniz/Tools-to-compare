@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<testsuite name="TS">
+  <node_order />
+  <details />
+  <testcase internalid="" name="TC1">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Administrador deve estar logado. n&#xfffd;o existem extra&#xfffd;&#xfffd;es cadastradas.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador pressiona op&#xfffd;&#xfffd;o ?Extract from directory?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de extra&#xfffd;&#xfffd;o por diret&#xfffd;rio&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Administrador seleciona pasta ?Ext1?, que cont&#xfffd;m um &#xfffd;nico conjunto de arquivos para a fam&#xfffd;lia ?IPP320-01T1220A?, e pressiona o bot&#xfffd;o ?Extract?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe na parte inferior da tela uma mensagem indicando que uma extra&#xfffd;&#xfffd;o foi realizada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Administrador acessa p&#xfffd;gina ?Extractions?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a lista de extra&#xfffd;&#xfffd;es com somente um elemento&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Administrador faz logout&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe p&#xfffd;gina de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Operador de uma lab diferente do administrador faz login e vai para a p&#xfffd;gina ?Extractions?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista vazia&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Operador de uma lab diferente do administrador pressiona op&#xfffd;&#xfffd;o ?Extract from directory?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de extra&#xfffd;&#xfffd;o por diret&#xfffd;rio&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Operador de uma lab diferente do administrador seleciona pasta ?Ext1?, que cont&#xfffd;m um &#xfffd;nico conjunto de arquivos para a fam&#xfffd;lia ?IPP320-01T1220A?, e pressiona o bot&#xfffd;o ?Extract?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe na parte inferior da tela uma mensagem indicando que uma extra&#xfffd;&#xfffd;o foi realizada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Operador de uma lab diferente do administrador acessa p&#xfffd;gina ?Extractions?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a lista de extra&#xfffd;&#xfffd;es com somente um elemento&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>9</step_number>
+        <actions>&lt;p&gt;Operador de uma lab diferente do administrador faz logout&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe p&#xfffd;gina de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>10</step_number>
+        <actions>&lt;p&gt;Operador de mesmo lab do administrador faz login e vai para a p&#xfffd;gina ?Extractions?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com uma extra&#xfffd;&#xfffd;o&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>11</step_number>
+        <actions>&lt;p&gt;Operador de mesmo lab do administrador faz logout&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe p&#xfffd;gina de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>12</step_number>
+        <actions>&lt;p&gt;Gerente de uma lab diferente do administrador e operador faz login e vai para a p&#xfffd;gina ?Extractions?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista vazia&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>13</step_number>
+        <actions>&lt;p&gt;Gerente de uma lab diferente do administrador e operador pressiona op&#xfffd;&#xfffd;o ?Extract from directory?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de extra&#xfffd;&#xfffd;o por diret&#xfffd;rio&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>14</step_number>
+        <actions>&lt;p&gt;Gerente de uma lab diferente do administrador e operador seleciona pasta ?Ext1?, que cont&#xfffd;m um &#xfffd;nico conjunto de arquivos para a fam&#xfffd;lia ?IPP320-01T1220A?, e pressiona o bot&#xfffd;o ?Extract?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe na parte inferior da tela uma mensagem indicando que uma extra&#xfffd;&#xfffd;o foi realizada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>15</step_number>
+        <actions>&lt;p&gt;Gerente de uma lab diferente do administrador e operador acessa p&#xfffd;gina ?Extractions?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a lista de extra&#xfffd;&#xfffd;es com somente um elemento&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>16</step_number>
+        <actions>&lt;p&gt;Gerente de uma lab diferente do administrador e operador faz logout&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe p&#xfffd;gina de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>17</step_number>
+        <actions>&lt;p&gt;Super Administrador faz login e vai para a p&#xfffd;gina ?Extractions?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista com tr&#xfffd;s extra&#xfffd;&#xfffd;es&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+</testsuite>

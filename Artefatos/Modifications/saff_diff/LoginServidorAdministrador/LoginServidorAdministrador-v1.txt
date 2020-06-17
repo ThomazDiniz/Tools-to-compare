@@ -1,0 +1,6 @@
+26c26,28
+<             step 2, system, "bloqueia a sessão", bfs:1
+---
+>             step 2, system, "bloqueia a sessão"
+>             step 3, administrador, "digita o login e pasword válidos do usuário bloqueado e pressiona o botão Login", af:[1,2,3]
+>             step 4, system, "informa que usuário está bloqueado"

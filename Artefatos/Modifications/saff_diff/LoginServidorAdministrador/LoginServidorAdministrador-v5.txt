@@ -1,0 +1,4 @@
+16,17c15
+<             step 1, administrador, "abre outro navegador na pagina de login e insere user e password do usuario ja logado"
+<             step 2, system, "desloga o usuario na pagina anterior e continua sua sessao na nova pagina"
+---

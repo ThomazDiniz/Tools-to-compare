@@ -1,0 +1,4 @@
+28c28
+<         exception 2, "Cai conexão e usuario quer entrar em modo offline ", {
+---
+>         exception 2, "Cai conexão e usuario nao quer entrar em modo offline ", {

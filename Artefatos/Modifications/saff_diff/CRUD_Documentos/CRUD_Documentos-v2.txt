@@ -1,0 +1,4 @@
+5c5
+<         actor usuário, "Usuário"
+---
+>         actor usuário, "Usuário super administrador"

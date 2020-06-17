@@ -1,0 +1,22 @@
+3c3
+< 	usecase "Administrador Adiciona Operador de Ecommerce", {
+---
+> 	usecase "Administrador Adiciona Operador De Ecommerce", {
+15c15
+< 			step 3, Administrador, 	"clica em um dos E-commerces listados", af:[1]
+---
+> 			step 3, Administrador, 	"clica em um dos E-commerces listados", af:[1,2]
+17c17
+< 			step 5, Administrador, 	"adiciona os dados do novo Operador na secao 'Operadores' e clica no botao 'Adicionar Operador'"
+---
+> 			step 5, Administrador, 	"adiciona os dados do novo Operador na secao 'Operadores' e clica no botao 'Adicionar Operador'", af:[3]
+24c25,32
+---
+> 		alternative 2, "Volta para listagem de Ecommerce", {
+> 			step 1, Administrador, "clica no botao Voltar", bfs:2
+> 		}
+> 
+> 		alternative 3, "Cancela registro de novo operador de Ecommerce", {
+> 			step 1, Administrador, "clica no botao Cancelar de registro de operador", bfs:4
+> 		}
+> 

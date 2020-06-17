@@ -1,0 +1,78 @@
+APERFEIÇOANDO TÉCNICAS DE RECUPERAÇÃO DE RASTREABILIDADE ENTRE BUG REPORTS E CASOS DE TESTE
+
+
+Casos de teste X Bug report
+
+Objetivo: Utilizar Word embbeding e recuperação da informação para recuperar rastreabilidade entre casos de teste e bugs report.
+
+Rastreabilidade: É a habilidade de descrever e seguir a vida de um artefato durante o ciclo de vida do software e suas relações (e.g. Módulo -> Requisitos -> Casos de teste).
+
+Input query: Bug report. 
+Response: Test Case.
+
+
+.
+Utiliza funções de distância para calcular a distância entre um determinado bug report e testCase
+
+
+Método:
+
+
+Ferramentas:
+	Rastreabilidade:
+	** Latent semantic analysis (LSA)
+	** Latent Dirichlet Allocation (LDA)
+	** Best Match 25 (BM25)
+	Word Embbeding:
+	** Word2Vec
+	* fasttext
+	* GloVe 
+	* rVSM (revised Vector Space Model)
+Explicar as ferramentas ^
+
+
+
+
+* Wordnet: thesaurus - Controle de vocabulário para aprimorar desempenho - Termos preferenciais e não preferenciais
+* phrasing - Uma frase tem mais carga que uma palavra (bag of words)
+* clustering - Agrupamento de documentos relevantes
+
+
+G. Antoniol, K. Ayari, et al., propõem uma investigação que tem como objetivo mostrar se os textos e títulos contidos nos relatórios tem informações suficientes para poderem classificá-los como “bug” (para relatórios de falhas) ou “non-bug” (para outros tipos de relatórios). A abordagem utiliza algoritmos de aprendizagem de máquina para resolver o problema de classificação. Os algoritmos utilizados são: árvores de decisão, classificadores
+bayesianos, e regressão logística.
+
+---------------------------------------------------------------------
+
+
+
+Ler a dissertação de anderson e ver até que ponto ele fez algo diferente.
+	Capítulo 4 e 5.
+
+
+
+BM25
+Term Frequency - Quanto mais um termo aparece, mais importante
+Inverse Document Frequency - Quanto mais um termo aparece em diversos documentos, mais quer dizer que é um termo comum como (the, they, who)
+
+
+tweet vs book (lenght of the document)
+coord-factor - ajusta quando recebe todas as palavras da query
+
+
+
+Probabilidade(Relevancia = 1| documento, query)
+
+
+
+Ferramentas de linguagem natural pt-br
+Rede neural
+Algoritmo Genético
+weka3
+machine learning para processamento de linguagem
+Entender se as ferramentas dsão aplicáveis no nosso contexto
+Pesquisar se um é melhor do que o outro
+Dicionário de sinônimos para português
+
+
+
+sudo jupyter-notebook --allow-root

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<testsuite name="TS">
+  <node_order />
+  <details />
+  <testcase internalid="" name="TC11">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Administrador logado.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador entra na tela de Edi&#xfffd;&#xfffd;o de Parametros do Engine&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema apresenta uma tela com os Parametros do Engine com os valores atuais&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador entra na tela de Edi&#xfffd;&#xfffd;o de Parametros do Engine&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema apresenta uma tela com os Parametros do Engine com os valores atuais&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC2">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Administrador logado.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador entra na tela de Edi&#xfffd;&#xfffd;o de Parametros do Engine&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema apresenta uma tela com os Parametros do Engine com os valores atuais&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador escolhe dia de Parametros do Engine&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema insere automaticamente Horario de Inicio, Horario de Termino, Periodicidade e Raio atuais&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador modifica valores de paremetros e clica em Atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(N&#xfffd;o insere algum dado obrigatorio') Sistema informa que os dados obrigatorios devem ser preenchidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche dados obrigatorios e clica em Atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema insere automaticamente Horario de Inicio, Horario de Termino, Periodicidade e Raio atuais&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador modifica valores de paremetros e clica em Atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica usuario que os Par&#xfffd;metros foram atualizados com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>Os Parametros do Engine devem estar atualizados.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC5">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Administrador logado.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador entra na tela de Edi&#xfffd;&#xfffd;o de Parametros do Engine&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema apresenta uma tela com os Parametros do Engine com os valores atuais&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador escolhe dia de Parametros do Engine&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema insere automaticamente Horario de Inicio, Horario de Termino, Periodicidade e Raio atuais&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador modifica valores de paremetros e clica em Atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Usuario insere algum dado invalido) Sistema alerta que dado e invalido&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche dados obrigatorios e clica em Atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema insere automaticamente Horario de Inicio, Horario de Termino, Periodicidade e Raio atuais&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador modifica valores de paremetros e clica em Atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica usuario que os Par&#xfffd;metros foram atualizados com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>Os Parametros do Engine devem estar atualizados.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC8">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Administrador logado.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador entra na tela de Edi&#xfffd;&#xfffd;o de Parametros do Engine&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema apresenta uma tela com os Parametros do Engine com os valores atuais&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador entra na tela de Edi&#xfffd;&#xfffd;o de Parametros do Engine&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema apresenta uma tela com os Parametros do Engine com os valores atuais&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador escolhe dia de Parametros do Engine&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema insere automaticamente Horario de Inicio, Horario de Termino, Periodicidade e Raio atuais&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador modifica valores de paremetros e clica em Atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica usuario que os Par&#xfffd;metros foram atualizados com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>Os Parametros do Engine devem estar atualizados.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+</testsuite>
