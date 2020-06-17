@@ -1,0 +1,16 @@
+5c6
+---
+>         version "2.1", type:"Modification", user:"Tiaraju", date:"15/02/2016"
+19c20
+<             step 6, system, "envia extracoes para o servidor, transfere essas extrações para a pasta 'read', atualiza o contador de extrações realizadas e fica em espera por novas extracoes na pasta indicada", ef:[1]
+---
+>             step 6, system, "envia extracoes para o servidor, transfere essas extrações para a pasta 'read', atualiza o contador de extrações realizadas e fica em espera por novas extracoes na pasta indicada", ef:[1,2]
+30c30
+< 
+---
+40c41,44
+---
+>         exception 2, "Extração não se encontra em formato adequado", {
+>             step 1, system, "move a extração para a pasta broken"
+>         }
+> 

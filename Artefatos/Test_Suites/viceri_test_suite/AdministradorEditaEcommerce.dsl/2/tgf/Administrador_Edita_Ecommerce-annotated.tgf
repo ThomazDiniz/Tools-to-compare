@@ -1,0 +1,78 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+17 17
+18 18
+19 19
+20 20
+21 21
+22 22
+23 23
+24 24
+25 25
+26 26
+27 27
+28 28
+29 29
+30 30
+31 31
+32 32
+33 33
+34 34
+35 35
+36 36
+37 37
+#
+1 18 conditions
+18 2  Administrador logado; Algum E-commerce salvo no sistema.
+2 19 steps
+19 3   Usuario Administrador seleciona a opcao 'E-commerce' no menu da tela principal
+3 20 expected_results
+20 4   Sistema mostra a tela de detalhes do ecommerce
+4 21 steps
+21 5   Usuario Administrador seleciona um E-commerce na lista
+3 22 expected_results
+22 10   Sistema mostra a tela de detalhes do ecommerce
+3 23 expected_results
+23 11   Sistema mostra a tela de detalhes do ecommerce
+5 24 expected_results
+24 6   Sistema abre a tela de edicao do Ecommerce
+6 25 steps
+25 7   Usuario Administrador modifica os dados existentes
+7 26 expected_results
+26 8   Sistema valida os dados cadastrais do ecommerce
+8 27 steps
+27 9   Usuario Administrador clica no botao de atualizar
+9 28 expected_results
+28 16   Sistema atualiza os dados do E-commerce no sistema
+8 29 steps
+29 12   Usuario Administrador clica no botao de atualizar
+8 30 steps
+30 14   Usuario Administrador clica no botao de atualizar
+10 31 steps
+31 3  (Usuario ordena lista de Ecommerce) Usuario Administrador clica em um dos botões de ordenacao associada a uma coluna da tabela
+11 32 steps
+32 3  (Usuario navega por paginas de tabela) Usuario Administrador clica em botao de navegacao de paginas de tabela
+12 33 expected_results
+33 13  (Nao insere algum dado obrigatório') Sistema informa que os dados obrigatórios devem ser preenchidos
+13 34 steps
+34 9   Usuario Administrador adiciona dados corretos e clica em 'Atualizar
+14 35 expected_results
+35 15  (Usuario insere algum dado invalido) Sistema alerta que o dado esta invalido e pede nova entrada
+15 36 steps
+36 9   Usuario Administrador corrige os dados invalidos e clica em 'Atualizar
+16 37 conditions
+37 17  Ecommerce esta com dados atualizados no sistema.

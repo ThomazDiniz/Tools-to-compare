@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<testsuite name="TS">
+  <node_order />
+  <details />
+  <testcase internalid="" name="TC4">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario deve estar logado no servidor. 705 extracoes ja foram realizadas (pasta ?EXTRACT_FILE_IPP320_AKIRA?).</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;(Realiza Filtro e delecao) Administrador do sistema seleciona combo box referente ao filtro por ?State?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe opcoes ?Activated?, ?Alert Interruption?, ?Deactivated?, ?Mockup? e ?Error?&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Administrador do sistema seleciona opcao ?Activated? no campo de filtro ?State?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema atualiza pagina mostrando 608 extracoes&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Administrador do sistema seleciona o check box que marca todas extracoes para delecao&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema marca todas extracoes após o filtro com um tick&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Administrador do sistema pressiona o botao ?Delete extractions?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma mensagem pop-up solicitando a confirmacao da delecao&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Administrador do sistema confirma delecao&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a lista de extracoes com 96 entradas&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC5">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario deve estar logado no servidor. 705 extracoes ja foram realizadas (pasta ?EXTRACT_FILE_IPP320_AKIRA?).</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;(Deleta todas extracoes) Administrador do sistema seleciona o check box que marca todas extracoes para delecao&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema marca o check box com um tick&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Administrador do sistema pressiona o botao ?Delete extractions?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma mensagem pop-up indicando que nao existem extracoes para serem deletadas&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC3">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario deve estar logado no servidor. 705 extracoes ja foram realizadas (pasta ?EXTRACT_FILE_IPP320_AKIRA?).</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema seleciona o check box referente a extracao referente ao numero serial 12311PP30154516?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema marca selecao com um tick&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Administrador do sistema pressiona o botao ?Delete extractions?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma mensagem pop-up solicitando a confirmação da delecao&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Cancela delecao) Administrador do sistema cancela delecao&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema fecha janela pop-up&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Administrador do sistema seleciona o check box referente a extracao referente ao numero serial 12311PP30154516?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema marca selecao com um tick&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Administrador do sistema pressiona o botao ?Delete extractions?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma mensagem pop-up solicitando a confirmação da delecao&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;(Cancela delecao) Administrador do sistema cancela delecao&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema fecha janela pop-up&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC2">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario deve estar logado no servidor. 705 extracoes ja foram realizadas (pasta ?EXTRACT_FILE_IPP320_AKIRA?).</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema seleciona o check box referente a extracao referente ao numero serial 12311PP30154516?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema marca selecao com um tick&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Administrador do sistema pressiona o botao ?Delete extractions?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma mensagem pop-up solicitando a confirmação da delecao&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Cancela delecao) Administrador do sistema cancela delecao&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema fecha janela pop-up&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Administrador do sistema seleciona o check box referente a extracao referente ao numero serial 12311PP30154516?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema marca selecao com um tick&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Administrador do sistema pressiona o botao ?Delete extractions?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma mensagem pop-up solicitando a confirmação da delecao&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Administrador do sistema confirma delecao&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a lista de extracoes com 704 entradas&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+</testsuite>

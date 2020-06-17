@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<testsuite name="TS">
+  <node_order />
+  <details />
+  <testcase internalid="" name="TC1">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario deve estar logado no servidor.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Operador do sistema seleciona a opcao 'My Account'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela onde os campos 'Name', 'Login', 'Type', 'Laboratory' e 'Language'. Eles estão devidamente preenchidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Operador do sistema pressiona botao 'Edit'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina com campos em branco para atualizacao&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Operador do sistema preenche corretamente os campos 'Old Password', 'New Password', 'Confirm Password' e pressiona o botao 'Update'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina com informacoes do usuario e apresenta mensagem informando que as informacoes foram atualizadas&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC2">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario deve estar logado no servidor.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Operador do sistema seleciona a opcao 'My Account'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela onde os campos 'Name', 'Login', 'Type', 'Laboratory' e 'Language'. Eles estão devidamente preenchidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Operador do sistema pressiona botao 'Edit'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina com campos em branco para atualizacao&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Troca Idioma) Operador do sistema preenche corretamente os campos 'Old Password', 'New Password', 'Confirm Password', troca 'Language' de Ingles para Portugues e pressiona o botao 'Update'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina com informações do usuario. Apresenta mensagem informando que as informacoes foram atualizadas e atualiza conta no novo idioma&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC3">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario deve estar logado no servidor.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Operador do sistema seleciona a opcao 'My Account'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela onde os campos 'Name', 'Login', 'Type', 'Laboratory' e 'Language'. Eles estão devidamente preenchidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Operador do sistema pressiona botao 'Edit'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina com campos em branco para atualizacao&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Cancela Edicao) Operador do sistema pressiona botao 'Cancel'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela onde os campos 'Name', 'Login', 'Type', 'Laboratory' e 'Language'. Eles estão devidamente preenchidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Operador do sistema pressiona botao 'Edit'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina com campos em branco para atualizacao&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Operador do sistema preenche corretamente os campos 'Old Password', 'New Password', 'Confirm Password' e pressiona o botao 'Update'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina com informacoes do usuario e apresenta mensagem informando que as informacoes foram atualizadas&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC4">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario deve estar logado no servidor.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Operador do sistema seleciona a opcao 'My Account'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela onde os campos 'Name', 'Login', 'Type', 'Laboratory' e 'Language'. Eles estão devidamente preenchidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Operador do sistema pressiona botao 'Edit'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina com campos em branco para atualizacao&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Cancela Edicao) Operador do sistema pressiona botao 'Cancel'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela onde os campos 'Name', 'Login', 'Type', 'Laboratory' e 'Language'. Eles estão devidamente preenchidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Operador do sistema pressiona botao 'Edit'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina com campos em branco para atualizacao&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;(Troca Idioma) Operador do sistema preenche corretamente os campos 'Old Password', 'New Password', 'Confirm Password', troca 'Language' de Ingles para Portugues e pressiona o botao 'Update'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina com informações do usuario. Apresenta mensagem informando que as informacoes foram atualizadas e atualiza conta no novo idioma&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC5">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario deve estar logado no servidor.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Operador do sistema seleciona a opcao 'My Account'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela onde os campos 'Name', 'Login', 'Type', 'Laboratory' e 'Language'. Eles estão devidamente preenchidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Operador do sistema pressiona botao 'Edit'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina com campos em branco para atualizacao&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Cancela Edicao) Operador do sistema pressiona botao 'Cancel'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela onde os campos 'Name', 'Login', 'Type', 'Laboratory' e 'Language'. Eles estão devidamente preenchidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Operador do sistema pressiona botao 'Edit'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina com campos em branco para atualizacao&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;(Cancela Edicao) Operador do sistema pressiona botao 'Cancel'&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC6">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario deve estar logado no servidor.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Operador do sistema seleciona a opcao 'My Account'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela onde os campos 'Name', 'Login', 'Type', 'Laboratory' e 'Language'. Eles estão devidamente preenchidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Operador do sistema pressiona botao 'Edit'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina com campos em branco para atualizacao&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Cancela Edicao) Operador do sistema pressiona botao 'Cancel'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela onde os campos 'Name', 'Login', 'Type', 'Laboratory' e 'Language'. Eles estão devidamente preenchidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Operador do sistema pressiona botao 'Edit'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina com campos em branco para atualizacao&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;(Password invalido) Operador do sistema preenche incorretamente o campos 'Old Password'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem infrmando que o Password fornecido não esta correto&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Operador do sistema preenche corretamente os campos 'Old Password', 'New Password', 'Confirm Password' e pressiona o botao 'Update'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina com informacoes do usuario e apresenta mensagem informando que as informacoes foram atualizadas&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC7">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario deve estar logado no servidor.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Operador do sistema seleciona a opcao 'My Account'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela onde os campos 'Name', 'Login', 'Type', 'Laboratory' e 'Language'. Eles estão devidamente preenchidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Operador do sistema pressiona botao 'Edit'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina com campos em branco para atualizacao&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Cancela Edicao) Operador do sistema pressiona botao 'Cancel'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela onde os campos 'Name', 'Login', 'Type', 'Laboratory' e 'Language'. Eles estão devidamente preenchidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Operador do sistema pressiona botao 'Edit'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina com campos em branco para atualizacao&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;(Novo Password fora dos padroes (uppercase, lowercase, numbers, special characters and size between 8 and 20)) Operador do sistema preenche o campos 'New Password' com uma senha fora dos padroes exigidos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem infrmando que o Password fornecido nao esta conforme o exigido&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Operador do sistema preenche corretamente os campos 'Old Password', 'New Password', 'Confirm Password' e pressiona o botao 'Update'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina com informacoes do usuario e apresenta mensagem informando que as informacoes foram atualizadas&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC8">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario deve estar logado no servidor.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Operador do sistema seleciona a opcao 'My Account'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela onde os campos 'Name', 'Login', 'Type', 'Laboratory' e 'Language'. Eles estão devidamente preenchidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Operador do sistema pressiona botao 'Edit'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina com campos em branco para atualizacao&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Password invalido) Operador do sistema preenche incorretamente o campos 'Old Password'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem infrmando que o Password fornecido não esta correto&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Operador do sistema preenche corretamente os campos 'Old Password', 'New Password', 'Confirm Password' e pressiona o botao 'Update'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina com informacoes do usuario e apresenta mensagem informando que as informacoes foram atualizadas&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC9">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario deve estar logado no servidor.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Operador do sistema seleciona a opcao 'My Account'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela onde os campos 'Name', 'Login', 'Type', 'Laboratory' e 'Language'. Eles estão devidamente preenchidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Operador do sistema pressiona botao 'Edit'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina com campos em branco para atualizacao&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Novo Password fora dos padroes (uppercase, lowercase, numbers, special characters and size between 8 and 20)) Operador do sistema preenche o campos 'New Password' com uma senha fora dos padroes exigidos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem infrmando que o Password fornecido nao esta conforme o exigido&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Operador do sistema preenche corretamente os campos 'Old Password', 'New Password', 'Confirm Password' e pressiona o botao 'Update'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina com informacoes do usuario e apresenta mensagem informando que as informacoes foram atualizadas&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+</testsuite>

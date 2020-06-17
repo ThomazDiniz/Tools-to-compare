@@ -1,0 +1,4 @@
+20c20
+<             step 8, system,         "mostra uma mensagem de cadastro de E-commerce com sucesso", ef:[1,2]
+---
+>             step 8, system,         "notifica que E-commerce foi cadastrado com sucesso e exibe lista de Ecommerces", ef:[1,2]

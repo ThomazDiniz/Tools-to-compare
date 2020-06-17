@@ -1,0 +1,1122 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<testsuite name="TS">
+  <node_order />
+  <details />
+  <testcase internalid="" name="TC1">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador de Ecommerce esta logado no sistema; Usuario pertence ao Ecommerce alvo.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce clica no opcao 'Meu Ecommerce' no menu principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela com informacoes de Ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce adiciona os dados do novo Operador na secao 'Operadores' e clica no botao 'Adicionar Operador'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica que o operador foi adicionado e o mostra em tabela de operadores&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O novo Operador de Ecommerce esta salvo no sistema.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC2">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador de Ecommerce esta logado no sistema; Usuario pertence ao Ecommerce alvo.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce clica no opcao 'Meu Ecommerce' no menu principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela com informacoes de Ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce adiciona os dados do novo Operador na secao 'Operadores' e clica no botao 'Adicionar Operador'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Campos obrigatorios) Sistema alerta ao usuario que o campo deve ser preenchido&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce informa os campos obrigatorios e clica no botao de 'Adicionar Operador'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica que o operador foi adicionado e o mostra em tabela de operadores&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O novo Operador de Ecommerce esta salvo no sistema.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC3">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador de Ecommerce esta logado no sistema; Usuario pertence ao Ecommerce alvo.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce clica no opcao 'Meu Ecommerce' no menu principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela com informacoes de Ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce adiciona os dados do novo Operador na secao 'Operadores' e clica no botao 'Adicionar Operador'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Nome de Usuario ja cadastrado) Sistema alerta que ja existe um Operador cadastrado com o nome de usuario informado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce informa um novo Nome de Usuario e clica no botao de 'Adicionar Operador'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica que o operador foi adicionado e o mostra em tabela de operadores&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O novo Operador de Ecommerce esta salvo no sistema.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC4">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador de Ecommerce esta logado no sistema; Usuario pertence ao Ecommerce alvo.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce clica no opcao 'Meu Ecommerce' no menu principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela com informacoes de Ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce adiciona os dados do novo Operador na secao 'Operadores' e clica no botao 'Adicionar Operador'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Email ja cadastrado) Sistema alerta que ja existe um Operador cadastrado com o email informado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce informa um novo Email e clica no botao de 'Adicionar Operador'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica que o operador foi adicionado e o mostra em tabela de operadores&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O novo Operador de Ecommerce esta salvo no sistema.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC5">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador de Ecommerce esta logado no sistema; Usuario pertence ao Ecommerce alvo.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce clica no opcao 'Meu Ecommerce' no menu principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela com informacoes de Ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce adiciona os dados do novo Operador na secao 'Operadores' e clica no botao 'Adicionar Operador'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Email invalido) Sistema alerta que ja existe um Operador cadastrado com o email informado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;7   Usuario Administrador de Ecommerce informa um novo Email valido e clica no botao de 'Adicionar Operador'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica que o operador foi adicionado e o mostra em tabela de operadores&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O novo Operador de Ecommerce esta salvo no sistema.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC6">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador de Ecommerce esta logado no sistema; Usuario pertence ao Ecommerce alvo.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce clica no opcao 'Meu Ecommerce' no menu principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela com informacoes de Ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce adiciona os dados do novo Operador na secao 'Operadores' e clica no botao 'Adicionar Operador'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Cpf ja cadastrado) Sistema alerta que ja existe um Operador cadastrado com o cpf informado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce informa um novo Cpf e clica no botao de 'Adicionar Operador'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica que o operador foi adicionado e o mostra em tabela de operadores&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O novo Operador de Ecommerce esta salvo no sistema.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC7">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador de Ecommerce esta logado no sistema; Usuario pertence ao Ecommerce alvo.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce clica no opcao 'Meu Ecommerce' no menu principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela com informacoes de Ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce adiciona os dados do novo Operador na secao 'Operadores' e clica no botao 'Adicionar Operador'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Senhas nao coincidem) Sistema alerta que as senhas informadas nao coincidem&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce informa senhas iguais e clica no botao de 'Adicionar Operador'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica que o operador foi adicionado e o mostra em tabela de operadores&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O novo Operador de Ecommerce esta salvo no sistema.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC8">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador de Ecommerce esta logado no sistema; Usuario pertence ao Ecommerce alvo.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce clica no opcao 'Meu Ecommerce' no menu principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela com informacoes de Ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Cancela registro de novo operador de Ecommerce) Usuario Administrador de Ecommerce clica no botao 'Cancelar' de registro de operador&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela com informacoes de Ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce adiciona os dados do novo Operador na secao 'Operadores' e clica no botao 'Adicionar Operador'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica que o operador foi adicionado e o mostra em tabela de operadores&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O novo Operador de Ecommerce esta salvo no sistema.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC9">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador de Ecommerce esta logado no sistema; Usuario pertence ao Ecommerce alvo.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce clica no opcao 'Meu Ecommerce' no menu principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela com informacoes de Ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Cancela registro de novo operador de Ecommerce) Usuario Administrador de Ecommerce clica no botao 'Cancelar' de registro de operador&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela com informacoes de Ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce adiciona os dados do novo Operador na secao 'Operadores' e clica no botao 'Adicionar Operador'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Campos obrigatorios) Sistema alerta ao usuario que o campo deve ser preenchido&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce informa os campos obrigatorios e clica no botao de 'Adicionar Operador'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica que o operador foi adicionado e o mostra em tabela de operadores&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O novo Operador de Ecommerce esta salvo no sistema.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC10">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador de Ecommerce esta logado no sistema; Usuario pertence ao Ecommerce alvo.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce clica no opcao 'Meu Ecommerce' no menu principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela com informacoes de Ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Cancela registro de novo operador de Ecommerce) Usuario Administrador de Ecommerce clica no botao 'Cancelar' de registro de operador&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela com informacoes de Ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce adiciona os dados do novo Operador na secao 'Operadores' e clica no botao 'Adicionar Operador'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Nome de Usuario ja cadastrado) Sistema alerta que ja existe um Operador cadastrado com o nome de usuario informado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce informa um novo Nome de Usuario e clica no botao de 'Adicionar Operador'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica que o operador foi adicionado e o mostra em tabela de operadores&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O novo Operador de Ecommerce esta salvo no sistema.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC11">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador de Ecommerce esta logado no sistema; Usuario pertence ao Ecommerce alvo.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce clica no opcao 'Meu Ecommerce' no menu principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela com informacoes de Ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Cancela registro de novo operador de Ecommerce) Usuario Administrador de Ecommerce clica no botao 'Cancelar' de registro de operador&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela com informacoes de Ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce adiciona os dados do novo Operador na secao 'Operadores' e clica no botao 'Adicionar Operador'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Email ja cadastrado) Sistema alerta que ja existe um Operador cadastrado com o email informado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce informa um novo Email e clica no botao de 'Adicionar Operador'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica que o operador foi adicionado e o mostra em tabela de operadores&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O novo Operador de Ecommerce esta salvo no sistema.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC12">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador de Ecommerce esta logado no sistema; Usuario pertence ao Ecommerce alvo.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce clica no opcao 'Meu Ecommerce' no menu principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela com informacoes de Ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Cancela registro de novo operador de Ecommerce) Usuario Administrador de Ecommerce clica no botao 'Cancelar' de registro de operador&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela com informacoes de Ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce adiciona os dados do novo Operador na secao 'Operadores' e clica no botao 'Adicionar Operador'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Email invalido) Sistema alerta que ja existe um Operador cadastrado com o email informado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;7   Usuario Administrador de Ecommerce informa um novo Email valido e clica no botao de 'Adicionar Operador'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica que o operador foi adicionado e o mostra em tabela de operadores&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O novo Operador de Ecommerce esta salvo no sistema.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC13">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador de Ecommerce esta logado no sistema; Usuario pertence ao Ecommerce alvo.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce clica no opcao 'Meu Ecommerce' no menu principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela com informacoes de Ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Cancela registro de novo operador de Ecommerce) Usuario Administrador de Ecommerce clica no botao 'Cancelar' de registro de operador&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela com informacoes de Ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce adiciona os dados do novo Operador na secao 'Operadores' e clica no botao 'Adicionar Operador'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Cpf ja cadastrado) Sistema alerta que ja existe um Operador cadastrado com o cpf informado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce informa um novo Cpf e clica no botao de 'Adicionar Operador'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica que o operador foi adicionado e o mostra em tabela de operadores&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O novo Operador de Ecommerce esta salvo no sistema.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC14">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador de Ecommerce esta logado no sistema; Usuario pertence ao Ecommerce alvo.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce clica no opcao 'Meu Ecommerce' no menu principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela com informacoes de Ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Cancela registro de novo operador de Ecommerce) Usuario Administrador de Ecommerce clica no botao 'Cancelar' de registro de operador&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela com informacoes de Ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce adiciona os dados do novo Operador na secao 'Operadores' e clica no botao 'Adicionar Operador'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Senhas nao coincidem) Sistema alerta que as senhas informadas nao coincidem&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce informa senhas iguais e clica no botao de 'Adicionar Operador'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica que o operador foi adicionado e o mostra em tabela de operadores&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O novo Operador de Ecommerce esta salvo no sistema.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC15">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador de Ecommerce esta logado no sistema; Usuario pertence ao Ecommerce alvo.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce clica no opcao 'Meu Ecommerce' no menu principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela com informacoes de Ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Cancela registro de novo operador de Ecommerce) Usuario Administrador de Ecommerce clica no botao 'Cancelar' de registro de operador&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela com informacoes de Ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Cancela registro de novo operador de Ecommerce) Usuario Administrador de Ecommerce clica no botao 'Cancelar' de registro de operador&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC16">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador de Ecommerce esta logado no sistema; Usuario pertence ao Ecommerce alvo.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce clica no opcao 'Meu Ecommerce' no menu principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela com informacoes de Ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Cancela registro de novo operador de Ecommerce) Usuario Administrador de Ecommerce clica no botao 'Cancelar' de registro de operador&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela com informacoes de Ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Volta para tela inicial do sistema) Usuario Administrador de Ecommerce clica no botao 'Voltar' do form de Ecommerce&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC17">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador de Ecommerce esta logado no sistema; Usuario pertence ao Ecommerce alvo.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce clica no opcao 'Meu Ecommerce' no menu principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela com informacoes de Ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Volta para tela inicial do sistema) Usuario Administrador de Ecommerce clica no botao 'Voltar' do form de Ecommerce&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce clica no opcao 'Meu Ecommerce' no menu principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela com informacoes de Ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce adiciona os dados do novo Operador na secao 'Operadores' e clica no botao 'Adicionar Operador'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica que o operador foi adicionado e o mostra em tabela de operadores&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O novo Operador de Ecommerce esta salvo no sistema.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC18">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador de Ecommerce esta logado no sistema; Usuario pertence ao Ecommerce alvo.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce clica no opcao 'Meu Ecommerce' no menu principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela com informacoes de Ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Volta para tela inicial do sistema) Usuario Administrador de Ecommerce clica no botao 'Voltar' do form de Ecommerce&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce clica no opcao 'Meu Ecommerce' no menu principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela com informacoes de Ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce adiciona os dados do novo Operador na secao 'Operadores' e clica no botao 'Adicionar Operador'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Campos obrigatorios) Sistema alerta ao usuario que o campo deve ser preenchido&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce informa os campos obrigatorios e clica no botao de 'Adicionar Operador'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica que o operador foi adicionado e o mostra em tabela de operadores&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O novo Operador de Ecommerce esta salvo no sistema.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC19">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador de Ecommerce esta logado no sistema; Usuario pertence ao Ecommerce alvo.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce clica no opcao 'Meu Ecommerce' no menu principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela com informacoes de Ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Volta para tela inicial do sistema) Usuario Administrador de Ecommerce clica no botao 'Voltar' do form de Ecommerce&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce clica no opcao 'Meu Ecommerce' no menu principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela com informacoes de Ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce adiciona os dados do novo Operador na secao 'Operadores' e clica no botao 'Adicionar Operador'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Nome de Usuario ja cadastrado) Sistema alerta que ja existe um Operador cadastrado com o nome de usuario informado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce informa um novo Nome de Usuario e clica no botao de 'Adicionar Operador'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica que o operador foi adicionado e o mostra em tabela de operadores&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O novo Operador de Ecommerce esta salvo no sistema.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC20">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador de Ecommerce esta logado no sistema; Usuario pertence ao Ecommerce alvo.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce clica no opcao 'Meu Ecommerce' no menu principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela com informacoes de Ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Volta para tela inicial do sistema) Usuario Administrador de Ecommerce clica no botao 'Voltar' do form de Ecommerce&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce clica no opcao 'Meu Ecommerce' no menu principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela com informacoes de Ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce adiciona os dados do novo Operador na secao 'Operadores' e clica no botao 'Adicionar Operador'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Email ja cadastrado) Sistema alerta que ja existe um Operador cadastrado com o email informado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce informa um novo Email e clica no botao de 'Adicionar Operador'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica que o operador foi adicionado e o mostra em tabela de operadores&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O novo Operador de Ecommerce esta salvo no sistema.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC21">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador de Ecommerce esta logado no sistema; Usuario pertence ao Ecommerce alvo.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce clica no opcao 'Meu Ecommerce' no menu principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela com informacoes de Ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Volta para tela inicial do sistema) Usuario Administrador de Ecommerce clica no botao 'Voltar' do form de Ecommerce&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce clica no opcao 'Meu Ecommerce' no menu principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela com informacoes de Ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce adiciona os dados do novo Operador na secao 'Operadores' e clica no botao 'Adicionar Operador'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Email invalido) Sistema alerta que ja existe um Operador cadastrado com o email informado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;7   Usuario Administrador de Ecommerce informa um novo Email valido e clica no botao de 'Adicionar Operador'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica que o operador foi adicionado e o mostra em tabela de operadores&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O novo Operador de Ecommerce esta salvo no sistema.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC22">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador de Ecommerce esta logado no sistema; Usuario pertence ao Ecommerce alvo.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce clica no opcao 'Meu Ecommerce' no menu principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela com informacoes de Ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Volta para tela inicial do sistema) Usuario Administrador de Ecommerce clica no botao 'Voltar' do form de Ecommerce&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce clica no opcao 'Meu Ecommerce' no menu principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela com informacoes de Ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce adiciona os dados do novo Operador na secao 'Operadores' e clica no botao 'Adicionar Operador'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Cpf ja cadastrado) Sistema alerta que ja existe um Operador cadastrado com o cpf informado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce informa um novo Cpf e clica no botao de 'Adicionar Operador'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica que o operador foi adicionado e o mostra em tabela de operadores&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O novo Operador de Ecommerce esta salvo no sistema.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC23">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador de Ecommerce esta logado no sistema; Usuario pertence ao Ecommerce alvo.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce clica no opcao 'Meu Ecommerce' no menu principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela com informacoes de Ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Volta para tela inicial do sistema) Usuario Administrador de Ecommerce clica no botao 'Voltar' do form de Ecommerce&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce clica no opcao 'Meu Ecommerce' no menu principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela com informacoes de Ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce adiciona os dados do novo Operador na secao 'Operadores' e clica no botao 'Adicionar Operador'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Senhas nao coincidem) Sistema alerta que as senhas informadas nao coincidem&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce informa senhas iguais e clica no botao de 'Adicionar Operador'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica que o operador foi adicionado e o mostra em tabela de operadores&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O novo Operador de Ecommerce esta salvo no sistema.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC24">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador de Ecommerce esta logado no sistema; Usuario pertence ao Ecommerce alvo.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce clica no opcao 'Meu Ecommerce' no menu principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela com informacoes de Ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Volta para tela inicial do sistema) Usuario Administrador de Ecommerce clica no botao 'Voltar' do form de Ecommerce&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce clica no opcao 'Meu Ecommerce' no menu principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela com informacoes de Ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;(Cancela registro de novo operador de Ecommerce) Usuario Administrador de Ecommerce clica no botao 'Cancelar' de registro de operador&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC25">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador de Ecommerce esta logado no sistema; Usuario pertence ao Ecommerce alvo.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce clica no opcao 'Meu Ecommerce' no menu principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela com informacoes de Ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Volta para tela inicial do sistema) Usuario Administrador de Ecommerce clica no botao 'Voltar' do form de Ecommerce&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador de Ecommerce clica no opcao 'Meu Ecommerce' no menu principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela com informacoes de Ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;(Volta para tela inicial do sistema) Usuario Administrador de Ecommerce clica no botao 'Voltar' do form de Ecommerce&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+</testsuite>

@@ -1,0 +1,4 @@
+14c14
+<             step 5, usuário, "seleciona o botão 'Create User', situado no lado direito inferior da tela"
+---
+>             step 5, usuário, "seleciona o botão 'Create User'"

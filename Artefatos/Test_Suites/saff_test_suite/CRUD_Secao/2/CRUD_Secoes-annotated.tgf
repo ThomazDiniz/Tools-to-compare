@@ -1,0 +1,53 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+17 17
+18 18
+19 19
+20 20
+21 21
+22 22
+23 23
+24 24
+25 25
+26 26
+#
+1 14 conditions
+14 2  Estar logado como super administrador.
+2 15 steps
+15 3   Super administrador seleciona opção 'Sections' no menu Settings
+3 16 expected_results
+16 4   Sistema exibe lista de Seções
+4 17 steps
+17 5   Super administrador clica no nome de uma seção
+5 18 expected_results
+18 6   Sistema exibe dados da seção
+6 19 steps
+19 7   Super administrador clica no botão 'Cancel'
+5 20 expected_results
+20 8   Sistema exibe dados da seção
+7 21 expected_results
+21 12   Sistema retorna a lista de seções
+8 22 steps
+22 9  (Edita dados) Super administrador clica no botão 'Edit'
+9 23 expected_results
+23 10   Sistema lista as opções possíveis de serem incluídas na seção
+10 24 steps
+24 11   Super administrador escolhe as opções e pressiona o botão 'Update
+11 25 expected_results
+25 2   Sistema exibe mensagem informando que a seção foi atualizada
+12 26 conditions
+26 13   .

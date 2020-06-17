@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<testsuite name="TS">
+  <node_order />
+  <details />
+  <testcase internalid="" name="TC17">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Acesso ao Browser; Acesso a internet.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Bazooca entra na homepage do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe homepage&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Bazooca clica no botao 'Login'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema apresenta um form com os campos username e password e um botao de submissao&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(esqueceu credenciais) Usuario Bazooca clica no botao 'Esqueceu sua senha?'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema pede para usuario inserir email de cadastro&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Bazooca usuario clica em botao 'Confirmar'&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Bazooca entra na homepage do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe homepage&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Bazooca clica no botao 'Login'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema apresenta um form com os campos username e password e um botao de submissao&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Bazooca preenche os campos de username e password e clica no botao de submissao&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra uma mensagem de usuario logado com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>Usuario esta logado no sistema.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC14">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Acesso ao Browser; Acesso a internet.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Bazooca entra na homepage do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe homepage&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Bazooca clica no botao 'Login'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema apresenta um form com os campos username e password e um botao de submissao&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Um ou mais username sao apresentados) Usuario Bazooca seleciona um dos usernames sugeridos, digita um password e clica no botao de submeter&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema apresenta um form com os campos username e password e um botao de submissao&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Bazooca preenche os campos de username e password e clica no botao de submissao&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(combinacao de username/password incorreta) Sistema alerta que username e/ou password estao incorretos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC3">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Acesso ao Browser; Acesso a internet.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Bazooca entra na homepage do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe homepage&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Bazooca clica no botao 'Login'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema apresenta um form com os campos username e password e um botao de submissao&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Bazooca preenche os campos de username e password e clica no botao de submissao&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(usuario nao existe no banco de dados) Sistema alerta que usuario nao existe&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Bazooca clica no botao 'Login'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema apresenta um form com os campos username e password e um botao de submissao&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Bazooca preenche os campos de username e password e clica no botao de submissao&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(usuario nao existe no banco de dados) Sistema alerta que usuario nao existe&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC7">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Acesso ao Browser; Acesso a internet.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Bazooca entra na homepage do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe homepage&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Bazooca clica no botao 'Login'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema apresenta um form com os campos username e password e um botao de submissao&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Bazooca preenche os campos de username e password e clica no botao de submissao&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(combinacao de username/password incorreta) Sistema alerta que username e/ou password estao incorretos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Bazooca clica no botao 'Login'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema apresenta um form com os campos username e password e um botao de submissao&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Bazooca preenche os campos de username e password e clica no botao de submissao&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra uma mensagem de usuario logado com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>Usuario esta logado no sistema.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+</testsuite>

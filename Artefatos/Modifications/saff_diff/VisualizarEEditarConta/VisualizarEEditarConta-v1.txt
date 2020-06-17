@@ -1,0 +1,50 @@
+5c5
+<         actor usuário, "Usuário do sistema"
+---
+>         actor operador, "Operador do sistema"
+7c7
+<         preCondition "Usuário deve estar logado no sistema", "administrador ou super administrador" 
+---
+>         preCondition "Usuario deve estar logado no servidor"
+10c10
+<             step 1, usuário, "seleciona a opção 'My Account' no canto superior direito"
+---
+>             step 1, operador, "seleciona a opcao 'My Account'"
+12,15c12,15
+<             step 3, usuário, "pressiona botão 'Edit'"
+<             step 4, system, "exibe página com campos em branco para atualização"
+<             step 5, usuário, "preenche corretamente os campos 'Old Password', 'New Password', 'Confirm Password' e pressiona o botão 'Update'", af:[1,2,3,4]
+<             step 6, system, "exibe página com informações do usuário e apresenta mensagem informando que as informações foram atualizadas"
+---
+>             step 3, operador, "pressiona botao 'Edit'"
+>             step 4, system, "exibe pagina com campos em branco para atualizacao"
+>             step 5, operador, "preenche corretamente os campos 'Old Password', 'New Password', 'Confirm Password' e pressiona o botao 'Update'", af:[1,2,3,4]
+>             step 6, system, "exibe pagina com informacoes do usuario e apresenta mensagem informando que as informacoes foram atualizadas"
+20,21c20,21
+<             step 1, usuário, "preenche corretamente os campos 'Old Password', 'New Password', 'Confirm Password', troca 'Language' de Inglês para Português e pressiona o botão 'Update'"
+<             step 2, system, "exibe página com informações do usuário. Apresenta mensagem informando que as informações foram atualizadas e atualiza conta no novo idioma"
+---
+>             step 1, operador, "preenche corretamente os campos 'Old Password', 'New Password', 'Confirm Password', troca 'Language' de Ingles para Portugues e pressiona o botao 'Update'"
+>             step 2, system, "exibe pagina com informações do usuario. Apresenta mensagem informando que as informacoes foram atualizadas e atualiza conta no novo idioma"
+24,25c24,25
+<         alternative 2, "Cancela Edição", {
+<             step 1, usuário, "pressiona botão 'Cancel'", bfs:2
+---
+>         alternative 2, "Cancela Edicao", {
+>             step 1, operador, "pressiona botao 'Cancel'", bfs:2
+28,30c28,30
+<         alternative 3, "Password inválido", { 
+<             step 1, usuário, "preenche incorretamente o campos 'Old Password'"
+<             step 2, system, "exibe mensagem infrmando que o Password fornecido não está correto", bfs:5
+---
+>         alternative 3, "Password invalido", { 
+>             step 1, operador, "preenche incorretamente o campos 'Old Password'"
+>             step 2, system, "exibe mensagem infrmando que o Password fornecido não esta correto", bfs:5
+33,35c33,35
+<         alternative 4, "Novo Password fora dos padrões (uppercase, lowercase, numbers, special characters and size between 8 and 20)", {
+<             step 1, usuário, "preenche o campos 'New Password' com uma senha fora dos padrões exigidos"
+<             step 2, system, "exibe mensagem infrmando que o Password fornecido não está conforme o exigido", bfs:5
+---
+>         alternative 4, "Novo Password fora dos padroes (uppercase, lowercase, numbers, special characters and size between 8 and 20)", {
+>             step 1, operador, "preenche o campos 'New Password' com uma senha fora dos padroes exigidos"
+>             step 2, system, "exibe mensagem infrmando que o Password fornecido nao esta conforme o exigido", bfs:5

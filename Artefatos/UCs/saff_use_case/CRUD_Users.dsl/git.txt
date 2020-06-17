@@ -1,0 +1,29 @@
+commit b3e689bf9f5a50aa1be11b10c8253fde34934822
+Author: Hemã Vidal <hema.bezerra@splab.ufcg.edu.br>
+Date:   Wed Apr 13 19:24:22 2016 -0300
+
+    Criando um batch(generateAllReducedTestCases) para gerar tudos os casos de testes de todos os casos de uso.
+
+commit 3f0675657caf8a74c221818ad38aa8b7592b67f4
+Author: unknown <rafaelsilva@Ingenico-SPLAb.ingenico.net>
+Date:   Mon Oct 26 15:30:56 2015 -0300
+
+    novos casos de uso
+
+commit 59a00184f825e94704209fccd32cd17ef829529f
+Author: everton <evertongaldino@gmail.com>
+Date:   Thu Jun 18 16:11:58 2015 -0300
+
+    Adequando casos de uso a novos requisitos e consertando casos de uso que não condiziam com os requisitos já existentes
+
+commit 6f7e2d2913546e69690d1fd457eb059d96ba5d56
+Author: everton <evertongaldino@gmail.com>
+Date:   Thu Jun 18 14:34:47 2015 -0300
+
+    Minor updates
+
+commit 0d6ee3ac4235bf1892289fb4d475c55e0bc99e44
+Author: everton <evertongaldino@gmail.com>
+Date:   Wed Jun 17 16:19:37 2015 -0300
+
+    Casos de uso SAFF/Extrator - v1

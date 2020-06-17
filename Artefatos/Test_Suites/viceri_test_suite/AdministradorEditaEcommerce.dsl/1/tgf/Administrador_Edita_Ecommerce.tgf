@@ -1,0 +1,47 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+17 17
+18 18
+19 19
+20 20
+#
+1 2 [c] Administrador logado; Algum E-commerce salvo no sistema.
+2 3 [s]  Usuario Administrador seleciona a opcao 'E-commerce' no menu da tela principal
+3 4 [e]  Sistema mostra a tela de detalhes do ecommerce
+4 5 [s]  Usuario Administrador seleciona um E-commerce na lista
+3 10 [e]  Sistema mostra a tela de detalhes do ecommerce
+3 11 [e]  Sistema mostra a tela de detalhes do ecommerce
+3 12 [e]  Sistema mostra a tela de detalhes do ecommerce
+3 13 [e]  Sistema mostra a tela de detalhes do ecommerce
+5 6 [e]  Sistema abre a tela de edicao do Ecommerce
+6 7 [s]  Usuario Administrador modifica os dados existentes
+7 8 [e]  Sistema valida os dados cadastrais do ecommerce
+8 9 [s]  Usuario Administrador clica no botao de atualizar
+7 14 [e]  Sistema valida os dados cadastrais do ecommerce
+9 19 [e]  Sistema notifica usuario de que o Ecommerce foi atualizado com sucesso
+8 15 [s]  Usuario Administrador clica no botao de atualizar
+8 17 [s]  Usuario Administrador clica no botao de atualizar
+10 3 [s] (Ordena lista de Ecommerce) Usuario Administrador clica em um dos botões de ordenacao associada a uma coluna da tabela
+11 3 [s] (Navega por paginas de tabela) Usuario Administrador clica em botao de navegacao de paginas de tabela
+12 3 [s] (Filtra lista de Ecommerce) Usuario Administrador preenche campos de filtragem
+13 3 [s] (Cancela atualizacao de Ecommerce) Usuario Administrador clica no botao Cancelar
+14 3 [s] (Volta para tela inicial de sistema) Usuario Administrador clica no botao Voltar
+15 16 [e] (Nao insere algum dado obrigatório') Sistema informa que os dados obrigatórios devem ser preenchidos
+16 9 [s]  Usuario Administrador adiciona dados corretos e clica em 'Atualizar
+17 18 [e] (Usuario insere algum dado invalido) Sistema alerta que o dado esta invalido e pede nova entrada
+18 9 [s]  Usuario Administrador corrige os dados invalidos e clica em 'Atualizar
+19 20 [c] Ecommerce esta com dados atualizados no sistema.

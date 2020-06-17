@@ -1,0 +1,103 @@
+Clicar na opcao 'Compatibilidade' no menu da tela principal	clica na opcao 'Compatibilidade' no menu da tela principal	1
+clica no botao Voltar	clica no botao 'Voltar'	1
+clica no botao Cancelar	clica no botao 'Cancelar'	1
+preenche dados obrigatorios e clica em Atualizar	preenche dados obrigatorios e clica em 'Atualizar'	1
+preenche um Tipo de Mercadoria valido e clica em Atualizar	preenche um Tipo de Mercadoria valido e clica em 'Atualizar'	1
+preenche um NCM valido e clica em Atualizar	preenche um NCM valido e clica em 'Atualizar'	1
+clica no opcao 'E-commerces' no menu principal	clica no opcao 'Ecommerces' no menu principal	1
+exibe a tela com a lista de E-commerces cadastrados no sistema	exibe a tela com a lista de Ecommerces cadastrados no sistema	1
+clica em um dos E-commerces listados	clica em um dos Ecommerces listados	1
+exibe tela com informacões de E-commerce	exibe tela com informacões de Ecommerce	1
+clica no botao Voltar	clica no botao 'Voltar'	1
+clica no botao Cancelar de registro de operador	clica no botao 'Cancelar' de registro de operador	1
+informa que o campo é obrigatorio	informa que o campo e obrigatorio	1
+Clicar na opcao 'Compatibildiade' no menu da tela principal	clica na opcao 'Compatibilidades' no menu da tela principal	1
+exibe a tela de listagem das Compatibilidades	apresenta uma listagem dos Compatibilidades cadastrados no sistema	1
+clica em Compatibilidade listada	clica em algum dos Compatibilidades listados	1
+exibe a tela de edicao de Compatibilidade	abre a tela de edicao de Compatibilidade	1
+clica em botao 'Deletar'	clica no botao de 'Excluir'	1
+abre popup de confirmacao de delecao	exibe popup pedindo Confirmacao de delecao	1
+confirma que deseja deletar clicando em 'Sim'	confirma delecao	1
+notifica usuario que os nova Compatibilidade foi deletada com sucesso	notifica que o Compatibilidade foi excluido com sucesso	1
+lista o conjunto de ecommerce cadastrados no sistema	apresenta uma listagem dos Ecommerces cadastrados no sistema	1
+clica em um dos ecommerce listados	clica em algum dos Ecommerces listados	1
+apresenta tela de edicao de Ecommerce	abre a tela de edicao de Ecommerce	1
+clica em botao de 'Remover' na tela de edicao	clica no botao de 'Excluir'	1
+exibe popup de confirmacao	exibe popup pedindo Confirmacao de delecao	1
+confirma delecao de Ecommerce	confirma delecao	1
+noficica usuario de que Ecommerce foi deletado com sucesso.	notifica que o Ecommerce foi excluido com sucesso	1
+lista o conjunto de termianis cadastrados no sistema	apresenta uma listagem dos Terminais cadastrados no sistema	1
+clica em um dos terminais listados	clica em algum dos Terminais listados	1
+apresenta tela de edicao de Terminal	abre a tela de edicao de Terminal	1
+clica em botao de 'Remover' na tela de edicao,clica no botao de 'Excluir' do Terminal		1
+exibe popup de confirmacao	exibe popup pedindo Confirmacao de delecao	1
+confirma clicando no botao 'Sim'	confirma delecao	1
+noficica usuario de que Terminal foi deletado com sucesso.	notifica que o Terminal foi excluido com sucesso	1
+Entra na tela de Edição de Parametros do Engine	entra na tela de Edição de Parametros do Engine	1
+apresenta uma tela com os Parâmetros do Engine com os valores atuais	apresenta uma tela com os Parametros do Engine com os valores atuais	1
+Entra na tela de Edicao de Parametros do NFe Reader	entra na tela de Edição de Parametros do NFe Reader	1
+apresenta uma tela com os Parâmetros do NFe Reader com os valores atuais	apresenta uma tela com os Parametros do NFe Reader com os valores atuais	1
+modifica valores de parâmetros e clica em Atualizar	modifica valores de paremetros e clica em Atualizar	1
+Clicar na opcao 'Pedidos' no menu da tela principal	clica na opcao 'Pedidos' no menu da tela principal	1
+clica em algum contador de 'Conferência' na secao de 'Notas'	clica em algum contador de 'Conferencia' na secao de 'Notas'	1
+clica em algum contador de 'Ocorrências' na secao de 'Notas'	clica em algum contador de 'Ocorrencias' na secao de 'Notas'	1
+digita ocorrencia e clica em 'Confirmar'	digita Ocorrencia e clica em 'Confirmar'	1
+nao insere a descricao da ocorrencia e clica no botao de 'Salvar'	nao insere a descricao da ocorrencia e clica no botao de 'Registrar'	1
+insere descricao valida para Ocorrencia e clica no botao 'Salvar'	insere descricao valida para Ocorrencia e clica no botao 'Registrar'	1
+Clicar na opcao 'Compatibilidade' no menu da tela principal	clica na opcao 'Compatibilidade' no menu da tela principal	1
+clica no botao Voltar	clica no botao 'Voltar'	1
+clica no botao Cancelar	clica no botao 'Cancelar'	1
+preenche dados obrigatorios e clica em Atualizar	preenche dados obrigatorios e clica em 'Atualizar'	1
+preenche um Tipo de Mercadoria valido e clica em Atualizar	preenche um Tipo de Mercadoria valido e clica em 'Atualizar'	1
+preenche um NCM valido e clica em Atualizar	preenche um NCM valido e clica em 'Atualizar'	1
+clica no opcao 'E-commerces' no menu principal	clica no opcao 'Ecommerces' no menu principal	1
+exibe a tela com a lista de E-commerces cadastrados no sistema	exibe a tela com a lista de Ecommerces cadastrados no sistema	1
+clica em um dos E-commerces listados	clica em um dos Ecommerces listados	1
+exibe tela com informacões de E-commerce	exibe tela com informacões de Ecommerce	1
+clica no botao Voltar	clica no botao 'Voltar'	1
+clica no botao Cancelar de registro de operador	clica no botao 'Cancelar' de registro de operador	1
+informa que o campo é obrigatorio	informa que o campo e obrigatorio	1
+Clicar na opcao 'Compatibildiade' no menu da tela principal	clica na opcao 'Compatibilidades' no menu da tela principal	1
+exibe a tela de listagem das Compatibilidades	apresenta uma listagem dos Compatibilidades cadastrados no sistema	1
+clica em Compatibilidade listada	clica em algum dos Compatibilidades listados	1
+exibe a tela de edicao de Compatibilidade	abre a tela de edicao de Compatibilidade	1
+clica em botao 'Deletar'	clica no botao de 'Excluir'	1
+abre popup de confirmacao de delecao	exibe popup pedindo Confirmacao de delecao	1
+confirma que deseja deletar clicando em 'Sim'	confirma delecao	1
+notifica usuario que os nova Compatibilidade foi deletada com sucesso	notifica que o Compatibilidade foi excluido com sucesso	1
+lista o conjunto de ecommerce cadastrados no sistema	apresenta uma listagem dos Ecommerces cadastrados no sistema	1
+clica em um dos ecommerce listados	clica em algum dos Ecommerces listados	1
+apresenta tela de edicao de Ecommerce	abre a tela de edicao de Ecommerce	1
+clica em botao de 'Remover' na tela de edicao	clica no botao de 'Excluir'	1
+exibe popup de confirmacao	exibe popup pedindo Confirmacao de delecao	1
+confirma delecao de Ecommerce	confirma delecao	1
+noficica usuario de que Ecommerce foi deletado com sucesso.	notifica que o Ecommerce foi excluido com sucesso	1
+lista o conjunto de termianis cadastrados no sistema	apresenta uma listagem dos Terminais cadastrados no sistema	1
+clica em um dos terminais listados	clica em algum dos Terminais listados	1
+apresenta tela de edicao de Terminal	abre a tela de edicao de Terminal	1
+clica em botao de 'Remover' na tela de edicao,clica no botao de 'Excluir' do Terminal		1
+exibe popup de confirmacao	exibe popup pedindo Confirmacao de delecao	1
+confirma clicando no botao 'Sim'	confirma delecao	1
+noficica usuario de que Terminal foi deletado com sucesso.	notifica que o Terminal foi excluido com sucesso	1
+Entra na tela de Edição de Parametros do Engine	entra na tela de Edição de Parametros do Engine	1
+apresenta uma tela com os Parâmetros do Engine com os valores atuais	apresenta uma tela com os Parametros do Engine com os valores atuais	1
+Entra na tela de Edicao de Parametros do NFe Reader	entra na tela de Edição de Parametros do NFe Reader	1
+apresenta uma tela com os Parâmetros do NFe Reader com os valores atuais	apresenta uma tela com os Parametros do NFe Reader com os valores atuais	1
+modifica valores de parâmetros e clica em Atualizar	modifica valores de paremetros e clica em Atualizar	1
+Clicar na opcao 'Pedidos' no menu da tela principal	clica na opcao 'Pedidos' no menu da tela principal	1
+clica em algum contador de 'Conferência' na secao de 'Notas'	clica em algum contador de 'Conferencia' na secao de 'Notas'	1
+clica em algum contador de 'Ocorrências' na secao de 'Notas'	clica em algum contador de 'Ocorrencias' na secao de 'Notas'	1
+digita ocorrencia e clica em 'Confirmar'	digita Ocorrencia e clica em 'Confirmar'	1
+nao insere a descricao da ocorrencia e clica no botao de 'Salvar'	nao insere a descricao da ocorrencia e clica no botao de 'Registrar'	1
+insere descricao valida para Ocorrencia e clica no botao 'Salvar'	insere descricao valida para Ocorrencia e clica no botao 'Registrar'	1
+notifica que o Administrador foi adicionado com sucesso	notifica que o Administrador foi adicionado com sucesso e exibe lista de Administradores	0
+notifica usuario que os nova Compatibilidade foi adicionada com sucesso	notifica usuario que os nova Compatibilidade foi adicionada com sucesso e exibe lista de Compatibilidades	0
+mostra uma mensagem de cadastro de E-commerce com sucesso	notifica que E-commerce foi cadastrado com sucesso e exibe lista de Ecommerces	0
+mostra operador adicionado em tabela na tela de cadastro	notifica que o operador foi adicionado e o mostra em tabela de operadores	0
+atualiza os dados do E-commerce no sistema	notifica usuario de que o Ecommerce foi atualizado com sucesso	0
+preenche dados validos e clica em Atualizar	preenche dados obrigatorios e clica em Atualizar	0
+clica em tab 'Pedidos'	clica em contador 'Outros'	0
+abre uma tela com a lista de 'Pedidos'	abre uma tela com a lista de 'Pedidos' ou Notas	0
+seleciona algum Pedido (NFe) da lista	seleciona algum Pedido ou Nota da lista	0
+filtra os pedidos por algum campo	filtra as notas por algum campo	0
+clica no botao 'Registrar Ocorrencia'	clica no botao 'Registrar Ocorrencia' para uma determinada nota	0

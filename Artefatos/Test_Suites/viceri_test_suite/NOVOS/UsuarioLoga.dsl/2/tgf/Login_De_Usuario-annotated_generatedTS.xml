@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<testsuite name="TS">
+  <node_order />
+  <details />
+  <testcase internalid="" name="TC1">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Acesso ao Browser; Acesso a internet.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Bazooca User Entra na tela de login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema apresenta um form com os campos username e password e um bot&#xfffd;o de submiss&#xfffd;o&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Bazooca User preenche os campos de username e password e clica no bot&#xfffd;o de submiss&#xfffd;o&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra uma mensagem de usu&#xfffd;rio logado com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>Usuario logado no sistema.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC2">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Acesso ao Browser; Acesso a internet.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Bazooca User Entra na tela de login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema apresenta um form com os campos username e password e um bot&#xfffd;o de submiss&#xfffd;o&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Bazooca User preenche os campos de username e password e clica no bot&#xfffd;o de submiss&#xfffd;o&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Usu&#xfffd;rio n&#xfffd;o existe no banco de dados) Sistema alerta que usu&#xfffd;rio n&#xfffd;o existe&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Bazooca User preenche os campos de username e password e clica no bot&#xfffd;o de submiss&#xfffd;o&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra uma mensagem de usu&#xfffd;rio logado com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>Usuario logado no sistema.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC3">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Acesso ao Browser; Acesso a internet.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Bazooca User Entra na tela de login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema apresenta um form com os campos username e password e um bot&#xfffd;o de submiss&#xfffd;o&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Bazooca User preenche os campos de username e password e clica no bot&#xfffd;o de submiss&#xfffd;o&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Usu&#xfffd;rio n&#xfffd;o existe no banco de dados) Sistema alerta que usu&#xfffd;rio n&#xfffd;o existe&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Bazooca User preenche os campos de username e password e clica no bot&#xfffd;o de submiss&#xfffd;o&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Usu&#xfffd;rio n&#xfffd;o existe no banco de dados) Sistema alerta que usu&#xfffd;rio n&#xfffd;o existe&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC4">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Acesso ao Browser; Acesso a internet.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Bazooca User Entra na tela de login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema apresenta um form com os campos username e password e um bot&#xfffd;o de submiss&#xfffd;o&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Bazooca User preenche os campos de username e password e clica no bot&#xfffd;o de submiss&#xfffd;o&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Usu&#xfffd;rio n&#xfffd;o existe no banco de dados) Sistema alerta que usu&#xfffd;rio n&#xfffd;o existe&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Bazooca User preenche os campos de username e password e clica no bot&#xfffd;o de submiss&#xfffd;o&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Combina&#xfffd;&#xfffd;o de username/password incorreta) Sistema alerta que username e/ou password est&#xfffd;o incorretos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC5">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Acesso ao Browser; Acesso a internet.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Bazooca User Entra na tela de login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema apresenta um form com os campos username e password e um bot&#xfffd;o de submiss&#xfffd;o&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Bazooca User preenche os campos de username e password e clica no bot&#xfffd;o de submiss&#xfffd;o&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Combina&#xfffd;&#xfffd;o de username/password incorreta) Sistema alerta que username e/ou password est&#xfffd;o incorretos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Bazooca User preenche os campos de username e password e clica no bot&#xfffd;o de submiss&#xfffd;o&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra uma mensagem de usu&#xfffd;rio logado com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>Usuario logado no sistema.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC6">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Acesso ao Browser; Acesso a internet.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Bazooca User Entra na tela de login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema apresenta um form com os campos username e password e um bot&#xfffd;o de submiss&#xfffd;o&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Bazooca User preenche os campos de username e password e clica no bot&#xfffd;o de submiss&#xfffd;o&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Combina&#xfffd;&#xfffd;o de username/password incorreta) Sistema alerta que username e/ou password est&#xfffd;o incorretos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Bazooca User preenche os campos de username e password e clica no bot&#xfffd;o de submiss&#xfffd;o&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Usu&#xfffd;rio n&#xfffd;o existe no banco de dados) Sistema alerta que usu&#xfffd;rio n&#xfffd;o existe&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC7">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Acesso ao Browser; Acesso a internet.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Bazooca User Entra na tela de login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema apresenta um form com os campos username e password e um bot&#xfffd;o de submiss&#xfffd;o&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Bazooca User preenche os campos de username e password e clica no bot&#xfffd;o de submiss&#xfffd;o&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Combina&#xfffd;&#xfffd;o de username/password incorreta) Sistema alerta que username e/ou password est&#xfffd;o incorretos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Bazooca User preenche os campos de username e password e clica no bot&#xfffd;o de submiss&#xfffd;o&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Combina&#xfffd;&#xfffd;o de username/password incorreta) Sistema alerta que username e/ou password est&#xfffd;o incorretos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC8">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Acesso ao Browser; Acesso a internet.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Bazooca User Entra na tela de login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema apresenta um form com os campos username e password e um bot&#xfffd;o de submiss&#xfffd;o&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Um ou mais username s&#xfffd;o apresentados) Bazooca User seleciona um dos usernames sugeridos, digita um password e clica no bot&#xfffd;o de submeter&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra uma mensagem de usu&#xfffd;rio logado com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>Usuario logado no sistema.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+</testsuite>

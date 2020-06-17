@@ -1,0 +1,99 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+17 17
+18 18
+19 19
+20 20
+21 21
+22 22
+23 23
+24 24
+25 25
+26 26
+27 27
+28 28
+29 29
+30 30
+31 31
+32 32
+33 33
+34 34
+35 35
+36 36
+37 37
+38 38
+39 39
+40 40
+41 41
+42 42
+43 43
+44 44
+45 45
+46 46
+#
+1 21 conditions
+21 2  Administrador logado; Algum E-commerce salvo no sistema.
+2 22 steps
+22 3   Usuario Administrador seleciona a opcao 'E-commerce' no menu da tela principal
+3 23 expected_results
+23 4   Sistema mostra a tela de detalhes do ecommerce
+4 24 steps
+24 5   Usuario Administrador seleciona um E-commerce na lista
+3 25 expected_results
+25 10   Sistema mostra a tela de detalhes do ecommerce
+3 26 expected_results
+26 11   Sistema mostra a tela de detalhes do ecommerce
+3 27 expected_results
+27 12   Sistema mostra a tela de detalhes do ecommerce
+3 28 expected_results
+28 13   Sistema mostra a tela de detalhes do ecommerce
+5 29 expected_results
+29 6   Sistema abre a tela de edicao do Ecommerce
+6 30 steps
+30 7   Usuario Administrador modifica os dados existentes
+7 31 expected_results
+31 8   Sistema valida os dados cadastrais do ecommerce
+8 32 steps
+32 9   Usuario Administrador clica no botao de atualizar
+7 33 expected_results
+33 14   Sistema valida os dados cadastrais do ecommerce
+9 34 expected_results
+34 19   Sistema notifica usuario de que o Ecommerce foi atualizado com sucesso
+8 35 steps
+35 15   Usuario Administrador clica no botao de atualizar
+8 36 steps
+36 17   Usuario Administrador clica no botao de atualizar
+10 37 steps
+37 3  (Ordena lista de Ecommerce) Usuario Administrador clica em um dos botões de ordenacao associada a uma coluna da tabela
+11 38 steps
+38 3  (Navega por paginas de tabela) Usuario Administrador clica em botao de navegacao de paginas de tabela
+12 39 steps
+39 3  (Filtra lista de Ecommerce) Usuario Administrador preenche campos de filtragem
+13 40 steps
+40 3 3  (Cancela atualizacao de Ecommerce) Usuario Administrador clica no botao Cancelar
+14 41 steps
+41 3  (Volta para tela inicial de sistema) Usuario Administrador clica no botao Voltar
+15 42 expected_results
+42 16  (Nao insere algum dado obrigatório') Sistema informa que os dados obrigatórios devem ser preenchidos
+16 43 steps
+43 9   Usuario Administrador adiciona dados corretos e clica em 'Atualizar
+17 44 expected_results
+44 18  (Usuario insere algum dado invalido) Sistema alerta que o dado esta invalido e pede nova entrada
+18 45 steps
+45 9   Usuario Administrador corrige os dados invalidos e clica em 'Atualizar
+19 46 conditions
+46 20  Ecommerce esta com dados atualizados no sistema.

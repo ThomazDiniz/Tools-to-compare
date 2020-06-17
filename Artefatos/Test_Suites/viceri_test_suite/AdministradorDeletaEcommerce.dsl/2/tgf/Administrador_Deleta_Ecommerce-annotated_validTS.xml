@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<testsuite name="TS">
+  <node_order />
+  <details />
+  <testcase internalid="" name="TC1">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistem; Existe pelo menos um Ecommerce registrado.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Entra na tela de Listagem de Ecommerce&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema lista o conjunto de ecommerce cadastrados no sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em um dos ecommerce listados&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema apresenta tela de edicao de Ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em botao de 'Remover' na tela de edicao&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe popup de confirmacao&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador confirma delecao de Ecommerce&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema noficica usuario de que Ecommerce foi deletado com sucesso.&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>Ecommerce deletado do banco de dados.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC2">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistem; Existe pelo menos um Ecommerce registrado.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Entra na tela de Listagem de Ecommerce&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema lista o conjunto de ecommerce cadastrados no sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em um dos ecommerce listados&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema apresenta tela de edicao de Ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em botao de 'Remover' na tela de edicao&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe popup de confirmacao&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Cancela delecao do Ecommerce) Usuario Administrador clica no botao 'Cancelar' do popup&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema apresenta tela de edicao de Ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em botao de 'Remover' na tela de edicao&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe popup de confirmacao&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador confirma delecao de Ecommerce&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema noficica usuario de que Ecommerce foi deletado com sucesso.&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>Ecommerce deletado do banco de dados.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC4">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistem; Existe pelo menos um Ecommerce registrado.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Entra na tela de Listagem de Ecommerce&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema lista o conjunto de ecommerce cadastrados no sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Navega pelas paginas da lista) Usuario Administrador navega nas paginas da lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema lista o conjunto de ecommerce cadastrados no sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em um dos ecommerce listados&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema apresenta tela de edicao de Ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em botao de 'Remover' na tela de edicao&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe popup de confirmacao&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador confirma delecao de Ecommerce&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema noficica usuario de que Ecommerce foi deletado com sucesso.&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>Ecommerce deletado do banco de dados.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC8">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistem; Existe pelo menos um Ecommerce registrado.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Entra na tela de Listagem de Ecommerce&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema lista o conjunto de ecommerce cadastrados no sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Usuario ordena lista de ecommerce) Usuario Administrador ordena os ecommerce por seus atributos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema lista o conjunto de ecommerce cadastrados no sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em um dos ecommerce listados&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema apresenta tela de edicao de Ecommerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em botao de 'Remover' na tela de edicao&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe popup de confirmacao&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador confirma delecao de Ecommerce&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema noficica usuario de que Ecommerce foi deletado com sucesso.&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>Ecommerce deletado do banco de dados.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+</testsuite>

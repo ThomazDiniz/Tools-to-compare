@@ -1,0 +1,56 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+17 17
+18 18
+19 19
+20 20
+21 21
+22 22
+23 23
+24 24
+25 25
+26 26
+#
+1 2 [c] Usuário deve estar logado no servidor como super administrador.
+2 3 [s]  ´Super Administrador abre módulo de extração
+3 4 [e]  Sistema exibe página inicial do módulo de extração
+4 5 [s]  ´Super Administrador digita um login de usuário administrador e password e pressiona Login
+3 6 [e]  Sistema exibe página inicial do módulo de extração
+3 8 [e]  Sistema exibe página inicial do módulo de extração
+3 10 [e]  Sistema exibe página inicial do módulo de extração
+5 23 [e]  Sistema exibe tela “SAFF Extractor”
+4 14 [s]  ´Super Administrador digita um login de usuário administrador e password e pressiona Login
+4 18 [s]  ´Super Administrador digita um login de usuário administrador e password e pressiona Login
+4 21 [s]  ´Super Administrador digita um login de usuário administrador e password e pressiona Login
+6 7 [s] (Login ou Password inválidos) ´Super Administrador digita um login de usuário administrador e/ou password invalidos e pressiona Login
+7 4 [e]  Sistema exibe mensagem “Invalid username or password” na tela de login
+8 9 [s] (Numero de tentativas invalidas é 3) ´Super Administrador digita um login de usuário administrador e/ou password invalidos pela terceira vez e pressiona Login
+9 4 [e]  Sistema exibe mensagem de alerta
+10 11 [s] (Numero de tentativas invalidas é 5) ´Super Administrador digita um login de usuário administrador e/ou password invalidos pela quinta vez e pressiona Login
+11 12 [e]  Sistema bloqueia usuário
+12 13 [s]  ´Super Administrador tenta mais uma vez logar na conta do usuário, agora com dados válidos
+13 24 [e]  Sistema exibe mensagem que usuário está bloqueado
+14 15 [e] (Sem conexão com o servidor e usuário deseja fazer extração offline) Sistema exibe pop-up questionanado se o usuário deveja fazer uma extração offline
+15 16 [s]  ´Super Administrador pressiona Yes
+16 17 [e]  Sistema fecha a janela pop-up
+17 25 [e]  Sistema exibe tela “SAFF Extractor” em modo offline
+18 19 [e] (Sem conexão com o servidor e usuário não deseja fazer extração offline) Sistema exibe pop-up questionanado se o usuário deveja fazer uma extração offline
+19 20 [s]  ´Super Administrador pressiona No
+20 4 [e]  Sistema fecha a janela pop-up
+21 22 [e] (Usuario inativo por 90 dias) Sistema infoma que usuario esta bloqueado por inatividade
+22 4 [s]  ´Super Administrador executa programa externo que reinicia senha de super admin
+23 26 [c]  .

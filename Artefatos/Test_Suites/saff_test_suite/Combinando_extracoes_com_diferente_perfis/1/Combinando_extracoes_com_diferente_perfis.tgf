@@ -1,0 +1,74 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+17 17
+18 18
+19 19
+20 20
+21 21
+22 22
+23 23
+24 24
+25 25
+26 26
+27 27
+28 28
+29 29
+30 30
+31 31
+32 32
+33 33
+34 34
+35 35
+36 36
+37 37
+#
+1 2 [c] Administrador deve estar logado. não existem extrações cadastradas.
+2 3 [s]  Administrador pressiona opção “Extract from directory”
+3 4 [e]  Sistema exibe tela de extração por diretório
+4 5 [s]  Administrador seleciona pasta “Ext1”, que contém um único conjunto de arquivos para a família “IPP320-01T1220A”, e pressiona o botão “Extract”
+5 6 [e]  Sistema exibe na parte inferior da tela uma mensagem indicando que uma extração foi realizada
+6 7 [s]  Administrador acessa página “Extractions”
+7 8 [e]  Sistema exibe a lista de extrações com somente um elemento
+8 9 [s]  Administrador faz logout
+9 10 [e]  Sistema exibe página de login
+10 11 [s]  Operador de uma lab diferente do administrador faz login e vai para a página “Extractions”
+11 12 [e]  Sistema exibe uma lista vazia
+12 13 [s]  Operador de uma lab diferente do administrador pressiona opção “Extract from directory”
+13 14 [e]  Sistema exibe tela de extração por diretório
+14 15 [s]  Operador de uma lab diferente do administrador seleciona pasta “Ext1”, que contém um único conjunto de arquivos para a família “IPP320-01T1220A”, e pressiona o botão “Extract”
+15 16 [e]  Sistema exibe na parte inferior da tela uma mensagem indicando que uma extração foi realizada
+16 17 [s]  Operador de uma lab diferente do administrador acessa página “Extractions”
+17 18 [e]  Sistema exibe a lista de extrações com somente um elemento
+18 19 [s]  Operador de uma lab diferente do administrador faz logout
+19 20 [e]  Sistema exibe página de login
+20 21 [s]  Operador de mesmo lab do administrador faz login e vai para a página “Extractions”
+21 22 [e]  Sistema exibe uma lista com uma extração
+22 23 [s]  Operador de mesmo lab do administrador faz logout
+23 24 [e]  Sistema exibe página de login
+24 25 [s]  Gerente de uma lab diferente do administrador e operador faz login e vai para a página “Extractions”
+25 26 [e]  Sistema exibe uma lista vazia
+26 27 [s]  Gerente de uma lab diferente do administrador e operador pressiona opção “Extract from directory”
+27 28 [e]  Sistema exibe tela de extração por diretório
+28 29 [s]  Gerente de uma lab diferente do administrador e operador seleciona pasta “Ext1”, que contém um único conjunto de arquivos para a família “IPP320-01T1220A”, e pressiona o botão “Extract”
+29 30 [e]  Sistema exibe na parte inferior da tela uma mensagem indicando que uma extração foi realizada
+30 31 [s]  Gerente de uma lab diferente do administrador e operador acessa página “Extractions”
+31 32 [e]  Sistema exibe a lista de extrações com somente um elemento
+32 33 [s]  Gerente de uma lab diferente do administrador e operador faz logout
+33 34 [e]  Sistema exibe página de login
+34 35 [s]  Super Administrador faz login e vai para a página “Extractions”
+35 36 [e]  Sistema exibe lista com três extrações
+36 37 [c]  .

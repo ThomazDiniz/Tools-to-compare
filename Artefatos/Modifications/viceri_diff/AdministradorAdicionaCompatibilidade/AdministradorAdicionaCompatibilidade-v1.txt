@@ -1,0 +1,18 @@
+15c15
+<             step 3, Administrador,  "clica em 'Adicionar Compatibilidade'"
+---
+>             step 3, Administrador,  "clica em 'Adicionar Compatibilidade'", af:[1]
+17c17
+<             step 5, Administrador,  "preenche os dados da Compatibilidade e clica em botao 'Registrar'"
+---
+>             step 5, Administrador,  "preenche os dados da Compatibilidade e clica em botao 'Registrar'", af:[2]
+20c21,28
+---
+>         alternative 1, "Volta para listagem de Compatibilidades", {
+>             step 1, Administrador, "clica no botao Voltar", bfs:2
+>         }
+> 
+>         alternative 2, "Cancelar registro de nova Compatibilidade", {
+>             step 1, Administrador, "clica no botao Cancelar", bfs:2
+>         }
+> 

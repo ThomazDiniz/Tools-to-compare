@@ -1,0 +1,812 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<testsuite name="TS">
+  <node_order />
+  <details />
+  <testcase internalid="" name="TC1">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário deve estar logado no servidor e extrator com administrador. Não existem extrações cadastradas no banco de dados.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema pressiona opção ?Extract from dicrtory?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de extração por diretório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Administrador do sistema seleciona pasta ?EXTRACT_FILE_IPP320_AKIRA?, que contém 705 extrações para diversas família, e pressiona o botão ?Extract?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema realiza extrações&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Clock do sistema tempo de execução não passou de 5 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe na parte inferior da tela uma mensagem indicando que 705 extrações foram realizadas&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Administrador do sistema acessa página ?Extractions?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a lista de extrações com as 50 últimas entradas. Entrada 1: 14170PP30289943. Entrada 50: 12328PP30166463&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Administrador do sistema seleciona opção para mostrar 100 entradas por página&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a lista de extrações com as 100 últimas entradas.&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Administrador do sistema seleciona o combo box referente ao filtro por ?Customer?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe as opções ?Ingenico Brazil? e ?Ingenico?&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Administrador do sistema seleciona opção ?Ingenico? no campo de filtro ?Customer?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema atualiza a página mostrando somente 32 extrações&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC2">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário deve estar logado no servidor e extrator com administrador. Não existem extrações cadastradas no banco de dados.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema pressiona opção ?Extract from dicrtory?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de extração por diretório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Administrador do sistema seleciona pasta ?EXTRACT_FILE_IPP320_AKIRA?, que contém 705 extrações para diversas família, e pressiona o botão ?Extract?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema realiza extrações&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Clock do sistema tempo de execução não passou de 5 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe na parte inferior da tela uma mensagem indicando que 705 extrações foram realizadas&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Administrador do sistema acessa página ?Extractions?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a lista de extrações com as 50 últimas entradas. Entrada 1: 14170PP30289943. Entrada 50: 12328PP30166463&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Administrador do sistema seleciona opção para mostrar 100 entradas por página&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a lista de extrações com as 100 últimas entradas.&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Administrador do sistema seleciona o combo box referente ao filtro por ?Customer?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe as opções ?Ingenico Brazil? e ?Ingenico?&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;(Filtro default) Administrador do sistema seleciona opção default no campo de filtro ?Customer?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema atualiza a página mostrando todas 705 extrações&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC3">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário deve estar logado no servidor e extrator com administrador. Não existem extrações cadastradas no banco de dados.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema pressiona opção ?Extract from dicrtory?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de extração por diretório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Administrador do sistema seleciona pasta ?EXTRACT_FILE_IPP320_AKIRA?, que contém 705 extrações para diversas família, e pressiona o botão ?Extract?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema realiza extrações&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Clock do sistema tempo de execução não passou de 5 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe na parte inferior da tela uma mensagem indicando que 705 extrações foram realizadas&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Administrador do sistema acessa página ?Extractions?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a lista de extrações com as 50 últimas entradas. Entrada 1: 14170PP30289943. Entrada 50: 12328PP30166463&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Administrador do sistema seleciona opção para mostrar 100 entradas por página&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a lista de extrações com as 100 últimas entradas.&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Administrador do sistema seleciona o combo box referente ao filtro por ?Customer?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe as opções ?Ingenico Brazil? e ?Ingenico?&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;(Filtro ?Ingenico Brazil?) Administrador do sistema seleciona opção Ingenico Brazil no campo de filtro ?Customer?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema atualiza a página mostrando todas 673 extrações&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC4">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário deve estar logado no servidor e extrator com administrador. Não existem extrações cadastradas no banco de dados.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema pressiona opção ?Extract from dicrtory?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de extração por diretório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Administrador do sistema seleciona pasta ?EXTRACT_FILE_IPP320_AKIRA?, que contém 705 extrações para diversas família, e pressiona o botão ?Extract?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema realiza extrações&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Clock do sistema tempo de execução não passou de 5 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe na parte inferior da tela uma mensagem indicando que 705 extrações foram realizadas&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Administrador do sistema acessa página ?Extractions?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a lista de extrações com as 50 últimas entradas. Entrada 1: 14170PP30289943. Entrada 50: 12328PP30166463&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Administrador do sistema seleciona opção para mostrar 100 entradas por página&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a lista de extrações com as 100 últimas entradas.&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;(Filtro state) Administrador do sistema seleciona combo box referente ao filtro por ?State?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe opções ?Activated?, ?Alert Interruption?, ?Deactivated?, ?Mockup? e ?Error?&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Administrador do sistema seleciona opção ?Activated? no campo de filtro ?State?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema atualiza página mostrando 608 extrações&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC5">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário deve estar logado no servidor e extrator com administrador. Não existem extrações cadastradas no banco de dados.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema pressiona opção ?Extract from dicrtory?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de extração por diretório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Administrador do sistema seleciona pasta ?EXTRACT_FILE_IPP320_AKIRA?, que contém 705 extrações para diversas família, e pressiona o botão ?Extract?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema realiza extrações&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Clock do sistema tempo de execução não passou de 5 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe na parte inferior da tela uma mensagem indicando que 705 extrações foram realizadas&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Administrador do sistema acessa página ?Extractions?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a lista de extrações com as 50 últimas entradas. Entrada 1: 14170PP30289943. Entrada 50: 12328PP30166463&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Administrador do sistema seleciona opção para mostrar 100 entradas por página&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a lista de extrações com as 100 últimas entradas.&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;(Filtro state) Administrador do sistema seleciona combo box referente ao filtro por ?State?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe opções ?Activated?, ?Alert Interruption?, ?Deactivated?, ?Mockup? e ?Error?&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;(Filtro ?Alert Interruption?) Administrador do sistema seleciona opção ?Alert Interruption? no campo de filtro ?State?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema atualiza página mostrando 97 extrações&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC6">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário deve estar logado no servidor e extrator com administrador. Não existem extrações cadastradas no banco de dados.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema pressiona opção ?Extract from dicrtory?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de extração por diretório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Administrador do sistema seleciona pasta ?EXTRACT_FILE_IPP320_AKIRA?, que contém 705 extrações para diversas família, e pressiona o botão ?Extract?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema realiza extrações&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Clock do sistema tempo de execução não passou de 5 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe na parte inferior da tela uma mensagem indicando que 705 extrações foram realizadas&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Administrador do sistema acessa página ?Extractions?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a lista de extrações com as 50 últimas entradas. Entrada 1: 14170PP30289943. Entrada 50: 12328PP30166463&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Administrador do sistema seleciona opção para mostrar 100 entradas por página&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a lista de extrações com as 100 últimas entradas.&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;(Filtro state) Administrador do sistema seleciona combo box referente ao filtro por ?State?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe opções ?Activated?, ?Alert Interruption?, ?Deactivated?, ?Mockup? e ?Error?&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;(Filtro ?Mockup?) Administrador do sistema seleciona opção ?Mockup? no campo de filtro ?State?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema atualiza página mostrando lista vazia&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC7">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário deve estar logado no servidor e extrator com administrador. Não existem extrações cadastradas no banco de dados.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema pressiona opção ?Extract from dicrtory?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de extração por diretório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Administrador do sistema seleciona pasta ?EXTRACT_FILE_IPP320_AKIRA?, que contém 705 extrações para diversas família, e pressiona o botão ?Extract?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema realiza extrações&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Clock do sistema tempo de execução não passou de 5 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe na parte inferior da tela uma mensagem indicando que 705 extrações foram realizadas&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Administrador do sistema acessa página ?Extractions?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a lista de extrações com as 50 últimas entradas. Entrada 1: 14170PP30289943. Entrada 50: 12328PP30166463&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Administrador do sistema seleciona opção para mostrar 100 entradas por página&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a lista de extrações com as 100 últimas entradas.&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;(Filtro state) Administrador do sistema seleciona combo box referente ao filtro por ?State?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe opções ?Activated?, ?Alert Interruption?, ?Deactivated?, ?Mockup? e ?Error?&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;(Filtro ?Error?) Administrador do sistema seleciona opção ?Error? no campo de filtro ?State?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema atualiza página mostrando lista vazia&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC8">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário deve estar logado no servidor e extrator com administrador. Não existem extrações cadastradas no banco de dados.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema pressiona opção ?Extract from dicrtory?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de extração por diretório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Administrador do sistema seleciona pasta ?EXTRACT_FILE_IPP320_AKIRA?, que contém 705 extrações para diversas família, e pressiona o botão ?Extract?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema realiza extrações&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Clock do sistema tempo de execução não passou de 5 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe na parte inferior da tela uma mensagem indicando que 705 extrações foram realizadas&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Extrações Sequenciais) Administrador do sistema pressiona opção ?Extract from dicrtory?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de extração por diretório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Administrador do sistema seleciona pasta ?EXTRACT_FILE_IPP320_AKIRA?, que contém 705 extrações para diversas família, e pressiona o botão ?Extract?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema realiza extrações&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Clock do sistema verifica se o tempo de execução não passou de 5 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe na parte inferior da tela uma mensagem indicando que 705 extrações foram realizadas&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Administrador do sistema acessa página ?Extractions?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com 1510&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC9">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário deve estar logado no servidor e extrator com administrador. Não existem extrações cadastradas no banco de dados.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema pressiona opção ?Extract from dicrtory?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de extração por diretório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Administrador do sistema seleciona pasta ?EXTRACT_FILE_IPP320_AKIRA?, que contém 705 extrações para diversas família, e pressiona o botão ?Extract?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema realiza extrações&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Estouro de limite de tempo) Clock do sistema tempo de execução passou de 5 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem solicitando que o usuário aguarde&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Administrador do sistema acessa página ?Extractions?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a lista de extrações com as 50 últimas entradas. Entrada 1: 14170PP30289943. Entrada 50: 12328PP30166463&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Administrador do sistema seleciona opção para mostrar 100 entradas por página&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a lista de extrações com as 100 últimas entradas.&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Administrador do sistema seleciona o combo box referente ao filtro por ?Customer?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe as opções ?Ingenico Brazil? e ?Ingenico?&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Administrador do sistema seleciona opção ?Ingenico? no campo de filtro ?Customer?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema atualiza a página mostrando somente 32 extrações&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC10">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário deve estar logado no servidor e extrator com administrador. Não existem extrações cadastradas no banco de dados.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema pressiona opção ?Extract from dicrtory?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de extração por diretório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Administrador do sistema seleciona pasta ?EXTRACT_FILE_IPP320_AKIRA?, que contém 705 extrações para diversas família, e pressiona o botão ?Extract?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema realiza extrações&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Estouro de limite de tempo) Clock do sistema tempo de execução passou de 5 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem solicitando que o usuário aguarde&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Administrador do sistema acessa página ?Extractions?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a lista de extrações com as 50 últimas entradas. Entrada 1: 14170PP30289943. Entrada 50: 12328PP30166463&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Administrador do sistema seleciona opção para mostrar 100 entradas por página&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a lista de extrações com as 100 últimas entradas.&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Administrador do sistema seleciona o combo box referente ao filtro por ?Customer?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe as opções ?Ingenico Brazil? e ?Ingenico?&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;(Filtro default) Administrador do sistema seleciona opção default no campo de filtro ?Customer?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema atualiza a página mostrando todas 705 extrações&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC11">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário deve estar logado no servidor e extrator com administrador. Não existem extrações cadastradas no banco de dados.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema pressiona opção ?Extract from dicrtory?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de extração por diretório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Administrador do sistema seleciona pasta ?EXTRACT_FILE_IPP320_AKIRA?, que contém 705 extrações para diversas família, e pressiona o botão ?Extract?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema realiza extrações&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Estouro de limite de tempo) Clock do sistema tempo de execução passou de 5 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem solicitando que o usuário aguarde&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Administrador do sistema acessa página ?Extractions?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a lista de extrações com as 50 últimas entradas. Entrada 1: 14170PP30289943. Entrada 50: 12328PP30166463&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Administrador do sistema seleciona opção para mostrar 100 entradas por página&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a lista de extrações com as 100 últimas entradas.&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Administrador do sistema seleciona o combo box referente ao filtro por ?Customer?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe as opções ?Ingenico Brazil? e ?Ingenico?&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;(Filtro ?Ingenico Brazil?) Administrador do sistema seleciona opção Ingenico Brazil no campo de filtro ?Customer?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema atualiza a página mostrando todas 673 extrações&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC12">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário deve estar logado no servidor e extrator com administrador. Não existem extrações cadastradas no banco de dados.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema pressiona opção ?Extract from dicrtory?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de extração por diretório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Administrador do sistema seleciona pasta ?EXTRACT_FILE_IPP320_AKIRA?, que contém 705 extrações para diversas família, e pressiona o botão ?Extract?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema realiza extrações&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Estouro de limite de tempo) Clock do sistema tempo de execução passou de 5 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem solicitando que o usuário aguarde&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Administrador do sistema acessa página ?Extractions?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a lista de extrações com as 50 últimas entradas. Entrada 1: 14170PP30289943. Entrada 50: 12328PP30166463&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Administrador do sistema seleciona opção para mostrar 100 entradas por página&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a lista de extrações com as 100 últimas entradas.&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;(Filtro state) Administrador do sistema seleciona combo box referente ao filtro por ?State?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe opções ?Activated?, ?Alert Interruption?, ?Deactivated?, ?Mockup? e ?Error?&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Administrador do sistema seleciona opção ?Activated? no campo de filtro ?State?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema atualiza página mostrando 608 extrações&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC13">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário deve estar logado no servidor e extrator com administrador. Não existem extrações cadastradas no banco de dados.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema pressiona opção ?Extract from dicrtory?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de extração por diretório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Administrador do sistema seleciona pasta ?EXTRACT_FILE_IPP320_AKIRA?, que contém 705 extrações para diversas família, e pressiona o botão ?Extract?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema realiza extrações&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Estouro de limite de tempo) Clock do sistema tempo de execução passou de 5 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem solicitando que o usuário aguarde&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Administrador do sistema acessa página ?Extractions?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a lista de extrações com as 50 últimas entradas. Entrada 1: 14170PP30289943. Entrada 50: 12328PP30166463&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Administrador do sistema seleciona opção para mostrar 100 entradas por página&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a lista de extrações com as 100 últimas entradas.&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;(Filtro state) Administrador do sistema seleciona combo box referente ao filtro por ?State?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe opções ?Activated?, ?Alert Interruption?, ?Deactivated?, ?Mockup? e ?Error?&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;(Filtro ?Alert Interruption?) Administrador do sistema seleciona opção ?Alert Interruption? no campo de filtro ?State?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema atualiza página mostrando 97 extrações&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC14">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário deve estar logado no servidor e extrator com administrador. Não existem extrações cadastradas no banco de dados.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema pressiona opção ?Extract from dicrtory?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de extração por diretório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Administrador do sistema seleciona pasta ?EXTRACT_FILE_IPP320_AKIRA?, que contém 705 extrações para diversas família, e pressiona o botão ?Extract?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema realiza extrações&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Estouro de limite de tempo) Clock do sistema tempo de execução passou de 5 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem solicitando que o usuário aguarde&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Administrador do sistema acessa página ?Extractions?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a lista de extrações com as 50 últimas entradas. Entrada 1: 14170PP30289943. Entrada 50: 12328PP30166463&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Administrador do sistema seleciona opção para mostrar 100 entradas por página&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a lista de extrações com as 100 últimas entradas.&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;(Filtro state) Administrador do sistema seleciona combo box referente ao filtro por ?State?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe opções ?Activated?, ?Alert Interruption?, ?Deactivated?, ?Mockup? e ?Error?&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;(Filtro ?Mockup?) Administrador do sistema seleciona opção ?Mockup? no campo de filtro ?State?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema atualiza página mostrando lista vazia&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC15">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário deve estar logado no servidor e extrator com administrador. Não existem extrações cadastradas no banco de dados.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema pressiona opção ?Extract from dicrtory?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de extração por diretório&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Administrador do sistema seleciona pasta ?EXTRACT_FILE_IPP320_AKIRA?, que contém 705 extrações para diversas família, e pressiona o botão ?Extract?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema realiza extrações&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Estouro de limite de tempo) Clock do sistema tempo de execução passou de 5 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem solicitando que o usuário aguarde&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Administrador do sistema acessa página ?Extractions?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a lista de extrações com as 50 últimas entradas. Entrada 1: 14170PP30289943. Entrada 50: 12328PP30166463&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Administrador do sistema seleciona opção para mostrar 100 entradas por página&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a lista de extrações com as 100 últimas entradas.&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;(Filtro state) Administrador do sistema seleciona combo box referente ao filtro por ?State?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe opções ?Activated?, ?Alert Interruption?, ?Deactivated?, ?Mockup? e ?Error?&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;(Filtro ?Error?) Administrador do sistema seleciona opção ?Error? no campo de filtro ?State?&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema atualiza página mostrando lista vazia&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+</testsuite>

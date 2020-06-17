@@ -1,0 +1,26 @@
+17c17
+<             step 8, system, "exibe lista de diagnósticos"
+---
+>             step 8, system, "exibe lista de diagnosticos"
+19c19
+<             step 10, system, "exibe dados do diagnóstico"
+---
+>             step 10, system, "exibe dados do diagnostico"
+29,31c29,31
+<         alternative 1, "Campo fora da formatação esperada", {
+<             step 1, usuário, "preenche algum dos campos ('Name', 'Family', 'Type', 'Scenary' ou 'Situation') com formatação errada e pressiona o botao 'Create' "
+<             step 2, system, "exibe mensagem informando que os dados nao correspondem a formatação esperada", bfs:7
+---
+>         alternative 1, "Campo fora da formatacao esperada", {
+>             step 1, usuário, "preenche algum dos campos ('Name', 'Family', 'Type', 'Scenary' ou 'Situation') com formatacao errada e pressiona o botao 'Create' "
+>             step 2, system, "exibe mensagem informando que os dados nao correspondem a formatacao esperada", bfs:7
+34,35c34,35
+<         alternative 2, "Cancela criaçao", {
+<             step 1, usuário, "Cancela criaçao", bfs:4
+---
+>         alternative 2, "Cancela criacao", {
+>             step 1, usuário, "Cancela criacao", bfs:4
+46c46
+<             step 2, system, "exibe mensagem solicitando confirmaçao"
+---
+>             step 2, system, "exibe mensagem solicitando confirmacao"

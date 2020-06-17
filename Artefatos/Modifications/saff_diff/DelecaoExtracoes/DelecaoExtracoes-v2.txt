@@ -1,0 +1,4 @@
+7c7
+<         preCondition "Usuario deve estar logado no servidor e extrator como administrador", "705 extracoes ja foram realizadas (pasta “EXTRACT_FILE_IPP320_AKIRA”)"
+---
+>         preCondition "Usuario deve estar logado no servidor", "705 extracoes ja foram realizadas (pasta “EXTRACT_FILE_IPP320_AKIRA”)"

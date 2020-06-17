@@ -1,0 +1,204 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+17 17
+18 18
+19 19
+20 20
+21 21
+22 22
+23 23
+24 24
+25 25
+26 26
+27 27
+28 28
+29 29
+30 30
+31 31
+32 32
+33 33
+34 34
+35 35
+36 36
+37 37
+38 38
+39 39
+40 40
+41 41
+42 42
+43 43
+44 44
+45 45
+46 46
+47 47
+48 48
+49 49
+50 50
+51 51
+52 52
+53 53
+54 54
+55 55
+56 56
+57 57
+58 58
+59 59
+60 60
+61 61
+62 62
+63 63
+64 64
+65 65
+66 66
+67 67
+68 68
+69 69
+70 70
+71 71
+72 72
+73 73
+74 74
+75 75
+76 76
+77 77
+78 78
+79 79
+80 80
+81 81
+82 82
+83 83
+84 84
+85 85
+86 86
+87 87
+88 88
+89 89
+90 90
+91 91
+92 92
+93 93
+94 94
+95 95
+96 96
+97 97
+98 98
+99 99
+#
+1 48 conditions
+48 2  Deve existir pelo menos um Documento cadastrado.
+2 49 steps
+49 3   Usuário super administrador loga no sistema com perfil de super administrador ou administrador
+1 50 conditions
+50 33  Deve existir pelo menos um Documento cadastrado.
+3 51 expected_results
+51 4   Sistema exibe tela principal
+4 52 steps
+52 5   Usuário super administrador seleciona opção 'Documents' no menu Settings
+5 53 expected_results
+53 6   Sistema exibe lista completa de documentos
+6 54 steps
+54 7   Usuário super administrador seleciona o botão 'Create Document'
+7 55 expected_results
+55 8   Sistema exibe página com campos de cadastro de novo documento
+8 56 steps
+56 9   Usuário super administrador preenche corretamente os campos 'Title', 'Description', 'Family', seleciona um arquivo PDF e pressiona o botão 'Create' 
+7 57 expected_results
+57 20   Sistema exibe página com campos de cadastro de novo documento
+7 58 expected_results
+58 26   Sistema exibe página com campos de cadastro de novo documento
+7 59 expected_results
+59 22   Sistema exibe página com campos de cadastro de novo documento
+7 60 expected_results
+60 24   Sistema exibe página com campos de cadastro de novo documento
+9 61 expected_results
+61 10   Sistema exibe lista de documentos
+10 62 steps
+62 11   Usuário super administrador clica no ícone link de visualização do documento
+11 63 expected_results
+63 12   Sistema abre janela de visualização do pdf
+12 64 steps
+64 13   Usuário super administrador fecha janela
+13 65 expected_results
+65 14   Sistema retorna a lista de documentos
+14 66 steps
+66 15   Usuário super administrador clica no nome de um documento
+15 67 expected_results
+67 16   Sistema exibe dados do documento
+16 68 steps
+68 17   Usuário super administrador clica no botão 'Cancel'
+15 69 expected_results
+69 27   Sistema exibe dados do documento
+15 70 expected_results
+70 30   Sistema exibe dados do documento
+17 71 expected_results
+71 18   Sistema retorna a lista de documentos
+18 72 steps
+72 19   Usuário super administrador abre lista de extrações e seleciona uma extração das famílias cadastradas anteriormente
+19 73 expected_results
+73 45   Sistema se existir extração da familia cadastrada, esta deve exibir no campo Document um link para o novo documento
+20 74 steps
+74 21  (Faltando arquivo) Usuário super administrador preenche corretamente os demais campos mas não seleciona um arquivo PDF. Pressiona o botao 'Create'
+21 75 expected_results
+75 8   Sistema exibe mensagem informando que os dados não correspondem a formatação esperada ou esta faltando informacoes
+22 76 steps
+76 23  (Documento com nome repetido) Usuário super administrador preenche o campo 'Title' com o nome de um documento ja cadastrado. Preenche corretamente os campos'Description', 'Family', seleciona um arquivo PDF e pressiona o botão 'Create'
+23 77 expected_results
+77 8   Sistema exibe mensagem informando que os já existe um documento cadastrado com o nome especificado
+24 78 steps
+78 25  (Upload de arquivo nao pdf) Usuário super administrador seleciona um arquivo de outro formato e pressiona o botao 'Create'
+25 79 expected_results
+79 8   Sistema exibe mensagem informando que o documento especificado nao e um arquivo PDF
+26 80 steps
+80 5  (Cancela criacao) Usuário super administrador cancela criacao
+27 81 steps
+81 28  (Edita dados) Usuário super administrador clica no botao 'Edit'
+28 82 expected_results
+82 29   Sistema exibe campos do documento com valores atuais que podem ser editados
+29 83 steps
+83 5   Usuário super administrador preenche os novos valores e pressiona o botão 'Update
+30 84 steps
+84 31  (Deleta documento) Usuário super administrador clica no botao 'Delete'
+31 85 expected_results
+85 32   Sistema exibe mensagem solicitando confirmacao
+32 86 steps
+86 5   Usuário super administrador pressiona o botao OK
+33 87 steps
+87 34  (Visualizacao para Operador, Gerente) Usuário super administrador loga no sistema com perfil de administrador, gerente ou operador
+34 88 expected_results
+88 35   Sistema exibe tela principal
+35 89 steps
+89 36   Usuário super administrador seleciona opção 'Documents' no menu Settings
+36 90 expected_results
+90 37   Sistema exibe lista de documentos pertencentes ao mesmo laboratório do usuário
+37 91 steps
+91 38   Usuário super administrador clica no nome link de visualização do documento
+38 92 expected_results
+92 39   Sistema abre janela de visualização do pdf
+39 93 steps
+93 40   Usuário super administrador fecha janela
+40 94 expected_results
+94 41   Sistema retorna a lista de documentos
+41 95 steps
+95 42   Usuário super administrador clica no nome de um documento
+42 96 expected_results
+96 43   Sistema exibe dados do documento
+43 97 steps
+97 44   Usuário super administrador clica no botão 'Cancel'
+44 98 expected_results
+98 46   Sistema retorna a lista de documentos
+45 99 conditions
+99 47   .

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<testsuite name="TS">
+  <node_order />
+  <details />
+  <testcase internalid="" name="TC1">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Administrador' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema apresenta uma listagem dos Administradores cadastrados no sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao 'Adicionar Administrador'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre a tela de cadastro de Administradores&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche os dados do Administrador, seleciona suas permissoes e clica no botao 'Registrar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica que o Administrador foi adicionado com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O Administrador foi adicionado com sucesso.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC2">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Administrador' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema apresenta uma listagem dos Administradores cadastrados no sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao 'Adicionar Administrador'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre a tela de cadastro de Administradores&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche os dados do Administrador, seleciona suas permissoes e clica no botao 'Registrar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Dados obrigatorios') Sistema informa que os dados obrigatorios devem ser preenchidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche os dados orbigatorios e clica no botao 'Registrar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica que o Administrador foi adicionado com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O Administrador foi adicionado com sucesso.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC3">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Administrador' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema apresenta uma listagem dos Administradores cadastrados no sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao 'Adicionar Administrador'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre a tela de cadastro de Administradores&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche os dados do Administrador, seleciona suas permissoes e clica no botao 'Registrar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Email invalido) Sistema alerta usuario de que Email e invalido&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador insere um Email valido e clica no botao 'Registrar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica que o Administrador foi adicionado com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O Administrador foi adicionado com sucesso.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC4">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Administrador' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema apresenta uma listagem dos Administradores cadastrados no sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao 'Adicionar Administrador'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre a tela de cadastro de Administradores&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche os dados do Administrador, seleciona suas permissoes e clica no botao 'Registrar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Senha e Confirmacao diferentes) Sistema alerta usuario de que senhas estao diferentes&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador insere Senhas iguais e clica no botao 'Registrar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica que o Administrador foi adicionado com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O Administrador foi adicionado com sucesso.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC5">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Administrador' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema apresenta uma listagem dos Administradores cadastrados no sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao 'Adicionar Administrador'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre a tela de cadastro de Administradores&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche os dados do Administrador, seleciona suas permissoes e clica no botao 'Registrar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Sem Permissao) Sistema alerta usuario que Administrador nao esta com nenhuma Permissao&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador insere uma permissao e clica no botao 'Registrar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica que o Administrador foi adicionado com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O Administrador foi adicionado com sucesso.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+</testsuite>

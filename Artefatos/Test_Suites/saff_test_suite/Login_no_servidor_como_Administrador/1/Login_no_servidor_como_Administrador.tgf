@@ -1,0 +1,41 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+17 17
+18 18
+19 19
+#
+1 2 [c] Deve existir um usuario cadastrado com perfil administrador.
+2 3 [s]  Administrador do sistema acessa o sistema
+3 4 [e]  Sistema exibe pagina de login
+4 5 [s]  Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login
+3 6 [e]  Sistema exibe pagina de login
+3 8 [e]  Sistema exibe pagina de login
+3 10 [e]  Sistema exibe pagina de login
+5 16 [e]  Sistema exibe pagina 'Search extraction'
+4 14 [s]  Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login
+4 15 [s]  Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login
+6 7 [s] (User invalido) Administrador do sistema digita o user de um usuário invalido, digita uma password e pressiona o botao Login
+7 4 [e]  Sistema exibe na pagina de login uma mensagem de usuario ou senha incorretos
+8 9 [s] (Password invalida) Administrador do sistema digita o user de um usuario administrador corretamente, digita uma password inválida e pressiona o botão Login
+9 4 [e]  Sistema exibe mensagem de usuario ou senha incorretos na pagina de login; informa o numero de tentativas restantes ate que o usuario seja bloqueado
+10 11 [s] (Numero de tentativas invalidas e 5) Administrador do sistema digita o user correte e o password invalido pela sexta vez e pressiona o botao Login
+11 12 [e]  Sistema bloqueia o usuario e exibe uma mensagem informando que o usuario foi bloqueado
+12 13 [s]  Administrador do sistema tenta mais uma vez logar na conta do usuário, agora com dados validos
+13 17 [e]  Sistema exibe mensagem informando usuario esta bloqueado
+14 4 [e] (Usuario inativo por 30 minutos) Sistema finaliza sessão do usuario e retorna a pagina de login ao receber alguma requisicao do usuario
+15 18 [e] (Usuario inativo por 90 dias) Sistema exibe mensagem indicando que usuario foi bloqueado
+16 19 [c]  .

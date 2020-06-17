@@ -1,0 +1,78 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+17 17
+18 18
+19 19
+20 20
+21 21
+22 22
+23 23
+24 24
+25 25
+26 26
+27 27
+28 28
+29 29
+30 30
+31 31
+32 32
+33 33
+34 34
+35 35
+36 36
+37 37
+#
+1 18 conditions
+18 2  Usuario Administrador esta logado no sistema.
+2 19 steps
+19 3   Usuario Administrador abre tela inicial do sistema
+3 20 expected_results
+20 4   Sistema exibe tela inicial do sistema
+4 21 steps
+21 5   Usuario Administrador clica no opcao 'Ecommerces' no menu principal
+5 22 expected_results
+22 6   Sistema exibe a tela com a lista de E-commerces cadastrados no sistema
+6 23 steps
+23 7   Usuario Administrador clica no botao 'Adicionar E-commerce'
+5 24 expected_results
+24 10   Sistema exibe a tela com a lista de E-commerces cadastrados no sistema
+7 25 expected_results
+25 8   Sistema exibe tela de cadastro de E-commerce
+8 26 steps
+26 9   Usuario Administrador insere os dados de cadastro do E-commerce e clica no botao 'Cadastrar'
+7 27 expected_results
+27 11   Sistema exibe tela de cadastro de E-commerce
+9 28 expected_results
+28 16   Sistema notifica que E-commerce foi cadastrado com sucesso e exibe lista de Ecommerces
+8 29 steps
+29 12   Usuario Administrador insere os dados de cadastro do E-commerce e clica no botao 'Cadastrar'
+8 30 steps
+30 14   Usuario Administrador insere os dados de cadastro do E-commerce e clica no botao 'Cadastrar'
+10 31 steps
+31 3  (Volta para tela inicial do sistema) Usuario Administrador clica no botao 'Voltar'
+11 32 steps
+32 5  (Cancela registro de Ecommerce) Usuario Administrador clica no botao 'Cancelar'
+12 33 expected_results
+33 13  (Nao preenche algum campo obrigatorio) Sistema alerta ao usuario que os campos obrigatorios devem ser preenchidos
+13 34 steps
+34 9   Usuario Administrador informa os campos obrigatorios e clica no botao de 'Cadastrar'
+14 35 expected_results
+35 15  (Conflito de CNPJ) Sistema alerta que ja existe um E-commerce cadastrado com o CNPJ
+15 36 steps
+36 9   Usuario Administrador preenche o CNPJ correto e clica no botão 'Cadastrar'
+16 37 conditions
+37 17  O novo E-commerce esta salvo no sistema.

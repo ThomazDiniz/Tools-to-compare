@@ -1,0 +1,43 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+17 17
+18 18
+19 19
+20 20
+#
+1 2 [c] Usuario deve estar logado como administrador.
+2 3 [s]  Administrador do sistema configura o extrator para iniciar em modo 'Automatic Collection'
+3 4 [e]  Sistema exibe tela de login
+4 5 [s]  Administrador do sistema faz login no extrator
+5 6 [e]  Sistema exibe tela de coleta automatica
+6 7 [s]  Administrador do sistema seleciona uma pasta contendo varias extracoes, seta as informacoes solicitadas na tela inicial e pressiona o botao 'Start'
+5 12 [e]  Sistema exibe tela de coleta automatica
+7 8 [e]  Sistema bloqueia todos os botoes, com excecao do botao 'Stop'
+8 9 [s]  temporizador a cada 30 segundos
+9 10 [e]  Sistema envia extracoes para o servidor, transfere essas extrações para a pasta 'read', atualiza o contador de extrações realizadas e fica em espera por novas extracoes na pasta indicada
+8 16 [s]  temporizador a cada 30 segundos
+10 11 [s]  Administrador do sistema pressiona botao 'Stop'
+9 15 [e]  Sistema envia extracoes para o servidor, transfere essas extrações para a pasta 'read', atualiza o contador de extrações realizadas e fica em espera por novas extracoes na pasta indicada
+11 19 [e]  Sistema desbloqueia todos os botoes e para de escutar a pasta indicada
+12 13 [s] (Seleciona pasta vazia) Administrador do sistema seleciona pasta vazia, e pressiona botao 'Start'
+13 14 [e]  Sistema fica em espera ate que alguma extracao seja adicionada na pasta indicada
+14 7 [s]  Administrador do sistema adiciona extracao a pasta indicada
+15 7 [s] (Insere novas extracoes na pasta) Administrador do sistema adiciona novas extracoes na pasta indicada
+16 17 [e] (Falha no envio ao servidor) Sistema mantem a informacao de quais extracoes foram enviadas para o servidor; fica em espera ate que a conexao seja reestabelecida
+17 18 [s]  temporizador a cada 30 segundos
+18 8 [e]  Sistema tenta enviar extrações restantes para o servidor
+19 20 [c] As extracoes da pasta indicada devem ter sido enviadas para o servidor e transferidas para a pasta 'read'.

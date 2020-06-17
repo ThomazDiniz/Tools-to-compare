@@ -1,0 +1,120 @@
+12c12
+<             step 3, usuário, "seleciona opção 'Users' no menu Settings"
+---
+>             step 3, usuário, "seleciona opcao 'Users' no menu Settings"
+15,19c15,19
+<             step 6, system, "exibe página com campos de cadastro do usuário"
+<             step 7, usuário, "preenche corretamente os campos 'Name', 'Login', 'Password', 'Confirm Password', escolhe uma opção para os campos 'Type', 'Laboratory', 'Language', e pressiona o botão 'Create' ", af:[1,2]
+<             step 8, system, "exibe mensagem indicando que novo usuário foi criado"
+<             step 9, usuário, "clica no link de visualização dos usuários"
+<             step 10, system, "exibe lista completa de usuários"
+---
+>             step 6, system, "exibe pagina com campos de cadastro do usuario"
+>             step 7, usuário, "preenche corretamente os campos 'Name', 'Login', 'Password', 'Confirm Password', escolhe uma opcao para os campos 'Type', 'Laboratory', 'Language', e pressiona o botão 'Create' ", af:[1,2]
+>             step 8, system, "exibe mensagem indicando que novo usuario foi criado"
+>             step 9, usuário, "clica no link de visualizacao dos usuarios"
+>             step 10, system, "exibe lista completa de usuarios"
+21c21
+<             step 14, system, "exibe dados do usuário"
+---
+>             step 14, system, "exibe dados do usuario"
+23c23
+<             step 16, system, "exibe lista completa de usuários"
+---
+>             step 16, system, "exibe lista completa de usuarios"
+27,28c27,28
+<             step 1, usuário, "preenche o campo 'Login' com o login associado a um outro usuário cadastrado. Preenche corretamente os demais campos e pressiona o botão 'Create'"
+<             step 2, system, "exibe mensagem informando que os este usuários já existe", bfs:7
+---
+>             step 1, usuário, "preenche o campo 'Login' com o login associado a um outro usuario cadastrado. Preenche corretamente os demais campos e pressiona o botão 'Create'"
+>             step 2, system, "exibe mensagem informando que os este usuarios já existe", bfs:7
+31,32c31,32
+<         alternative 2, "Cancela criação", {
+<             step 1, usuário, "cancela criação", bfs:4
+---
+>         alternative 2, "Cancela criacao", {
+>             step 1, usuário, "cancela criacao", bfs:4
+36c36
+<             step 1, usuário, "clica no botão 'Edit'"
+---
+>             step 1, usuário, "clica no botao 'Edit'"
+38,40c38,40
+<             step 3, usuário, "preenche os novos valores para os campos 'Name' e 'Type', mantém a linguagem e pressiona o botão 'Update", af:[4,5,6]
+<             step 4, system, "exibe novos dados do usuários"
+<             step 5, usuário, "acessa link que lista todos usuários", bfs:4
+---
+>             step 3, usuário, "preenche os novos valores para os campos 'Name' e 'Type', mantém a linguagem e pressiona o botao 'Update", af:[4,5,6]
+>             step 4, system, "exibe novos dados do usuarios"
+>             step 5, usuário, "acessa link que lista todos usuarios", bfs:4
+45c45
+<             step 2, system, "exibe novos dados do usuários"
+---
+>             step 2, system, "exibe novos dados do usuarios"
+47c47
+<             step 4, system, "é apresentado na nova linguagem"
+---
+>             step 4, system, "e apresentado na nova linguagem"
+51,52c51,52
+<             step 1, usuário, "pressiona botão 'Reset Password'"
+<             step 2, system, "exibe mensagem pedindo confirmação"
+---
+>             step 1, usuário, "pressiona botao 'Reset Password'"
+>             step 2, system, "exibe mensagem pedindo confirmacao"
+54c54
+<             step 4, system, "exibe lista completa de usuários", bfs:5
+---
+>             step 4, system, "exibe lista completa de usuarios", bfs:5
+57,66c57,66
+<         alternative 6, "Bloqueio de usuário", {
+<             step 1, usuário, "pressiona botão 'Block User'"
+<             step 2, system, "exibe mensagem pedindo confirmação"
+<             step 3, usuário, "confirma desejo de bloquear usuário", af:[8]
+<             step 4, system, "exibe mensagem confirmando bloqueio de usuário"
+<             step 5, usuário, "acessa link que lista todos usuários"
+<             step 6, system, "exibe lista completa de usuários onde o usuário atualizado é sinalizado como bloqueado"
+<             step 7, usuário, "clica no nome do usuário bloqueado", af:[9]
+<             step 8, system, "exibe dados do usuário"
+<             step 9, usuário, "clica no botão 'Edit'", af:[10]
+---
+>         alternative 6, "Bloqueio de usuario", {
+>             step 1, usuário, "pressiona botao 'Block User'"
+>             step 2, system, "exibe mensagem pedindo confirmacao"
+>             step 3, usuário, "confirma desejo de bloquear usuario", af:[8]
+>             step 4, system, "exibe mensagem confirmando bloqueio de usuario"
+>             step 5, usuário, "acessa link que lista todos usuarios"
+>             step 6, system, "exibe lista completa de usuários onde o usuario atualizado e sinalizado como bloqueado"
+>             step 7, usuário, "clica no nome do usuario bloqueado", af:[9]
+>             step 8, system, "exibe dados do usuario"
+>             step 9, usuário, "clica no botao 'Edit'", af:[10]
+68c68
+<             step 11, usuário, "pressiona botão 'Unblock User'"
+---
+>             step 11, usuário, "pressiona botao 'Unblock User'"
+70,73c70,73
+<             step 13, usuário, "confirma desejo de desbloquear usuário"
+<             step 14, system, "exibe mensagem confirmando desbloqueio de usuário"
+<             step 15, usuário, "acessa link que lista todos usuários"
+<             step 16, system, "exibe lista completa de usuários onde o usuário atualizado não é sinalizado como bloqueado", bfs:5
+---
+>             step 13, usuário, "confirma desejo de desbloquear usuario"
+>             step 14, system, "exibe mensagem confirmando desbloqueio de usuario"
+>             step 15, usuário, "acessa link que lista todos usuarios"
+>             step 16, system, "exibe lista completa de usuários onde o usuario atualizado nao e sinalizado como bloqueado", bfs:5
+80c80
+<         alternative 8, "Cancela bloqueio de usuário", {
+---
+>         alternative 8, "Cancela bloqueio de usuario", {
+85,86c85,86
+<             step 1, usuário, "faz log out e tenta loga na conta do usuário que teve os dados atualizados"
+<             step 2, system, "exibe mensagem que usuário está bloqueado"
+---
+>             step 1, usuário, "faz log out e tenta loga na conta do usuario que teve os dados atualizados"
+>             step 2, system, "exibe mensagem que usuário esta bloqueado"
+89c89
+<         alternative 10, "Deleta usuário", {
+---
+>         alternative 10, "Deleta usuario", {
+91c91
+<             step 2, system, "exibe mensagem solicitando confirmação"
+---
+>             step 2, system, "exibe mensagem solicitando confirmacao"

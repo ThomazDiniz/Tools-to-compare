@@ -1,0 +1,127 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+17 17
+18 18
+19 19
+20 20
+21 21
+22 22
+23 23
+24 24
+25 25
+26 26
+27 27
+28 28
+29 29
+30 30
+31 31
+32 32
+33 33
+34 34
+35 35
+36 36
+37 37
+38 38
+39 39
+40 40
+41 41
+42 42
+43 43
+44 44
+45 45
+46 46
+47 47
+48 48
+49 49
+50 50
+51 51
+52 52
+53 53
+54 54
+55 55
+56 56
+57 57
+58 58
+#
+1 25 conditions
+25 2  Usuario Administrador esta logado no sistema.
+2 26 steps
+26 3   Usuario Administrador clica na opcao 'Central de Operacoes' no menu da tela principal
+3 27 expected_results
+27 4   Sistema exibe Dashboard do sistema
+4 28 steps
+28 5   Usuario Administrador clica em tab 'Pedidos'
+3 29 expected_results
+29 12   Sistema exibe Dashboard do sistema
+3 30 expected_results
+30 13   Sistema exibe Dashboard do sistema
+3 31 expected_results
+31 14   Sistema exibe Dashboard do sistema
+3 32 expected_results
+32 15   Sistema exibe Dashboard do sistema
+3 33 expected_results
+33 16   Sistema exibe Dashboard do sistema
+5 34 expected_results
+34 6   Sistema abre uma tela com a lista de 'Pedidos'
+6 35 steps
+35 7   Usuario Administrador seleciona algum Pedido (NFe) da lista
+5 36 expected_results
+36 17   Sistema abre uma tela com a lista de 'Pedidos'
+5 37 expected_results
+37 18   Sistema abre uma tela com a lista de 'Pedidos'
+5 38 expected_results
+38 19   Sistema abre uma tela com a lista de 'Pedidos'
+5 39 expected_results
+39 21   Sistema abre uma tela com a lista de 'Pedidos'
+7 40 expected_results
+40 8   Sistema exibe os dados da nota
+8 41 steps
+41 9   Usuario Administrador clica no botao de 'Registrar Ocorrencia'
+7 42 expected_results
+42 22   Sistema exibe os dados da nota
+9 43 expected_results
+43 10   Sistema abre modal para digitacao da ocorrencia
+10 44 steps
+44 11   Usuario Administrador digita ocorrencia e clica em 'Confirmar'
+9 45 expected_results
+45 20   Sistema abre modal para digitacao da ocorrencia
+11 46 expected_results
+46 23   Sistema notifica que Ocorrencia foi registrada com sucesso
+12 47 steps
+47 5  (Seleciona contador de 'Engine') Usuario Administrador clica em algum contador de 'Engine' na secao de 'Notas'
+13 48 steps
+48 5  (Seleciona contador de 'Conferencia') Usuario Administrador clica em algum contador de 'Aceitas' na secao de 'Notas'
+14 49 steps
+49 5  (Seleciona contador de 'Picking') Usuario Administrador clica em algum contador de 'Picking' na secao de 'Notas'
+15 50 steps
+50 5 5  (Seleciona contador de 'Atrasos') Usuario Administrador clica em algum contador de 'Atrasos' na secao de 'Notas'
+16 51 steps
+51 5  (Seleciona contador de 'Retornos') Usuario Administrador clica em algum contador de 'Retornos' na secao de 'Notas'
+17 52 steps
+52 5  (Navega pelas paginas da lista) Usuario Administrador seleciona outra pagina
+18 53 steps
+53 3  (Clica no botao Voltar) Usuario Administrador clica no botao 'Voltar'
+19 54 steps
+54 5  (Ordena Notas) Usuario Administrador ordenas as coletas por alguma coluna
+20 55 steps
+55 7  (Cancela registro de ocorrencia) Usuario Administrador clica em botao 'Cancelar'
+21 56 steps
+56 5  (Filtra pedidos da lista) Usuario Administrador filtra os pedidos por algum campo
+22 57 steps
+57 5  (Volta para lista de pedidos) Usuario Administrador clica em botão Voltar
+23 58 conditions
+58 24  A ocorrencia esta registrada.

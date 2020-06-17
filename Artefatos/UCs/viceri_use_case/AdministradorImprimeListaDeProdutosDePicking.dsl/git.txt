@@ -1,0 +1,5 @@
+commit 43a13c9dc8d4fade1db94f47050c889b5a83f4e9
+Author: Guilherme Gadelha <guilhermemgadelha@outlook.com>
+Date:   Thu Mar 9 15:18:37 2017 -0300
+
+    casos de uso AdministradorImprimeListaDeProdutosDePicking e AdministradorImprimePDFDeCTeNFSe (undefined)

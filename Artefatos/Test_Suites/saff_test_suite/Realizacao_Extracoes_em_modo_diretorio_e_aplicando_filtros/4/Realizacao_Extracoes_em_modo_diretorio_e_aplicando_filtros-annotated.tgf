@@ -1,0 +1,193 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+17 17
+18 18
+19 19
+20 20
+21 21
+22 22
+23 23
+24 24
+25 25
+26 26
+27 27
+28 28
+29 29
+30 30
+31 31
+32 32
+33 33
+34 34
+35 35
+36 36
+37 37
+38 38
+39 39
+40 40
+41 41
+42 42
+43 43
+44 44
+45 45
+46 46
+47 47
+48 48
+49 49
+50 50
+51 51
+52 52
+53 53
+54 54
+55 55
+56 56
+57 57
+58 58
+59 59
+60 60
+61 61
+62 62
+63 63
+64 64
+65 65
+66 66
+67 67
+68 68
+69 69
+70 70
+71 71
+72 72
+73 73
+74 74
+75 75
+76 76
+77 77
+78 78
+79 79
+80 80
+81 81
+82 82
+83 83
+84 84
+85 85
+86 86
+87 87
+88 88
+89 89
+90 90
+91 91
+92 92
+93 93
+94 94
+95 95
+96 96
+#
+1 49 conditions
+49 2  Usuário deve estar logado no servidor e extrator com administrador. Não existem extrações cadastradas no banco de dados.
+2 50 steps
+50 3   Administrador do sistema pressiona opção ?Extract from dicrtory?
+3 51 expected_results
+51 4   Sistema exibe tela de extração por diretório
+4 52 steps
+52 5   Administrador do sistema seleciona pasta ?EXTRACT_FILE_IPP320_AKIRA?, que contém 705 extrações para diversas família, e pressiona o botão ?Extract?
+5 53 expected_results
+53 6   Sistema realiza extrações
+6 54 steps
+54 7   Clock do sistema tempo de execução não passou de 5 segundos
+5 55 expected_results
+55 16   Sistema realiza extrações
+7 56 expected_results
+56 8   Sistema exibe na parte inferior da tela uma mensagem indicando que 705 extrações foram realizadas
+8 57 steps
+57 9   Administrador do sistema acessa página ?Extractions?
+7 58 expected_results
+58 32   Sistema exibe na parte inferior da tela uma mensagem indicando que 705 extrações foram realizadas
+9 59 expected_results
+59 10   Sistema exibe a lista de extrações com as 50 últimas entradas. Entrada 1: 14170PP30289943. Entrada 50: 12328PP30166463
+10 60 steps
+60 11   Administrador do sistema seleciona opção para mostrar 100 entradas por página
+11 61 expected_results
+61 12   Sistema exibe a lista de extrações com as 100 últimas entradas.
+12 62 steps
+62 13   Administrador do sistema seleciona o combo box referente ao filtro por ?Customer?
+11 63 expected_results
+63 22   Sistema exibe a lista de extrações com as 100 últimas entradas.
+13 64 expected_results
+64 14   Sistema exibe as opções ?Ingenico Brazil? e ?Ingenico?
+14 65 steps
+65 15   Administrador do sistema seleciona opção ?Ingenico? no campo de filtro ?Customer?
+13 66 expected_results
+66 18   Sistema exibe as opções ?Ingenico Brazil? e ?Ingenico?
+13 67 expected_results
+67 20   Sistema exibe as opções ?Ingenico Brazil? e ?Ingenico?
+15 68 expected_results
+68 40   Sistema atualiza a página mostrando somente 32 extrações
+16 69 steps
+69 17  (Estouro de limite de tempo) Clock do sistema tempo de execução passou de 5 segundos
+17 70 expected_results
+70 8   Sistema exibe mensagem solicitando que o usuário aguarde
+18 71 steps
+71 19  (Filtro default) Administrador do sistema seleciona opção default no campo de filtro ?Customer?
+19 72 expected_results
+72 41   Sistema atualiza a página mostrando todas 705 extrações
+20 73 steps
+73 21  (Filtro ?Ingenico Brazil?) Administrador do sistema seleciona opção Ingenico Brazil no campo de filtro ?Customer?
+21 74 expected_results
+74 42   Sistema atualiza a página mostrando todas 673 extrações
+22 75 steps
+75 23  (Filtro state) Administrador do sistema seleciona combo box referente ao filtro por ?State?
+23 76 expected_results
+76 24   Sistema exibe opções ?Activated?, ?Alert Interruption?, ?Deactivated?, ?Mockup? e ?Error?
+24 77 steps
+77 25   Administrador do sistema seleciona opção ?Activated? no campo de filtro ?State?
+23 78 expected_results
+78 26   Sistema exibe opções ?Activated?, ?Alert Interruption?, ?Deactivated?, ?Mockup? e ?Error?
+23 79 expected_results
+79 28   Sistema exibe opções ?Activated?, ?Alert Interruption?, ?Deactivated?, ?Mockup? e ?Error?
+23 80 expected_results
+80 30   Sistema exibe opções ?Activated?, ?Alert Interruption?, ?Deactivated?, ?Mockup? e ?Error?
+25 81 expected_results
+81 43   Sistema atualiza página mostrando 608 extrações
+26 82 steps
+82 27  (Filtro ?Alert Interruption?) Administrador do sistema seleciona opção ?Alert Interruption? no campo de filtro ?State?
+27 83 expected_results
+83 44   Sistema atualiza página mostrando 97 extrações
+28 84 steps
+84 29  (Filtro ?Mockup?) Administrador do sistema seleciona opção ?Mockup? no campo de filtro ?State?
+29 85 expected_results
+85 45   Sistema atualiza página mostrando lista vazia
+30 86 steps
+86 31  (Filtro ?Error?) Administrador do sistema seleciona opção ?Error? no campo de filtro ?State?
+31 87 expected_results
+87 46   Sistema atualiza página mostrando lista vazia
+32 88 steps
+88 33  (Extrações Sequenciais) Administrador do sistema pressiona opção ?Extract from dicrtory?
+33 89 expected_results
+89 34   Sistema exibe tela de extração por diretório
+34 90 steps
+90 35   Administrador do sistema seleciona pasta ?EXTRACT_FILE_IPP320_AKIRA?, que contém 705 extrações para diversas família, e pressiona o botão ?Extract?
+35 91 expected_results
+91 36   Sistema realiza extrações
+36 92 steps
+92 37   Clock do sistema verifica se o tempo de execução não passou de 5 segundos
+37 93 expected_results
+93 38   Sistema exibe na parte inferior da tela uma mensagem indicando que 705 extrações foram realizadas
+38 94 steps
+94 39   Administrador do sistema acessa página ?Extractions?
+39 95 expected_results
+95 47   Sistema exibe uma lista com 1510
+40 96 conditions
+96 48   .

@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<testsuite name="TS">
+  <node_order />
+  <details />
+  <testcase internalid="" name="TC1">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário deve estar logado no sistema. administrador ou super administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuário do sistema seleciona a opção 'My Account' no canto superior direito&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela onde os campos 'Name', 'Login', 'Type' e 'Language'. Eles estão devidamente preenchidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuário do sistema pressiona botão 'Edit'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos em branco para atualização&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuário do sistema preenche corretamente os campos 'Old Password', 'New Password', 'Confirm Password' e pressiona o botão 'Update'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com informações do usuário e apresenta mensagem informando que as informações foram atualizadas&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC2">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário deve estar logado no sistema. administrador ou super administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuário do sistema seleciona a opção 'My Account' no canto superior direito&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela onde os campos 'Name', 'Login', 'Type' e 'Language'. Eles estão devidamente preenchidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuário do sistema pressiona botão 'Edit'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos em branco para atualização&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Troca Idioma) Usuário do sistema preenche corretamente os campos 'Old Password', 'New Password', 'Confirm Password', troca 'Language' de Inglês para Português e pressiona o botão 'Update'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com informações do usuário. Apresenta mensagem informando que as informações foram atualizadas e atualiza conta no novo idioma&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC3">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário deve estar logado no sistema. administrador ou super administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuário do sistema seleciona a opção 'My Account' no canto superior direito&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela onde os campos 'Name', 'Login', 'Type' e 'Language'. Eles estão devidamente preenchidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuário do sistema pressiona botão 'Edit'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos em branco para atualização&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Cancela Edição) Usuário do sistema pressiona botão 'Cancel'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela onde os campos 'Name', 'Login', 'Type' e 'Language'. Eles estão devidamente preenchidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuário do sistema pressiona botão 'Edit'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos em branco para atualização&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuário do sistema preenche corretamente os campos 'Old Password', 'New Password', 'Confirm Password' e pressiona o botão 'Update'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com informações do usuário e apresenta mensagem informando que as informações foram atualizadas&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC4">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário deve estar logado no sistema. administrador ou super administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuário do sistema seleciona a opção 'My Account' no canto superior direito&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela onde os campos 'Name', 'Login', 'Type' e 'Language'. Eles estão devidamente preenchidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuário do sistema pressiona botão 'Edit'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos em branco para atualização&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Cancela Edição) Usuário do sistema pressiona botão 'Cancel'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela onde os campos 'Name', 'Login', 'Type' e 'Language'. Eles estão devidamente preenchidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuário do sistema pressiona botão 'Edit'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos em branco para atualização&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;(Troca Idioma) Usuário do sistema preenche corretamente os campos 'Old Password', 'New Password', 'Confirm Password', troca 'Language' de Inglês para Português e pressiona o botão 'Update'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com informações do usuário. Apresenta mensagem informando que as informações foram atualizadas e atualiza conta no novo idioma&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC5">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário deve estar logado no sistema. administrador ou super administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuário do sistema seleciona a opção 'My Account' no canto superior direito&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela onde os campos 'Name', 'Login', 'Type' e 'Language'. Eles estão devidamente preenchidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuário do sistema pressiona botão 'Edit'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos em branco para atualização&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Cancela Edição) Usuário do sistema pressiona botão 'Cancel'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela onde os campos 'Name', 'Login', 'Type' e 'Language'. Eles estão devidamente preenchidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuário do sistema pressiona botão 'Edit'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos em branco para atualização&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;(Cancela Edição) Usuário do sistema pressiona botão 'Cancel'&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC6">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário deve estar logado no sistema. administrador ou super administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuário do sistema seleciona a opção 'My Account' no canto superior direito&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela onde os campos 'Name', 'Login', 'Type' e 'Language'. Eles estão devidamente preenchidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuário do sistema pressiona botão 'Edit'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos em branco para atualização&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Cancela Edição) Usuário do sistema pressiona botão 'Cancel'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela onde os campos 'Name', 'Login', 'Type' e 'Language'. Eles estão devidamente preenchidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuário do sistema pressiona botão 'Edit'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos em branco para atualização&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;(Password inválido) Usuário do sistema preenche incorretamente o campos 'Old Password'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem infrmando que o Password fornecido não está correto&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuário do sistema preenche corretamente os campos 'Old Password', 'New Password', 'Confirm Password' e pressiona o botão 'Update'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com informações do usuário e apresenta mensagem informando que as informações foram atualizadas&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC7">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário deve estar logado no sistema. administrador ou super administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuário do sistema seleciona a opção 'My Account' no canto superior direito&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela onde os campos 'Name', 'Login', 'Type' e 'Language'. Eles estão devidamente preenchidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuário do sistema pressiona botão 'Edit'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos em branco para atualização&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Cancela Edição) Usuário do sistema pressiona botão 'Cancel'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela onde os campos 'Name', 'Login', 'Type' e 'Language'. Eles estão devidamente preenchidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuário do sistema pressiona botão 'Edit'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos em branco para atualização&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;(Novo Password fora dos padrões (uppercase, lowercase, numbers, special characters and size between 8 and 20)) Usuário do sistema preenche o campos 'New Password' com uma senha fora dos padrões exigidos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem infrmando que o Password fornecido não está conforme o exigido&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuário do sistema preenche corretamente os campos 'Old Password', 'New Password', 'Confirm Password' e pressiona o botão 'Update'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com informações do usuário e apresenta mensagem informando que as informações foram atualizadas&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC8">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário deve estar logado no sistema. administrador ou super administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuário do sistema seleciona a opção 'My Account' no canto superior direito&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela onde os campos 'Name', 'Login', 'Type' e 'Language'. Eles estão devidamente preenchidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuário do sistema pressiona botão 'Edit'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos em branco para atualização&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Password inválido) Usuário do sistema preenche incorretamente o campos 'Old Password'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem infrmando que o Password fornecido não está correto&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuário do sistema preenche corretamente os campos 'Old Password', 'New Password', 'Confirm Password' e pressiona o botão 'Update'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com informações do usuário e apresenta mensagem informando que as informações foram atualizadas&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC9">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário deve estar logado no sistema. administrador ou super administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuário do sistema seleciona a opção 'My Account' no canto superior direito&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela onde os campos 'Name', 'Login', 'Type' e 'Language'. Eles estão devidamente preenchidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuário do sistema pressiona botão 'Edit'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos em branco para atualização&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Novo Password fora dos padrões (uppercase, lowercase, numbers, special characters and size between 8 and 20)) Usuário do sistema preenche o campos 'New Password' com uma senha fora dos padrões exigidos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem infrmando que o Password fornecido não está conforme o exigido&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuário do sistema preenche corretamente os campos 'Old Password', 'New Password', 'Confirm Password' e pressiona o botão 'Update'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com informações do usuário e apresenta mensagem informando que as informações foram atualizadas&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+</testsuite>

@@ -1,0 +1,32 @@
+15c15
+<             step 3, Administrador,  "seleciona um E-commerce na lista", af:[1,2]
+---
+>             step 3, Administrador,  "seleciona um E-commerce na lista", af:[1,2,3,4]
+19,20c19,20
+<             step 5, Administrador,  "clica no botao de atualizar"
+<             step 6, system,         "atualiza os dados do E-commerce no sistema", ef:[1,2]
+---
+>             step 5, Administrador,  "clica no botao de atualizar", af:[5]
+>             step 6, system,         "notifica usuario de que o Ecommerce foi atualizado com sucesso", ef:[1,2]
+23c23
+<         alternative 1, "Usuario ordena lista de Ecommerce", {
+---
+>         alternative 1, "Ordena lista de Ecommerce", {
+27c27
+<         alternative 2, "Usuario navega por paginas de tabela", {
+---
+>         alternative 2, "Navega por paginas de tabela", {
+30c31,42
+---
+>         alternative 3, "Filtra lista de Ecommerce", {
+>             step 1, Administrador, "preenche campos de filtragem", bfs:2
+>         }
+> 
+>         alternative 4, "Cancela atualizacao de Ecommerce", {
+>             step 1, Administrador, "clica no botao Cancelar", bfs:2
+>         }
+> 
+>         alternative 5, "Volta para tela inicial de sistema", {
+>             step 1, Administrador, "clica no botao Voltar", bfs:2
+>         }
+> 

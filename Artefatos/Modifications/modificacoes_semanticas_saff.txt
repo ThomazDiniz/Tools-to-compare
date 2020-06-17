@@ -1,0 +1,37 @@
+    stringTest("extracaoEmModoLLT", 1, "realiza extração em modo offline", "exibe página que requisita dados do terminal");
+
+    stringTest("extracaoEmModoLLT", 2, "conecta um terminal em uma porta USB previamente cadastrada e o coloca em modo LLT", "inicia o SAFF Extractor e se autentica");
+    stringTest("extracaoEmModoLLT", 2, "entra em modo LLT", "exibe pagina que requisita dados do terminal");
+    stringTest("extracaoEmModoLLT", 2, "muda foco para campo referente ao tipo de teste", "escolhe opcao Pre_Test para tipo de teste");
+    stringTest("extracaoEmModoLLT", 2, "digita o product number e serial number válidos e pressiona tecla Tab", "digita um product number e serial number validos e pressiona Extract (terminal em modo LLT)");
+    stringTest("extracaoEmModoLLT", 2, "escolhe opção Test1 para tipo de teste e pressiona botão 'Extract'", "apresenta a marcacao da opcao escolhida");
+    stringTest("extracaoEmModoLLT", 2, "realiza a extração", "realiza a extração, a envia para o servidor, e a salva nas pastas de backup local ('Backup' e 'Results')");
+
+    stringTest("extracaoEmModoLLT", 3, "digita um product number e serial number validos e pressiona Extract", "digita um product number e serial number validos, preenche o Note e pressiona Extract");
+
+    stringTest("crudCliente", 3, "preenche incorretamente os campos 'Name', 'Key File' e/ou 'Country' e pressiona o botão 'Create'", "preenche corretamente os campos 'Name', 'Key File' e 'Country' e pressiona o botão 'Create' ");
+
+    stringTest("loginExtratorComoAdministrador", 2, "digita um login de usuário administrador e/ou password invalidos pela terceira vez e pressiona Login", "digita o user de um usuário inválido, digita uma password e pressiona o botao Login");
+    stringTest("loginExtratorComoAdministrador", 2, "exibe mensagem de alerta", "abre um pop-up e exibe a mensagem “User or Password incorrect. Attempts remaining until the account lockout: #tentativas restantes#” em um pop-up");
+    stringTest("loginExtratorComoAdministrador", 2, "digita um login de usuário administrador e/ou password invalidos pela quinta vez e pressiona Login", "digita o user de um usuario administrador corretamente, digita uma password invalida pela sexta vez e pressiona o botao Login");
+    stringTest("loginExtratorComoAdministrador", 2, "bloqueia usuário", "bloqueia o usuário e exibe a mensagem 'This user has been blocked'");
+    stringTest("loginExtratorComoAdministrador", 2, "fecha a janela pop-up", "exibe mensagem informando usuario está bloqueado");
+    stringTest("loginExtratorComoAdministrador", 2, "exibe tela “SAFF Extractor” em modo offline", "fecha a janela pop-up e exibe tela de extracao por dispositivo em modo offline");
+    stringTest("loginExtratorComoAdministrador", 2, "infoma que usuario esta bloqueado por inatividade", "exibe a mensagem 'This user has been blocked'");
+
+    stringTest("loginExtratorComoAdministrador", 3, "exibe mensagem “Invalid user or password” na tela de login", "exibe na pagina de login uma mensagem de usuario ou senha incorretos");
+    stringTest("loginExtratorComoAdministrador", 3, "abre um pop-up e exibe a mensagem “User or Password incorrect. Attempts remaining until the account lockout: #tentativas restantes#” em um pop-up", "abre um pop-up e exibe a mensagem de usuario ou senha incorretos; informa o numero de tentativas restantes ate que o usuario seja bloqueado");
+    stringTest("loginExtratorComoAdministrador", 3, "digita o user de um usuario administrador corretamente, digita uma password invalida pela sexta vez e pressiona o botao Login", "digita o user correte e o password invalido pela sexta vez e pressiona o botao Login");
+    stringTest("loginExtratorComoAdministrador", 3, "bloqueia o usuário e exibe a mensagem 'This user has been blocked'", "bloqueia o usuario e exibe uma mensagem informando que o usuario foi bloqueado");
+    stringTest("loginExtratorComoAdministrador", 3, "exibe a mensagem 'This user has been blocked'", "exibe mensagem indicando que usuario foi bloqueado");
+
+    stringTest("extracoesPorDiretorio", 3, "seleciona pasta “EXTRACT_FILE_IPP320_AKIRA”, que contem 705 extrações para diversas familias, e pressiona o botao “Extract”", "seleciona pasta “EXTRACT_FILE_IPP320_AKIRA”, que contem 703 extrações para diversas familias, e pressiona o botao “Extract”");
+    stringTest("extracoesPorDiretorio", 3, "exibe na parte inferior da tela uma mensagem indicando que 705 extrações foram realizadas", "exibe na parte inferior da tela uma mensagem indicando que 703 extrações foram realizadas");
+    stringTest("extracoesPorDiretorio", 3, "acessa pagina “Extractions”", "acessa pagina “Extractions” e seleciona opção para mostrar 50 entradas por página");
+    stringTest("extracoesPorDiretorio", 3, "atualiza a pagina mostrando todas 705 extrações", "atualiza a pagina mostrando todas 703 extrações");
+
+    stringTest("settings", 1, "seleciona a opção 'Español' no campo 'Language' e pressiona botão 'Save'", "Abre arquivo de configurações e modifica propriedade linguagem para 'Español', salva e loga novamente no sistema");
+
+    stringTest("visualizarEEditarConta", 2, "exibe tela onde os campos 'Name', 'Login', 'Type' e 'Language'. Eles estão devidamente preenchidos", "exibe tela onde os campos 'Name', 'Login', 'Type', 'Laboratory' e 'Language'. Eles estão devidamente preenchidos");
+
+

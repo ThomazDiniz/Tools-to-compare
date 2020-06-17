@@ -1,0 +1,1575 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<testsuite name="TS">
+  <node_order />
+  <details />
+  <testcase internalid="" name="TC1">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Entra na tela de Listagem de Terminais&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em um dos terminais listados&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de edicao de Terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador altera dados do terminal e clica no botao de 'Atualizar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica usuario de que Terminal foi atualizado com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O Terminal foi atualizado com sucesso.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC2">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Entra na tela de Listagem de Terminais&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em um dos terminais listados&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de edicao de Terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador altera dados do terminal e clica no botao de 'Atualizar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Usuario nao preenche algum campo obrigatorio) Sistema informa que o campo e obrigatorio&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;7   Usuario Administrador preenche o campo obrigatorio e clica no botao de 'Atualizar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica usuario de que Terminal foi atualizado com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O Terminal foi atualizado com sucesso.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC3">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Entra na tela de Listagem de Terminais&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em um dos terminais listados&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de edicao de Terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Adiciona Beneficio associado a Terminal) Usuario Administrador preenche os dados do novo beneficio e clica no botao 'Adicionar Benficio'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema incrementa o a lista de beneficio do Terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em Atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica usuario de que Terminal foi atualizado com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O Terminal foi atualizado com sucesso.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC4">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Entra na tela de Listagem de Terminais&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em um dos terminais listados&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de edicao de Terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Cancela edicao) Usuario Administrador clica no botao de 'Cancelar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em um dos terminais listados&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de edicao de Terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador altera dados do terminal e clica no botao de 'Atualizar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica usuario de que Terminal foi atualizado com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O Terminal foi atualizado com sucesso.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC5">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Entra na tela de Listagem de Terminais&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em um dos terminais listados&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de edicao de Terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Cancela edicao) Usuario Administrador clica no botao de 'Cancelar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em um dos terminais listados&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de edicao de Terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador altera dados do terminal e clica no botao de 'Atualizar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Usuario nao preenche algum campo obrigatorio) Sistema informa que o campo e obrigatorio&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;7   Usuario Administrador preenche o campo obrigatorio e clica no botao de 'Atualizar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica usuario de que Terminal foi atualizado com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O Terminal foi atualizado com sucesso.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC6">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Entra na tela de Listagem de Terminais&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em um dos terminais listados&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de edicao de Terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Cancela edicao) Usuario Administrador clica no botao de 'Cancelar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em um dos terminais listados&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de edicao de Terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;(Adiciona Beneficio associado a Terminal) Usuario Administrador preenche os dados do novo beneficio e clica no botao 'Adicionar Benficio'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema incrementa o a lista de beneficio do Terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em Atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica usuario de que Terminal foi atualizado com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O Terminal foi atualizado com sucesso.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC7">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Entra na tela de Listagem de Terminais&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em um dos terminais listados&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de edicao de Terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Cancela edicao) Usuario Administrador clica no botao de 'Cancelar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em um dos terminais listados&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de edicao de Terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;(Cancela edicao) Usuario Administrador clica no botao de 'Cancelar'&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC8">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Entra na tela de Listagem de Terminais&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em um dos terminais listados&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de edicao de Terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Cancela edicao) Usuario Administrador clica no botao de 'Cancelar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Ordena lista de Terminais) Usuario Administrador ordena lista dos Terminais por alguma coluna&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC9">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Entra na tela de Listagem de Terminais&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em um dos terminais listados&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de edicao de Terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Cancela edicao) Usuario Administrador clica no botao de 'Cancelar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;3  (Navega por paginas de tabela) Usuario Administrador clica em botao de navegacao de paginas de tabela&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC10">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Entra na tela de Listagem de Terminais&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em um dos terminais listados&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de edicao de Terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Cancela edicao) Usuario Administrador clica no botao de 'Cancelar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Filtra lista de Terminais) Usuario Administrador preenche campos de filtragem&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC11">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Entra na tela de Listagem de Terminais&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em um dos terminais listados&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de edicao de Terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Cancela edicao) Usuario Administrador clica no botao de 'Cancelar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Volta para tela inicial de sistema) Usuario Administrador clica no botao Voltar&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC12">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Entra na tela de Listagem de Terminais&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Ordena lista de Terminais) Usuario Administrador ordena lista dos Terminais por alguma coluna&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em um dos terminais listados&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de edicao de Terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador altera dados do terminal e clica no botao de 'Atualizar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica usuario de que Terminal foi atualizado com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O Terminal foi atualizado com sucesso.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC13">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Entra na tela de Listagem de Terminais&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Ordena lista de Terminais) Usuario Administrador ordena lista dos Terminais por alguma coluna&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em um dos terminais listados&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de edicao de Terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador altera dados do terminal e clica no botao de 'Atualizar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Usuario nao preenche algum campo obrigatorio) Sistema informa que o campo e obrigatorio&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;7   Usuario Administrador preenche o campo obrigatorio e clica no botao de 'Atualizar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica usuario de que Terminal foi atualizado com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O Terminal foi atualizado com sucesso.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC14">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Entra na tela de Listagem de Terminais&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Ordena lista de Terminais) Usuario Administrador ordena lista dos Terminais por alguma coluna&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em um dos terminais listados&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de edicao de Terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Adiciona Beneficio associado a Terminal) Usuario Administrador preenche os dados do novo beneficio e clica no botao 'Adicionar Benficio'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema incrementa o a lista de beneficio do Terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em Atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica usuario de que Terminal foi atualizado com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O Terminal foi atualizado com sucesso.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC15">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Entra na tela de Listagem de Terminais&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Ordena lista de Terminais) Usuario Administrador ordena lista dos Terminais por alguma coluna&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em um dos terminais listados&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de edicao de Terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Cancela edicao) Usuario Administrador clica no botao de 'Cancelar'&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC16">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Entra na tela de Listagem de Terminais&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Ordena lista de Terminais) Usuario Administrador ordena lista dos Terminais por alguma coluna&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Ordena lista de Terminais) Usuario Administrador ordena lista dos Terminais por alguma coluna&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC17">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Entra na tela de Listagem de Terminais&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Ordena lista de Terminais) Usuario Administrador ordena lista dos Terminais por alguma coluna&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;3  (Navega por paginas de tabela) Usuario Administrador clica em botao de navegacao de paginas de tabela&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC18">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Entra na tela de Listagem de Terminais&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Ordena lista de Terminais) Usuario Administrador ordena lista dos Terminais por alguma coluna&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Filtra lista de Terminais) Usuario Administrador preenche campos de filtragem&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC19">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Entra na tela de Listagem de Terminais&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Ordena lista de Terminais) Usuario Administrador ordena lista dos Terminais por alguma coluna&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Volta para tela inicial de sistema) Usuario Administrador clica no botao Voltar&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC20">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Entra na tela de Listagem de Terminais&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;3  (Navega por paginas de tabela) Usuario Administrador clica em botao de navegacao de paginas de tabela&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em um dos terminais listados&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de edicao de Terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador altera dados do terminal e clica no botao de 'Atualizar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica usuario de que Terminal foi atualizado com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O Terminal foi atualizado com sucesso.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC21">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Entra na tela de Listagem de Terminais&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;3  (Navega por paginas de tabela) Usuario Administrador clica em botao de navegacao de paginas de tabela&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em um dos terminais listados&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de edicao de Terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador altera dados do terminal e clica no botao de 'Atualizar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Usuario nao preenche algum campo obrigatorio) Sistema informa que o campo e obrigatorio&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;7   Usuario Administrador preenche o campo obrigatorio e clica no botao de 'Atualizar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica usuario de que Terminal foi atualizado com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O Terminal foi atualizado com sucesso.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC22">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Entra na tela de Listagem de Terminais&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;3  (Navega por paginas de tabela) Usuario Administrador clica em botao de navegacao de paginas de tabela&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em um dos terminais listados&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de edicao de Terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Adiciona Beneficio associado a Terminal) Usuario Administrador preenche os dados do novo beneficio e clica no botao 'Adicionar Benficio'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema incrementa o a lista de beneficio do Terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em Atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica usuario de que Terminal foi atualizado com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O Terminal foi atualizado com sucesso.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC23">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Entra na tela de Listagem de Terminais&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;3  (Navega por paginas de tabela) Usuario Administrador clica em botao de navegacao de paginas de tabela&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em um dos terminais listados&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de edicao de Terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Cancela edicao) Usuario Administrador clica no botao de 'Cancelar'&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC24">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Entra na tela de Listagem de Terminais&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;3  (Navega por paginas de tabela) Usuario Administrador clica em botao de navegacao de paginas de tabela&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Ordena lista de Terminais) Usuario Administrador ordena lista dos Terminais por alguma coluna&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC25">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Entra na tela de Listagem de Terminais&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;3  (Navega por paginas de tabela) Usuario Administrador clica em botao de navegacao de paginas de tabela&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;3  (Navega por paginas de tabela) Usuario Administrador clica em botao de navegacao de paginas de tabela&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC26">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Entra na tela de Listagem de Terminais&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;3  (Navega por paginas de tabela) Usuario Administrador clica em botao de navegacao de paginas de tabela&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Filtra lista de Terminais) Usuario Administrador preenche campos de filtragem&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC27">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Entra na tela de Listagem de Terminais&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;3  (Navega por paginas de tabela) Usuario Administrador clica em botao de navegacao de paginas de tabela&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Volta para tela inicial de sistema) Usuario Administrador clica no botao Voltar&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC28">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Entra na tela de Listagem de Terminais&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Filtra lista de Terminais) Usuario Administrador preenche campos de filtragem&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em um dos terminais listados&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de edicao de Terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador altera dados do terminal e clica no botao de 'Atualizar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica usuario de que Terminal foi atualizado com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O Terminal foi atualizado com sucesso.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC29">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Entra na tela de Listagem de Terminais&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Filtra lista de Terminais) Usuario Administrador preenche campos de filtragem&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em um dos terminais listados&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de edicao de Terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador altera dados do terminal e clica no botao de 'Atualizar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Usuario nao preenche algum campo obrigatorio) Sistema informa que o campo e obrigatorio&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;7   Usuario Administrador preenche o campo obrigatorio e clica no botao de 'Atualizar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica usuario de que Terminal foi atualizado com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O Terminal foi atualizado com sucesso.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC30">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Entra na tela de Listagem de Terminais&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Filtra lista de Terminais) Usuario Administrador preenche campos de filtragem&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em um dos terminais listados&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de edicao de Terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Adiciona Beneficio associado a Terminal) Usuario Administrador preenche os dados do novo beneficio e clica no botao 'Adicionar Benficio'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema incrementa o a lista de beneficio do Terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em Atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica usuario de que Terminal foi atualizado com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O Terminal foi atualizado com sucesso.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC31">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Entra na tela de Listagem de Terminais&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Filtra lista de Terminais) Usuario Administrador preenche campos de filtragem&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em um dos terminais listados&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de edicao de Terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Cancela edicao) Usuario Administrador clica no botao de 'Cancelar'&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC32">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Entra na tela de Listagem de Terminais&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Filtra lista de Terminais) Usuario Administrador preenche campos de filtragem&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Ordena lista de Terminais) Usuario Administrador ordena lista dos Terminais por alguma coluna&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC33">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Entra na tela de Listagem de Terminais&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Filtra lista de Terminais) Usuario Administrador preenche campos de filtragem&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;3  (Navega por paginas de tabela) Usuario Administrador clica em botao de navegacao de paginas de tabela&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC34">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Entra na tela de Listagem de Terminais&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Filtra lista de Terminais) Usuario Administrador preenche campos de filtragem&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Filtra lista de Terminais) Usuario Administrador preenche campos de filtragem&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC35">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Entra na tela de Listagem de Terminais&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Filtra lista de Terminais) Usuario Administrador preenche campos de filtragem&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Volta para tela inicial de sistema) Usuario Administrador clica no botao Voltar&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC36">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Entra na tela de Listagem de Terminais&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Volta para tela inicial de sistema) Usuario Administrador clica no botao Voltar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em um dos terminais listados&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de edicao de Terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador altera dados do terminal e clica no botao de 'Atualizar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica usuario de que Terminal foi atualizado com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O Terminal foi atualizado com sucesso.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC37">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Entra na tela de Listagem de Terminais&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Volta para tela inicial de sistema) Usuario Administrador clica no botao Voltar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em um dos terminais listados&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de edicao de Terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador altera dados do terminal e clica no botao de 'Atualizar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Usuario nao preenche algum campo obrigatorio) Sistema informa que o campo e obrigatorio&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;7   Usuario Administrador preenche o campo obrigatorio e clica no botao de 'Atualizar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica usuario de que Terminal foi atualizado com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O Terminal foi atualizado com sucesso.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC38">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Entra na tela de Listagem de Terminais&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Volta para tela inicial de sistema) Usuario Administrador clica no botao Voltar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em um dos terminais listados&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de edicao de Terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Adiciona Beneficio associado a Terminal) Usuario Administrador preenche os dados do novo beneficio e clica no botao 'Adicionar Benficio'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema incrementa o a lista de beneficio do Terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em Atualizar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica usuario de que Terminal foi atualizado com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O Terminal foi atualizado com sucesso.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC39">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Entra na tela de Listagem de Terminais&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Volta para tela inicial de sistema) Usuario Administrador clica no botao Voltar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em um dos terminais listados&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de edicao de Terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Cancela edicao) Usuario Administrador clica no botao de 'Cancelar'&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC40">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Entra na tela de Listagem de Terminais&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Volta para tela inicial de sistema) Usuario Administrador clica no botao Voltar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Ordena lista de Terminais) Usuario Administrador ordena lista dos Terminais por alguma coluna&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC41">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Entra na tela de Listagem de Terminais&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Volta para tela inicial de sistema) Usuario Administrador clica no botao Voltar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;3  (Navega por paginas de tabela) Usuario Administrador clica em botao de navegacao de paginas de tabela&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC42">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Entra na tela de Listagem de Terminais&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Volta para tela inicial de sistema) Usuario Administrador clica no botao Voltar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Filtra lista de Terminais) Usuario Administrador preenche campos de filtragem&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC43">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Entra na tela de Listagem de Terminais&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Volta para tela inicial de sistema) Usuario Administrador clica no botao Voltar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe uma lista com os Terminais cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Volta para tela inicial de sistema) Usuario Administrador clica no botao Voltar&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+</testsuite>

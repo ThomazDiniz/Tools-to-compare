@@ -1,0 +1,55 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+17 17
+18 18
+19 19
+20 20
+21 21
+22 22
+23 23
+24 24
+25 25
+26 26
+27 27
+#
+1 2 [c] Usuário deve estar logado no servidor e extrator como administrador. 705 extrações já realizadas (pasta “EXTRACT_FILE_IPP320_AKIRA”).
+2 3 [s]  Administrador do sistema seleciona o check box referente a extração referente ao número serial 12311PP30154516”
+1 10 [c] Usuário deve estar logado no servidor e extrator como administrador. 705 extrações já realizadas (pasta “EXTRACT_FILE_IPP320_AKIRA”).
+1 20 [c] Usuário deve estar logado no servidor e extrator como administrador. 705 extrações já realizadas (pasta “EXTRACT_FILE_IPP320_AKIRA”).
+3 4 [e]  Sistema marca seleção com um tick
+4 5 [s]  Administrador do sistema pressiona o botão “Delete extractions”
+5 6 [e]  Sistema exibe uma mensagem pop-up solicitando a confirmação da deleção
+6 7 [s]  Administrador do sistema confirma deleção
+5 8 [e]  Sistema exibe uma mensagem pop-up solicitando a confirmação da deleção
+7 24 [e]  Sistema exibe a lista de extrações com 704 entradas
+8 9 [s] (Cancela deleção) Administrador do sistema cancela deleção
+9 2 [e]  Sistema fecha janela pop-up
+10 11 [s] (Realiza Filtro e deleção) Administrador do sistema seleciona combo box referente ao filtro por “State”
+11 12 [e]  Sistema exibe opções “Activated”, “Alert Interruption”, “Deactivated”, “Mockup” e “Error”
+12 13 [s]  Administrador do sistema seleciona opção “Activated” no campo de filtro “State”
+13 14 [e]  Sistema atualiza página mostrando 608 extrações
+14 15 [s]  Administrador do sistema seleciona o check box que marca todas extrações para deleção
+15 16 [e]  Sistema marca todas extrações após o filtro com um tick
+16 17 [s]  Administrador do sistema pressiona o botão “Delete extractions”
+17 18 [e]  Sistema exibe uma mensagem pop-up solicitando a confirmação da deleção
+18 19 [s]  Administrador do sistema confirma deleção
+19 25 [e]  Sistema exibe a lista de extrações com 96 entradas
+20 21 [s] (Deleta todas extrações) Administrador do sistema seleciona o check box que marca todas extrações para deleção
+21 22 [e]  Sistema marca o check box com um tick
+22 23 [s]  Administrador do sistema pressiona o botão “Delete extractions”
+23 26 [e]  Sistema exibe uma mensagem pop-up indicando que não existem extrações para serem deletadas
+24 27 [c]  .

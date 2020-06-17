@@ -1,0 +1,5 @@
+commit 3f0675657caf8a74c221818ad38aa8b7592b67f4
+Author: unknown <rafaelsilva@Ingenico-SPLAb.ingenico.net>
+Date:   Mon Oct 26 15:30:56 2015 -0300
+
+    novos casos de uso

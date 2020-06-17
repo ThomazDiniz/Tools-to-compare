@@ -1,0 +1,23 @@
+commit a1afe977bbb3e1400383d79245b688419d5e5fe6
+Author: everton <evertongaldino@gmail.com>
+Date:   Fri Jul 31 15:19:26 2015 -0300
+
+    Ajustes nos casos de uso de login e extração via Metrix
+
+commit 447b29ca4a6442c4741f2b2691a4fa60cc871b23
+Author: everton <evertongaldino@gmail.com>
+Date:   Wed Jul 29 16:09:55 2015 -0300
+
+    Atualização de casos de uso após validação de Larissa
+
+commit 80847204b1025a738e8a62f1192d652978b4468d
+Author: everton <evertongaldino@gmail.com>
+Date:   Wed Jul 29 16:06:16 2015 -0300
+
+    Novos requisitos para os casos de uso de login e novo caso de uso para a interface Metrix (24/07/2015)
+
+commit 0d6ee3ac4235bf1892289fb4d475c55e0bc99e44
+Author: everton <evertongaldino@gmail.com>
+Date:   Wed Jun 17 16:19:37 2015 -0300
+
+    Casos de uso SAFF/Extrator - v1

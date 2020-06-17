@@ -1,0 +1,64 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+17 17
+18 18
+19 19
+20 20
+21 21
+22 22
+23 23
+24 24
+25 25
+26 26
+27 27
+#
+1 2 [c] Usuario Administrador esta logado no sistema; Existe pelo menos um Ecommerce registrado.
+2 3 [s]  Usuario Administrador clica no opcao 'E-commerces' no menu principal
+3 4 [e]  Sistema exibe a tela com a lista de E-commerces cadastrados no sistema
+4 5 [s]  Usuario Administrador clica em um dos E-commerces listados
+3 8 [e]  Sistema exibe a tela com a lista de E-commerces cadastrados no sistema
+3 9 [e]  Sistema exibe a tela com a lista de E-commerces cadastrados no sistema
+5 6 [e]  Sistema exibe tela com informacões de E-commerce
+6 7 [s]  Usuario Administrador adiciona os dados do novo Operador na secao 'Operadores' e clica no botao 'Adicionar Operador'
+5 10 [e]  Sistema exibe tela com informacões de E-commerce
+7 26 [e]  Sistema mostra operador adicionado em tabela na tela de cadastro
+6 11 [s]  Usuario Administrador adiciona os dados do novo Operador na secao 'Operadores' e clica no botao 'Adicionar Operador'
+6 16 [s]  Usuario Administrador adiciona os dados do novo Operador na secao 'Operadores' e clica no botao 'Adicionar Operador'
+6 18 [s]  Usuario Administrador adiciona os dados do novo Operador na secao 'Operadores' e clica no botao 'Adicionar Operador'
+6 20 [s]  Usuario Administrador adiciona os dados do novo Operador na secao 'Operadores' e clica no botao 'Adicionar Operador'
+6 22 [s]  Usuario Administrador adiciona os dados do novo Operador na secao 'Operadores' e clica no botao 'Adicionar Operador'
+6 24 [s]  Usuario Administrador adiciona os dados do novo Operador na secao 'Operadores' e clica no botao 'Adicionar Operador'
+8 3 [s] (Navega pelas paginas da lista) Usuario Administrador procura o E-commerce navegando pelas paginas da lista
+9 3 [s] (Volta para listagem de Ecommerce) Usuario Administrador clica no botao Voltar
+10 5 [s] (Cancela registro de novo operador de Ecommerce) Usuario Administrador clica no botao Cancelar de registro de operador
+11 12 [e] (Campos obrigatorios) Sistema alerta ao usuario que o campo deve ser preenchido
+12 7 [s]  Usuario Administrador informa os campos obrigatorios e clica no botao de 'Adicionar Operador'
+13 14 [s] (Clica no botao voltar) Usuario Administrador clica no botao voltar
+14 15 [e]  Sistema exibe tela de Dashboard
+15 7 [s]  Usuario Administrador 
+16 17 [e] (Nome de Usuario ja cadastrado) Sistema alerta que ja existe um Operador cadastrado com o nome de usuario informado
+17 7 [s]  Usuario Administrador informa um novo Nome de Usuario e clica no botao de 'Adicionar Operador'
+18 19 [e] (Email ja cadastrado) Sistema alerta que ja existe um Operador cadastrado com o email informado
+19 7 [s]  Usuario Administrador informa um novo Email e clica no botao de 'Adicionar Operador'
+20 21 [e] (Email invalido) Sistema alerta que ja existe um Operador cadastrado com o email informado
+21 7 [s]  Usuario Administrador informa um novo Email valido e clica no botao de 'Adicionar Operador'
+22 23 [e] (Cpf ja cadastrado) Sistema alerta que ja existe um Operador cadastrado com o cpf informado
+23 7 [s]  Usuario Administrador informa um novo Cpf e clica no botao de 'Adicionar Operador'
+24 25 [e] (Senhas nao coincidem) Sistema alerta que as senhas informadas nao coincidem
+24 5 [e] (Senhas nao coincidem) Sistema alerta que as senhas informadas nao coincidem
+25 7 [s]  Usuario Administrador informa senhas iguais e clica no botao de 'Adicionar Operador'
+26 27 [c] O novo Operador de Ecommerce esta salvo no sistema.

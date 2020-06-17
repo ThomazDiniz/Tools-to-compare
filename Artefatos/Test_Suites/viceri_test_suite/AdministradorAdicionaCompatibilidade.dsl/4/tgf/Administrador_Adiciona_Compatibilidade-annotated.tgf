@@ -1,0 +1,67 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+17 17
+18 18
+19 19
+20 20
+21 21
+22 22
+23 23
+24 24
+25 25
+26 26
+27 27
+28 28
+29 29
+30 30
+31 31
+32 32
+#
+1 16 conditions
+16 2  Usuario Administrador esta logado no sistema.
+2 17 steps
+17 3   Usuario Administrador Clicar na opcao 'Compatibilidade' no menu da tela principal
+3 18 expected_results
+18 4   Sistema exibe a tela de listagem das Compatibilidades
+4 19 steps
+19 5   Usuario Administrador clica em 'Adicionar Compatibilidade'
+5 20 expected_results
+20 6   Sistema exibe a tela de cadastro de Compatibilidade
+6 21 steps
+21 7   Usuario Administrador preenche os dados da Compatibilidade e clica em botao 'Registrar'
+7 22 expected_results
+22 14   Sistema notifica usuario que os nova Compatibilidade foi adicionada com sucesso
+6 23 steps
+23 8   Usuario Administrador preenche os dados da Compatibilidade e clica em botao 'Registrar'
+6 24 steps
+24 10   Usuario Administrador preenche os dados da Compatibilidade e clica em botao 'Registrar'
+6 25 steps
+25 12   Usuario Administrador preenche os dados da Compatibilidade e clica em botao 'Registrar'
+8 26 expected_results
+26 9  (Nao insere algum dado obrigatorio') Sistema informa que os dados obrigatorios devem ser preenchidos
+9 27 steps
+27 7   Usuario Administrador preenche dados obrigatorios e clica em Atualizar
+10 28 expected_results
+28 11  (Usuario insere Tipo de Mercadoria invalido) Sistema alerta que Tipo de Mercadoria e invalido
+11 29 steps
+29 7   Usuario Administrador preenche um Tipo de Mercadoria valido e clica em Atualizar
+12 30 expected_results
+30 13  (Usuario insere NCM invalido) Sistema alerta que NCM e invalido
+13 31 steps
+31 7   Usuario Administrador preenche um NCM valido e clica em Atualizar
+14 32 conditions
+32 15  A nova Compatibilidade esta adicionada ao banco.

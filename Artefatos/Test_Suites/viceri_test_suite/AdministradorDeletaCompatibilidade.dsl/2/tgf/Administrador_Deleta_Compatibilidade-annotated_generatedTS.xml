@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<testsuite name="TS">
+  <node_order />
+  <details />
+  <testcase internalid="" name="TC1">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador deve estar logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Clicar na opcao 'Compatibildiade' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem das Compatibilidades&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em Compatibilidade listada&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de edicao de Compatibilidade&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em botao 'Deletar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre popup de confirmacao de delecao&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador confirma que deseja deletar clicando em 'Sim'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica usuario que os nova Compatibilidade foi deletada com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>Compatibilidade foi deletada.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC2">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador deve estar logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Clicar na opcao 'Compatibildiade' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem das Compatibilidades&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em Compatibilidade listada&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de edicao de Compatibilidade&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em botao 'Deletar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre popup de confirmacao de delecao&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Cancela delecao) Usuario Administrador clica no botao 'Cancelar' de popup&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de edicao de Compatibilidade&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em botao 'Deletar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre popup de confirmacao de delecao&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador confirma que deseja deletar clicando em 'Sim'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica usuario que os nova Compatibilidade foi deletada com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>Compatibilidade foi deletada.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC3">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador deve estar logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Clicar na opcao 'Compatibildiade' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem das Compatibilidades&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em Compatibilidade listada&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de edicao de Compatibilidade&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em botao 'Deletar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre popup de confirmacao de delecao&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Cancela delecao) Usuario Administrador clica no botao 'Cancelar' de popup&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de edicao de Compatibilidade&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em botao 'Deletar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre popup de confirmacao de delecao&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;(Cancela delecao) Usuario Administrador clica no botao 'Cancelar' de popup&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC4">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador deve estar logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Clicar na opcao 'Compatibildiade' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem das Compatibilidades&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Navega pelas paginas da lista) Usuario Administrador navega nas paginas da lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem das Compatibilidades&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em Compatibilidade listada&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de edicao de Compatibilidade&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em botao 'Deletar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre popup de confirmacao de delecao&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador confirma que deseja deletar clicando em 'Sim'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica usuario que os nova Compatibilidade foi deletada com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>Compatibilidade foi deletada.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC5">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador deve estar logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Clicar na opcao 'Compatibildiade' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem das Compatibilidades&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Navega pelas paginas da lista) Usuario Administrador navega nas paginas da lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem das Compatibilidades&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em Compatibilidade listada&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de edicao de Compatibilidade&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em botao 'Deletar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre popup de confirmacao de delecao&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;(Cancela delecao) Usuario Administrador clica no botao 'Cancelar' de popup&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC6">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador deve estar logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Clicar na opcao 'Compatibildiade' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem das Compatibilidades&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Navega pelas paginas da lista) Usuario Administrador navega nas paginas da lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem das Compatibilidades&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Navega pelas paginas da lista) Usuario Administrador navega nas paginas da lista&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC7">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador deve estar logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Clicar na opcao 'Compatibildiade' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem das Compatibilidades&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Navega pelas paginas da lista) Usuario Administrador navega nas paginas da lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem das Compatibilidades&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Usuario ordena lista de Compatibilidades) Usuario Administrador ordenas as Compatibilidades por seus atributos&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC8">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador deve estar logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Clicar na opcao 'Compatibildiade' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem das Compatibilidades&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Usuario ordena lista de Compatibilidades) Usuario Administrador ordenas as Compatibilidades por seus atributos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem das Compatibilidades&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em Compatibilidade listada&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de edicao de Compatibilidade&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em botao 'Deletar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre popup de confirmacao de delecao&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador confirma que deseja deletar clicando em 'Sim'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica usuario que os nova Compatibilidade foi deletada com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>Compatibilidade foi deletada.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC9">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador deve estar logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Clicar na opcao 'Compatibildiade' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem das Compatibilidades&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Usuario ordena lista de Compatibilidades) Usuario Administrador ordenas as Compatibilidades por seus atributos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem das Compatibilidades&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em Compatibilidade listada&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de edicao de Compatibilidade&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em botao 'Deletar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre popup de confirmacao de delecao&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;(Cancela delecao) Usuario Administrador clica no botao 'Cancelar' de popup&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC10">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador deve estar logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Clicar na opcao 'Compatibildiade' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem das Compatibilidades&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Usuario ordena lista de Compatibilidades) Usuario Administrador ordenas as Compatibilidades por seus atributos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem das Compatibilidades&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Navega pelas paginas da lista) Usuario Administrador navega nas paginas da lista&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC11">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador deve estar logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador Clicar na opcao 'Compatibildiade' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem das Compatibilidades&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Usuario ordena lista de Compatibilidades) Usuario Administrador ordenas as Compatibilidades por seus atributos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela de listagem das Compatibilidades&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Usuario ordena lista de Compatibilidades) Usuario Administrador ordenas as Compatibilidades por seus atributos&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+</testsuite>

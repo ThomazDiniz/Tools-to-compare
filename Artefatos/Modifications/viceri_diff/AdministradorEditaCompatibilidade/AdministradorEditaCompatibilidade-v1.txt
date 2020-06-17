@@ -1,0 +1,26 @@
+15c15
+< 			step 3, Administrador, "clica em uma Compatibilidade existente'", af:[1,2,3]
+---
+> 			step 3, Administrador, "clica em uma Compatibilidade existente'", af:[1,2,3,5]
+21c21
+< 		alternative 1, "Usuario ordena lista de Compatibilidades",  {
+---
+> 		alternative 1, "Ordena lista de Compatibilidades",  {
+25c25
+< 		alternative 2, "Usuario filtra lista de Compatibilidades", {
+---
+> 		alternative 2, "Filtra lista de Compatibilidades", {
+29c29
+< 		alternative 3, "Usuario navega por paginas de tabela", {
+---
+> 		alternative 3, "Navega por paginas de tabela", {
+33c33
+< 		alternative 4, "Usuario cancela atualizacao de Compatibilidade", {
+---
+> 		alternative 4, "Cancela atualizacao de Compatibilidade", {
+36c37,40
+---
+> 		alternative 5, "Volta para tela inicial de sistema", {
+>             step 1, Administrador, "clica no botao Voltar", bfs:2
+>         }
+> 

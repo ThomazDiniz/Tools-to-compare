@@ -1,0 +1,21 @@
+12c12
+<             step 3, superAdmin, "seleciona o botão 'Create Secu Info', situado no lado direito inferior da tela"
+---
+>             step 3, superAdmin, "seleciona o botão 'Create Secu Info'"
+14c14
+<             step 5, superAdmin, "preenche corretamente os campos 'Secu Info' e 'Sxx' e pressiona o botão 'Create' ", af:[1,2]
+---
+>             step 5, superAdmin, "preenche corretamente os campos 'Secu Info' e 'Sxx' e pressiona o botão 'Create' ", af:[1]
+22c22
+<         }
+---
+>         } 
+24,29c24
+<         alternative 1, "Campo fora da formatação esperada", {
+<             step 1, superAdmin, "preenche incorretamente os campos 'Secu Info' e/ou 'Sxx' e pressiona o botão 'Create' "
+<             step 2, system, "exibe mensagem informando que os dados não correspondem a formatação esperada", bfs:5
+<         }   
+< 
+<         alternative 2, "Cancela criação", {
+---
+>         alternative 1, "Cancela criação", {

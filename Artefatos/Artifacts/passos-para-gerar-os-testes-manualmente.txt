@@ -1,0 +1,10 @@
+﻿1 - gerar o tgf a partir da dsl
+java -jar ucdsl-all.jar -f <.dsl> -t
+
+2 - gerar o tgf anotado
+java annotateTGFfromDSL /tgf/Extracao_em_modo_LLT
+
+3 - gerar o xml dos testes (antes disso, modificar codificação do tgf anotado para utf-8 para o xml ficar com a codificação correta. Para alterar pode usar o sublime -> setEncoding.)
+java -jar lts-btv2.jar reduce_annotated B parameterizedDFS 1 <tgf/Extracao_em_modo_LLT-annotated.tgf> <tgf/xml/reduced.xml>
+
+

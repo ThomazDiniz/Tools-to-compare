@@ -1,0 +1,78 @@
+7c7
+<         preCondition "Usuário deve estar logado no servidor e extrator com administrador", "Não existem extrações cadastradas no banco de dados"
+---
+>         preCondition "Usuário deve estar logado no servidor e extrator com administrador", "Nao existem extrações cadastradas no banco de dados"
+10,12c10,12
+<             step 1, administrador, "pressiona opção “Extract from dicrtory”"
+<             step 2, system, "exibe tela de extração por diretório"
+<             step 3, administrador, "seleciona pasta “EXTRACT_FILE_IPP320_AKIRA”, que contém 705 extrações para diversas família, e pressiona o botão “Extract”"
+---
+>             step 1, administrador, "pressiona opcao “Extract from dicrtory”"
+>             step 2, system, "exibe tela de extracao por diretorio"
+>             step 3, administrador, "seleciona pasta “EXTRACT_FILE_IPP320_AKIRA”, que contem 705 extrações para diversas familias, e pressiona o botao “Extract”"
+14,17c14,17
+<             step 5, administrador, "acessa página “Extractions”", af:[7]
+<             step 6, system, "exibe a lista de extrações com as 50 últimas entradas. Entrada 1: 14170PP30289943. Entrada 50: 12328PP30166463"
+<             step 7, administrador, "seleciona opção para mostrar 100 entradas por página"
+<             step 8, system, "exibe a lista de extrações com as 100 últimas entradas."
+---
+>             step 5, administrador, "acessa pagina “Extractions”", af:[7]
+>             step 6, system, "exibe a lista de extrações com as 50 ultimas entradas. Entrada 1: 14170PP30289943. Entrada 50: 12328PP30166463"
+>             step 7, administrador, "seleciona opcao para mostrar 100 entradas por pagina"
+>             step 8, system, "exibe a lista de extrações com as 100 ultimas entradas."
+19,21c19,21
+<             step 10, system, "exibe as opções “Ingenico Brazil” e “Ingenico”"
+<             step 11, administrador, "seleciona opção “Ingenico” no campo de filtro “Customer”", af:[1,2]
+<             step 12, system, "atualiza a página mostrando somente 32 extrações"
+---
+>             step 10, system, "exibe as opcoes “Ingenico Brazil” e “Ingenico”"
+>             step 11, administrador, "seleciona opcao “Ingenico” no campo de filtro “Customer”", af:[1,2]
+>             step 12, system, "atualiza a pagina mostrando somente 32 extrações"
+25,26c25,26
+<         	step 1, administrador, "seleciona opção default no campo de filtro “Customer”"
+<             step 2, system, "atualiza a página mostrando todas 705 extrações"
+---
+>         	step 1, administrador, "seleciona opcao default no campo de filtro “Customer”"
+>             step 2, system, "atualiza a pagina mostrando todas 705 extrações"
+31c31
+<             step 2, system, "atualiza a página mostrando todas 673 extrações"
+---
+>             step 2, system, "atualiza a pagina mostrando 673 extracoes"
+36,38c36,38
+<             step 2, system, "exibe opções “Activated”, “Alert Interruption”, “Deactivated”, “Mockup” e “Error”"
+<             step 3, administrador, "seleciona opção “Activated” no campo de filtro “State”", af:[4,5,6]
+<             step 4, system, "atualiza página mostrando 608 extrações"
+---
+>             step 2, system, "exibe opcoes “Activated”, “Alert Interruption”, “Deactivated”, “Mockup” e “Error”"
+>             step 3, administrador, "seleciona opcao “Activated” no campo de filtro “State”", af:[4,5,6]
+>             step 4, system, "atualiza pagina mostrando 608 extrações"
+42,43c42,43
+<         	step 1, administrador, "seleciona opção “Alert Interruption” no campo de filtro “State”"
+<             step 2, system, "atualiza página mostrando 97 extrações"
+---
+>         	step 1, administrador, "seleciona opcao “Alert Interruption” no campo de filtro “State”"
+>             step 2, system, "atualiza pagina mostrando 97 extracoes"
+47,48c47,48
+<         	step 1, administrador, "seleciona opção “Mockup” no campo de filtro “State”"
+<             step 2, system, "atualiza página mostrando lista vazia"
+---
+>         	step 1, administrador, "seleciona opcao “Mockup” no campo de filtro “State”"
+>             step 2, system, "atualiza pagina mostrando lista vazia"
+52,53c52,53
+<         	step 1, administrador, "seleciona opção “Error” no campo de filtro “State”"
+<             step 2, system, "atualiza página mostrando extrações associadas aos estados 'Alert Interruption' e 'Mockup'"
+---
+>         	step 1, administrador, "seleciona opcao “Error” no campo de filtro “State”"
+>             step 2, system, "atualiza pagina mostrando extrações associadas aos estados 'Alert Interruption' e 'Mockup'"
+56,58c56,58
+<         alternative 7, "Extrações Sequenciais", {
+<         	step 1, administrador, "pressiona opção “Extract from dicrtory”"
+<             step 2, system, "exibe tela de extração por diretório"
+---
+>         alternative 7, "Extracoes Sequenciais", {
+>         	step 1, administrador, "pressiona opcao “Extract from dicrtory”"
+>             step 2, system, "exibe tela de extracao por diretorio"
+61c61
+<             step 5, administrador, "acessa página “Extractions”"
+---
+>             step 5, administrador, "acessa pagina “Extractions”"

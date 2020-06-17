@@ -1,0 +1,125 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+17 17
+18 18
+19 19
+20 20
+21 21
+22 22
+23 23
+24 24
+25 25
+26 26
+27 27
+28 28
+29 29
+30 30
+31 31
+32 32
+33 33
+34 34
+35 35
+36 36
+37 37
+38 38
+39 39
+40 40
+41 41
+42 42
+43 43
+44 44
+45 45
+46 46
+47 47
+48 48
+49 49
+50 50
+51 51
+52 52
+53 53
+54 54
+55 55
+56 56
+57 57
+58 58
+59 59
+#
+1 2 [c] Deve existir pelo menos um usuário super administrador.
+2 3 [s]  Super administrador loga no sistema com perfil de super administrador
+3 4 [e]  Sistema exibe tela principal
+4 5 [s]  Super administrador seleciona opcao 'Users' no menu Settings
+5 6 [e]  Sistema exibe lista completa de usuários
+6 7 [s]  Super administrador seleciona o botão 'Create User'
+7 8 [e]  Sistema exibe pagina com campos de cadastro do usuario
+8 9 [s]  Super administrador preenche corretamente os campos 'Name', 'Login', 'Password', 'Confirm Password', escolhe uma opcao para os campos 'Type', 'Laboratory', 'Language', e pressiona o botão 'Create' 
+7 16 [e]  Sistema exibe pagina com campos de cadastro do usuario
+7 18 [e]  Sistema exibe pagina com campos de cadastro do usuario
+9 10 [e]  Sistema exibe mensagem indicando que novo usuario foi criado
+10 11 [s]  Super administrador clica no link de visualizacao dos usuarios
+11 12 [e]  Sistema exibe lista completa de usuarios
+12 13 [s]  Super administrador clica no nome do novo usuário
+13 14 [e]  Sistema exibe dados do usuario
+14 15 [s]  Super administrador clica no botão 'Cancel'
+13 19 [e]  Sistema exibe dados do usuario
+15 55 [e]  Sistema exibe lista completa de usuarios
+16 17 [s] (Usuário com login repetido) Super administrador preenche o campo 'Login' com o login associado a um outro usuario cadastrado. Preenche corretamente os demais campos e pressiona o botão 'Create'
+17 8 [e]  Sistema exibe mensagem informando que os este usuarios já existe
+18 5 [s] (Cancela criacao) Super administrador cancela criacao
+19 20 [s] (Edita dados) Super administrador clica no botao 'Edit'
+20 21 [e]  Sistema exibe campos do documento com valores atuais que podem ser editados
+21 22 [s]  Super administrador preenche os novos valores para os campos 'Name' e 'Type', mantém a linguagem e pressiona o botao 'Update
+20 24 [e]  Sistema exibe campos do documento com valores atuais que podem ser editados
+20 28 [e]  Sistema exibe campos do documento com valores atuais que podem ser editados
+20 32 [e]  Sistema exibe campos do documento com valores atuais que podem ser editados
+22 23 [e]  Sistema exibe novos dados do usuarios
+23 5 [s]  Super administrador acessa link que lista todos usuarios
+24 25 [s] (Edita dados e altera linguagem) Super administrador preenche os novos valores para os campos 'Name', 'Type', troca mantém o valor do campo 'Language' e pressiona o botão 'Update
+25 26 [e]  Sistema exibe novos dados do usuarios
+26 27 [s]  Super administrador faz log out e se loga na conta do usuário que teve os dados atualizados
+27 56 [e]  Sistema e apresentado na nova linguagem
+28 29 [s] (Reseta senha) Super administrador pressiona botao 'Reset Password'
+29 30 [e]  Sistema exibe mensagem pedindo confirmacao
+30 31 [s]  Super administrador confirma desejo de resetar senha
+29 48 [e]  Sistema exibe mensagem pedindo confirmacao
+31 6 [e]  Sistema exibe lista completa de usuarios
+32 33 [s] (Bloqueio de usuario) Super administrador pressiona botao 'Block User'
+33 34 [e]  Sistema exibe mensagem pedindo confirmacao
+34 35 [s]  Super administrador confirma desejo de bloquear usuario
+33 49 [e]  Sistema exibe mensagem pedindo confirmacao
+35 36 [e]  Sistema exibe mensagem confirmando bloqueio de usuario
+36 37 [s]  Super administrador acessa link que lista todos usuarios
+37 38 [e]  Sistema exibe lista completa de usuários onde o usuario atualizado e sinalizado como bloqueado
+38 39 [s]  Super administrador clica no nome do usuario bloqueado
+37 50 [e]  Sistema exibe lista completa de usuários onde o usuario atualizado e sinalizado como bloqueado
+39 40 [e]  Sistema exibe dados do usuario
+40 41 [s]  Super administrador clica no botao 'Edit'
+39 52 [e]  Sistema exibe dados do usuario
+41 42 [e]  Sistema exibe campos do documento com valores atuais que podem ser editados
+42 43 [s]  Super administrador pressiona botao 'Unblock User'
+43 44 [e]  Sistema exibe mensagem pedindo confirmação
+44 45 [s]  Super administrador confirma desejo de desbloquear usuario
+45 46 [e]  Sistema exibe mensagem confirmando desbloqueio de usuario
+46 47 [s]  Super administrador acessa link que lista todos usuarios
+47 6 [e]  Sistema exibe lista completa de usuários onde o usuario atualizado nao e sinalizado como bloqueado
+48 57 [s] (Cancela reset de senha) Super administrador cancela reset de senha
+49 7 [s] (Cancela bloqueio de usuario) Super administrador cancela bloqueio
+50 51 [s] (Test de bloqueio) Super administrador faz log out e tenta loga na conta do usuario que teve os dados atualizados
+51 58 [e]  Sistema exibe mensagem que usuário esta bloqueado
+52 53 [s] (Deleta usuario) Super administrador clica no botão 'Delete'
+53 54 [e]  Sistema exibe mensagem solicitando confirmacao
+54 5 [s]  Super administrador pressiona o botao OK
+55 59 [c]  .

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<testsuite name="TS">
+  <node_order />
+  <details />
+  <testcase internalid="" name="TC1">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário deve estar logado no servidor e extrator como administrador. Sistema está configurado para inglês.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema pressiona botão 'Settings'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a janela de configurações&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Administrador do sistema seleciona a opção 'Português' no campo 'Language' e pressiona botão 'Save'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial 'SAFF extraction' tualizada com todos os campos em português&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC2">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário deve estar logado no servidor e extrator como administrador. Sistema está configurado para inglês.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema pressiona botão 'Settings'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a janela de configurações&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Linguagem Espanhol) Administrador do sistema seleciona a opção 'Español' no campo 'Language' e pressiona botão 'Save'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial 'SAFF extraction' atualizada com todos os campos em espanhol&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC3">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário deve estar logado no servidor e extrator como administrador. Sistema está configurado para inglês.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema pressiona botão 'Settings'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a janela de configurações&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Visible Test Type) Administrador do sistema seleciona somente opção 'Pre test' no campo 'Visible Test Type' e pressiona botão 'Save'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema atualiza tela inicial 'SAFF extraction' exibindo somente 'Pre test' como opção de teste.&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC4">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário deve estar logado no servidor e extrator como administrador. Sistema está configurado para inglês.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema pressiona botão 'Settings'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a janela de configurações&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Default Test Type) Administrador do sistema seleciona somente opção 'Pre test' no campo 'Default Test Type' e pressiona botão 'Save'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema atualiza tela inicial 'SAFF extraction' exibindo e tipo de teste 'Pre test' está marcado.&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+</testsuite>

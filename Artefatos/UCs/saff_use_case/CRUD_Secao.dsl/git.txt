@@ -1,0 +1,11 @@
+commit 3f0675657caf8a74c221818ad38aa8b7592b67f4
+Author: unknown <rafaelsilva@Ingenico-SPLAb.ingenico.net>
+Date:   Mon Oct 26 15:30:56 2015 -0300
+
+    novos casos de uso
+
+commit 0d6ee3ac4235bf1892289fb4d475c55e0bc99e44
+Author: everton <evertongaldino@gmail.com>
+Date:   Wed Jun 17 16:19:37 2015 -0300
+
+    Casos de uso SAFF/Extrator - v1

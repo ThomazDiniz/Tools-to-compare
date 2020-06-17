@@ -1,0 +1,137 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+17 17
+18 18
+19 19
+20 20
+21 21
+22 22
+23 23
+24 24
+25 25
+26 26
+27 27
+28 28
+29 29
+30 30
+31 31
+32 32
+33 33
+34 34
+35 35
+36 36
+37 37
+38 38
+39 39
+40 40
+41 41
+42 42
+43 43
+44 44
+45 45
+46 46
+47 47
+48 48
+49 49
+50 50
+51 51
+52 52
+53 53
+54 54
+55 55
+56 56
+57 57
+58 58
+59 59
+60 60
+61 61
+62 62
+63 63
+64 64
+65 65
+66 66
+#
+1 32 conditions
+32 2   .
+2 33 steps
+33 3   Usuario loga no sistema com perfil de super administrador ou administrador
+1 34 conditions
+34 25   .
+3 35 expected_results
+35 4   Sistema exibe tela principal
+4 36 steps
+36 5   Usuario seleciona opçao 'Diagnostics' no menu Settings
+5 37 expected_results
+37 6   Sistema exibe lista diagnosticos
+6 38 steps
+38 7   Usuario seleciona o botao 'Create Diagnostic', situado no lado direito inferior da tela
+7 39 expected_results
+39 8   Sistema exibe página com campos de cadastro de novo documento
+8 40 steps
+40 9   Usuario preenche corretamente os campos 'Name', 'Family', 'Type', 'Scenary', 'Situation' e pressiona o botao 'Create' 
+7 41 expected_results
+41 14   Sistema exibe página com campos de cadastro de novo documento
+7 42 expected_results
+42 16   Sistema exibe página com campos de cadastro de novo documento
+7 43 expected_results
+43 18   Sistema exibe página com campos de cadastro de novo documento
+9 44 expected_results
+44 10   Sistema exibe lista de diagnósticos
+10 45 steps
+45 11   Usuario clica no nome de um diagnostico
+11 46 expected_results
+46 12   Sistema exibe dados do diagnóstico
+12 47 steps
+47 13   Usuario clica no botão 'Cancel'
+11 48 expected_results
+48 19   Sistema exibe dados do diagnóstico
+11 49 expected_results
+49 22   Sistema exibe dados do diagnóstico
+13 50 expected_results
+50 29   Sistema retorna a lista de diagnosticos
+14 51 steps
+51 15  (Scenary ou Situation faltando informacao) Usuario preenche nao preenche algum dos campos 'Name', 'Family', 'Type', 'Scenary' ou 'Situation' e pressiona o botao 'Create' 
+15 52 expected_results
+52 8   Sistema exibe mensagem informando que existe informaçao indispensável faltando
+16 53 steps
+53 17  (Campo fora da formatação esperada) Usuario preenche algum dos campos ('Name', 'Family', 'Type', 'Scenary' ou 'Situation') com formatação errada e pressiona o botao 'Create' 
+17 54 expected_results
+54 8   Sistema exibe mensagem informando que os dados nao correspondem a formatação esperada
+18 55 steps
+55 5  (Cancela criaçao) Usuario Cancela criaçao
+19 56 steps
+56 20  (Edita dados) Usuario clica no botao 'Edit'
+20 57 expected_results
+57 21   Sistema exibe campos do diagnostico com valores atuais que podem ser editados
+21 58 steps
+58 5   Usuario preenche os novos valores e pressiona o botão 'Update
+22 59 steps
+59 23  (Deleta diagnostico) Usuario clica no botao 'Delete'
+23 60 expected_results
+60 24   Sistema exibe mensagem solicitando confirmaçao
+24 61 steps
+61 5   Usuario pressiona o botao OK
+25 62 steps
+62 26  (Visualizaçao para Operador, Gerente) Usuario loga no sistema com perfil de administrador, gerente ou operador
+26 63 expected_results
+63 27   Sistema exibe tela principal
+27 64 steps
+64 28   Usuario seleciona opçao 'Diagnostics' no menu Settings
+28 65 expected_results
+65 30   Sistema exibe lista de diagnosticos pertencentes ao mesmo laboratorio do usuario
+29 66 conditions
+66 31   .

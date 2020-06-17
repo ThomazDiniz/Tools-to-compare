@@ -1,0 +1,98 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+17 17
+18 18
+19 19
+20 20
+21 21
+22 22
+23 23
+24 24
+25 25
+26 26
+27 27
+28 28
+29 29
+30 30
+31 31
+32 32
+33 33
+34 34
+35 35
+36 36
+37 37
+38 38
+39 39
+40 40
+41 41
+42 42
+43 43
+44 44
+45 45
+#
+1 20 conditions
+20 2  Usuario Administrador esta logado no sistema.
+2 21 steps
+21 3   Usuario Administrador clica na opcao 'Dashboard' no menu da tela principal
+3 22 expected_results
+22 4   Sistema exibe de dashboard do sistema
+4 23 steps
+23 5   Usuario Administrador clica em algum contador de 'Engine' na secao de 'Notas'
+3 24 expected_results
+24 10   Sistema exibe de dashboard do sistema
+3 25 expected_results
+25 11   Sistema exibe de dashboard do sistema
+3 26 expected_results
+26 12   Sistema exibe de dashboard do sistema
+3 27 expected_results
+27 13   Sistema exibe de dashboard do sistema
+3 28 expected_results
+28 14   Sistema exibe de dashboard do sistema
+5 29 expected_results
+29 6   Sistema abre uma tela com as listas das 'Notas'
+6 30 steps
+30 7   Usuario Administrador seleciona alguma Nota na lista
+5 31 expected_results
+31 15   Sistema abre uma tela com as listas das 'Notas'
+5 32 expected_results
+32 16   Sistema abre uma tela com as listas das 'Notas'
+5 33 expected_results
+33 17   Sistema abre uma tela com as listas das 'Notas'
+7 34 expected_results
+34 8   Sistema exibe os dados das notas
+8 35 steps
+35 9   Usuario Administrador clica no botao de 'Visualizar DANFE'
+9 36 expected_results
+36 18   Sistema abre uma nova aba com a versao da Danfe em PDF
+10 37 steps
+37 5  (Seleciona contador de 'Conferência') Usuario Administrador clica em algum contador de 'Conferência' na secao de 'Notas'
+11 38 steps
+38 5  (Seleciona contador de 'Picking') Usuario Administrador clica em algum contador de 'Picking' na secao de 'Notas'
+12 39 steps
+39 5  (Seleciona contador de 'Atrasos') Usuario Administrador clica em algum contador de 'Atrasos' na secao de 'Notas'
+13 40 steps
+40 5  (Seleciona contador de 'Retornos') Usuario Administrador clica em algum contador de 'Retornos' na secao de 'Notas'
+14 41 steps
+41 5  (Seleciona contador de 'Ocorrências') Usuario Administrador clica em algum contador de 'Ocorrências' na secao de 'Notas'
+15 42 steps
+42 5 5  (Navega pelas paginas da lista) Usuario Administrador seleciona outra pagina
+16 43 steps
+43 3  (Clica no botao voltar) Usuario Administrador clica no botao 'Voltar'
+17 44 steps
+44 5  (Ordena Notas) Usuario Administrador ordenas as notas por alguma coluna
+18 45 conditions
+45 19   .

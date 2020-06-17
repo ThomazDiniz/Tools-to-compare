@@ -1,0 +1,11 @@
+commit 59a00184f825e94704209fccd32cd17ef829529f
+Author: everton <evertongaldino@gmail.com>
+Date:   Thu Jun 18 16:11:58 2015 -0300
+
+    Adequando casos de uso a novos requisitos e consertando casos de uso que não condiziam com os requisitos já existentes
+
+commit 0d6ee3ac4235bf1892289fb4d475c55e0bc99e44
+Author: everton <evertongaldino@gmail.com>
+Date:   Wed Jun 17 16:19:37 2015 -0300
+
+    Casos de uso SAFF/Extrator - v1

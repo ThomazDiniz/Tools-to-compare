@@ -1,0 +1,53 @@
+commit b3e689bf9f5a50aa1be11b10c8253fde34934822
+Author: Hemã Vidal <hema.bezerra@splab.ufcg.edu.br>
+Date:   Wed Apr 13 19:24:22 2016 -0300
+
+    Criando um batch(generateAllReducedTestCases) para gerar tudos os casos de testes de todos os casos de uso.
+
+commit 524e9db92dab0779f9b9f91106e9f0f0ca8afee7
+Author: unknown <kallynny@ingenico-08.ingenico.net>
+Date:   Wed Mar 2 12:46:58 2016 -0300
+
+    Atualização do caso de uso
+
+commit d33feef978db07a16604cb22c9474cda3975ae26
+Author: unknown <kallynny@ingenico-08.ingenico.net>
+Date:   Mon Feb 29 10:56:51 2016 -0300
+
+    Atualização de caso de uso
+
+commit 9a95c1e1e0f33f7af3cb8d2014d507d051c1196e
+Author: Hemã Vidal <hema.bezerra@splab.ufcg.edu.br>
+Date:   Tue Feb 23 09:29:22 2016 -0300
+
+    Atualizando o caso de uso da interface metrix
+
+commit babf40eebcaf4f776ee3c60fed7480551d94b8bf
+Author: Hemã Vidal <hema.bezerra@splab.ufcg.edu.br>
+Date:   Fri Feb 19 08:45:08 2016 -0300
+
+    Alterando data de modificação e versão dos documentos de casos de uso.
+
+commit 3f0675657caf8a74c221818ad38aa8b7592b67f4
+Author: unknown <rafaelsilva@Ingenico-SPLAb.ingenico.net>
+Date:   Mon Oct 26 15:30:56 2015 -0300
+
+    novos casos de uso
+
+commit a1afe977bbb3e1400383d79245b688419d5e5fe6
+Author: everton <evertongaldino@gmail.com>
+Date:   Fri Jul 31 15:19:26 2015 -0300
+
+    Ajustes nos casos de uso de login e extração via Metrix
+
+commit 447b29ca4a6442c4741f2b2691a4fa60cc871b23
+Author: everton <evertongaldino@gmail.com>
+Date:   Wed Jul 29 16:09:55 2015 -0300
+
+    Atualização de casos de uso após validação de Larissa
+
+commit 80847204b1025a738e8a62f1192d652978b4468d
+Author: everton <evertongaldino@gmail.com>
+Date:   Wed Jul 29 16:06:16 2015 -0300
+
+    Novos requisitos para os casos de uso de login e novo caso de uso para a interface Metrix (24/07/2015)

@@ -1,0 +1,5 @@
+commit 454a8847b3e4e56af507e2253636878b1884a792
+Author: Guilherme Gadelha <guilhermemgadelha@outlook.com>
+Date:   Mon Mar 6 17:54:26 2017 -0300
+
+    novos casos de uso de delecao e edicao

@@ -1,0 +1,100 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+17 17
+18 18
+19 19
+20 20
+21 21
+22 22
+23 23
+24 24
+25 25
+26 26
+27 27
+28 28
+29 29
+30 30
+31 31
+32 32
+33 33
+34 34
+35 35
+36 36
+37 37
+38 38
+39 39
+40 40
+41 41
+42 42
+43 43
+44 44
+45 45
+46 46
+47 47
+#
+1 2 [c] Deve existir pelo menos um Documento cadastrado.
+2 3 [s]  Usuário super administrador loga no sistema com perfil de super administrador ou administrador
+1 33 [c] Deve existir pelo menos um Documento cadastrado.
+3 4 [e]  Sistema exibe tela principal
+4 5 [s]  Usuário super administrador seleciona opção 'Documents' no menu Settings
+5 6 [e]  Sistema exibe lista completa de documentos
+6 7 [s]  Usuário super administrador seleciona o botão 'Create Document'
+7 8 [e]  Sistema exibe página com campos de cadastro de novo documento
+8 9 [s]  Usuário super administrador preenche corretamente os campos 'Title', 'Description', 'Family', seleciona um arquivo PDF e pressiona o botão 'Create' 
+7 20 [e]  Sistema exibe página com campos de cadastro de novo documento
+7 26 [e]  Sistema exibe página com campos de cadastro de novo documento
+7 22 [e]  Sistema exibe página com campos de cadastro de novo documento
+7 24 [e]  Sistema exibe página com campos de cadastro de novo documento
+9 10 [e]  Sistema exibe lista de documentos
+10 11 [s]  Usuário super administrador clica no ícone link de visualização do documento
+11 12 [e]  Sistema abre janela de visualização do pdf
+12 13 [s]  Usuário super administrador fecha janela
+13 14 [e]  Sistema retorna a lista de documentos
+14 15 [s]  Usuário super administrador clica no nome de um documento
+15 16 [e]  Sistema exibe dados do documento
+16 17 [s]  Usuário super administrador clica no botão 'Cancel'
+15 27 [e]  Sistema exibe dados do documento
+15 30 [e]  Sistema exibe dados do documento
+17 18 [e]  Sistema retorna a lista de documentos
+18 19 [s]  Usuário super administrador abre lista de extrações e seleciona uma extração das famílias cadastradas anteriormente
+19 45 [e]  Sistema se existir extração da familia cadastrada, esta deve exibir no campo Document um link para o novo documento
+20 21 [s] (Faltando arquivo) Usuário super administrador preenche corretamente os demais campos mas não seleciona um arquivo PDF. Pressiona o botao 'Create'
+21 8 [e]  Sistema exibe mensagem informando que os dados não correspondem a formatação esperada ou esta faltando informacoes
+22 23 [s] (Documento com nome repetido) Usuário super administrador preenche o campo 'Title' com o nome de um documento ja cadastrado. Preenche corretamente os campos'Description', 'Family', seleciona um arquivo PDF e pressiona o botão 'Create'
+23 8 [e]  Sistema exibe mensagem informando que os já existe um documento cadastrado com o nome especificado
+24 25 [s] (Upload de arquivo nao pdf) Usuário super administrador seleciona um arquivo de outro formato e pressiona o botao 'Create'
+25 8 [e]  Sistema exibe mensagem informando que o documento especificado nao e um arquivo PDF
+26 5 [s] (Cancela criacao) Usuário super administrador cancela criacao
+27 28 [s] (Edita dados) Usuário super administrador clica no botao 'Edit'
+28 29 [e]  Sistema exibe campos do documento com valores atuais que podem ser editados
+29 5 [s]  Usuário super administrador preenche os novos valores e pressiona o botão 'Update
+30 31 [s] (Deleta documento) Usuário super administrador clica no botao 'Delete'
+31 32 [e]  Sistema exibe mensagem solicitando confirmacao
+32 5 [s]  Usuário super administrador pressiona o botao OK
+33 34 [s] (Visualizacao para Operador, Gerente) Usuário super administrador loga no sistema com perfil de administrador, gerente ou operador
+34 35 [e]  Sistema exibe tela principal
+35 36 [s]  Usuário super administrador seleciona opção 'Documents' no menu Settings
+36 37 [e]  Sistema exibe lista de documentos pertencentes ao mesmo laboratório do usuário
+37 38 [s]  Usuário super administrador clica no nome link de visualização do documento
+38 39 [e]  Sistema abre janela de visualização do pdf
+39 40 [s]  Usuário super administrador fecha janela
+40 41 [e]  Sistema retorna a lista de documentos
+41 42 [s]  Usuário super administrador clica no nome de um documento
+42 43 [e]  Sistema exibe dados do documento
+43 44 [s]  Usuário super administrador clica no botão 'Cancel'
+44 46 [e]  Sistema retorna a lista de documentos
+45 47 [c]  .

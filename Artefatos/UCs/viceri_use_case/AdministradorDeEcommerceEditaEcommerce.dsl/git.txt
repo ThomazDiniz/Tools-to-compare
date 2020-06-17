@@ -1,0 +1,5 @@
+commit 6bc61593d65c1a6b0d146fc182548c4ed8e9c131
+Author: Guilherme Gadelha <guilhermemgadelha@outlook.com>
+Date:   Fri Mar 10 16:07:15 2017 -0300
+
+    novos casos de uso para Operador de Terminal, de Ecommerce e Administrador de Ecommerce

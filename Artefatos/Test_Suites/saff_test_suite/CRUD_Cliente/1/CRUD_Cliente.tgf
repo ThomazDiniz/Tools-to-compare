@@ -1,0 +1,47 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+17 17
+18 18
+19 19
+20 20
+21 21
+22 22
+#
+1 2 [c] Estar logado como super administrador.
+2 3 [s]  Super administrador seleciona opção 'Customers' no menu Settings
+3 4 [e]  Sistema exibe lista de clientes
+4 5 [s]  Super administrador seleciona o botão 'Create Customer'
+5 6 [e]  Sistema exibe página com campos de cadastro de novo cliente
+6 7 [s]  Super administrador preenche corretamente os campos 'Name', 'Key File' e 'Country' e pressiona o botão 'Create' 
+5 14 [e]  Sistema exibe página com campos de cadastro de novo cliente
+7 8 [e]  Sistema exibe página com dados do novo cliente e mensagem que um novo cliente foi adicionado
+8 9 [s]  Super administrador seleciona opção 'Customers' no menu Settings
+9 10 [e]  Sistema exibe lista de clientes
+10 11 [s]  Super administrador clica no nome de um cliente
+11 12 [e]  Sistema exibe dados do cliente
+12 13 [s]  Super administrador clica no botão 'Cancel'
+11 15 [e]  Sistema exibe dados do cliente
+11 18 [e]  Sistema exibe dados do cliente
+13 21 [e]  Sistema retorna a lista de clientes
+14 3 [s] (Cancela criação) Super administrador Cancela criação
+15 16 [s] (Edita dados) Super administrador clica no botão 'Edit'
+16 17 [e]  Sistema exibe campos do cliente com valores atuais que podem ser editados
+17 11 [s]  Super administrador preenche os novos valores e pressiona o botão 'Update
+18 19 [s] (Deleta cliente) Super administrador clica no botão 'Delete'
+19 20 [e]  Sistema exibe mensagem solicitando confirmação
+20 3 [s]  Super administrador pressiona o botão OK
+21 22 [c]  .

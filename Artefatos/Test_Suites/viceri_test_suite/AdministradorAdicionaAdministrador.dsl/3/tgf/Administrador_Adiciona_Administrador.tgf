@@ -1,0 +1,38 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+17 17
+#
+1 2 [c] Usuario Administrador esta logado no sistema.
+2 3 [s]  Usuario Administrador clica na opcao 'Administrador' no menu da tela principal
+3 4 [e]  Sistema apresenta uma listagem dos Administradores cadastrados no sistema
+4 5 [s]  Usuario Administrador clica no botao 'Adicionar Administrador'
+5 6 [e]  Sistema abre a tela de cadastro de Administradores
+6 7 [s]  Usuario Administrador preenche os dados do Administrador, seleciona suas permissoes e clica no botao 'Registrar'
+7 16 [e]  Sistema notifica que o Administrador foi adicionado com sucesso
+6 8 [s]  Usuario Administrador preenche os dados do Administrador, seleciona suas permissoes e clica no botao 'Registrar'
+6 10 [s]  Usuario Administrador preenche os dados do Administrador, seleciona suas permissoes e clica no botao 'Registrar'
+6 12 [s]  Usuario Administrador preenche os dados do Administrador, seleciona suas permissoes e clica no botao 'Registrar'
+6 14 [s]  Usuario Administrador preenche os dados do Administrador, seleciona suas permissoes e clica no botao 'Registrar'
+8 9 [e] (Dados obrigatorios') Sistema informa que os dados obrigatorios devem ser preenchidos
+9 7 [s]  Usuario Administrador preenche os dados orbigatorios e clica no botao 'Registrar'
+10 11 [e] (Email invalido) Sistema alerta usuario de que Email e invalido
+11 7 [s]  Usuario Administrador insere um Email valido e clica no botao 'Registrar'
+12 13 [e] (Senha e Confirmacao diferentes) Sistema alerta usuario de que senhas estao diferentes
+13 7 [s]  Usuario Administrador insere Senhas iguais e clica no botao 'Registrar'
+14 15 [e] (Sem Permissao) Sistema alerta usuario que Administrador nao esta com nenhuma Permissao
+15 7 [s]  Usuario Administrador insere uma permissao e clica no botao 'Registrar'
+16 17 [c] O Administrador foi adicionado com sucesso.

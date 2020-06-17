@@ -1,0 +1,25 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+#
+1 2 [c] Deve existir um usuário cadastrado com perfil administrador.
+2 3 [s]  Administrador do sistema digita um login e pasword de usuário administrador e pressiona o botão Login
+1 4 [c] Deve existir um usuário cadastrado com perfil administrador.
+1 6 [c] Deve existir um usuário cadastrado com perfil administrador.
+1 8 [c] Deve existir um usuário cadastrado com perfil administrador.
+3 10 [e]  Sistema exibe tela “Search extraction”
+4 5 [s] (Login ou Password inválidos) Administrador do sistema digita um login de usuário administrador e/ou password invalidos e pressiona Login
+5 2 [e]  Sistema exibe mensagem “Invalid username or password” na tela de login
+6 7 [s] (Número de tentativas inválidas é 3) Administrador do sistema digita um login de usuário administrador e/ou password invalidos pela terceira vez e pressiona Login
+7 2 [e]  Sistema exibe mensagem de alerta
+8 9 [s] (Número de tentativas inválidas é 5) Administrador do sistema digita um login de usuário administrador e/ou password invalidos pela quinta vez e pressiona Login
+9 2 [e]  Sistema bloqueia a sessão
+10 11 [c]  .

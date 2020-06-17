@@ -1,0 +1,95 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+17 17
+18 18
+19 19
+20 20
+21 21
+22 22
+23 23
+24 24
+25 25
+26 26
+27 27
+28 28
+29 29
+30 30
+31 31
+32 32
+33 33
+34 34
+35 35
+36 36
+37 37
+38 38
+39 39
+40 40
+41 41
+42 42
+43 43
+44 44
+45 45
+46 46
+#
+1 23 conditions
+23 2  Estar logado como super administrador.
+2 24 steps
+24 3   Super administrador seleciona opção 'Secu Infos' no menu Settings
+3 25 expected_results
+25 4   Sistema exibe lista de Secu Infos
+4 26 steps
+26 5   Super administrador seleciona o botão 'Create Secu Info'
+5 27 expected_results
+27 6   Sistema exibe página com campos de cadastro de novo Secu Info
+6 28 steps
+28 7   Super administrador preenche corretamente os campos 'Secu Info' e 'Sxx' e pressiona o botão 'Create' 
+5 29 expected_results
+29 14   Sistema exibe página com campos de cadastro de novo Secu Info
+7 30 expected_results
+30 8   Sistema exibe página com dados do novo Secu Info e mensagem que um novo entrada foi adicionado
+8 31 steps
+31 9   Super administrador seleciona opção 'Secu Info' no menu Settings
+9 32 expected_results
+32 10   Sistema exibe lista de Secu Infos
+10 33 steps
+33 11   Super administrador clica no nome de uma Secu Info
+11 34 expected_results
+34 12   Sistema exibe dados da Secu Info
+12 35 steps
+35 13   Super administrador clica no botão 'Cancel'
+11 36 expected_results
+36 15   Sistema exibe dados da Secu Info
+11 37 expected_results
+37 18   Sistema exibe dados da Secu Info
+13 38 expected_results
+38 21   Sistema retorna a lista de Secu Infos
+14 39 steps
+39 3  (Cancela criação) Super administrador Cancela criação
+15 40 steps
+40 16  (Edita dados) Super administrador clica no botão 'Edit'
+16 41 expected_results
+41 17   Sistema exibe campos do Secu Info com valores atuais que podem ser editados
+17 42 steps
+42 3   Super administrador preenche os novos valores e pressiona o botão 'Update
+18 43 steps
+43 19  (Deleta Secu Info) Super administrador clica no botão 'Delete'
+19 44 expected_results
+44 20   Sistema exibe mensagem solicitando confirmação
+20 45 steps
+45 3   Super administrador pressiona o botao OK
+21 46 conditions
+46 22   .

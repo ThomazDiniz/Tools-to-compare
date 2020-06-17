@@ -1,0 +1,860 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<testsuite name="TS">
+  <node_order />
+  <details />
+  <testcase internalid="" name="TC1">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador deve ter feito login e obtido autorizacao do sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona a opcao 'Terminais' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a lista de Terminais do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona o Terminal em que sera adicionado o Operador&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre a tela de edicao do Terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador adiciona os dados do novo Operador na secao 'Operadores' e clica no botao 'Adicionar Operador'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema salva o novo Operador e incrementa lista de Operadores&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>Operador salvo no sistema.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC2">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador deve ter feito login e obtido autorizacao do sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona a opcao 'Terminais' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a lista de Terminais do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona o Terminal em que sera adicionado o Operador&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre a tela de edicao do Terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador adiciona os dados do novo Operador na secao 'Operadores' e clica no botao 'Adicionar Operador'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Nao insere algum dado obrigatorio') Sistema informa que os dados obrigatorios devem ser preenchidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador adiciona os dados obrigatorios e clica no botao 'Adicionar Operador'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre a tela de edicao do Terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador adiciona os dados do novo Operador na secao 'Operadores' e clica no botao 'Adicionar Operador'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema salva o novo Operador e incrementa lista de Operadores&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>Operador salvo no sistema.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC3">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador deve ter feito login e obtido autorizacao do sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona a opcao 'Terminais' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a lista de Terminais do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona o Terminal em que sera adicionado o Operador&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre a tela de edicao do Terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador adiciona os dados do novo Operador na secao 'Operadores' e clica no botao 'Adicionar Operador'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Nao insere algum dado obrigatorio') Sistema informa que os dados obrigatorios devem ser preenchidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador adiciona os dados obrigatorios e clica no botao 'Adicionar Operador'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre a tela de edicao do Terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador adiciona os dados do novo Operador na secao 'Operadores' e clica no botao 'Adicionar Operador'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Nao insere algum dado obrigatorio') Sistema informa que os dados obrigatorios devem ser preenchidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador adiciona os dados obrigatorios e clica no botao 'Adicionar Operador'&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC4">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador deve ter feito login e obtido autorizacao do sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona a opcao 'Terminais' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a lista de Terminais do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona o Terminal em que sera adicionado o Operador&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre a tela de edicao do Terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador adiciona os dados do novo Operador na secao 'Operadores' e clica no botao 'Adicionar Operador'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Nao insere algum dado obrigatorio') Sistema informa que os dados obrigatorios devem ser preenchidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador adiciona os dados obrigatorios e clica no botao 'Adicionar Operador'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre a tela de edicao do Terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;(Cancela registro de Operador de Terminal) Usuario Administrador clica no botao Cancelar&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC5">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador deve ter feito login e obtido autorizacao do sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona a opcao 'Terminais' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a lista de Terminais do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona o Terminal em que sera adicionado o Operador&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre a tela de edicao do Terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Cancela registro de Operador de Terminal) Usuario Administrador clica no botao Cancelar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a lista de Terminais do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona o Terminal em que sera adicionado o Operador&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre a tela de edicao do Terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador adiciona os dados do novo Operador na secao 'Operadores' e clica no botao 'Adicionar Operador'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema salva o novo Operador e incrementa lista de Operadores&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>Operador salvo no sistema.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC6">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador deve ter feito login e obtido autorizacao do sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona a opcao 'Terminais' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a lista de Terminais do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona o Terminal em que sera adicionado o Operador&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre a tela de edicao do Terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Cancela registro de Operador de Terminal) Usuario Administrador clica no botao Cancelar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a lista de Terminais do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona o Terminal em que sera adicionado o Operador&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre a tela de edicao do Terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador adiciona os dados do novo Operador na secao 'Operadores' e clica no botao 'Adicionar Operador'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Nao insere algum dado obrigatorio') Sistema informa que os dados obrigatorios devem ser preenchidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador adiciona os dados obrigatorios e clica no botao 'Adicionar Operador'&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC7">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador deve ter feito login e obtido autorizacao do sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona a opcao 'Terminais' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a lista de Terminais do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona o Terminal em que sera adicionado o Operador&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre a tela de edicao do Terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Cancela registro de Operador de Terminal) Usuario Administrador clica no botao Cancelar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a lista de Terminais do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona o Terminal em que sera adicionado o Operador&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre a tela de edicao do Terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;(Cancela registro de Operador de Terminal) Usuario Administrador clica no botao Cancelar&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC8">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador deve ter feito login e obtido autorizacao do sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona a opcao 'Terminais' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a lista de Terminais do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona o Terminal em que sera adicionado o Operador&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre a tela de edicao do Terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Cancela registro de Operador de Terminal) Usuario Administrador clica no botao Cancelar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a lista de Terminais do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;(Volta para tela inicial de sistema) Usuario Administrador clica no botao Voltar&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC9">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador deve ter feito login e obtido autorizacao do sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona a opcao 'Terminais' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a lista de Terminais do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona o Terminal em que sera adicionado o Operador&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre a tela de edicao do Terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Cancela registro de Operador de Terminal) Usuario Administrador clica no botao Cancelar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a lista de Terminais do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;(Navega na lista de Terminais) Usuario Administrador clica no botao de paginacao&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC10">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador deve ter feito login e obtido autorizacao do sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona a opcao 'Terminais' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a lista de Terminais do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Volta para tela inicial de sistema) Usuario Administrador clica no botao Voltar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona a opcao 'Terminais' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a lista de Terminais do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona o Terminal em que sera adicionado o Operador&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre a tela de edicao do Terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador adiciona os dados do novo Operador na secao 'Operadores' e clica no botao 'Adicionar Operador'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema salva o novo Operador e incrementa lista de Operadores&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>Operador salvo no sistema.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC11">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador deve ter feito login e obtido autorizacao do sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona a opcao 'Terminais' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a lista de Terminais do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Volta para tela inicial de sistema) Usuario Administrador clica no botao Voltar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona a opcao 'Terminais' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a lista de Terminais do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona o Terminal em que sera adicionado o Operador&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre a tela de edicao do Terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador adiciona os dados do novo Operador na secao 'Operadores' e clica no botao 'Adicionar Operador'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Nao insere algum dado obrigatorio') Sistema informa que os dados obrigatorios devem ser preenchidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador adiciona os dados obrigatorios e clica no botao 'Adicionar Operador'&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC12">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador deve ter feito login e obtido autorizacao do sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona a opcao 'Terminais' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a lista de Terminais do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Volta para tela inicial de sistema) Usuario Administrador clica no botao Voltar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona a opcao 'Terminais' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a lista de Terminais do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona o Terminal em que sera adicionado o Operador&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre a tela de edicao do Terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;(Cancela registro de Operador de Terminal) Usuario Administrador clica no botao Cancelar&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC13">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador deve ter feito login e obtido autorizacao do sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona a opcao 'Terminais' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a lista de Terminais do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Volta para tela inicial de sistema) Usuario Administrador clica no botao Voltar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona a opcao 'Terminais' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a lista de Terminais do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;(Volta para tela inicial de sistema) Usuario Administrador clica no botao Voltar&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC14">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador deve ter feito login e obtido autorizacao do sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona a opcao 'Terminais' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a lista de Terminais do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Volta para tela inicial de sistema) Usuario Administrador clica no botao Voltar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona a opcao 'Terminais' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a lista de Terminais do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;(Navega na lista de Terminais) Usuario Administrador clica no botao de paginacao&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC15">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador deve ter feito login e obtido autorizacao do sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona a opcao 'Terminais' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a lista de Terminais do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Navega na lista de Terminais) Usuario Administrador clica no botao de paginacao&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a lista de Terminais do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona o Terminal em que sera adicionado o Operador&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre a tela de edicao do Terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador adiciona os dados do novo Operador na secao 'Operadores' e clica no botao 'Adicionar Operador'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema salva o novo Operador e incrementa lista de Operadores&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>Operador salvo no sistema.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC16">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador deve ter feito login e obtido autorizacao do sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona a opcao 'Terminais' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a lista de Terminais do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Navega na lista de Terminais) Usuario Administrador clica no botao de paginacao&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a lista de Terminais do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona o Terminal em que sera adicionado o Operador&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre a tela de edicao do Terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador adiciona os dados do novo Operador na secao 'Operadores' e clica no botao 'Adicionar Operador'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Nao insere algum dado obrigatorio') Sistema informa que os dados obrigatorios devem ser preenchidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador adiciona os dados obrigatorios e clica no botao 'Adicionar Operador'&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC17">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador deve ter feito login e obtido autorizacao do sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona a opcao 'Terminais' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a lista de Terminais do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Navega na lista de Terminais) Usuario Administrador clica no botao de paginacao&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a lista de Terminais do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona o Terminal em que sera adicionado o Operador&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre a tela de edicao do Terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;(Cancela registro de Operador de Terminal) Usuario Administrador clica no botao Cancelar&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC18">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador deve ter feito login e obtido autorizacao do sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona a opcao 'Terminais' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a lista de Terminais do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Navega na lista de Terminais) Usuario Administrador clica no botao de paginacao&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a lista de Terminais do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Volta para tela inicial de sistema) Usuario Administrador clica no botao Voltar&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC19">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador deve ter feito login e obtido autorizacao do sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona a opcao 'Terminais' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a lista de Terminais do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Navega na lista de Terminais) Usuario Administrador clica no botao de paginacao&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a lista de Terminais do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Navega na lista de Terminais) Usuario Administrador clica no botao de paginacao&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+</testsuite>

@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<testsuite name="TS">
+  <node_order />
+  <details />
+  <testcase internalid="" name="TC34">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Estar logado como super administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Secu Infos' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de Secu Infos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona o botão 'Create Secu Info', situado no lado direito inferior da tela&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos de cadastro de novo Secu Info&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Cancela criação) Super administrador Cancela criação&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de Secu Infos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona o botão 'Create Secu Info', situado no lado direito inferior da tela&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos de cadastro de novo Secu Info&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;(Campo fora da formatação esperada) Super administrador preenche incorretamente os campos 'Secu Info' e/ou 'Sxx' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem informando que os dados não correspondem a formatação esperada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Super administrador preenche corretamente os campos 'Secu Info' e 'Sxx' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com dados do novo Secu Info e mensagem que um novo entrada foi adicionado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Secu Info' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de Secu Infos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Super administrador clica no nome de uma Secu Info&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dados da Secu Info&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>9</step_number>
+        <actions>&lt;p&gt;Super administrador clica no botão 'Cancel'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema retorna a lista de Secu Infos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC27">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Estar logado como super administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Secu Infos' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de Secu Infos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona o botão 'Create Secu Info', situado no lado direito inferior da tela&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos de cadastro de novo Secu Info&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Campo fora da formatação esperada) Super administrador preenche incorretamente os campos 'Secu Info' e/ou 'Sxx' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem informando que os dados não correspondem a formatação esperada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Super administrador preenche corretamente os campos 'Secu Info' e 'Sxx' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com dados do novo Secu Info e mensagem que um novo entrada foi adicionado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Secu Info' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de Secu Infos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Super administrador clica no nome de uma Secu Info&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dados da Secu Info&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;(Deleta Secu Info) Super administrador clica no botão 'Delete'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem solicitando confirmação&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Super administrador pressiona o botao OK&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de Secu Infos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>9</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona o botão 'Create Secu Info', situado no lado direito inferior da tela&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos de cadastro de novo Secu Info&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>10</step_number>
+        <actions>&lt;p&gt;(Campo fora da formatação esperada) Super administrador preenche incorretamente os campos 'Secu Info' e/ou 'Sxx' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem informando que os dados não correspondem a formatação esperada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>11</step_number>
+        <actions>&lt;p&gt;Super administrador preenche corretamente os campos 'Secu Info' e 'Sxx' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com dados do novo Secu Info e mensagem que um novo entrada foi adicionado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>12</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Secu Info' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de Secu Infos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>13</step_number>
+        <actions>&lt;p&gt;Super administrador clica no nome de uma Secu Info&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dados da Secu Info&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>14</step_number>
+        <actions>&lt;p&gt;Super administrador clica no botão 'Cancel'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema retorna a lista de Secu Infos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC5">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Estar logado como super administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Secu Infos' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de Secu Infos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona o botão 'Create Secu Info', situado no lado direito inferior da tela&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos de cadastro de novo Secu Info&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Super administrador preenche corretamente os campos 'Secu Info' e 'Sxx' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com dados do novo Secu Info e mensagem que um novo entrada foi adicionado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Secu Info' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de Secu Infos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Super administrador clica no nome de uma Secu Info&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dados da Secu Info&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;(Edita dados) Super administrador clica no botão 'Edit'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe campos do Secu Info com valores atuais que podem ser editados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Super administrador preenche os novos valores e pressiona o botão 'Update&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de Secu Infos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona o botão 'Create Secu Info', situado no lado direito inferior da tela&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos de cadastro de novo Secu Info&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>9</step_number>
+        <actions>&lt;p&gt;(Campo fora da formatação esperada) Super administrador preenche incorretamente os campos 'Secu Info' e/ou 'Sxx' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem informando que os dados não correspondem a formatação esperada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>10</step_number>
+        <actions>&lt;p&gt;Super administrador preenche corretamente os campos 'Secu Info' e 'Sxx' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com dados do novo Secu Info e mensagem que um novo entrada foi adicionado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>11</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Secu Info' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de Secu Infos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>12</step_number>
+        <actions>&lt;p&gt;Super administrador clica no nome de uma Secu Info&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dados da Secu Info&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>13</step_number>
+        <actions>&lt;p&gt;Super administrador clica no botão 'Cancel'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema retorna a lista de Secu Infos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC20">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Estar logado como super administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Secu Infos' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de Secu Infos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona o botão 'Create Secu Info', situado no lado direito inferior da tela&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos de cadastro de novo Secu Info&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Campo fora da formatação esperada) Super administrador preenche incorretamente os campos 'Secu Info' e/ou 'Sxx' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem informando que os dados não correspondem a formatação esperada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Super administrador preenche corretamente os campos 'Secu Info' e 'Sxx' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com dados do novo Secu Info e mensagem que um novo entrada foi adicionado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Secu Info' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de Secu Infos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Super administrador clica no nome de uma Secu Info&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dados da Secu Info&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;(Edita dados) Super administrador clica no botão 'Edit'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe campos do Secu Info com valores atuais que podem ser editados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Super administrador preenche os novos valores e pressiona o botão 'Update&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de Secu Infos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>9</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona o botão 'Create Secu Info', situado no lado direito inferior da tela&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com campos de cadastro de novo Secu Info&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>10</step_number>
+        <actions>&lt;p&gt;(Campo fora da formatação esperada) Super administrador preenche incorretamente os campos 'Secu Info' e/ou 'Sxx' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem informando que os dados não correspondem a formatação esperada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>11</step_number>
+        <actions>&lt;p&gt;Super administrador preenche corretamente os campos 'Secu Info' e 'Sxx' e pressiona o botão 'Create'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página com dados do novo Secu Info e mensagem que um novo entrada foi adicionado&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>12</step_number>
+        <actions>&lt;p&gt;Super administrador seleciona opção 'Secu Info' no menu Settings&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de Secu Infos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>13</step_number>
+        <actions>&lt;p&gt;Super administrador clica no nome de uma Secu Info&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe dados da Secu Info&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>14</step_number>
+        <actions>&lt;p&gt;Super administrador clica no botão 'Cancel'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema retorna a lista de Secu Infos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+</testsuite>

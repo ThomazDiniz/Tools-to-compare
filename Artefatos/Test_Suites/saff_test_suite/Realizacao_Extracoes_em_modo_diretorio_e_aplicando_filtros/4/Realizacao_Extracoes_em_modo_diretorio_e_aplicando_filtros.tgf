@@ -1,0 +1,97 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+17 17
+18 18
+19 19
+20 20
+21 21
+22 22
+23 23
+24 24
+25 25
+26 26
+27 27
+28 28
+29 29
+30 30
+31 31
+32 32
+33 33
+34 34
+35 35
+36 36
+37 37
+38 38
+39 39
+40 40
+41 41
+42 42
+43 43
+44 44
+45 45
+46 46
+47 47
+48 48
+#
+1 2 [c] Usuário deve estar logado no servidor e extrator com administrador. Não existem extrações cadastradas no banco de dados.
+2 3 [s]  Administrador do sistema pressiona opção “Extract from dicrtory”
+3 4 [e]  Sistema exibe tela de extração por diretório
+4 5 [s]  Administrador do sistema seleciona pasta “EXTRACT_FILE_IPP320_AKIRA”, que contém 705 extrações para diversas família, e pressiona o botão “Extract”
+5 6 [e]  Sistema realiza extrações
+6 7 [s]  Clock do sistema tempo de execução não passou de 5 segundos
+5 16 [e]  Sistema realiza extrações
+7 8 [e]  Sistema exibe na parte inferior da tela uma mensagem indicando que 705 extrações foram realizadas
+8 9 [s]  Administrador do sistema acessa página “Extractions”
+7 32 [e]  Sistema exibe na parte inferior da tela uma mensagem indicando que 705 extrações foram realizadas
+9 10 [e]  Sistema exibe a lista de extrações com as 50 últimas entradas. Entrada 1: 14170PP30289943. Entrada 50: 12328PP30166463
+10 11 [s]  Administrador do sistema seleciona opção para mostrar 100 entradas por página
+11 12 [e]  Sistema exibe a lista de extrações com as 100 últimas entradas.
+12 13 [s]  Administrador do sistema seleciona o combo box referente ao filtro por “Customer”
+11 22 [e]  Sistema exibe a lista de extrações com as 100 últimas entradas.
+13 14 [e]  Sistema exibe as opções “Ingenico Brazil” e “Ingenico”
+14 15 [s]  Administrador do sistema seleciona opção “Ingenico” no campo de filtro “Customer”
+13 18 [e]  Sistema exibe as opções “Ingenico Brazil” e “Ingenico”
+13 20 [e]  Sistema exibe as opções “Ingenico Brazil” e “Ingenico”
+15 40 [e]  Sistema atualiza a página mostrando somente 32 extrações
+16 17 [s] (Estouro de limite de tempo) Clock do sistema tempo de execução passou de 5 segundos
+17 8 [e]  Sistema exibe mensagem solicitando que o usuário aguarde
+18 19 [s] (Filtro default) Administrador do sistema seleciona opção default no campo de filtro “Customer”
+19 41 [e]  Sistema atualiza a página mostrando todas 705 extrações
+20 21 [s] (Filtro “Ingenico Brazil”) Administrador do sistema seleciona opção Ingenico Brazil no campo de filtro “Customer”
+21 42 [e]  Sistema atualiza a página mostrando todas 673 extrações
+22 23 [s] (Filtro state) Administrador do sistema seleciona combo box referente ao filtro por “State”
+23 24 [e]  Sistema exibe opções “Activated”, “Alert Interruption”, “Deactivated”, “Mockup” e “Error”
+24 25 [s]  Administrador do sistema seleciona opção “Activated” no campo de filtro “State”
+23 26 [e]  Sistema exibe opções “Activated”, “Alert Interruption”, “Deactivated”, “Mockup” e “Error”
+23 28 [e]  Sistema exibe opções “Activated”, “Alert Interruption”, “Deactivated”, “Mockup” e “Error”
+23 30 [e]  Sistema exibe opções “Activated”, “Alert Interruption”, “Deactivated”, “Mockup” e “Error”
+25 43 [e]  Sistema atualiza página mostrando 608 extrações
+26 27 [s] (Filtro “Alert Interruption”) Administrador do sistema seleciona opção “Alert Interruption” no campo de filtro “State”
+27 44 [e]  Sistema atualiza página mostrando 97 extrações
+28 29 [s] (Filtro “Mockup”) Administrador do sistema seleciona opção “Mockup” no campo de filtro “State”
+29 45 [e]  Sistema atualiza página mostrando lista vazia
+30 31 [s] (Filtro “Error”) Administrador do sistema seleciona opção “Error” no campo de filtro “State”
+31 46 [e]  Sistema atualiza página mostrando lista vazia
+32 33 [s] (Extrações Sequenciais) Administrador do sistema pressiona opção “Extract from dicrtory”
+33 34 [e]  Sistema exibe tela de extração por diretório
+34 35 [s]  Administrador do sistema seleciona pasta “EXTRACT_FILE_IPP320_AKIRA”, que contém 705 extrações para diversas família, e pressiona o botão “Extract”
+35 36 [e]  Sistema realiza extrações
+36 37 [s]  Clock do sistema verifica se o tempo de execução não passou de 5 segundos
+37 38 [e]  Sistema exibe na parte inferior da tela uma mensagem indicando que 705 extrações foram realizadas
+38 39 [s]  Administrador do sistema acessa página “Extractions”
+39 47 [e]  Sistema exibe uma lista com 1510
+40 48 [c]  .

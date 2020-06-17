@@ -1,0 +1,14 @@
+11c11
+<         preCondition "Usuario Administrador deve ter feito login e obtido autorizacao do sistema."
+---
+>         preCondition "Usuario Administrador logado no sistema; Existe pelo menos um Terminal registrado."
+32,33c32,33
+<         alternative 3, "Navega na lista de Terminais", {
+<             step 1, Administrador, "clica no botao de paginacao", bfs:4
+---
+>         alternative 3, "Volta para listagem de Terminal", {
+>             step 1, Administrador, "clica no botao 'Voltar'", bfs:4
+41c41
+<         postCondition "Operador salvo no sistema" 
+---
+>         postCondition "Operador de Terminal salvo no sistema" 

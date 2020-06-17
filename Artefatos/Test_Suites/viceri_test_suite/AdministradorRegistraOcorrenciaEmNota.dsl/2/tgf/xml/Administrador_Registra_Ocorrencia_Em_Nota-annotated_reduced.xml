@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<testsuite name="TS">
+  <node_order />
+  <details />
+  <testcase internalid="" name="TC114">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Central de Operacoes' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe Dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Seleciona contador de 'Engine') Usuario Administrador clica em algum contador de 'Engine' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com a lista de 'Pedidos'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Clica no botao Voltar) Usuario Administrador clica no botao 'Voltar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe Dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Seleciona contador de 'Picking') Usuario Administrador clica em algum contador de 'Picking' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com a lista de 'Pedidos'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona algum Pedido (NFe) da lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Registrar Ocorrencia'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre modal para digitacao da ocorrencia&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador digita ocorrencia e clica em 'Confirmar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica que Ocorrencia foi registrada com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A ocorrencia esta registrada.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC5">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Central de Operacoes' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe Dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica em tab 'Pedidos'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com a lista de 'Pedidos'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona algum Pedido (NFe) da lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Volta para lista de pedidos) Usuario Administrador clica em bot&#xfffd;o Voltar&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com a lista de 'Pedidos'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona algum Pedido (NFe) da lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Registrar Ocorrencia'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre modal para digitacao da ocorrencia&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador digita ocorrencia e clica em 'Confirmar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica que Ocorrencia foi registrada com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A ocorrencia esta registrada.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC372">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Central de Operacoes' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe Dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Seleciona contador de 'Retornos') Usuario Administrador clica em algum contador de 'Retornos' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com a lista de 'Pedidos'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona algum Pedido (NFe) da lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Registrar Ocorrencia'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre modal para digitacao da ocorrencia&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;(Cancela registro de ocorrencia) Usuario Administrador clica em botao 'Cancelar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Registrar Ocorrencia'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre modal para digitacao da ocorrencia&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador digita ocorrencia e clica em 'Confirmar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica que Ocorrencia foi registrada com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A ocorrencia esta registrada.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC298">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Central de Operacoes' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe Dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;5  (Seleciona contador de 'Atrasos') Usuario Administrador clica em algum contador de 'Atrasos' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com a lista de 'Pedidos'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona algum Pedido (NFe) da lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Registrar Ocorrencia'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre modal para digitacao da ocorrencia&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;(Cancela registro de ocorrencia) Usuario Administrador clica em botao 'Cancelar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Registrar Ocorrencia'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre modal para digitacao da ocorrencia&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador digita ocorrencia e clica em 'Confirmar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica que Ocorrencia foi registrada com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A ocorrencia esta registrada.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC216">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Central de Operacoes' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe Dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Seleciona contador de 'Conferencia') Usuario Administrador clica em algum contador de 'Aceitas' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com a lista de 'Pedidos'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Filtra pedidos da lista) Usuario Administrador filtra os pedidos por algum campo&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com a lista de 'Pedidos'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona algum Pedido (NFe) da lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Registrar Ocorrencia'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre modal para digitacao da ocorrencia&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador digita ocorrencia e clica em 'Confirmar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica que Ocorrencia foi registrada com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A ocorrencia esta registrada.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC431">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Central de Operacoes' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe Dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Seleciona contador de 'Retornos') Usuario Administrador clica em algum contador de 'Retornos' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com a lista de 'Pedidos'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Ordena Notas) Usuario Administrador ordenas as coletas por alguma coluna&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com a lista de 'Pedidos'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona algum Pedido (NFe) da lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Registrar Ocorrencia'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre modal para digitacao da ocorrencia&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador digita ocorrencia e clica em 'Confirmar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica que Ocorrencia foi registrada com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A ocorrencia esta registrada.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC308">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica na opcao 'Central de Operacoes' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe Dashboard do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;5  (Seleciona contador de 'Atrasos') Usuario Administrador clica em algum contador de 'Atrasos' na secao de 'Notas'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com a lista de 'Pedidos'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Navega pelas paginas da lista) Usuario Administrador seleciona outra pagina&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre uma tela com a lista de 'Pedidos'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador seleciona algum Pedido (NFe) da lista&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe os dados da nota&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao de 'Registrar Ocorrencia'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre modal para digitacao da ocorrencia&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador digita ocorrencia e clica em 'Confirmar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica que Ocorrencia foi registrada com sucesso&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>A ocorrencia esta registrada.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+</testsuite>

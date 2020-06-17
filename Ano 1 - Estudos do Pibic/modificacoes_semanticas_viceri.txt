@@ -1,0 +1,11 @@
+notifica que o Administrador foi adicionado com sucesso	notifica que o Administrador foi adicionado com sucesso e exibe lista de Administradores	0
+notifica usuario que os nova Compatibilidade foi adicionada com sucesso	notifica usuario que os nova Compatibilidade foi adicionada com sucesso e exibe lista de Compatibilidades	0
+mostra uma mensagem de cadastro de E-commerce com sucesso	notifica que E-commerce foi cadastrado com sucesso e exibe lista de Ecommerces	0
+mostra operador adicionado em tabela na tela de cadastro	notifica que o operador foi adicionado e o mostra em tabela de operadores	0
+atualiza os dados do E-commerce no sistema	notifica usuario de que o Ecommerce foi atualizado com sucesso	0
+preenche dados validos e clica em Atualizar	preenche dados obrigatorios e clica em Atualizar	0
+clica em tab 'Pedidos'	clica em contador 'Outros'	0
+abre uma tela com a lista de 'Pedidos'	abre uma tela com a lista de 'Pedidos' ou Notas	0
+seleciona algum Pedido (NFe) da lista	seleciona algum Pedido ou Nota da lista	0
+filtra os pedidos por algum campo	filtra as notas por algum campo	0
+clica no botao 'Registrar Ocorrencia'	clica no botao 'Registrar Ocorrencia' para uma determinada nota	0

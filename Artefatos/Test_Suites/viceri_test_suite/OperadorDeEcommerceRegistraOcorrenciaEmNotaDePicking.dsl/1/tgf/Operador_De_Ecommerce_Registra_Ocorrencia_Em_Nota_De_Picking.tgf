@@ -1,0 +1,39 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+17 17
+18 18
+#
+1 2 [c] O Operador logado; Operador pertence Ecommerce alvo.
+2 3 [s]  Operador do Ecommerce seleciona a opcao 'Picking' no menu da tela principal
+3 4 [e]  Sistema mostra a tela com Picking para o dia
+4 5 [s]  Operador do Ecommerce clica em botao 'Iniciar Picking'
+3 11 [e]  Sistema mostra a tela com Picking para o dia
+5 6 [e]  Sistema mostra tela com dados de Picking
+6 7 [s]  Operador do Ecommerce clica no botao 'Registrar Ocorrencia' para uma determinada nota
+7 8 [e]  Sistema abre a janela de registro da Ocorrencia
+8 9 [s]  Operador do Ecommerce entra com o texto descrevendo sua Ocorrencia e clica no botao 'Registrar'
+7 10 [e]  Sistema abre a janela de registro da Ocorrencia
+9 17 [e]  Sistema cadastra a Ocorrencia e volta para tela de Picking
+8 14 [s]  Operador do Ecommerce entra com o texto descrevendo sua Ocorrencia e clica no botao 'Registrar'
+10 5 [s] (Clicar no botao 'Cancelar') Operador do Ecommerce desiste de salvar uma ocorrencia e clica bo botao 'Cancelar'
+11 12 [s] (registra ocorrencia apos visualizar lista de veiculos) Operador do Ecommerce clica em botao 'Consultar Veiculos'
+12 13 [e]  Sistema exibe lista de veiculos para picking
+13 5 [s]  Operador do Ecommerce clica em botao 'Iniciar Picking'
+14 15 [s] (Nao insere a descricao da ocorrencia') Operador do Ecommerce nao insere a descricao da ocorrencia e clica no botao de 'Registrar'
+15 16 [e]  Sistema informa que a mensagem da ocorrencia nao pode ser vazia
+16 5 [s]  Operador do Ecommerce insere descricao valida para Ocorrencia e clica no botao 'Registrar'
+17 18 [c] O sistema tem uma nova ocorrencia cadastrada para aquela nota.

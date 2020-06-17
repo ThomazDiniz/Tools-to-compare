@@ -1,0 +1,114 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+17 17
+18 18
+19 19
+20 20
+21 21
+22 22
+23 23
+24 24
+25 25
+26 26
+27 27
+28 28
+29 29
+30 30
+31 31
+32 32
+33 33
+34 34
+35 35
+36 36
+37 37
+38 38
+39 39
+40 40
+41 41
+42 42
+43 43
+44 44
+45 45
+46 46
+47 47
+48 48
+49 49
+50 50
+51 51
+52 52
+53 53
+54 54
+55 55
+#
+1 27 conditions
+27 2  Usuário deve estar logado no servidor como super administrador.
+2 28 steps
+28 3   ´Super Administrador abre módulo de extração
+3 29 expected_results
+29 4   Sistema exibe página inicial do módulo de extração
+4 30 steps
+30 5   ´Super Administrador digita um login de usuário administrador e password e pressiona Login
+3 31 expected_results
+31 6   Sistema exibe página inicial do módulo de extração
+3 32 expected_results
+32 8   Sistema exibe página inicial do módulo de extração
+3 33 expected_results
+33 10   Sistema exibe página inicial do módulo de extração
+5 34 expected_results
+34 23   Sistema exibe tela ?SAFF Extractor?
+4 35 steps
+35 14   ´Super Administrador digita um login de usuário administrador e password e pressiona Login
+4 36 steps
+36 18   ´Super Administrador digita um login de usuário administrador e password e pressiona Login
+4 37 steps
+37 21   ´Super Administrador digita um login de usuário administrador e password e pressiona Login
+6 38 steps
+38 7  (Login ou Password inválidos) ´Super Administrador digita um login de usuário administrador e/ou password invalidos e pressiona Login
+7 39 expected_results
+39 4   Sistema exibe mensagem ?Invalid username or password? na tela de login
+8 40 steps
+40 9  (Numero de tentativas invalidas é 3) ´Super Administrador digita um login de usuário administrador e/ou password invalidos pela terceira vez e pressiona Login
+9 41 expected_results
+41 4   Sistema exibe mensagem de alerta
+10 42 steps
+42 11  (Numero de tentativas invalidas é 5) ´Super Administrador digita um login de usuário administrador e/ou password invalidos pela quinta vez e pressiona Login
+11 43 expected_results
+43 12   Sistema bloqueia usuário
+12 44 steps
+44 13   ´Super Administrador tenta mais uma vez logar na conta do usuário, agora com dados válidos
+13 45 expected_results
+45 24   Sistema exibe mensagem que usuário está bloqueado
+14 46 expected_results
+46 15  (Sem conexão com o servidor e usuário deseja fazer extração offline) Sistema exibe pop-up questionanado se o usuário deveja fazer uma extração offline
+15 47 steps
+47 16   ´Super Administrador pressiona Yes
+16 48 expected_results
+48 17   Sistema fecha a janela pop-up
+17 49 expected_results
+49 25   Sistema exibe tela ?SAFF Extractor? em modo offline
+18 50 expected_results
+50 19  (Sem conexão com o servidor e usuário não deseja fazer extração offline) Sistema exibe pop-up questionanado se o usuário deveja fazer uma extração offline
+19 51 steps
+51 20   ´Super Administrador pressiona No
+20 52 expected_results
+52 4   Sistema fecha a janela pop-up
+21 53 expected_results
+53 22  (Usuario inativo por 90 dias) Sistema infoma que usuario esta bloqueado por inatividade
+22 54 steps
+54 4   ´Super Administrador executa programa externo que reinicia senha de super admin
+23 55 conditions
+55 26   .

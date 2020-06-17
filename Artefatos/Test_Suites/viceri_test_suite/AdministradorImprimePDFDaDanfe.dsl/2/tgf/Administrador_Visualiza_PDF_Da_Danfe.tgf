@@ -1,0 +1,46 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+17 17
+18 18
+19 19
+#
+1 2 [c] Usuario Administrador esta logado no sistema.
+2 3 [s]  Usuario Administrador clica na opcao 'Dashboard' no menu da tela principal
+3 4 [e]  Sistema exibe de dashboard do sistema
+4 5 [s]  Usuario Administrador clica em algum contador de 'Engine' na secao de 'Notas'
+3 10 [e]  Sistema exibe de dashboard do sistema
+3 11 [e]  Sistema exibe de dashboard do sistema
+3 12 [e]  Sistema exibe de dashboard do sistema
+3 13 [e]  Sistema exibe de dashboard do sistema
+3 14 [e]  Sistema exibe de dashboard do sistema
+5 6 [e]  Sistema abre uma tela com as listas das 'Notas'
+6 7 [s]  Usuario Administrador seleciona alguma Nota na lista
+5 15 [e]  Sistema abre uma tela com as listas das 'Notas'
+5 16 [e]  Sistema abre uma tela com as listas das 'Notas'
+5 17 [e]  Sistema abre uma tela com as listas das 'Notas'
+7 8 [e]  Sistema exibe os dados das notas
+8 9 [s]  Usuario Administrador clica no botao de 'Visualizar DANFE'
+9 18 [e]  Sistema abre uma nova aba com a versao da Danfe em PDF
+10 5 [s] (Seleciona contador de 'Conferência') Usuario Administrador clica em algum contador de 'Conferência' na secao de 'Notas'
+11 5 [s] (Seleciona contador de 'Picking') Usuario Administrador clica em algum contador de 'Picking' na secao de 'Notas'
+12 5 [s] (Seleciona contador de 'Atrasos') Usuario Administrador clica em algum contador de 'Atrasos' na secao de 'Notas'
+13 5 [s] (Seleciona contador de 'Retornos') Usuario Administrador clica em algum contador de 'Retornos' na secao de 'Notas'
+14 5 [s] (Seleciona contador de 'Ocorrências') Usuario Administrador clica em algum contador de 'Ocorrências' na secao de 'Notas'
+15 5 [s] (Navega pelas paginas da lista) Usuario Administrador seleciona outra pagina
+16 3 [s] (Clica no botao voltar) Usuario Administrador clica no botao 'Voltar'
+17 5 [s] (Ordena Notas) Usuario Administrador ordenas as notas por alguma coluna
+18 19 [c]  .

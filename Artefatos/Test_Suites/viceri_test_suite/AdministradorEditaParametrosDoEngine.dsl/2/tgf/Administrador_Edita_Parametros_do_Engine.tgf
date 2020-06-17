@@ -1,0 +1,28 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+#
+1 2 [c] Administrador logado.
+2 3 [s]  Usuario Administrador Entra na tela de Edição de Parametros do Engine
+3 4 [e]  Sistema apresenta uma tela com os Parâmetros do Engine com os valores atuais
+4 5 [s]  Usuario Administrador escolhe dia de Parametros do Engine
+5 6 [e]  Sistema insere automaticamente Horario de Inicio, Horario de Termino, Periodicidade e Raio atuais
+6 7 [s]  Usuario Administrador modifica valores de paremetros e clica em Atualizar
+7 12 [e]  Sistema notifica usuario que os Parâmetros foram atualizados com sucesso
+6 8 [s]  Usuario Administrador modifica valores de paremetros e clica em Atualizar
+6 10 [s]  Usuario Administrador modifica valores de paremetros e clica em Atualizar
+8 9 [e] (Não insere algum dado obrigatorio') Sistema informa que os dados obrigatorios devem ser preenchidos
+9 7 [s]  Usuario Administrador preenche dados obrigatorios e clica em Atualizar
+10 11 [e] (Usuario insere algum dado invalido) Sistema alerta que dado e invalido
+11 7 [s]  Usuario Administrador preenche dados obrigatorios e clica em Atualizar
+12 13 [c] Os Parametros do Engine devem estar atualizados.

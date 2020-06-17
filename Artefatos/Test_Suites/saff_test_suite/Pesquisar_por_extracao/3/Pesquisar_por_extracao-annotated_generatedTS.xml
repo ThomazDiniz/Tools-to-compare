@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<testsuite name="TS">
+  <node_order />
+  <details />
+  <testcase internalid="" name="TC1">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário deve estar logado com perfil de administrador. Deve existir ao menos uma extracao cadastrada.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita no campo ?Product Number? o numero de produto e o numero serial correspondente e pressiona o botao 'Search'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela correspondente a extracao&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC2">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário deve estar logado com perfil de administrador. Deve existir ao menos uma extracao cadastrada.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;(Product Number ou Serial Number invalidos) Administrador do sistema digita o product number e/ou numero serial invalidos e pressiona o botao 'Search'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem que product number ou serial number sao invalidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita no campo ?Product Number? o numero de produto e o numero serial correspondente e pressiona o botao 'Search'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela correspondente a extracao&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+</testsuite>

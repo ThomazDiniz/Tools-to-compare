@@ -1,0 +1,40 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+17 17
+18 18
+#
+1 2 [c] Usuario Administrador esta logado no sistema.
+2 3 [s]  Usuario Administrador abre tela inicial do sistema
+3 4 [e]  Sistema exibe tela inicial do sistema
+4 5 [s]  Usuario Administrador clica no opcao 'E-commerces' no menu principal
+5 6 [e]  Sistema exibe a tela com a lista de E-commerces cadastrados no sistema
+6 7 [s]  Usuario Administrador clica no botao 'Adicionar E-commerce'
+5 10 [e]  Sistema exibe a tela com a lista de E-commerces cadastrados no sistema
+7 8 [e]  Sistema exibe tela de cadastro de E-commerce
+8 9 [s]  Usuario Administrador insere os dados de cadastro do E-commerce e clica no botao 'Cadastrar'
+7 11 [e]  Sistema exibe tela de cadastro de E-commerce
+9 17 [e]  Sistema mostra uma mensagem de cadastro de E-commerce com sucesso
+8 13 [s]  Usuario Administrador insere os dados de cadastro do E-commerce e clica no botao 'Cadastrar'
+8 15 [s]  Usuario Administrador insere os dados de cadastro do E-commerce e clica no botao 'Cadastrar'
+10 3 [s] (Volta para tela inicial do sistema) Usuario Administrador clica no botao Voltar
+11 5 [s] (Cancela registro de Ecommerce) Usuario Administrador clica no botao Cancelar
+12 5 [s] (Navega pela lista de Ecommerce) Usuario Administrador clica no botao de paginacao
+13 14 [e] (Nao preencher campos obrigatorios) Sistema alerta ao usuario que os campos obrigatorios devem ser preenchidos
+14 9 [s]  Usuario Administrador informa os campos obrigatorios e clica no botao de 'Cadastrar'
+15 16 [e] (Conflito de CNPJ) Sistema alerta que ja existe um E-commerce cadastrado com o CNPJ
+16 9 [s]  Usuario Administrador preenche o CNPJ correto e clica no botão 'Cadastrar'
+17 18 [c] O novo E-commerce salvo no sistema.

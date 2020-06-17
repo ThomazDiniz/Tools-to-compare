@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<testsuite name="TS">
+  <node_order />
+  <details />
+  <testcase internalid="" name="TC11">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no opcao 'Ecommerces' no menu principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela com a lista de E-commerces cadastrados no sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Volta para tela inicial do sistema) Usuario Administrador clica no botao 'Voltar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no opcao 'Ecommerces' no menu principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela com a lista de E-commerces cadastrados no sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao 'Adicionar E-commerce'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de cadastro de E-commerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador insere os dados de cadastro do E-commerce e clica no botao 'Cadastrar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Conflito de CNPJ) Sistema alerta que ja existe um E-commerce cadastrado com o CNPJ&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador preenche o CNPJ correto e clica no bot&#xfffd;o 'Cadastrar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica que E-commerce foi cadastrado com sucesso e exibe lista de Ecommerces&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O novo E-commerce esta salvo no sistema.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC5">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no opcao 'Ecommerces' no menu principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela com a lista de E-commerces cadastrados no sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao 'Adicionar E-commerce'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de cadastro de E-commerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Cancela registro de Ecommerce) Usuario Administrador clica no botao 'Cancelar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela com a lista de E-commerces cadastrados no sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao 'Adicionar E-commerce'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de cadastro de E-commerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Usuario Administrador insere os dados de cadastro do E-commerce e clica no botao 'Cadastrar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Nao preenche algum campo obrigatorio) Sistema alerta ao usuario que os campos obrigatorios devem ser preenchidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Usuario Administrador informa os campos obrigatorios e clica no botao de 'Cadastrar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica que E-commerce foi cadastrado com sucesso e exibe lista de Ecommerces&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O novo E-commerce esta salvo no sistema.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC1">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuario Administrador esta logado no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario Administrador abre tela inicial do sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela inicial do sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no opcao 'Ecommerces' no menu principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe a tela com a lista de E-commerces cadastrados no sistema&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario Administrador clica no botao 'Adicionar E-commerce'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de cadastro de E-commerce&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Usuario Administrador insere os dados de cadastro do E-commerce e clica no botao 'Cadastrar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema notifica que E-commerce foi cadastrado com sucesso e exibe lista de Ecommerces&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O novo E-commerce esta salvo no sistema.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+</testsuite>

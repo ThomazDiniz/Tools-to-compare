@@ -1,0 +1,70 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+17 17
+18 18
+19 19
+20 20
+21 21
+22 22
+23 23
+24 24
+25 25
+26 26
+27 27
+28 28
+29 29
+30 30
+31 31
+32 32
+33 33
+#
+1 16 conditions
+16 2  Acesso ao Browser; Acesso a internet.
+2 17 steps
+17 3   Usuario Bazooca entra na homepage do sistema
+3 18 expected_results
+18 4   Sistema exibe homepage
+4 19 steps
+19 5   Usuario Bazooca clica no botao 'Login'
+5 20 expected_results
+20 6   Sistema apresenta um form com os campos username e password e um botao de submissao
+6 21 steps
+21 7   Usuario Bazooca preenche os campos de username e password e clica no botao de submissao
+5 22 expected_results
+22 8   Sistema apresenta um form com os campos username e password e um botao de submissao
+5 23 expected_results
+23 9   Sistema apresenta um form com os campos username e password e um botao de submissao
+7 24 expected_results
+24 14   Sistema mostra uma mensagem de usuario logado com sucesso
+6 25 steps
+25 12   Usuario Bazooca preenche os campos de username e password e clica no botao de submissao
+6 26 steps
+26 13   Usuario Bazooca preenche os campos de username e password e clica no botao de submissao
+8 27 steps
+27 5  (Um ou mais username sao apresentados) Usuario Bazooca seleciona um dos usernames sugeridos, digita um password e clica no botao de submeter
+9 28 steps
+28 10  (esqueceu credenciais) Usuario Bazooca clica no botao 'Esqueceu sua senha?'
+10 29 expected_results
+29 11   Sistema pede para usuario inserir email de cadastro
+11 30 steps
+30 2   Usuario Bazooca usuario clica em botao 'Confirmar'
+12 31 expected_results
+31 4  (usuario nao existe no banco de dados) Sistema alerta que usuario nao existe
+13 32 expected_results
+32 4  (combinacao de username/password incorreta) Sistema alerta que username e/ou password estao incorretos
+14 33 conditions
+33 15  Usuario esta logado no sistema.

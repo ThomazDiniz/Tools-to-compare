@@ -1,0 +1,65 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+17 17
+18 18
+19 19
+20 20
+21 21
+22 22
+23 23
+24 24
+25 25
+26 26
+27 27
+28 28
+29 29
+30 30
+31 31
+32 32
+#
+1 2 [c]  .
+2 3 [s]  operador do sistema inicia o SAFF Extractor e se autentica
+3 4 [e]  Sistema exibe pagina que requisita dados do terminal
+4 5 [s]  operador do sistema abre extrator
+5 6 [e]  Sistema exibe tela de login
+6 7 [s]  operador do sistema loga no extrator
+5 24 [e]  Sistema exibe tela de login
+7 28 [e]  Sistema exibe tela inicial 'SAFF extraction'
+6 8 [s]  operador do sistema loga no extrator
+6 17 [s]  operador do sistema loga no extrator
+8 9 [e] (Sem conexao e usuario deseja entrar em modo offline ) Sistema exibe mensagem solicitando confirmacao se usuario quer entrar em modo offline
+9 10 [s]  operador do sistema confirma que quer entrar em modo offline
+10 11 [e]  Sistema exibe pagina que requisita dados do terminal
+11 12 [s]  operador do sistema realiza uma serie de extracoes sequenciais
+12 13 [e]  Sistema salva as extracoes na pasta local 'OfflineExtraction'
+13 14 [s]  operador do sistema reastabelece conexao
+14 15 [e]  Sistema envia extracoes locais para o servidor e as apaga da pasta local 'OfflineExtraction'
+13 19 [s]  operador do sistema reastabelece conexao
+15 16 [s]  operador do sistema loga no servidor e vai ate a pagina de extracoes
+16 29 [e]  Sistema exibe lista com extracoes realizadas no modo offline
+17 18 [e] (Sem conexao e usuario nao deseja entrar em modo offline ) Sistema exibe mensagem solicitando confirmação se usuario quer entrar em modo offline
+18 3 [s]  operador do sistema nao deseja entrar em modo offline
+19 20 [e] (Cai conexao novamente) Sistema mantem informacao das extracoes nao enviadas a tempo na pasta local
+20 21 [s]  operador do sistema reastabelece conexao
+21 22 [e]  Sistema envia extracoes restantes da pasta local para o servidor e as apaga da pasta 'OfflineExtraction'
+22 23 [s]  operador do sistema loga no servidor e vai ate a pagina de extracoes
+23 30 [e]  Sistema exibe lista que contem as extracoes realizadas no modo offline
+24 25 [s] (Offline sempre) operador do sistema define que o sistema sempre fara extracoes offline
+25 26 [e]  Sistema exibe pagina que requisita dados do terminal
+26 27 [s]  operador do sistema realiza uma serie de extracoes
+27 31 [e]  Sistema salva as extracoes na pasta local 'OfflineExtraction'
+28 32 [c] extracoes foram realizadas (tempo de cada extracao deve ser o momento que esta foi feita em modo offline).

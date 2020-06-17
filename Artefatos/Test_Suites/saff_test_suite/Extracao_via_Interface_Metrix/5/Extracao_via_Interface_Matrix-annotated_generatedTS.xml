@@ -1,0 +1,953 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<testsuite name="TS">
+  <node_order />
+  <details />
+  <testcase internalid="" name="TC1">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;operador do sistema inicia o SAFF Extractor e se autentica&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de coleta automatica&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;operador do sistema seleciona uma pasta contendo varias extracoes, fornece as informacoes solicitadas na tela inicial e pressiona o botao 'Start'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema bloqueia todos os botoes, com excecao do botao 'Stop'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;temporizador a cada 30 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia extracoes para o servidor, transfere essas extrações para a pasta 'read', atualiza o contador de extrações realizadas e fica em espera por novas extracoes na pasta indicada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;operador do sistema pressiona botao 'Stop'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema desbloqueia todos os botoes e para de escutar a pasta indicada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>As extracoes da pasta indicada foram enviadas para o servidor e transferidas para a pasta 'read'.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC2">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;operador do sistema inicia o SAFF Extractor e se autentica&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de coleta automatica&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;operador do sistema seleciona uma pasta contendo varias extracoes, fornece as informacoes solicitadas na tela inicial e pressiona o botao 'Start'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema bloqueia todos os botoes, com excecao do botao 'Stop'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;temporizador a cada 30 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia extracoes para o servidor, transfere essas extrações para a pasta 'read', atualiza o contador de extrações realizadas e fica em espera por novas extracoes na pasta indicada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Insere novas extracoes na pasta) operador do sistema adiciona novas extracoes na pasta indicada&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema bloqueia todos os botoes, com excecao do botao 'Stop'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;temporizador a cada 30 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia extracoes para o servidor, transfere essas extrações para a pasta 'read', atualiza o contador de extrações realizadas e fica em espera por novas extracoes na pasta indicada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;operador do sistema pressiona botao 'Stop'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema desbloqueia todos os botoes e para de escutar a pasta indicada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>As extracoes da pasta indicada foram enviadas para o servidor e transferidas para a pasta 'read'.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC3">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;operador do sistema inicia o SAFF Extractor e se autentica&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de coleta automatica&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;operador do sistema seleciona uma pasta contendo varias extracoes, fornece as informacoes solicitadas na tela inicial e pressiona o botao 'Start'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema bloqueia todos os botoes, com excecao do botao 'Stop'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;temporizador a cada 30 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia extracoes para o servidor, transfere essas extrações para a pasta 'read', atualiza o contador de extrações realizadas e fica em espera por novas extracoes na pasta indicada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Insere novas extracoes na pasta) operador do sistema adiciona novas extracoes na pasta indicada&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema bloqueia todos os botoes, com excecao do botao 'Stop'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;temporizador a cada 30 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia extracoes para o servidor, transfere essas extrações para a pasta 'read', atualiza o contador de extrações realizadas e fica em espera por novas extracoes na pasta indicada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;(Insere novas extracoes na pasta) operador do sistema adiciona novas extracoes na pasta indicada&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC4">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;operador do sistema inicia o SAFF Extractor e se autentica&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de coleta automatica&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;operador do sistema seleciona uma pasta contendo varias extracoes, fornece as informacoes solicitadas na tela inicial e pressiona o botao 'Start'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema bloqueia todos os botoes, com excecao do botao 'Stop'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;temporizador a cada 30 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia extracoes para o servidor, transfere essas extrações para a pasta 'read', atualiza o contador de extrações realizadas e fica em espera por novas extracoes na pasta indicada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Insere novas extracoes na pasta) operador do sistema adiciona novas extracoes na pasta indicada&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema bloqueia todos os botoes, com excecao do botao 'Stop'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;temporizador a cada 30 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Falha no envio ao servidor) Sistema mantem a informacao de quais extracoes foram enviadas para o servidor; fica em espera ate que a conexao seja reestabelecida&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;temporizador a cada 30 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;6   Sistema tenta enviar extrações restantes para o servidor&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC5">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;operador do sistema inicia o SAFF Extractor e se autentica&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de coleta automatica&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;operador do sistema seleciona uma pasta contendo varias extracoes, fornece as informacoes solicitadas na tela inicial e pressiona o botao 'Start'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema bloqueia todos os botoes, com excecao do botao 'Stop'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;temporizador a cada 30 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia extracoes para o servidor, transfere essas extrações para a pasta 'read', atualiza o contador de extrações realizadas e fica em espera por novas extracoes na pasta indicada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Insere novas extracoes na pasta) operador do sistema adiciona novas extracoes na pasta indicada&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema bloqueia todos os botoes, com excecao do botao 'Stop'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;temporizador a cada 30 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Extração não se encontra em formato adequado) Sistema move a extração para a pasta broken&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC6">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;operador do sistema inicia o SAFF Extractor e se autentica&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de coleta automatica&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;operador do sistema seleciona uma pasta contendo varias extracoes, fornece as informacoes solicitadas na tela inicial e pressiona o botao 'Start'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema bloqueia todos os botoes, com excecao do botao 'Stop'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;temporizador a cada 30 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Falha no envio ao servidor) Sistema mantem a informacao de quais extracoes foram enviadas para o servidor; fica em espera ate que a conexao seja reestabelecida&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;temporizador a cada 30 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;6   Sistema tenta enviar extrações restantes para o servidor&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;temporizador a cada 30 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia extracoes para o servidor, transfere essas extrações para a pasta 'read', atualiza o contador de extrações realizadas e fica em espera por novas extracoes na pasta indicada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;operador do sistema pressiona botao 'Stop'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema desbloqueia todos os botoes e para de escutar a pasta indicada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>As extracoes da pasta indicada foram enviadas para o servidor e transferidas para a pasta 'read'.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC7">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;operador do sistema inicia o SAFF Extractor e se autentica&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de coleta automatica&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;operador do sistema seleciona uma pasta contendo varias extracoes, fornece as informacoes solicitadas na tela inicial e pressiona o botao 'Start'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema bloqueia todos os botoes, com excecao do botao 'Stop'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;temporizador a cada 30 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Falha no envio ao servidor) Sistema mantem a informacao de quais extracoes foram enviadas para o servidor; fica em espera ate que a conexao seja reestabelecida&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;temporizador a cada 30 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;6   Sistema tenta enviar extrações restantes para o servidor&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;temporizador a cada 30 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia extracoes para o servidor, transfere essas extrações para a pasta 'read', atualiza o contador de extrações realizadas e fica em espera por novas extracoes na pasta indicada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;(Insere novas extracoes na pasta) operador do sistema adiciona novas extracoes na pasta indicada&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC8">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;operador do sistema inicia o SAFF Extractor e se autentica&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de coleta automatica&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;operador do sistema seleciona uma pasta contendo varias extracoes, fornece as informacoes solicitadas na tela inicial e pressiona o botao 'Start'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema bloqueia todos os botoes, com excecao do botao 'Stop'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;temporizador a cada 30 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Falha no envio ao servidor) Sistema mantem a informacao de quais extracoes foram enviadas para o servidor; fica em espera ate que a conexao seja reestabelecida&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;temporizador a cada 30 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;6   Sistema tenta enviar extrações restantes para o servidor&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;temporizador a cada 30 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Falha no envio ao servidor) Sistema mantem a informacao de quais extracoes foram enviadas para o servidor; fica em espera ate que a conexao seja reestabelecida&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;temporizador a cada 30 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;6   Sistema tenta enviar extrações restantes para o servidor&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC9">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;operador do sistema inicia o SAFF Extractor e se autentica&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de coleta automatica&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;operador do sistema seleciona uma pasta contendo varias extracoes, fornece as informacoes solicitadas na tela inicial e pressiona o botao 'Start'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema bloqueia todos os botoes, com excecao do botao 'Stop'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;temporizador a cada 30 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Falha no envio ao servidor) Sistema mantem a informacao de quais extracoes foram enviadas para o servidor; fica em espera ate que a conexao seja reestabelecida&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;temporizador a cada 30 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;6   Sistema tenta enviar extrações restantes para o servidor&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;temporizador a cada 30 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Extração não se encontra em formato adequado) Sistema move a extração para a pasta broken&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC10">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;operador do sistema inicia o SAFF Extractor e se autentica&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de coleta automatica&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;operador do sistema seleciona uma pasta contendo varias extracoes, fornece as informacoes solicitadas na tela inicial e pressiona o botao 'Start'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema bloqueia todos os botoes, com excecao do botao 'Stop'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;temporizador a cada 30 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Extração não se encontra em formato adequado) Sistema move a extração para a pasta broken&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC11">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;operador do sistema inicia o SAFF Extractor e se autentica&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de coleta automatica&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Seleciona pasta vazia) operador do sistema seleciona pasta vazia, e pressiona botao 'Start'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema fica em espera ate que alguma extracao seja adicionada na pasta indicada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;operador do sistema adiciona extracao a pasta indicada&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema bloqueia todos os botoes, com excecao do botao 'Stop'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;temporizador a cada 30 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia extracoes para o servidor, transfere essas extrações para a pasta 'read', atualiza o contador de extrações realizadas e fica em espera por novas extracoes na pasta indicada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;operador do sistema pressiona botao 'Stop'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema desbloqueia todos os botoes e para de escutar a pasta indicada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>As extracoes da pasta indicada foram enviadas para o servidor e transferidas para a pasta 'read'.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC12">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;operador do sistema inicia o SAFF Extractor e se autentica&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de coleta automatica&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Seleciona pasta vazia) operador do sistema seleciona pasta vazia, e pressiona botao 'Start'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema fica em espera ate que alguma extracao seja adicionada na pasta indicada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;operador do sistema adiciona extracao a pasta indicada&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema bloqueia todos os botoes, com excecao do botao 'Stop'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;temporizador a cada 30 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia extracoes para o servidor, transfere essas extrações para a pasta 'read', atualiza o contador de extrações realizadas e fica em espera por novas extracoes na pasta indicada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;(Insere novas extracoes na pasta) operador do sistema adiciona novas extracoes na pasta indicada&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema bloqueia todos os botoes, com excecao do botao 'Stop'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;temporizador a cada 30 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia extracoes para o servidor, transfere essas extrações para a pasta 'read', atualiza o contador de extrações realizadas e fica em espera por novas extracoes na pasta indicada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;operador do sistema pressiona botao 'Stop'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema desbloqueia todos os botoes e para de escutar a pasta indicada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>As extracoes da pasta indicada foram enviadas para o servidor e transferidas para a pasta 'read'.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC13">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;operador do sistema inicia o SAFF Extractor e se autentica&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de coleta automatica&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Seleciona pasta vazia) operador do sistema seleciona pasta vazia, e pressiona botao 'Start'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema fica em espera ate que alguma extracao seja adicionada na pasta indicada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;operador do sistema adiciona extracao a pasta indicada&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema bloqueia todos os botoes, com excecao do botao 'Stop'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;temporizador a cada 30 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia extracoes para o servidor, transfere essas extrações para a pasta 'read', atualiza o contador de extrações realizadas e fica em espera por novas extracoes na pasta indicada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;(Insere novas extracoes na pasta) operador do sistema adiciona novas extracoes na pasta indicada&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema bloqueia todos os botoes, com excecao do botao 'Stop'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;temporizador a cada 30 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia extracoes para o servidor, transfere essas extrações para a pasta 'read', atualiza o contador de extrações realizadas e fica em espera por novas extracoes na pasta indicada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;(Insere novas extracoes na pasta) operador do sistema adiciona novas extracoes na pasta indicada&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC14">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;operador do sistema inicia o SAFF Extractor e se autentica&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de coleta automatica&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Seleciona pasta vazia) operador do sistema seleciona pasta vazia, e pressiona botao 'Start'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema fica em espera ate que alguma extracao seja adicionada na pasta indicada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;operador do sistema adiciona extracao a pasta indicada&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema bloqueia todos os botoes, com excecao do botao 'Stop'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;temporizador a cada 30 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia extracoes para o servidor, transfere essas extrações para a pasta 'read', atualiza o contador de extrações realizadas e fica em espera por novas extracoes na pasta indicada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;(Insere novas extracoes na pasta) operador do sistema adiciona novas extracoes na pasta indicada&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema bloqueia todos os botoes, com excecao do botao 'Stop'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;temporizador a cada 30 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Falha no envio ao servidor) Sistema mantem a informacao de quais extracoes foram enviadas para o servidor; fica em espera ate que a conexao seja reestabelecida&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;temporizador a cada 30 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;6   Sistema tenta enviar extrações restantes para o servidor&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC15">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;operador do sistema inicia o SAFF Extractor e se autentica&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de coleta automatica&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Seleciona pasta vazia) operador do sistema seleciona pasta vazia, e pressiona botao 'Start'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema fica em espera ate que alguma extracao seja adicionada na pasta indicada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;operador do sistema adiciona extracao a pasta indicada&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema bloqueia todos os botoes, com excecao do botao 'Stop'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;temporizador a cada 30 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia extracoes para o servidor, transfere essas extrações para a pasta 'read', atualiza o contador de extrações realizadas e fica em espera por novas extracoes na pasta indicada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;(Insere novas extracoes na pasta) operador do sistema adiciona novas extracoes na pasta indicada&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema bloqueia todos os botoes, com excecao do botao 'Stop'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;temporizador a cada 30 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Extração não se encontra em formato adequado) Sistema move a extração para a pasta broken&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC16">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;operador do sistema inicia o SAFF Extractor e se autentica&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de coleta automatica&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Seleciona pasta vazia) operador do sistema seleciona pasta vazia, e pressiona botao 'Start'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema fica em espera ate que alguma extracao seja adicionada na pasta indicada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;operador do sistema adiciona extracao a pasta indicada&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema bloqueia todos os botoes, com excecao do botao 'Stop'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;temporizador a cada 30 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Falha no envio ao servidor) Sistema mantem a informacao de quais extracoes foram enviadas para o servidor; fica em espera ate que a conexao seja reestabelecida&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;temporizador a cada 30 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;6   Sistema tenta enviar extrações restantes para o servidor&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;temporizador a cada 30 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia extracoes para o servidor, transfere essas extrações para a pasta 'read', atualiza o contador de extrações realizadas e fica em espera por novas extracoes na pasta indicada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;operador do sistema pressiona botao 'Stop'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema desbloqueia todos os botoes e para de escutar a pasta indicada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>As extracoes da pasta indicada foram enviadas para o servidor e transferidas para a pasta 'read'.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC17">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;operador do sistema inicia o SAFF Extractor e se autentica&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de coleta automatica&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Seleciona pasta vazia) operador do sistema seleciona pasta vazia, e pressiona botao 'Start'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema fica em espera ate que alguma extracao seja adicionada na pasta indicada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;operador do sistema adiciona extracao a pasta indicada&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema bloqueia todos os botoes, com excecao do botao 'Stop'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;temporizador a cada 30 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Falha no envio ao servidor) Sistema mantem a informacao de quais extracoes foram enviadas para o servidor; fica em espera ate que a conexao seja reestabelecida&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;temporizador a cada 30 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;6   Sistema tenta enviar extrações restantes para o servidor&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;temporizador a cada 30 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema envia extracoes para o servidor, transfere essas extrações para a pasta 'read', atualiza o contador de extrações realizadas e fica em espera por novas extracoes na pasta indicada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;(Insere novas extracoes na pasta) operador do sistema adiciona novas extracoes na pasta indicada&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC18">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;operador do sistema inicia o SAFF Extractor e se autentica&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de coleta automatica&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Seleciona pasta vazia) operador do sistema seleciona pasta vazia, e pressiona botao 'Start'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema fica em espera ate que alguma extracao seja adicionada na pasta indicada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;operador do sistema adiciona extracao a pasta indicada&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema bloqueia todos os botoes, com excecao do botao 'Stop'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;temporizador a cada 30 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Falha no envio ao servidor) Sistema mantem a informacao de quais extracoes foram enviadas para o servidor; fica em espera ate que a conexao seja reestabelecida&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;temporizador a cada 30 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;6   Sistema tenta enviar extrações restantes para o servidor&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;temporizador a cada 30 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Falha no envio ao servidor) Sistema mantem a informacao de quais extracoes foram enviadas para o servidor; fica em espera ate que a conexao seja reestabelecida&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;temporizador a cada 30 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;6   Sistema tenta enviar extrações restantes para o servidor&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC19">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;operador do sistema inicia o SAFF Extractor e se autentica&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de coleta automatica&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Seleciona pasta vazia) operador do sistema seleciona pasta vazia, e pressiona botao 'Start'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema fica em espera ate que alguma extracao seja adicionada na pasta indicada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;operador do sistema adiciona extracao a pasta indicada&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema bloqueia todos os botoes, com excecao do botao 'Stop'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;temporizador a cada 30 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Falha no envio ao servidor) Sistema mantem a informacao de quais extracoes foram enviadas para o servidor; fica em espera ate que a conexao seja reestabelecida&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;temporizador a cada 30 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;6   Sistema tenta enviar extrações restantes para o servidor&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;temporizador a cada 30 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Extração não se encontra em formato adequado) Sistema move a extração para a pasta broken&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC20">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;operador do sistema inicia o SAFF Extractor e se autentica&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela de coleta automatica&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Seleciona pasta vazia) operador do sistema seleciona pasta vazia, e pressiona botao 'Start'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema fica em espera ate que alguma extracao seja adicionada na pasta indicada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;operador do sistema adiciona extracao a pasta indicada&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema bloqueia todos os botoes, com excecao do botao 'Stop'&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;temporizador a cada 30 segundos&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Extração não se encontra em formato adequado) Sistema move a extração para a pasta broken&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+</testsuite>

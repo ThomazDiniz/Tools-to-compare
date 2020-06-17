@@ -1,0 +1,47 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+17 17
+18 18
+19 19
+20 20
+21 21
+22 22
+#
+1 11 conditions
+11 2  Acesso ao Browser; Acesso a internet.
+2 12 steps
+12 3   Bazooca User Entra na tela de login
+3 13 expected_results
+13 4   Sistema apresenta um form com os campos username e password e um botão de submissão
+4 14 steps
+14 5   Bazooca User preenche os campos de username e password e clica no botão de submissão
+3 15 expected_results
+15 6   Sistema apresenta um form com os campos username e password e um botão de submissão
+5 16 expected_results
+16 9   Sistema mostra uma mensagem de usuário logado com sucesso
+4 17 steps
+17 7   Bazooca User preenche os campos de username e password e clica no botão de submissão
+4 18 steps
+18 8   Bazooca User preenche os campos de username e password e clica no botão de submissão
+6 19 steps
+19 5  (Um ou mais username são apresentados) Bazooca User seleciona um dos usernames sugeridos, digita um password e clica no botão de submeter
+7 20 expected_results
+20 4  (Usuário não existe no banco de dados) Sistema alerta que usuário não existe
+8 21 expected_results
+21 4  (Combinação de username/password incorreta) Sistema alerta que username e/ou password estão incorretos
+9 22 conditions
+22 10  Usuario logado no sistema.

@@ -1,0 +1,55 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+17 17
+18 18
+19 19
+20 20
+21 21
+22 22
+23 23
+24 24
+#
+1 2 [c] Usuario Administrador esta logado no sistema.
+2 3 [s]  Usuario Administrador abre tela inicial do sistema
+3 4 [e]  Sistema exibe tela inicial do sistema
+4 5 [s]  Usuario Administrador clica na opcao 'Administrador' no menu da tela principal
+5 6 [e]  Sistema apresenta uma listagem dos Administradores cadastrados no sistema
+6 7 [s]  Usuario Administrador clica em algum dos Administradores listados
+5 12 [e]  Sistema apresenta uma listagem dos Administradores cadastrados no sistema
+7 8 [e]  Sistema abre a tela de edicao de Administrador
+8 9 [s]  Usuario Administrador clica no botao de 'Excluir'
+7 13 [e]  Sistema abre a tela de edicao de Administrador
+9 10 [e]  Sistema exibe popup pedindo Confirmacao de delecao
+10 11 [s]  Usuario Administrador confirma delecao
+9 14 [e]  Sistema exibe popup pedindo Confirmacao de delecao
+11 23 [e]  Sistema notifica que o Administrador foi adicionado com sucesso
+10 15 [s]  Usuario Administrador confirma delecao
+10 17 [s]  Usuario Administrador confirma delecao
+10 19 [s]  Usuario Administrador confirma delecao
+10 21 [s]  Usuario Administrador confirma delecao
+12 3 [s] (Volta para tela inicial de sistema) Usuario Administrador clica no botao Voltar
+13 5 [s] (Cancela delecao de Administrador) Usuario Administrador clica no botao Cancelar
+14 7 [s] (Fecha popup de confirmacao de delecao) Usuario Administrador clica no botao 'Cancelar' do popup
+15 16 [e] (Dados obrigatorios') Sistema informa que os dados obrigatorios devem ser preenchidos
+16 9 [s]  Usuario Administrador preenche os dados orbigatorios e clica no botao 'Registrar'
+17 18 [e] (Email invalido) Sistema alerta usuario de que Email e invalido
+18 9 [s]  Usuario Administrador insere um Email valido e clica no botao 'Registrar'
+19 20 [e] (Senha e Confirmacao diferentes) Sistema alerta usuario de que senhas estao diferentes
+20 9 [s]  Usuario Administrador insere Senhas iguais e clica no botao 'Registrar'
+21 22 [e] (Sem Permissao) Sistema alerta usuario que Administrador nao esta com nenhuma Permissao
+22 9 [s]  Usuario Administrador insere uma permissao e clica no botao 'Registrar'
+23 24 [c] O Administrador foi adicionado com sucesso.

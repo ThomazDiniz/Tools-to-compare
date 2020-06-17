@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<testsuite name="TS">
+  <node_order />
+  <details />
+  <testcase internalid="" name="TC1">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Existem diversos usuarios de diferentes perfis cadastrados no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Usuario do sistema loga no sistema com perfil de super administrador&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela principal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario do sistema selecionar o botâo 'Options', opção 'Users' na página principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista com todos os usuários cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario do sistema clica no nome de um usuário&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina contendo os campos 'Name', 'Login', 'Type' e 'Language' devidamente preenchidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC2">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Existem diversos usuarios de diferentes perfis cadastrados no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;(Gerente) Usuario do sistema loga no sistema com perfil de gerente&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela principal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario do sistema selecionar o botao 'Options', opcao 'Users' na pagina principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista somente cos usuários cadastrados do tipo 'Operator' associados ao mesmo laboratorio que o gerente&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario do sistema clica no nome de um usuário&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina contendo os campos 'Name', 'Login', 'Type' e 'Language' devidamente preenchidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC3">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Existem diversos usuarios de diferentes perfis cadastrados no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;(administrador) Usuario do sistema loga no sistema com perfil de administrador&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela principal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario do sistema selecionar o botao 'Options', opção 'Users' na pagina principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista somente cos usuarios cadastrados do tipo 'Operator' e 'Manager' associados ao mesmo laboratorio que o administrador&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario do sistema clica no nome de um usuário&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina contendo os campos 'Name', 'Login', 'Type' e 'Language' devidamente preenchidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC4">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Existem diversos usuarios de diferentes perfis cadastrados no sistema.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;(Super viewer) Usuario do sistema loga no sistema com perfil de super viewer&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe tela principal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Usuario do sistema selecionar o botâo 'Options', opção 'Users' na página principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista com todos os usuários cadastrados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Usuario do sistema clica no nome de um usuário&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina contendo os campos 'Name', 'Login', 'Type' e 'Language' devidamente preenchidos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+</testsuite>

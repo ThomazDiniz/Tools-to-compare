@@ -1,0 +1,47 @@
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11
+12 12
+13 13
+14 14
+15 15
+16 16
+17 17
+18 18
+19 19
+20 20
+21 21
+22 22
+#
+1 2 [c] Estar logado como super administrador.
+2 3 [s]  Super administrador seleciona opção 'Secu Infos' no menu Settings
+3 4 [e]  Sistema exibe lista de Secu Infos
+4 5 [s]  Super administrador seleciona o botao 'Create Secu Info'
+5 6 [e]  Sistema exibe pagina com campos de cadastro de novo Secu Info
+6 7 [s]  Super administrador preenche corretamente os campos 'Secu Info' e 'Sxx' e pressiona o botão 'Create' 
+5 14 [e]  Sistema exibe pagina com campos de cadastro de novo Secu Info
+7 8 [e]  Sistema exibe pagina com dados do novo Secu Info e mensagem que um novo entrada foi adicionado
+8 9 [s]  Super administrador seleciona opcao 'Secu Info' no menu Settings
+9 10 [e]  Sistema exibe lista de Secu Infos
+10 11 [s]  Super administrador clica no nome de uma Secu Info
+11 12 [e]  Sistema exibe dados da Secu Info
+12 13 [s]  Super administrador clica no botao 'Cancel'
+11 15 [e]  Sistema exibe dados da Secu Info
+11 18 [e]  Sistema exibe dados da Secu Info
+13 21 [e]  Sistema retorna a lista de Secu Infos
+14 3 [s] (Cancela criacao) Super administrador Cancela criacao
+15 16 [s] (Edita dados) Super administrador clica no botao 'Edit'
+16 17 [e]  Sistema exibe campos do Secu Info com valores atuais que podem ser editados
+17 3 [s]  Super administrador preenche os novos valores e pressiona o botão 'Update
+18 19 [s] (Deleta Secu Info) Super administrador clica no botao 'Delete'
+19 20 [e]  Sistema exibe mensagem solicitando confirmacao
+20 3 [s]  Super administrador pressiona o botao OK
+21 22 [c]  .

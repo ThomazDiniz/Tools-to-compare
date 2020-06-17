@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<testsuite name="TS">
+  <node_order />
+  <details />
+  <testcase internalid="" name="TC1">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>O Operador logado; Operador pertence Ecommerce alvo.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Operador do Ecommerce seleciona a opcao 'Picking' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a tela com Picking para o dia&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Operador do Ecommerce clica em botao 'Iniciar Picking'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra tela com dados de Picking&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Operador do Ecommerce clica no botao 'Registrar Ocorrencia' para uma determinada nota&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre a janela de registro da Ocorrencia&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Operador do Ecommerce entra com o texto descrevendo sua Ocorrencia e clica no botao 'Registrar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema cadastra a Ocorrencia e volta para tela de Picking&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O sistema tem uma nova ocorrencia cadastrada para aquela nota.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC2">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>O Operador logado; Operador pertence Ecommerce alvo.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Operador do Ecommerce seleciona a opcao 'Picking' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a tela com Picking para o dia&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Operador do Ecommerce clica em botao 'Iniciar Picking'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra tela com dados de Picking&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Operador do Ecommerce clica no botao 'Registrar Ocorrencia' para uma determinada nota&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre a janela de registro da Ocorrencia&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Operador do Ecommerce entra com o texto descrevendo sua Ocorrencia e clica no botao 'Registrar'&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;(Nao insere a descricao da ocorrencia') Operador do Ecommerce nao insere a descricao da ocorrencia e clica no botao de 'Registrar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema informa que a mensagem da ocorrencia nao pode ser vazia&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Operador do Ecommerce insere descricao valida para Ocorrencia e clica no botao 'Registrar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra tela com dados de Picking&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Operador do Ecommerce clica no botao 'Registrar Ocorrencia' para uma determinada nota&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre a janela de registro da Ocorrencia&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Operador do Ecommerce entra com o texto descrevendo sua Ocorrencia e clica no botao 'Registrar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema cadastra a Ocorrencia e volta para tela de Picking&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O sistema tem uma nova ocorrencia cadastrada para aquela nota.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC5">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>O Operador logado; Operador pertence Ecommerce alvo.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Operador do Ecommerce seleciona a opcao 'Picking' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a tela com Picking para o dia&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Operador do Ecommerce clica em botao 'Iniciar Picking'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra tela com dados de Picking&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Operador do Ecommerce clica no botao 'Registrar Ocorrencia' para uma determinada nota&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre a janela de registro da Ocorrencia&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Clicar no botao 'Cancelar') Operador do Ecommerce desiste de salvar uma ocorrencia e clica bo botao 'Cancelar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra tela com dados de Picking&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Operador do Ecommerce clica no botao 'Registrar Ocorrencia' para uma determinada nota&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre a janela de registro da Ocorrencia&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Operador do Ecommerce entra com o texto descrevendo sua Ocorrencia e clica no botao 'Registrar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema cadastra a Ocorrencia e volta para tela de Picking&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O sistema tem uma nova ocorrencia cadastrada para aquela nota.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC8">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>O Operador logado; Operador pertence Ecommerce alvo.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Operador do Ecommerce seleciona a opcao 'Picking' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a tela com Picking para o dia&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(registra ocorrencia apos visualizar lista de veiculos) Operador do Ecommerce clica em botao 'Consultar Veiculos'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de veiculos para picking&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Operador do Ecommerce clica em botao 'Iniciar Picking'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra tela com dados de Picking&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Operador do Ecommerce clica no botao 'Registrar Ocorrencia' para uma determinada nota&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre a janela de registro da Ocorrencia&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Operador do Ecommerce entra com o texto descrevendo sua Ocorrencia e clica no botao 'Registrar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema cadastra a Ocorrencia e volta para tela de Picking&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O sistema tem uma nova ocorrencia cadastrada para aquela nota.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC9">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>O Operador logado; Operador pertence Ecommerce alvo.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Operador do Ecommerce seleciona a opcao 'Picking' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a tela com Picking para o dia&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(registra ocorrencia apos visualizar lista de veiculos) Operador do Ecommerce clica em botao 'Consultar Veiculos'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de veiculos para picking&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Operador do Ecommerce clica em botao 'Iniciar Picking'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra tela com dados de Picking&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Operador do Ecommerce clica no botao 'Registrar Ocorrencia' para uma determinada nota&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre a janela de registro da Ocorrencia&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Operador do Ecommerce entra com o texto descrevendo sua Ocorrencia e clica no botao 'Registrar'&lt;p&gt;</actions>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;(Nao insere a descricao da ocorrencia') Operador do Ecommerce nao insere a descricao da ocorrencia e clica no botao de 'Registrar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema informa que a mensagem da ocorrencia nao pode ser vazia&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Operador do Ecommerce insere descricao valida para Ocorrencia e clica no botao 'Registrar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra tela com dados de Picking&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Operador do Ecommerce clica no botao 'Registrar Ocorrencia' para uma determinada nota&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre a janela de registro da Ocorrencia&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>9</step_number>
+        <actions>&lt;p&gt;Operador do Ecommerce entra com o texto descrevendo sua Ocorrencia e clica no botao 'Registrar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema cadastra a Ocorrencia e volta para tela de Picking&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O sistema tem uma nova ocorrencia cadastrada para aquela nota.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC12">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>O Operador logado; Operador pertence Ecommerce alvo.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Operador do Ecommerce seleciona a opcao 'Picking' no menu da tela principal&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra a tela com Picking para o dia&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(registra ocorrencia apos visualizar lista de veiculos) Operador do Ecommerce clica em botao 'Consultar Veiculos'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe lista de veiculos para picking&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Operador do Ecommerce clica em botao 'Iniciar Picking'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra tela com dados de Picking&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Operador do Ecommerce clica no botao 'Registrar Ocorrencia' para uma determinada nota&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre a janela de registro da Ocorrencia&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;(Clicar no botao 'Cancelar') Operador do Ecommerce desiste de salvar uma ocorrencia e clica bo botao 'Cancelar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema mostra tela com dados de Picking&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Operador do Ecommerce clica no botao 'Registrar Ocorrencia' para uma determinada nota&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema abre a janela de registro da Ocorrencia&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Operador do Ecommerce entra com o texto descrevendo sua Ocorrencia e clica no botao 'Registrar'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema cadastra a Ocorrencia e volta para tela de Picking&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O sistema tem uma nova ocorrencia cadastrada para aquela nota.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+</testsuite>

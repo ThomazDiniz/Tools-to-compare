@@ -1,0 +1,1360 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<testsuite name="TS">
+  <node_order />
+  <details />
+  <testcase internalid="" name="TC1">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Deve existir um usuario cadastrado com perfil administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema acessa o sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina ?Search extraction?&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O usuario deve estar logado.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC2">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Deve existir um usuario cadastrado com perfil administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema acessa o sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;3  (Usuario inativo por 30 minutos) Sistema finaliza sessão do usuario e retorna a pagina de login ao receber alguma requisicao do usuario&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina ?Search extraction?&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O usuario deve estar logado.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC3">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Deve existir um usuario cadastrado com perfil administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema acessa o sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;3  (Usuario inativo por 30 minutos) Sistema finaliza sessão do usuario e retorna a pagina de login ao receber alguma requisicao do usuario&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;3  (Usuario inativo por 30 minutos) Sistema finaliza sessão do usuario e retorna a pagina de login ao receber alguma requisicao do usuario&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC4">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Deve existir um usuario cadastrado com perfil administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema acessa o sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;3  (Usuario inativo por 30 minutos) Sistema finaliza sessão do usuario e retorna a pagina de login ao receber alguma requisicao do usuario&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Usuario inativo por 90 dias) Sistema exibe a mensagem ?This user has been blocked.?&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC5">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Deve existir um usuario cadastrado com perfil administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema acessa o sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;3  (Usuario inativo por 30 minutos) Sistema finaliza sessão do usuario e retorna a pagina de login ao receber alguma requisicao do usuario&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(User invalido) Administrador do sistema digita o user de um usuário invalido, digita uma password e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem ?Invalid user or password? na pagina de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina ?Search extraction?&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O usuario deve estar logado.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC6">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Deve existir um usuario cadastrado com perfil administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema acessa o sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;3  (Usuario inativo por 30 minutos) Sistema finaliza sessão do usuario e retorna a pagina de login ao receber alguma requisicao do usuario&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(User invalido) Administrador do sistema digita o user de um usuário invalido, digita uma password e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem ?Invalid user or password? na pagina de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;3  (Usuario inativo por 30 minutos) Sistema finaliza sessão do usuario e retorna a pagina de login ao receber alguma requisicao do usuario&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC7">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Deve existir um usuario cadastrado com perfil administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema acessa o sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;3  (Usuario inativo por 30 minutos) Sistema finaliza sessão do usuario e retorna a pagina de login ao receber alguma requisicao do usuario&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(User invalido) Administrador do sistema digita o user de um usuário invalido, digita uma password e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem ?Invalid user or password? na pagina de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Usuario inativo por 90 dias) Sistema exibe a mensagem ?This user has been blocked.?&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC8">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Deve existir um usuario cadastrado com perfil administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema acessa o sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;3  (Usuario inativo por 30 minutos) Sistema finaliza sessão do usuario e retorna a pagina de login ao receber alguma requisicao do usuario&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Password invalida) Administrador do sistema digita o user de um usuario administrador corretamente, digita uma password inválida e pressiona o botão Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem ?User or Password incorrect. Attempts remaining until the account lockout: #tentativas restantes#? na página de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina ?Search extraction?&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O usuario deve estar logado.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC9">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Deve existir um usuario cadastrado com perfil administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema acessa o sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;3  (Usuario inativo por 30 minutos) Sistema finaliza sessão do usuario e retorna a pagina de login ao receber alguma requisicao do usuario&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Password invalida) Administrador do sistema digita o user de um usuario administrador corretamente, digita uma password inválida e pressiona o botão Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem ?User or Password incorrect. Attempts remaining until the account lockout: #tentativas restantes#? na página de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;3  (Usuario inativo por 30 minutos) Sistema finaliza sessão do usuario e retorna a pagina de login ao receber alguma requisicao do usuario&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC10">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Deve existir um usuario cadastrado com perfil administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema acessa o sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;3  (Usuario inativo por 30 minutos) Sistema finaliza sessão do usuario e retorna a pagina de login ao receber alguma requisicao do usuario&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Password invalida) Administrador do sistema digita o user de um usuario administrador corretamente, digita uma password inválida e pressiona o botão Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem ?User or Password incorrect. Attempts remaining until the account lockout: #tentativas restantes#? na página de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Usuario inativo por 90 dias) Sistema exibe a mensagem ?This user has been blocked.?&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC11">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Deve existir um usuario cadastrado com perfil administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema acessa o sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;3  (Usuario inativo por 30 minutos) Sistema finaliza sessão do usuario e retorna a pagina de login ao receber alguma requisicao do usuario&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;(Número de tentativas invalidas e 5) Administrador do sistema digita o user de um usuario administrador corretamente, digita uma password inválida pela sexta vez e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema bloqueia o usuario&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC12">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Deve existir um usuario cadastrado com perfil administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema acessa o sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Usuario inativo por 90 dias) Sistema exibe a mensagem ?This user has been blocked.?&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC13">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Deve existir um usuario cadastrado com perfil administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema acessa o sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(User invalido) Administrador do sistema digita o user de um usuário invalido, digita uma password e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem ?Invalid user or password? na pagina de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina ?Search extraction?&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O usuario deve estar logado.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC14">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Deve existir um usuario cadastrado com perfil administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema acessa o sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(User invalido) Administrador do sistema digita o user de um usuário invalido, digita uma password e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem ?Invalid user or password? na pagina de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;3  (Usuario inativo por 30 minutos) Sistema finaliza sessão do usuario e retorna a pagina de login ao receber alguma requisicao do usuario&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina ?Search extraction?&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O usuario deve estar logado.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC15">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Deve existir um usuario cadastrado com perfil administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema acessa o sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(User invalido) Administrador do sistema digita o user de um usuário invalido, digita uma password e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem ?Invalid user or password? na pagina de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;3  (Usuario inativo por 30 minutos) Sistema finaliza sessão do usuario e retorna a pagina de login ao receber alguma requisicao do usuario&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;3  (Usuario inativo por 30 minutos) Sistema finaliza sessão do usuario e retorna a pagina de login ao receber alguma requisicao do usuario&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC16">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Deve existir um usuario cadastrado com perfil administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema acessa o sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(User invalido) Administrador do sistema digita o user de um usuário invalido, digita uma password e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem ?Invalid user or password? na pagina de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;3  (Usuario inativo por 30 minutos) Sistema finaliza sessão do usuario e retorna a pagina de login ao receber alguma requisicao do usuario&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Usuario inativo por 90 dias) Sistema exibe a mensagem ?This user has been blocked.?&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC17">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Deve existir um usuario cadastrado com perfil administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema acessa o sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(User invalido) Administrador do sistema digita o user de um usuário invalido, digita uma password e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem ?Invalid user or password? na pagina de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;3  (Usuario inativo por 30 minutos) Sistema finaliza sessão do usuario e retorna a pagina de login ao receber alguma requisicao do usuario&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(User invalido) Administrador do sistema digita o user de um usuário invalido, digita uma password e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem ?Invalid user or password? na pagina de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina ?Search extraction?&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O usuario deve estar logado.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC18">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Deve existir um usuario cadastrado com perfil administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema acessa o sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(User invalido) Administrador do sistema digita o user de um usuário invalido, digita uma password e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem ?Invalid user or password? na pagina de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;3  (Usuario inativo por 30 minutos) Sistema finaliza sessão do usuario e retorna a pagina de login ao receber alguma requisicao do usuario&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(User invalido) Administrador do sistema digita o user de um usuário invalido, digita uma password e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem ?Invalid user or password? na pagina de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;3  (Usuario inativo por 30 minutos) Sistema finaliza sessão do usuario e retorna a pagina de login ao receber alguma requisicao do usuario&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC19">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Deve existir um usuario cadastrado com perfil administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema acessa o sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(User invalido) Administrador do sistema digita o user de um usuário invalido, digita uma password e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem ?Invalid user or password? na pagina de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;3  (Usuario inativo por 30 minutos) Sistema finaliza sessão do usuario e retorna a pagina de login ao receber alguma requisicao do usuario&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(User invalido) Administrador do sistema digita o user de um usuário invalido, digita uma password e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem ?Invalid user or password? na pagina de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Usuario inativo por 90 dias) Sistema exibe a mensagem ?This user has been blocked.?&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC20">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Deve existir um usuario cadastrado com perfil administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema acessa o sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(User invalido) Administrador do sistema digita o user de um usuário invalido, digita uma password e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem ?Invalid user or password? na pagina de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;3  (Usuario inativo por 30 minutos) Sistema finaliza sessão do usuario e retorna a pagina de login ao receber alguma requisicao do usuario&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Password invalida) Administrador do sistema digita o user de um usuario administrador corretamente, digita uma password inválida e pressiona o botão Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem ?User or Password incorrect. Attempts remaining until the account lockout: #tentativas restantes#? na página de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina ?Search extraction?&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O usuario deve estar logado.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC21">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Deve existir um usuario cadastrado com perfil administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema acessa o sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(User invalido) Administrador do sistema digita o user de um usuário invalido, digita uma password e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem ?Invalid user or password? na pagina de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;3  (Usuario inativo por 30 minutos) Sistema finaliza sessão do usuario e retorna a pagina de login ao receber alguma requisicao do usuario&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Password invalida) Administrador do sistema digita o user de um usuario administrador corretamente, digita uma password inválida e pressiona o botão Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem ?User or Password incorrect. Attempts remaining until the account lockout: #tentativas restantes#? na página de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;3  (Usuario inativo por 30 minutos) Sistema finaliza sessão do usuario e retorna a pagina de login ao receber alguma requisicao do usuario&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC22">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Deve existir um usuario cadastrado com perfil administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema acessa o sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(User invalido) Administrador do sistema digita o user de um usuário invalido, digita uma password e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem ?Invalid user or password? na pagina de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;3  (Usuario inativo por 30 minutos) Sistema finaliza sessão do usuario e retorna a pagina de login ao receber alguma requisicao do usuario&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Password invalida) Administrador do sistema digita o user de um usuario administrador corretamente, digita uma password inválida e pressiona o botão Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem ?User or Password incorrect. Attempts remaining until the account lockout: #tentativas restantes#? na página de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Usuario inativo por 90 dias) Sistema exibe a mensagem ?This user has been blocked.?&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC23">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Deve existir um usuario cadastrado com perfil administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema acessa o sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(User invalido) Administrador do sistema digita o user de um usuário invalido, digita uma password e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem ?Invalid user or password? na pagina de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;3  (Usuario inativo por 30 minutos) Sistema finaliza sessão do usuario e retorna a pagina de login ao receber alguma requisicao do usuario&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Número de tentativas invalidas e 5) Administrador do sistema digita o user de um usuario administrador corretamente, digita uma password inválida pela sexta vez e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema bloqueia o usuario&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC24">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Deve existir um usuario cadastrado com perfil administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema acessa o sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(User invalido) Administrador do sistema digita o user de um usuário invalido, digita uma password e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem ?Invalid user or password? na pagina de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Usuario inativo por 90 dias) Sistema exibe a mensagem ?This user has been blocked.?&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC25">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Deve existir um usuario cadastrado com perfil administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema acessa o sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Password invalida) Administrador do sistema digita o user de um usuario administrador corretamente, digita uma password inválida e pressiona o botão Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem ?User or Password incorrect. Attempts remaining until the account lockout: #tentativas restantes#? na página de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina ?Search extraction?&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O usuario deve estar logado.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC26">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Deve existir um usuario cadastrado com perfil administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema acessa o sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Password invalida) Administrador do sistema digita o user de um usuario administrador corretamente, digita uma password inválida e pressiona o botão Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem ?User or Password incorrect. Attempts remaining until the account lockout: #tentativas restantes#? na página de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;3  (Usuario inativo por 30 minutos) Sistema finaliza sessão do usuario e retorna a pagina de login ao receber alguma requisicao do usuario&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina ?Search extraction?&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O usuario deve estar logado.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC27">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Deve existir um usuario cadastrado com perfil administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema acessa o sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Password invalida) Administrador do sistema digita o user de um usuario administrador corretamente, digita uma password inválida e pressiona o botão Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem ?User or Password incorrect. Attempts remaining until the account lockout: #tentativas restantes#? na página de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;3  (Usuario inativo por 30 minutos) Sistema finaliza sessão do usuario e retorna a pagina de login ao receber alguma requisicao do usuario&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;3  (Usuario inativo por 30 minutos) Sistema finaliza sessão do usuario e retorna a pagina de login ao receber alguma requisicao do usuario&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC28">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Deve existir um usuario cadastrado com perfil administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema acessa o sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Password invalida) Administrador do sistema digita o user de um usuario administrador corretamente, digita uma password inválida e pressiona o botão Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem ?User or Password incorrect. Attempts remaining until the account lockout: #tentativas restantes#? na página de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;3  (Usuario inativo por 30 minutos) Sistema finaliza sessão do usuario e retorna a pagina de login ao receber alguma requisicao do usuario&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Usuario inativo por 90 dias) Sistema exibe a mensagem ?This user has been blocked.?&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC29">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Deve existir um usuario cadastrado com perfil administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema acessa o sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Password invalida) Administrador do sistema digita o user de um usuario administrador corretamente, digita uma password inválida e pressiona o botão Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem ?User or Password incorrect. Attempts remaining until the account lockout: #tentativas restantes#? na página de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;3  (Usuario inativo por 30 minutos) Sistema finaliza sessão do usuario e retorna a pagina de login ao receber alguma requisicao do usuario&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(User invalido) Administrador do sistema digita o user de um usuário invalido, digita uma password e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem ?Invalid user or password? na pagina de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina ?Search extraction?&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O usuario deve estar logado.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC30">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Deve existir um usuario cadastrado com perfil administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema acessa o sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Password invalida) Administrador do sistema digita o user de um usuario administrador corretamente, digita uma password inválida e pressiona o botão Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem ?User or Password incorrect. Attempts remaining until the account lockout: #tentativas restantes#? na página de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;3  (Usuario inativo por 30 minutos) Sistema finaliza sessão do usuario e retorna a pagina de login ao receber alguma requisicao do usuario&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(User invalido) Administrador do sistema digita o user de um usuário invalido, digita uma password e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem ?Invalid user or password? na pagina de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;3  (Usuario inativo por 30 minutos) Sistema finaliza sessão do usuario e retorna a pagina de login ao receber alguma requisicao do usuario&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC31">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Deve existir um usuario cadastrado com perfil administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema acessa o sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Password invalida) Administrador do sistema digita o user de um usuario administrador corretamente, digita uma password inválida e pressiona o botão Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem ?User or Password incorrect. Attempts remaining until the account lockout: #tentativas restantes#? na página de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;3  (Usuario inativo por 30 minutos) Sistema finaliza sessão do usuario e retorna a pagina de login ao receber alguma requisicao do usuario&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(User invalido) Administrador do sistema digita o user de um usuário invalido, digita uma password e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem ?Invalid user or password? na pagina de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Usuario inativo por 90 dias) Sistema exibe a mensagem ?This user has been blocked.?&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC32">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Deve existir um usuario cadastrado com perfil administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema acessa o sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Password invalida) Administrador do sistema digita o user de um usuario administrador corretamente, digita uma password inválida e pressiona o botão Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem ?User or Password incorrect. Attempts remaining until the account lockout: #tentativas restantes#? na página de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;3  (Usuario inativo por 30 minutos) Sistema finaliza sessão do usuario e retorna a pagina de login ao receber alguma requisicao do usuario&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Password invalida) Administrador do sistema digita o user de um usuario administrador corretamente, digita uma password inválida e pressiona o botão Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem ?User or Password incorrect. Attempts remaining until the account lockout: #tentativas restantes#? na página de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina ?Search extraction?&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>O usuario deve estar logado.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC33">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Deve existir um usuario cadastrado com perfil administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema acessa o sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Password invalida) Administrador do sistema digita o user de um usuario administrador corretamente, digita uma password inválida e pressiona o botão Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem ?User or Password incorrect. Attempts remaining until the account lockout: #tentativas restantes#? na página de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;3  (Usuario inativo por 30 minutos) Sistema finaliza sessão do usuario e retorna a pagina de login ao receber alguma requisicao do usuario&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Password invalida) Administrador do sistema digita o user de um usuario administrador corretamente, digita uma password inválida e pressiona o botão Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem ?User or Password incorrect. Attempts remaining until the account lockout: #tentativas restantes#? na página de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;3  (Usuario inativo por 30 minutos) Sistema finaliza sessão do usuario e retorna a pagina de login ao receber alguma requisicao do usuario&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC34">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Deve existir um usuario cadastrado com perfil administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema acessa o sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Password invalida) Administrador do sistema digita o user de um usuario administrador corretamente, digita uma password inválida e pressiona o botão Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem ?User or Password incorrect. Attempts remaining until the account lockout: #tentativas restantes#? na página de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;3  (Usuario inativo por 30 minutos) Sistema finaliza sessão do usuario e retorna a pagina de login ao receber alguma requisicao do usuario&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Password invalida) Administrador do sistema digita o user de um usuario administrador corretamente, digita uma password inválida e pressiona o botão Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem ?User or Password incorrect. Attempts remaining until the account lockout: #tentativas restantes#? na página de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Usuario inativo por 90 dias) Sistema exibe a mensagem ?This user has been blocked.?&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC35">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Deve existir um usuario cadastrado com perfil administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema acessa o sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Password invalida) Administrador do sistema digita o user de um usuario administrador corretamente, digita uma password inválida e pressiona o botão Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem ?User or Password incorrect. Attempts remaining until the account lockout: #tentativas restantes#? na página de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;3  (Usuario inativo por 30 minutos) Sistema finaliza sessão do usuario e retorna a pagina de login ao receber alguma requisicao do usuario&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;(Número de tentativas invalidas e 5) Administrador do sistema digita o user de um usuario administrador corretamente, digita uma password inválida pela sexta vez e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema bloqueia o usuario&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC36">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Deve existir um usuario cadastrado com perfil administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema acessa o sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Password invalida) Administrador do sistema digita o user de um usuario administrador corretamente, digita uma password inválida e pressiona o botão Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe mensagem ?User or Password incorrect. Attempts remaining until the account lockout: #tentativas restantes#? na página de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o user e a password de um usuario administrador e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Usuario inativo por 90 dias) Sistema exibe a mensagem ?This user has been blocked.?&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC37">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Deve existir um usuario cadastrado com perfil administrador.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema acessa o sistema&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe pagina de login&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;(Número de tentativas invalidas e 5) Administrador do sistema digita o user de um usuario administrador corretamente, digita uma password inválida pela sexta vez e pressiona o botao Login&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema bloqueia o usuario&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+</testsuite>

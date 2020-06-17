@@ -1,0 +1,143 @@
+  VICERI
+  // ========== Administrador Adiciona Compatibilidade ==========
+v2
+"Clicar na opcao 'Compatibilidade' no menu da tela principal", "clica na opcao 'Compatibilidade' no menu da tela principal"
+"clica no botao Voltar", "clica no botao 'Voltar'"
+"clica no botao Cancelar", "clica no botao 'Cancelar'"
+"preenche dados obrigatorios e clica em Atualizar", "preenche dados obrigatorios e clica em 'Atualizar'"
+"preenche um Tipo de Mercadoria valido e clica em Atualizar", "preenche um Tipo de Mercadoria valido e clica em 'Atualizar'"
+"preenche um NCM valido e clica em Atualizar", "preenche um NCM valido e clica em 'Atualizar'"
+
+  // ========== AdministradorAdicionaOperadorDeEcommerce.dsl ==========
+  v2
+"clica no opcao 'E-commerces' no menu principal", "clica no opcao 'Ecommerces' no menu principal"
+"exibe a tela com a lista de E-commerces cadastrados no sistema", "exibe a tela com a lista de Ecommerces cadastrados no sistema"
+"clica em um dos E-commerces listados", "clica em um dos Ecommerces listados"
+"exibe tela com informacões de E-commerce", "exibe tela com informacões de Ecommerce"
+"clica no botao Voltar", "clica no botao 'Voltar'"
+"clica no botao Cancelar de registro de operador", "clica no botao 'Cancelar' de registro de operador"
+
+  // ========== AdministradorEditaTerminal.dsl ==========
+  v2
+"informa que o campo é obrigatorio", "informa que o campo e obrigatorio"
+
+  // ========== AdministradorDeletaCompatibilidade.dsl ==========
+  v1
+"Clicar na opcao 'Compatibildiade' no menu da tela principal", "clica na opcao 'Compatibilidades' no menu da tela principal"
+"exibe a tela de listagem das Compatibilidades", "apresenta uma listagem dos Compatibilidades cadastrados no sistema"
+"clica em Compatibilidade listada", "clica em algum dos Compatibilidades listados"
+"exibe a tela de edicao de Compatibilidade", "abre a tela de edicao de Compatibilidade"
+"clica em botao 'Deletar'", "clica no botao de 'Excluir'"
+"abre popup de confirmacao de delecao", "exibe popup pedindo Confirmacao de delecao"
+"confirma que deseja deletar clicando em 'Sim'", "confirma delecao"
+"notifica usuario que os nova Compatibilidade foi deletada com sucesso", "notifica que o Compatibilidade foi excluido com sucesso"
+
+  // ========== AdministradorDeletaEcommerce.dsl ==========
+  v1
+"lista o conjunto de ecommerce cadastrados no sistema", "apresenta uma listagem dos Ecommerces cadastrados no sistema"
+"clica em um dos ecommerce listados", "clica em algum dos Ecommerces listados"
+"apresenta tela de edicao de Ecommerce", "abre a tela de edicao de Ecommerce"
+"clica em botao de 'Remover' na tela de edicao", "clica no botao de 'Excluir'"
+"exibe popup de confirmacao", "exibe popup pedindo Confirmacao de delecao"
+"confirma delecao de Ecommerce", "confirma delecao"
+"noficica usuario de que Ecommerce foi deletado com sucesso.", "notifica que o Ecommerce foi excluido com sucesso"
+
+  // ========== AdministradorDeletaTerminal.dsl ==========
+  v1
+"lista o conjunto de termianis cadastrados no sistema", "apresenta uma listagem dos Terminais cadastrados no sistema"
+"clica em um dos terminais listados", "clica em algum dos Terminais listados"
+"apresenta tela de edicao de Terminal", "abre a tela de edicao de Terminal"
+"clica em botao de 'Remover' na tela de edicao","clica no botao de 'Excluir' do Terminal"
+"exibe popup de confirmacao", "exibe popup pedindo Confirmacao de delecao"
+"confirma clicando no botao 'Sim'", "confirma delecao"
+"noficica usuario de que Terminal foi deletado com sucesso.", "notifica que o Terminal foi excluido com sucesso"
+
+  // ========== AdministradorEditaParametrosDoEnginedsl ==========
+  v1
+"Entra na tela de Edição de Parametros do Engine", "entra na tela de Edição de Parametros do Engine"
+"apresenta uma tela com os Parâmetros do Engine com os valores atuais", "apresenta uma tela com os Parametros do Engine com os valores atuais"
+
+  // ========== AdministradorEditaParametrosDoNFeReader.dsl ==========
+  v1
+"Entra na tela de Edicao de Parametros do NFe Reader", "entra na tela de Edição de Parametros do NFe Reader"
+"apresenta uma tela com os Parâmetros do NFe Reader com os valores atuais", "apresenta uma tela com os Parametros do NFe Reader com os valores atuais"
+"modifica valores de parâmetros e clica em Atualizar", "modifica valores de paremetros e clica em Atualizar"
+
+  // ========== AdministradorEditaPedido.dsl ==========
+  v1
+"Clicar na opcao 'Pedidos' no menu da tela principal", "clica na opcao 'Pedidos' no menu da tela principal"
+
+  // ========== AdministradorImprimePDFDaDanfe.dsl ==========
+  v1
+"clica em algum contador de 'Conferência' na secao de 'Notas'", "clica em algum contador de 'Conferencia' na secao de 'Notas'"
+"clica em algum contador de 'Ocorrências' na secao de 'Notas'", "clica em algum contador de 'Ocorrencias' na secao de 'Notas'"
+  
+  // ========== AdministradorRegistraOcorrenciaEmNota.dsl ==========
+  v1
+"digita ocorrencia e clica em 'Confirmar'", "digita Ocorrencia e clica em 'Confirmar'"
+
+  // ========== OperadorDeEcommerceRegistraOcorrenciaEmNotaDePicking.dsl ==========
+  v1
+"nao insere a descricao da ocorrencia e clica no botao de 'Salvar'", "nao insere a descricao da ocorrencia e clica no botao de 'Registrar'"
+"insere descricao valida para Ocorrencia e clica no botao 'Salvar'", "insere descricao valida para Ocorrencia e clica no botao 'Registrar'"
+
+
+=======================================
+
+stringTest("AdministradorAdicionaCompatibilidade", 2, "Clicar na opcao 'Compatibilidade' no menu da tela principal", "clica na opcao 'Compatibilidade' no menu da tela principal");
+stringTest("AdministradorAdicionaCompatibilidade", 2, "clica no botao Voltar", "clica no botao 'Voltar'");
+stringTest("AdministradorAdicionaCompatibilidade", 2, "clica no botao Cancelar", "clica no botao 'Cancelar'");
+stringTest("AdministradorAdicionaCompatibilidade", 2, "preenche dados obrigatorios e clica em Atualizar", "preenche dados obrigatorios e clica em 'Atualizar'");
+stringTest("AdministradorAdicionaCompatibilidade", 2, "preenche um Tipo de Mercadoria valido e clica em Atualizar", "preenche um Tipo de Mercadoria valido e clica em 'Atualizar'");
+stringTest("AdministradorAdicionaCompatibilidade", 2, "preenche um NCM valido e clica em Atualizar", "preenche um NCM valido e clica em 'Atualizar'");
+
+stringTest("AdministradorAdicionaOperadorDeEcommerce", 2, "clica no opcao 'E-commerces' no menu principal", "clica no opcao 'Ecommerces' no menu principal");
+stringTest("AdministradorAdicionaOperadorDeEcommerce", 2, "exibe a tela com a lista de E-commerces cadastrados no sistema", "exibe a tela com a lista de Ecommerces cadastrados no sistema");
+stringTest("AdministradorAdicionaOperadorDeEcommerce", 2, "clica em um dos E-commerces listados", "clica em um dos Ecommerces listados");
+stringTest("AdministradorAdicionaOperadorDeEcommerce", 2, "exibe tela com informacões de E-commerce", "exibe tela com informacões de Ecommerce");
+stringTest("AdministradorAdicionaOperadorDeEcommerce", 2, "clica no botao Voltar", "clica no botao 'Voltar'");
+stringTest("AdministradorAdicionaOperadorDeEcommerce", 2, "clica no botao Cancelar de registro de operador", "clica no botao 'Cancelar' de registro de operador");
+
+stringTest("AdministradorEditaTerminal", 2,"informa que o campo é obrigatorio", "informa que o campo e obrigatorio");
+
+stringTest("AdministradorDeletaCompatibilidade", 1, "Clicar na opcao 'Compatibildiade' no menu da tela principal", "clica na opcao 'Compatibilidades' no menu da tela principal");
+stringTest("AdministradorDeletaCompatibilidade", 1, "exibe a tela de listagem das Compatibilidades", "apresenta uma listagem dos Compatibilidades cadastrados no sistema");
+stringTest("AdministradorDeletaCompatibilidade", 1, "clica em Compatibilidade listada", "clica em algum dos Compatibilidades listados");
+stringTest("AdministradorDeletaCompatibilidade", 1, "exibe a tela de edicao de Compatibilidade", "abre a tela de edicao de Compatibilidade");
+stringTest("AdministradorDeletaCompatibilidade", 1, "clica em botao 'Deletar'", "clica no botao de 'Excluir'");
+stringTest("AdministradorDeletaCompatibilidade", 1, "abre popup de confirmacao de delecao", "exibe popup pedindo Confirmacao de delecao");
+stringTest("AdministradorDeletaCompatibilidade", 1, "confirma que deseja deletar clicando em 'Sim'", "confirma delecao");
+stringTest("AdministradorDeletaCompatibilidade", 1, "notifica usuario que os nova Compatibilidade foi deletada com sucesso", "notifica que o Compatibilidade foi excluido com sucesso");
+
+stringTest("AdministradorDeletaEcommerce", 1, "lista o conjunto de ecommerce cadastrados no sistema", "apresenta uma listagem dos Ecommerces cadastrados no sistema");
+stringTest("AdministradorDeletaEcommerce", 1, "clica em um dos ecommerce listados", "clica em algum dos Ecommerces listados");
+stringTest("AdministradorDeletaEcommerce", 1, "apresenta tela de edicao de Ecommerce", "abre a tela de edicao de Ecommerce");
+stringTest("AdministradorDeletaEcommerce", 1, "clica em botao de 'Remover' na tela de edicao", "clica no botao de 'Excluir'");
+stringTest("AdministradorDeletaEcommerce", 1, "exibe popup de confirmacao", "exibe popup pedindo Confirmacao de delecao");
+stringTest("AdministradorDeletaEcommerce", 1, "confirma delecao de Ecommerce", "confirma delecao");
+stringTest("AdministradorDeletaEcommerce", 1, "noficica usuario de que Ecommerce foi deletado com sucesso.", "notifica que o Ecommerce foi excluido com sucesso");
+
+stringTest("AdministradorDeletaTerminal", 1, "lista o conjunto de termianis cadastrados no sistema", "apresenta uma listagem dos Terminais cadastrados no sistema");
+stringTest("AdministradorDeletaTerminal", 1, "clica em um dos terminais listados", "clica em algum dos Terminais listados");
+stringTest("AdministradorDeletaTerminal", 1, "apresenta tela de edicao de Terminal", "abre a tela de edicao de Terminal");
+stringTest("AdministradorDeletaTerminal", 1, "clica em botao de 'Remover' na tela de edicao","clica no botao de 'Excluir' do Terminal");
+stringTest("AdministradorDeletaTerminal", 1, "exibe popup de confirmacao", "exibe popup pedindo Confirmacao de delecao");
+stringTest("AdministradorDeletaTerminal", 1, "confirma clicando no botao 'Sim'", "confirma delecao");
+stringTest("AdministradorDeletaTerminal", 1, "noficica usuario de que Terminal foi deletado com sucesso.", "notifica que o Terminal foi excluido com sucesso");
+
+stringTest("AdministradorEditaParametrosDoEngine", 1, "Entra na tela de Edição de Parametros do Engine", "entra na tela de Edição de Parametros do Engine");
+stringTest("AdministradorEditaParametrosDoEngine", 1, "apresenta uma tela com os Parâmetros do Engine com os valores atuais", "apresenta uma tela com os Parametros do Engine com os valores atuais");
+
+stringTest("AdministradorEditaParametrosDoNFeReader", 1, "Entra na tela de Edicao de Parametros do NFe Reader", "entra na tela de Edição de Parametros do NFe Reader");
+stringTest("AdministradorEditaParametrosDoNFeReader", 1, "apresenta uma tela com os Parâmetros do NFe Reader com os valores atuais", "apresenta uma tela com os Parametros do NFe Reader com os valores atuais");
+stringTest("AdministradorEditaParametrosDoNFeReader", 1, "modifica valores de parâmetros e clica em Atualizar", "modifica valores de paremetros e clica em Atualizar");
+
+stringTest("AdministradorEditaPedido", 1, "Clicar na opcao 'Pedidos' no menu da tela principal", "clica na opcao 'Pedidos' no menu da tela principal");
+
+stringTest("AdministradorImprimePDFDaDanfe", 1, "clica em algum contador de 'Conferência' na secao de 'Notas'", "clica em algum contador de 'Conferencia' na secao de 'Notas'");
+stringTest("AdministradorImprimePDFDaDanfe", 1, "clica em algum contador de 'Ocorrências' na secao de 'Notas'", "clica em algum contador de 'Ocorrencias' na secao de 'Notas'");
+
+stringTest("AdministradorRegistraOcorrenciaEmNota", 1, "digita ocorrencia e clica em 'Confirmar'", "digita Ocorrencia e clica em 'Confirmar'");
+
+stringTest("OperadorDeEcommerceRegistraOcorrenciaEmNotaDePicking", 1, "nao insere a descricao da ocorrencia e clica no botao de 'Salvar'", "nao insere a descricao da ocorrencia e clica no botao de 'Registrar'");
+stringTest("OperadorDeEcommerceRegistraOcorrenciaEmNotaDePicking", 1, "insere descricao valida para Ocorrencia e clica no botao 'Salvar'", "insere descricao valida para Ocorrencia e clica no botao 'Registrar'");

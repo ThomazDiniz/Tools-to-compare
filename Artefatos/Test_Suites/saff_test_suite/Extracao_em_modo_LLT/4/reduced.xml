@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<testsuite name="TS">
+  <node_order />
+  <details />
+  <testcase internalid="" name="TC21">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário deve estar logado no servidor como administrador. Não existem extrações cadastradas no banco de dados.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema conecta um terminal em uma porta USB previamente cadastrada e o coloca em modo LLT&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Não existe porta USB cadastrada) Sistema exibe mensagem solicitando informando não existe porta USB cadastrada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Administrador do sistema conecta um terminal em uma porta USB previamente cadastrada e o coloca em modo LLT&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Não existe porta USB cadastrada) Sistema exibe mensagem solicitando informando não existe porta USB cadastrada&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC27">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário deve estar logado no servidor como administrador. Não existem extrações cadastradas no banco de dados.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema conecta um terminal em uma porta USB previamente cadastrada e o coloca em modo LLT&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Não existe terminal conectado) Sistema exibe mensagem informando que não conseguiu se conectar ao terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Administrador do sistema conecta um terminal em uma porta USB previamente cadastrada e o coloca em modo LLT&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema entra em modo LLT&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Administrador do sistema inicia o SAFF Extractor e se autentica&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Login ou senha incorretos) Sistema exibe mensagem informando que login ou senha estão incorretos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC8">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário deve estar logado no servidor como administrador. Não existem extrações cadastradas no banco de dados.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema conecta um terminal em uma porta USB previamente cadastrada e o coloca em modo LLT&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema entra em modo LLT&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Administrador do sistema inicia o SAFF Extractor e se autentica&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página que requisita dados do terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o product number e serial number válidos e pressiona tecla Tab&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema muda foco para campo referente ao tipo de teste&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Administrador do sistema escolhe opção Test1 para tipo de teste e pressiona botão 'Extract'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Falha no envio para servidor e Usuário não deseja fazer extração offline) Sistema exibe mensagem informando houve erro na conexão com o servidor e pergunta se usuário deseja fazer a extração em modo offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Administrador do sistema responde No&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema fecha janela e retorna a página de inserção de dados&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o product number e serial number válidos e pressiona tecla Tab&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema muda foco para campo referente ao tipo de teste&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>7</step_number>
+        <actions>&lt;p&gt;Administrador do sistema escolhe opção Test1 para tipo de teste e pressiona botão 'Extract'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Falha no envio para servidor e Usuário deseja fazer extração offline) Sistema exibe mensagem informando houve erro na conexão com o servidor e pergunta se usuário deseja fazer a extração em modo offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>8</step_number>
+        <actions>&lt;p&gt;Administrador do sistema responde Yes&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema realiza extração em modo offline&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC3">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário deve estar logado no servidor como administrador. Não existem extrações cadastradas no banco de dados.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema conecta um terminal em uma porta USB previamente cadastrada e o coloca em modo LLT&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema entra em modo LLT&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Administrador do sistema inicia o SAFF Extractor e se autentica&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página que requisita dados do terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o product number e serial number válidos e pressiona tecla Tab&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema muda foco para campo referente ao tipo de teste&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Administrador do sistema escolhe opção Test1 para tipo de teste e pressiona botão 'Extract'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Dados de terminal inválidos) Sistema exibe mensagem informando que dados do terminal estão incorretos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o product number e serial number válidos e pressiona tecla Tab&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema muda foco para campo referente ao tipo de teste&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>6</step_number>
+        <actions>&lt;p&gt;Administrador do sistema escolhe opção Test1 para tipo de teste e pressiona botão 'Extract'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema realiza a extração&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+  <testcase internalid="" name="TC11">
+    <node_order />
+    <externalid />
+    <version />
+    <execution_type />
+    <importance />
+    <summary />
+    <preconditions>Usuário deve estar logado no servidor como administrador. Não existem extrações cadastradas no banco de dados.</preconditions>
+    <steps>
+      <step>
+        <step_number>1</step_number>
+        <actions>&lt;p&gt;Administrador do sistema conecta um terminal em uma porta USB previamente cadastrada e o coloca em modo LLT&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema entra em modo LLT&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>2</step_number>
+        <actions>&lt;p&gt;Administrador do sistema inicia o SAFF Extractor e se autentica&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;(Login ou senha incorretos) Sistema exibe mensagem informando que login ou senha estão incorretos&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>3</step_number>
+        <actions>&lt;p&gt;Administrador do sistema inicia o SAFF Extractor e se autentica&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema exibe página que requisita dados do terminal&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>4</step_number>
+        <actions>&lt;p&gt;Administrador do sistema digita o product number e serial number válidos e pressiona tecla Tab&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema muda foco para campo referente ao tipo de teste&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+      <step>
+        <step_number>5</step_number>
+        <actions>&lt;p&gt;Administrador do sistema escolhe opção Test1 para tipo de teste e pressiona botão 'Extract'&lt;p&gt;</actions>
+        <expectedresults>&lt;p&gt;Sistema realiza a extração&lt;/p&gt;</expectedresults>
+        <execution_type />
+      </step>
+    </steps>
+    <custom_fields>
+      <custom_field>
+        <name>postconditions</name>
+        <value>.</value>
+      </custom_field>
+    </custom_fields>
+  </testcase>
+</testsuite>

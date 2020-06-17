@@ -1,0 +1,4 @@
+82c82
+<             step 3, operador, "digita um product number e serial number validos e pressiona Extract"
+---
+>             step 3, operador, "digita um product number e serial number validos, preenche o Note e pressiona Extract"

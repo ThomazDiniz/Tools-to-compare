@@ -1,0 +1,5 @@
+commit 0ffe72d346c4a1b40ff0fda3171f3ae589c5b2cb
+Author: Guilherme Gadelha <guilhermemgadelha@outlook.com>
+Date:   Thu Mar 9 16:30:34 2017 -0300
+
+    casos de uso para OperadorDeEcommerce
